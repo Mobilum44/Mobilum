@@ -18,6 +18,7 @@
     </div>
 
     <div class="maps">
+      <!--
       <g-image class="fond" src="~/photos/carte_illustration.jpg" width="700" />
       <div class="maps_text">
         <h3>Nos applications</h3>
@@ -28,6 +29,12 @@
           iste reprehenderit maxime! Iusto.
         </p>
       </div>
+      -->
+      
+      
+      <Activity/>
+      <Activity/>
+      <Activity/>
     </div>
 
     <div class="team">
@@ -37,7 +44,15 @@
 </template>
 
 <script>
+
+import Activity from "@/components/Activity.vue";
+
 export default {
+  
+    components: {
+Activity
+  },
+  
   metaInfo: {
     title: "Notre entreprise",
   },
@@ -51,11 +66,12 @@ export default {
 }
 
 .maps {
+  /*
   height: 45em; /* Faire en sorte que cette zone fasse la taille de l'écran */
   margin-top: 3rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .fond {

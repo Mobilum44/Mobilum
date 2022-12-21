@@ -13,7 +13,7 @@
             104 rue de l'Industrie<br />
             44430 Le Loroux-Bottereau
           </p>
-          <Button to="/contact/" class="contact">Nous contacter</Button>
+          <Button theme="contact" to="/contact/">Nous contacter</Button>
         </div>
       </div>
 
@@ -40,6 +40,19 @@
   </footer>
 </template>
 
+<script>
+import Button from "@/components/Button.vue";
+
+export default {
+  components: {
+    Button
+  },
+
+  metaInfo: {
+    title: "Mobilum"
+  }
+};
+</script>
 
 <style>
 *,
@@ -50,7 +63,7 @@
 
 em {
   font-style: normal;
-  color: #F56D91;
+  color: #f56d91;
 }
 
 footer {
@@ -58,7 +71,7 @@ footer {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: space-between;
-  background-color: rgba(153, 153, 153, 0.877);
+  background-color: #aebdca;
   font-size: 14px;
   font-style: normal;
   width: 100%;
@@ -133,12 +146,12 @@ Menu secondaire
 
 .footer__nav:hover,
 .footer__nav:focus {
-  color: black;
+  color: #1a949d;
   text-decoration: none;
 }
 
 .footer__nav.active {
-  color: black;
+  color: #1a949d;
   text-decoration: none;
 }
 
