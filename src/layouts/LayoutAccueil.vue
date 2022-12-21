@@ -1,8 +1,9 @@
 <template>
   <div class="LayoutAccueil">
-    <Header />
+
         <slot name ="slot_image">
         </slot>
+        <Header />
         <slot/>
 
     <Footer />
@@ -63,7 +64,4 @@ p {
   color: black;
 }
 
-.contenu {
-
-}
 </style>

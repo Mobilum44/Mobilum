@@ -14,7 +14,7 @@
       />
 
       <div class="nav_header">
-        <g-link class="nav__link" to="/#/">Accueil</g-link>
+        <g-link class="nav__link" to="/Accueil/">Accueil</g-link>
         <g-link class="nav__link" to="/Entreprise/">Notre entreprise</g-link>
         <g-link class="nav__link" to="/Materiau/">Matériau</g-link>
         <g-link class="nav__link" to="/Offre/">Notre offre</g-link>
