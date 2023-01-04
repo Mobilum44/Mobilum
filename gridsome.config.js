@@ -6,5 +6,26 @@
 
 module.exports = {
   siteName: 'Gridsome',
-  plugins: []
+  templates: {
+    Product: '/collection/:title',
+    // Tag: '/tag/:id'
+  },
+
+  plugins: [
+    {
+      // Create posts from markdown files
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Product',
+        path: 'content/products/*.md',
+        refs: {
+          // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
+          collection: {
+            typeName: 'Collection',
+            create: true
+          }
+        }
+      }
+    }
+  ],
 }

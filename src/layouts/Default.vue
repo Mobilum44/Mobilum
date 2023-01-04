@@ -4,18 +4,21 @@
     <section class="contenu">
       <slot />
     </section>
+    </Float>
     <Footer />
   </div>
 </template>
 
 <script>
-import Header from "@/components/Header.vue";
+import Header from "@/components/TransHeader.vue";
 import Footer from "@/components/Footer.vue";
+import Float from "@/components/Float.vue";
 
 export default {
   components: {
     Header,
     Footer,
+    Float
   },
 };
 </script>
@@ -61,9 +64,9 @@ p {
 }
 
 .contenu {
-  padding-top: 1rem;
+  padding-top: 3rem;
   padding-left: 10rem;
   padding-right: 10rem;
-  margin-bottom: 5rem;
+  padding-bottom: 5rem;
 }
 </style>

@@ -1,19 +1,84 @@
 <template>
   <Layout>
     <h1>Notre matériau</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque
-      omnis animi, eligendi magni a voluptatum, vitae, consequuntur rerum illum
-      odit fugit assumenda rem dolores inventore iste reprehenderit maxime!
-      Iusto.
-    </p>
+
+    <div class="big_box">
+      <h2>Le BFUP</h2>
+
+      <div class="small_box">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
+          doloremque omnis animi, eligendi magni a voluptatum, vitae,
+          consequuntur rerum illum odit fugit assumenda rem dolores inventore
+          iste reprehenderit maxime! Iusto.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
+          doloremque omnis animi, eligendi magni a voluptatum, vitae,
+          consequuntur rerum illum odit fugit assumenda rem dolores inventore
+          iste reprehenderit maxime! Iusto.
+        </p>
+      </div>
+    </div>
+
+    <div class="big_box">
+      <h2>La couleur</h2>
+
+      <div class="small_box">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
+          doloremque omnis animi, eligendi magni a voluptatum, vitae,
+          consequuntur rerum illum odit fugit assumenda rem dolores inventore
+          iste reprehenderit maxime! Iusto.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
+          doloremque omnis animi, eligendi magni a voluptatum, vitae,
+          consequuntur rerum illum odit fugit assumenda rem dolores inventore
+          iste reprehenderit maxime! Iusto.
+        </p>
+      </div>
+    </div>
+
+    <div class="big_box">
+      <h2>Personnalisations</h2>
+      <div class="small_box">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
+          doloremque omnis animi, eligendi magni a voluptatum, vitae,
+          consequuntur rerum illum odit fugit assumenda rem dolores inventore
+          iste reprehenderit maxime! Iusto.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
+          doloremque omnis animi, eligendi magni a voluptatum, vitae,
+          consequuntur rerum illum odit fugit assumenda rem dolores inventore
+          iste reprehenderit maxime! Iusto.
+        </p>
+      </div>
+    </div>
   </Layout>
 </template>
 
 <script>
 export default {
   metaInfo: {
-    title: "Notre matériau",
-  },
+    title: "Notre matériau"
+  }
 };
 </script>
+
+<style scoped>
+h2 {
+  margin-bottom: 0;
+}
+.big_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.small_box {
+  display: flex;
+  flex-direction: row;
+}
+</style>

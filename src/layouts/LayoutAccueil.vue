@@ -1,26 +1,29 @@
 <template>
   <div class="LayoutAccueil">
+    <Header />
+    <slot name="slot_image"> </slot>
 
-        <slot name ="slot_image">
-        </slot>
-        <Header />
-        <slot/>
+    <section class="contenu">
+      <slot />
+    </section>
+
+    <slot name="slot_bandeau"> </slot>
+    <slot name="slot_contact"> </slot>
 
     <Footer />
   </div>
 </template>
 
-
 <script>
-import Header from "@/components/Header.vue";
+import Header from "@/components/TransHeader.vue";
 import Footer from "@/components/Footer.vue";
 
 export default {
-    name: "LayoutAccueil",
+  name: "LayoutAccueil",
   components: {
     Header,
-    Footer,
-  },
+    Footer
+  }
 };
 </script>
 
@@ -32,7 +35,7 @@ query {
 }
 </static-query>
 
-<style>
+<style scoped>
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -42,7 +45,6 @@ body {
 }
 
 h1 {
-
   /*margin-left: -7rem;
   position: fixed;
   font-variant: small-caps;
@@ -64,4 +66,10 @@ p {
   color: black;
 }
 
+.contenu {
+  padding-top: 1rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  margin-bottom: 5rem;
+}
 </style>

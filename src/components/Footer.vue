@@ -13,7 +13,7 @@
             104 rue de l'Industrie<br />
             44430 Le Loroux-Bottereau
           </p>
-          <Button theme="contact" to="/contact/">Nous contacter</Button>
+          <Button theme="blue" to="/contact/">Nous contacter</Button>
         </div>
       </div>
 
@@ -26,8 +26,9 @@
           <g-link class="footer__nav" to="/Plan/">Plan du site</g-link>
         </div>
 
-        <!-- Penser à créer des boutons logos RS -->
+        <!-- Penser à créer des boutons logos RS 
         <LogoRS />
+        -->
       </div>
     </div>
 
@@ -71,7 +72,7 @@ footer {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: space-between;
-  background-color: #aebdca;
+  background-color: rgb(26, 148, 157, 0.6);
   font-size: 14px;
   font-style: normal;
   width: 100%;

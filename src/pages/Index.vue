@@ -41,10 +41,8 @@ img{
 }
   
 .logo_bouton {
-  border : solid blue;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content : center;
 }
 </style>

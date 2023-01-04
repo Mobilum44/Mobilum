@@ -1,5 +1,6 @@
 <template>
   <!----------------------------
+   Header classique : bandeau fixe
    Faire un menu burger pour les petits écrans 
    ----------------------------->
 
@@ -7,11 +8,13 @@
     <!---------------->
 
     <div class="header_content">
-      <g-image
-        alt="Logo mobilum"
-        src="~/photos/logo_transparent.png"
-        width="80"
-      />
+      <g-link to="/#/">
+        <g-image
+          alt="Logo mobilum"
+          src="~/photos/logo_transparent.png"
+          width="80"
+        />
+      </g-link>
 
       <div class="nav_header">
         <g-link class="nav__link" to="/Accueil/">Accueil</g-link>
@@ -50,14 +53,13 @@ export default {
 
 -->
 
-
 <style>
 header {
   padding: 1rem;
   width: 100%;
   background-color: #aebdca;
-  box-shadow: 0 5px 20px rgba(10, 4, 60, 0.43);
-  z-index : 1;
+  box-shadow: 0 5px 20px rgba(10, 4, 60, 0.3);
+  z-index: 1;
 }
 
 .header_content {
@@ -93,7 +95,6 @@ header {
   text-decoration: none;
   border-radius: 5px;
 }
-
 
 /*-----------------------------------------------------------------
     NE MARCHE PAS

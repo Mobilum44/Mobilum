@@ -71,19 +71,22 @@ export default {
 }
 
 .image-container {
+
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  width: 700px;
-  grid-gap: 0.5rem;
+  width : 70%;
+  grid-gap: 2rem;
 }
 .image-container .image {
+
   position: relative;
   padding-bottom: 100%;
   --clip-start: inset(100% 100% 100% 100%);
   --clip-end: inset(0 0 0 0);
 }
 .image-container .image img {
+    border-radius : 5px;
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
@@ -101,6 +104,7 @@ export default {
   transition: -webkit-clip-path 0.5s;
   transition: clip-path 0.5s;
   transition: clip-path 0.5s, -webkit-clip-path 0.5s;
+  
 }
 .image-container .image:hover img:nth-of-type(2) {
   -webkit-clip-path: var(--clip-end);

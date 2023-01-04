@@ -1,14 +1,16 @@
-    <!------------------------
+<!------------------------
 Liste des activités de Mobilum sous forme de cartes
 Sur la page entreprise, à l'endroit de la carte interactive
+
+Pour le futur : Créer des cartes remplissables
   ------------------------>
-  <template>
-    <div class="Activity">
-        <div class="description">
-          <h2>Article 1</h2>
-          <p>Texte pertinent qui résume l'article</p>
-        </div>
+<template>
+  <div class="Activity">
+    <div class="content">
+      <h2>Activité</h2>
+      <p>Petit texte pour expliquer ce qu'on fait</p>
     </div>
+  </div>
 </template>
 
 <!----------------------------
@@ -34,58 +36,64 @@ export default {
 </script>
 -->
 
-
 <style scoped>
-
-
 .Activity {
-    position : relative;
-  height: 400px;
-  padding: 20px;
-  box-sizing: border-box;
-  display: flex;
-  align-items: flex-end;
-  text-decoration: none;
+  z-index: 90;
+
+  /* general */
+  position: relative;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
   border: solid white;
   box-shadow: 0 15px 60px rgba(0, 0, 0, 0.2);
-  margin-bottom: 50px;
-  background-image: url("https://images.unsplash.com/photo-1516051662687-567d7c4e8f6a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80");
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.content {
+  position : absolute;
+  opacity: 0;
+}
+
+.content:hover {
+  opacity: 50;
+  
+  /* general */
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+
+  /* fond */
+  background-image: url("http://image.noelshack.com/fichiers/2022/51/3/1671619469-2021-07-22-mobilum-rouen-27.jpg");
   background-size: cover;
 
-  @include media {
-    height: 500px;
-  }
-}
-
-.description {
-      text-decoration: none;
-  border: solid thin white;
-  height: 100%;
-  width: 30%;
+  /* order */
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
-  align-items: flex-start;
-  background: rgba(255, 255, 255, 0.8);
-  box-sizing: border-box;
-  padding: 40px;
-  padding-left: 20px;
-}
 
-.description:hover {
+  /* text */
   text-decoration: none;
-  background-color: white;
+  font-style: bold;
+  color: blue;
+  padding : 20px;
+
 }
 
-h2 {
-  font-size: 20px;
-  color: black;
+  h2 {
+  font-size: 14px;
   text-align: center;
-  font-weight: 700;
-  color: #181818;
+  font-weight: 500;
+  color : white;
   text-shadow: 0px 2px 2px #909f9d;
-  margin: 0;
-}
+  }
+  
+  p {
+  font-size: 12px;
+  }
 
 
 </style>
