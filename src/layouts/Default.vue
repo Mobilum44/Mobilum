@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import Header from "@/components/TransHeader.vue";
+import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
 import Float from "@/components/Float.vue";
 

@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import Header from "@/components/TransHeader.vue";
+import Header from "@/components/SecondHeader.vue";
 import Footer from "@/components/Footer.vue";
 
 export default {

@@ -10,7 +10,8 @@ export default {
     theme: {
       type: String,
       default: "accueil",
-      validator: val => ["accueil", "blue", "pink_action"].indexOf(val) !== -1
+      validator: val =>
+        ["accueil", "blue", "pink_action", "transparent"].indexOf(val) !== -1
     },
 
     to: {
@@ -82,7 +83,6 @@ export default {
 /* ---------------------------------------------------------------
     Style du bouton "Action" qui n'est plus très rose...
   --------------------------------------------------------------*/
-/* 4 */
 .pink_action {
   position: relative;
   z-index: 2;
@@ -127,5 +127,51 @@ export default {
   border-color: #ffe3de;
   height: 100%;
   width: 100%;
+}
+
+/* ---------------------------------------------------------------
+    Style du bouton Transparent
+  --------------------------------------------------------------*/
+.transparent {
+  color: #1a949d;
+  transition: all 0.5s;
+  position: relative;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-decoration: none;
+}
+.transparent::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(250, 250, 250, 0.1);
+  transition: all 0.3s;
+}
+.transparent:hover::before {
+  opacity: 0;
+  transform: scale(0.5, 0.5);
+}
+.transparent::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border: 1px solid rgba(26, 148, 157, 0.5);
+  transform: scale(1.2, 1.2);
+}
+.transparent:hover::after {
+  opacity: 1;
+  transform: scale(1, 1);
 }
 </style>

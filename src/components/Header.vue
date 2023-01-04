@@ -53,11 +53,11 @@ export default {
 
 -->
 
-<style>
+<style scoped>
 header {
   padding: 1rem;
   width: 100%;
-  background-color: #aebdca;
+  background-color: rgb(26, 148, 157, 0.6);
   box-shadow: 0 5px 20px rgba(10, 4, 60, 0.3);
   z-index: 1;
 }
