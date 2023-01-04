@@ -18,13 +18,13 @@ module.exports = {
       options: {
         typeName: 'Product',
         path: 'content/products/*.md',
-        refs: {
+        /*refs: {
           // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
           collection: {
             typeName: 'Collection',
             create: true
           }
-        }
+        }*/
       }
     }
   ],
