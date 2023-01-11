@@ -1,8 +1,11 @@
 <template>
   <Empty class="Empty">
     <div class="logo_bouton">
-      <g-image alt="Logo mobilum" src="~/photos/logo_transparent.png" />
-      <Button class="accueil" to="/Accueil/"> Entrer </Button>
+      <g-image
+        alt="Logo mobilum"
+        src="@/assets/img/logos/logo_transparent.png"
+      />
+      <Button theme="slide" to="/Accueil/"> Entrer </Button>
     </div>
   </Empty>
 </template>
@@ -24,25 +27,29 @@ export default {
 </script>
 
 <style scoped>
-
-img{
-  transform : scale(0.7);
+img {
+  width: 60%;
 }
 
 .Empty {
-    background: url("http://image.noelshack.com/fichiers/2022/51/3/1671619469-2021-07-22-mobilum-rouen-27.jpg")
+  background: url("http://image.noelshack.com/fichiers/2022/51/3/1671619469-2021-07-22-mobilum-rouen-27.jpg")
     center center no-repeat;
   background-size: cover;
-  height : 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content : center;
+  justify-content: center;
 }
-  
+
 .logo_bouton {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+
+.slide {
+  margin-top: 2rem;
 }
 </style>

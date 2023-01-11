@@ -1,32 +1,55 @@
 <template>
+
+<!--
+- Notre engagement ()
+-->
   <Layout>
     <h1>Notre entreprise</h1>
 
-    <div class="texte_entreprise">
+    <div class="section">
       <p>
-        Ici, le texte qui présentera l'entreprise Mobilum (écrit par Christophe).
-        </br>
-        </br>
-        Et peut-être une superbe carte réalisée en collaboration avec Olivier :)
+        Ici, le texte qui présentera l'entreprise Mobilum, global.
         </br>
         </br>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
         doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur
         rerum illum odit fugit assumenda rem dolores inventore iste
         reprehenderit maxime! Iusto.
-      </br>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
-        doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur
-        rerum illum odit fugit assumenda rem dolores inventore iste
-        reprehenderit maxime! Iusto.
-      </p>
+        </p>
     </div>
-
+    
+    <div class="section">
+      <h2> La griffe "Mobilum"</h2>
+      <p>
+        La marque et le design : designers et distinctions
+        </br>
+        </br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
+        doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur
+        rerum illum odit fugit assumenda rem dolores inventore iste
+        reprehenderit maxime! Iusto.
+        </p>
+    </div>
+    
+        <div class="section">
+      <h2> Notre savoir-faire</h2>
+      <p>
+        100% français + le BFUP : couleur, finition, ... + formation + BE
+        </br>
+        </br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
+        doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur
+        rerum illum odit fugit assumenda rem dolores inventore iste
+        reprehenderit maxime! Iusto.
+        </p>
+    </div>
+    
+    <div class="section">
+            <h2>Nos activités</h2>
+            <p> SOit sous forme de carte, soit sous forme de liste</p>
     <div class="maps">
-
-      <g-image class="fond" alt="photo ville" src="~/photos/VilleOlivier.JPG" />
+      <g-image class="fond" alt="photo ville" src="@/assets/img/VilleOlivier.JPG" />
       <div class="maps_text">
-        <h3>Nos applications</h3>
         <div class="activity_order">
               <Activity class='Hook'/>
               <Activity class='ShopCenter'/>
@@ -36,19 +59,38 @@
         </div>
       </div>
     </div>
+    </div>  
       
-    <div class ="partenaires">
-      Parler des designers, de nos prix, de nos partenaires principaux, ... ?
+          <div class="section">
+      <h2> Nos engagements </h2>
+      <p>
+        Fournisseurs 100% français : vicat, transport, tous en général
+        </br>
+        </br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
+        doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur
+        rerum illum odit fugit assumenda rem dolores inventore iste
+        reprehenderit maxime! Iusto.
+        </p>
     </div>
-      
     
+    
+<!---------------------------------------------------
+         PARTIE TEAM : MISE EN SUSPEND 
+  ---------------------------------------------------
+  
+  
     <div class="team">
-      <!-- Ici, mettre un bouton qui envoie vers une nouvelle page-->
       <p> Il y aura dans cette zone le bouton qui parlera de l'équipe Mobilum. </br>
       Petit lien qui renverra sur la page "cachée" avec les illustrations de Yebe.
       </p>
-      <Button class="accueil" to="/Equipe/"> Qui sommes-nous ? </Button>
+      <div class="button_style">
+      <Button theme="shine" to="/Equipe/"> Qui sommes nous ? </Button>
+      </div>
     </div>
+    
+    --------------------------------------------------->
+    
   </Layout>
 </template>
 
@@ -71,7 +113,7 @@ export default {
 </script>
 
 <style scoped>
-.texte_entreprise {
+.section {
   margin-top: 3rem;
 }
 
@@ -145,34 +187,49 @@ export default {
   grid-row-end: 3;
 }
 
+/* processus space */
+
+.processus {
+  padding : 1rem;
+  display : flex;
+  flex-direction : row;
+  justify-content : space-evenly;;
+}
+
+.rectangle {
+  height : 200px;
+  width : 200px;
+  background :#1A949D;
+  border-radius: 50%;
+  
+  display : flex;
+  align-items : center;
+  justify-content: center;
+  color : white;
+}
 
 /* team space */
 .team {
   z-index : 100;
   margin-top: 3rem;
+  padding : 1.5rem;
   display : flex;
   flex-direction :row;
   justify-content : space-between;
+  background-color: #F5EBE0;
 }
 
 /* Boutton "team"*/
-.accueil {
-font-size : 12px;
-color : #1A949D;
-	background: rgb(26,148,157,0.3);
-	border: 2px solid #1A949D;
-	box-shadow: 5px 5px 0 #1A949D,
-		-5px -5px 0 #1A949D,
-		-5px 5px 0 #1A949D,
-		5px -5px 0 #1A949D;
+.button_style {
+  display : flex;
+  align-items: center;
 }
 
-.accueil:hover {
-  border:white;
-  background: rgb(0,250,250,0);
-	box-shadow: #1A949D, #1A949D;
-  text-shadow:#1A949D, #1A949D;
+.shine {
+  background-color : #1A949D;
+  font-size : 0.8rem;
 }
+
 
 
 </style>

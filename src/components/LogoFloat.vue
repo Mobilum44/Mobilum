@@ -3,7 +3,7 @@
     <g-image
       class="logo"
       alt="Logo mobilum"
-      src="~/photos/Blue_logo.png"
+      src="@/assets/img/logos/Blue_logo.png"
       width="100"
       center
     />

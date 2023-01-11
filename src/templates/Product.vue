@@ -1,21 +1,45 @@
 <template>
-  <Layout>
-    <div class="product_body">
-      <Button theme="transparent" to="/contact/">Retour</Button>
-      <div class="product_sheet">
-        <div class="title_zone">
-          <h1>
-            {{ $page.product.title }}
-          </h1>
+  <LayoutProduct>
+    <!-- SUPPRIMER toute l'architecture, pour avoir juste 1 sous catégorie 
+    MISE EN PAGE : image de fond, défilant avec texte sur le coté (inspi xiaomi
+    
+    En dessous du bandeau plein : infos techniques et reste de la gamme
+    
+        -->
+
+    <template #slot_titre>
+      <section class="page_top">
+        <g-link class="return" to="/Offre/">Retour</g-link>
+        <!-- trouver le bon chemin pour faire un vrai bouton retour-->
+        <div class="contenu">
+          <h1>{{ $page.product.title }}</h1>
           <p>{{ $page.product.designer }}</p>
         </div>
-        <g-image
-          class="Obrac"
-          alt="Cover image"
-          v-if="$page.product.illustration_image"
-          :src="$page.product.illustration_image"
-        />
-        <p>Mini galerie d'images</p>
+      </section>
+    </template>
+
+    <template #slot_bandeau>
+      <div class="gallery">
+        <div class="image_gallery">
+          <g-image
+            class="img"
+            alt="Cover image"
+            v-if="$page.product.illustration_image"
+            :src="$page.product.illustration_image"
+          />
+        </div>
+
+        <!-- Images défilantes en fond -->
+        <div class="text_gallery">
+          <p>
+            Mini galerie d'images <br />
+            Inclure le nom des prescripteurs, lieu du projet, ... en même temps
+            que le défilement des photos in situ
+          </p>
+        </div>
+      </div>
+    </template>
+    <!-----
         <div class="product_description">
           <div class="items">
             <h3>Caractéristiques</h3>
@@ -31,18 +55,19 @@
             <p>{{ $page.product.description }}</p>
           </div>
         </div>
-        <div class="other_products">
-          <h2>Mettre les autres produits de la gamme ici</h2>
-        </div>
-      </div>
+        -->
+    <div class="other_products">
+      <p>Infos de base sur le produit (mesures, etc)</p>
+      <h2>Mettre les autres produits de la gamme ici</h2>
     </div>
-  </Layout>
+  </LayoutProduct>
 </template>
 
 <page-query>
 query Product ($id: ID!) {
   product: product (id: $id) {
     title
+    gamme
     designer
     illustration_image
     materiau
@@ -55,68 +80,76 @@ query Product ($id: ID!) {
 </page-query>
 
 <script>
+import LayoutProduct from "@/layouts/LayoutProduct.vue";
 import Button from "@/components/Button.vue";
 
 export default {
   components: {
-    Button
+    Button,
+    LayoutProduct
   }
 };
 </script>
 
 <style scoped>
-.product_body {
-  margin: 3rem;
-  padding: 2rem;
-  padding-bottom: 0rem;
-  padding-top: 0rem;
+/*-----------------------------------------------------------------
+      Bouton retour
+  ---------------------------------------------------------------*/
+.return {
+  color: black;
+  text-decoration: none;
+}
+.return:hover {
+  text-decoration: underline;
 }
 
-.product_sheet {
-  border: #1a949d;
-  border-style: double;
-  padding: 2rem;
-  margin-top: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/*-----------------------------------------------------------------
+      Zone titre
+  ---------------------------------------------------------------*/
+.page_top {
+  padding-top: 1rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
 }
 
-.title_zone {
-  border: #1a949d solid 1px;
+.contenu {
   width: 100%;
-  padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: O;
 }
-
-.title_zone {
-}
-.title_zone h1,
+.contenu,
 p {
-  padding-bottom: 0;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
+  padding: 0;
+}
+.contenu,
+h1 {
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
-.product_description {
-  padding-top: 2rem;
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
+/*-----------------------------------------------------------------
+      Zone galerie
+  ---------------------------------------------------------------*/
+.image_gallery {
+  width: 100%;
+  height: 100vh;
 }
+.image_gallery > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*
 .items {
   width: 50%;
 }
-.Obrac {
-  width: 500px;
-  margin-top: 2rem;
-}
+
 em {
   color: #1a949d;
-}
+} */
 
 .other_products {
   margin-top: 2rem;

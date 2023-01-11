@@ -5,21 +5,18 @@
    ----------------------------->
 
   <Header>
-    <!---------------->
-
+    <g-link to="/#/">
+      <g-image
+        class="logo_header"
+        alt="Logo mobilum"
+        src="@/assets/img/logos/Blue_logo.png"
+        width="80"
+      />
+    </g-link>
     <div class="header_content">
-      <g-link to="/#/">
-        <g-image
-          alt="Logo mobilum"
-          src="~/photos/logo_transparent.png"
-          width="80"
-        />
-      </g-link>
-
       <div class="nav_header">
         <g-link class="nav__link" to="/Accueil/">Accueil</g-link>
         <g-link class="nav__link" to="/Entreprise/">Notre entreprise</g-link>
-        <g-link class="nav__link" to="/Materiau/">Matériau</g-link>
         <g-link class="nav__link" to="/Offre/">Notre offre</g-link>
         <g-link class="nav__link" to="/Contact/">Contact</g-link>
         <g-link class="nav__link" to="/Taches/">🔎</g-link>
@@ -55,100 +52,43 @@ export default {
 
 <style scoped>
 header {
-  padding: 1rem;
-  width: 100%;
-  background-color: rgb(26, 148, 157, 0.6);
-  box-shadow: 0 5px 20px rgba(10, 4, 60, 0.3);
+  margin-top: 0rem;
+  /*background-color: rgb(26, 148, 157, 0.6);
+  box-shadow: 0 5px 20px rgba(10, 4, 60, 0.3);*/
   z-index: 1;
 }
 
+.logo_header {
+  position: fixed;
+  margin-left: 2.5rem;
+}
+
 .header_content {
-  margin-right: 3rem;
-  margin-left: 3rem;
+  margin-top: 3rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
   display: flex;
+  justify-content: center;
 }
 
 .nav_header {
   width: 100%;
   display: flex;
   justify-content: right;
-  align-items: flex-end;
+  align-items: center;
   padding-bottom: 1.5%;
   gap: 1rem;
+  /*
+  margin-top: 2rem;
+  padding: 2rem;
+  width: 75%;
+  border-top: #1a949d 1px solid;
+
+  display: flex;
+  flex-direction: row;
+  align-items: space-evenly;
+  justify-content: space-evenly;
+  gap: 2rem;
+   */
 }
-
-.nav__link {
-  font-size: 16px;
-  text-decoration: none;
-  color: white;
-}
-
-.nav__link:hover,
-.nav__link:focus {
-  color: #1a949d;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.nav__link.active {
-  color: #1a949d;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-/*-----------------------------------------------------------------
-    NE MARCHE PAS
-  -----------------------------------------------------------------
-  
-.navbar {
-  transition: all 0.4s;
-  z-index: 1;
-  background-color: #1a949d;
-}
-  
-/* Change navbar styling on scroll
-----------------------------------
-
-.navbar.active {
-  background: #fff;
-  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
-}
-.navbar.active #logo1 {
-  background-color: #1A949D;
-  width: 3%;
-}
-
-.navbar.active .nav__link {
-  text-decoration: none;
-  color: #1A949D;
-}
-
-.navbar.active .nav__link:hover,
-.navbar.active .nav__link.active {
-  color: #1A949D;
-  background-color: rgba(146, 236, 239, 0.1);
-  text-decoration: none;
-  padding: 5px;
-  border-radius: 5px;
-}
-
-.navbar.active .navbar-brand {
-  color: #555;
-}
-
-/* Change navbar styling on small viewports
-__________________________________________________
-
-@media (max-width: 991.98px) {
-  .navbar {
-    background: #fff;
-  }
-
-  .navbar .navbar-brand,
-  .navbar .nav-link {
-    color: #555;
-  }
-}
-
------------------------------------------------ */
 </style>

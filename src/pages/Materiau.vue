@@ -69,9 +69,6 @@ export default {
 </script>
 
 <style scoped>
-h2 {
-  margin-bottom: 0;
-}
 .big_box {
   display: flex;
   flex-direction: column;

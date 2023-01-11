@@ -53,13 +53,13 @@ export default {
 }
 
 .content {
-  position : absolute;
+  position: absolute;
   opacity: 0;
 }
 
 .content:hover {
   opacity: 50;
-  
+
   /* general */
   height: 100%;
   width: 100%;
@@ -79,21 +79,17 @@ export default {
   text-decoration: none;
   font-style: bold;
   color: blue;
-  padding : 20px;
-
+  padding: 20px;
 }
 
-  h2 {
+h2 {
   font-size: 14px;
   text-align: center;
-  font-weight: 500;
-  color : white;
+  color: white;
   text-shadow: 0px 2px 2px #909f9d;
-  }
-  
-  p {
+}
+
+p {
   font-size: 12px;
-  }
-
-
+}
 </style>

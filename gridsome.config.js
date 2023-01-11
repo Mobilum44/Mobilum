@@ -23,10 +23,6 @@ module.exports = {
           collection: {
             typeName: "Collection",
             create: true
-          },
-          category: {
-            typeName: "Collection",
-            create: true
           }
         }
       }

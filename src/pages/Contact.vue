@@ -6,7 +6,7 @@
 <p> Nous ne travaillons pas avec les particuliers </p>
    <div class="content">
      <div class ="content_box">
-        <p> Zone où il y aura le formulaire de contact</p>
+        <Form/>
      </div>
      
      <div class ="content_box">
@@ -17,17 +17,17 @@
             <div class="service">
               <!-- Mettre les informations en colonne-->
               <h3> Commerce </h3>
-              <p> Mail </br> Téléphone </p>
+              <p> contact@mobilum-france.com </br> +33(0)2 51 72 90 22 </p>
             </div>
             
             <div class="service">
-              <h3> Fournisseurs </h3>
-              <p> Mail </br> Téléphone </p>
+              <h3> Partenaires </h3>
+              <p> stephane@mobilum-france.com </br> Téléphone </p>
             </div>
             
             <div class="service">
-              <h3> Comptabilité </h3>
-              <p> Mail </br> Téléphone </p>
+              <h3> Facturation </h3>
+              <p> fournisseurs@mobilum-france.com </br> Téléphone </p>
             </div>
             
           </div>
@@ -35,11 +35,22 @@
     </div>
      <p> Tous nos services sont joignables du lundi au vendredi, .... </p>
     </div>
+    <div class="content_box">
+      <Itinary/>
+      </div>
   </Layout>
 </template>
 
 <script>
+import Form from "@/components/Form.vue";
+import Itinary from "@/components/MapsAdress.vue";
+
 export default {
+  components: {
+    Form,
+    Itinary,
+  },
+  
   metaInfo: {
     title: "Contact",
   },
@@ -47,7 +58,6 @@ export default {
 </script>
 
 <style scoped>
-
 .base {
   text-align: center;
   display : flex;
@@ -58,39 +68,48 @@ export default {
 .content {
   display : flex;
   flex-direction : row;
-  justify-content : left;
-  gap : 20px;
-    justify-content : space-evenly;
+  justify-content : center;
+  align-items : stretch;
 }
 
 .content_box {
   display : flex;
   flex-direction : column;
-  align-items : center;
+  margin : 2rem;
 }
 
 .services_box {
-  width : 60%;
   display : flex;
   flex-direction : column;
-  justify-content : space-evenly;
+  justify-content :space-evenly;
+  height : 100%;
 }
 
 .service {
-  background : pink;
-  border : solid aquamarine;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   border-radius : 8px;
+  background-color :#F5EBE0;
+  width : 18rem;
   display : flex;
   flex-direction : column;
   align-items : center;
-  margin-bottom : 10px;
+  margin : 1rem;
   font-size : 14px;
-  padding-left : 7rem;
-  padding-right : 7rem;
+  padding : 1rem;
+  color : #1A949D;
 }
 
-h3 {
+services, h3 {
+  font-size : 1.5rem;
   margin : 0;
   padding : 0;
+  color : #1A949D;
+  text-decoration : underline;
 }
+
+services, p {
+  color : black;
+}
+
+
 </style>

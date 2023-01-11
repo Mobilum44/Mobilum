@@ -10,8 +10,7 @@ export default {
     theme: {
       type: String,
       default: "accueil",
-      validator: val =>
-        ["accueil", "blue", "pink_action", "transparent"].indexOf(val) !== -1
+      validator: val => ["blue", "white", "shine", "slide"].indexOf(val) !== -1
     },
 
     to: {
@@ -24,38 +23,7 @@ export default {
 
 <style scoped>
 /* ---------------------------------------------------------------
-    Style du bouton "Accueil"
-  --------------------------------------------------------------*/
-
-.accueil {
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: bold;
-  color: #1a949d;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 150px;
-  height: 50px;
-  background: rgb(250, 250, 250, 0.3);
-  border: 2px solid #1a949d;
-  box-shadow: 5px 5px 0 white, -5px -5px 0 white, -5px 5px 0 white,
-    5px -5px 0 white;
-  transition: 500ms ease-in-out;
-}
-
-.accueil:hover {
-  border: 2px solid #1a949d;
-  box-shadow: 20px 5px 0 white, -20px -5px 0 white;
-  text-shadow: 20px 5px 0 white, -20px -5px 0 white;
-}
-
-.accueil:focus {
-  outline: none;
-}
-
-/* ---------------------------------------------------------------
-    Style du bouton "Contact"
+    Style du bouton simple bleu
   --------------------------------------------------------------*/
 
 .blue {
@@ -64,12 +32,11 @@ export default {
   justify-content: center;
   height: 36px;
   max-width: max-content;
-  background-color: rgba(26, 148, 157, 0.5);
+  background-color: #fefcf3;
   border-radius: 10px;
   text-decoration: none;
-  color: white;
+  color: #1a949d;
   line-height: 0;
-  margin: 0.6em 0;
   font-size: 1rem;
   padding: 0 1.3em;
 }
@@ -77,27 +44,30 @@ export default {
 .blue:hover {
   background-color: rgba(26, 148, 157);
   text-decoration: none;
-  color: white;
+  color: #fefcf3;
 }
 
 /* ---------------------------------------------------------------
     Style du bouton "Action" qui n'est plus très rose...
   --------------------------------------------------------------*/
-.pink_action {
+.white {
   position: relative;
   z-index: 2;
-  line-height: 50px;
-  height: 50px;
-  width: 200px;
+  height: 60px;
+  width: 225px;
   text-decoration: none;
+  font-size: 1.5rem;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #fff;
 }
-.pink_action:hover {
+.white:hover {
   border: none;
 }
-.pink_action:before,
-.pink_action:after {
+.white:before,
+.white:after {
   position: absolute;
   content: "";
   width: 0%;
@@ -106,7 +76,7 @@ export default {
   z-index: -1;
   transition: all 0.3s ease;
 }
-.pink_action:before {
+.white:before {
   top: 0;
   left: 0;
   border-bottom-color: transparent;
@@ -114,7 +84,7 @@ export default {
   border-top-color: #ffe3de;
   border-left-color: #ffe3de;
 }
-.pink_action:after {
+.white:after {
   bottom: 0;
   right: 0;
   border-top-color: transparent;
@@ -122,56 +92,87 @@ export default {
   border-bottom-color: #ffe3de;
   border-right-color: #ffe3de;
 }
-.pink_action:hover:before,
-.pink_action:hover:after {
+.white:hover:before,
+.white:hover:after {
   border-color: #ffe3de;
   height: 100%;
   width: 100%;
 }
 
 /* ---------------------------------------------------------------
-    Style du bouton Transparent
+    Style du bouton Shine
   --------------------------------------------------------------*/
-.transparent {
-  color: #1a949d;
-  transition: all 0.5s;
+.shine {
+  z-index: 1;
   position: relative;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
+
+  font-family: "Bebas Neue";
   text-decoration: none;
+  letter-spacing: 2px;
+  color: white;
+  padding: 1rem 3rem;
+
+  background-color: rgba(0, 0, 0, 0.8) /*rgba(26, 148, 157, 0.6)*/;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+  overflow: hidden;
 }
-.transparent::before {
+
+.shine::after {
+  content: "";
+  z-index: -1;
+  background-color: hsla(0, 0%, 100%, 0.2);
+  position: absolute;
+  top: -50%;
+  bottom: -50%;
+  width: 2.5rem;
+  transform: translate3d(-525%, 0, 0) rotate(35deg);
+}
+
+.shine:hover::after {
+  transition: transform 0.45s ease-in-out;
+  transform: translate3d(200%, 0, 0) rotate(35deg);
+}
+
+/* ---------------------------------------------------------------
+    Style du bouton Slide
+  --------------------------------------------------------------*/
+.slide {
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  position: relative;
+  overflow: hidden;
+  padding: 0.5rem 4rem;
+
+  font-family: "Bebas Neue";
+  text-decoration: none;
+  color: #f4f4f4;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.slide:hover {
+  box-shadow: 1px 1px 25px 10px rgba(255, 255, 255, 0.4);
+}
+
+.slide:before {
   content: "";
   position: absolute;
   top: 0;
-  left: 0;
+  left: -100%;
   width: 100%;
   height: 100%;
-  z-index: 1;
-  background-color: rgba(250, 250, 250, 0.1);
-  transition: all 0.3s;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
+  transition: all 650ms;
 }
-.transparent:hover::before {
-  opacity: 0;
-  transform: scale(0.5, 0.5);
-}
-.transparent::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  opacity: 0;
-  transition: all 0.3s;
-  border: 1px solid rgba(26, 148, 157, 0.5);
-  transform: scale(1.2, 1.2);
-}
-.transparent:hover::after {
-  opacity: 1;
-  transform: scale(1, 1);
+
+.slide:hover:before {
+  left: 100%;
 }
 </style>

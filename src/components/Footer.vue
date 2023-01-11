@@ -1,19 +1,25 @@
 <template>
   <footer>
+    <div class="contact_zone">
+      <Button theme="white" to="/Contact/">Nous contacter</Button>
+    </div>
+
     <div class="content_top">
       <div class="contact">
         <g-image
+          class="Logo_mobilum"
           alt="Logo mobilum"
-          src="~/photos/logo_transparent.png"
-          width="100"
+          src="@/assets/img/logos/Mobilum_no_margin.png"
+          width="60"
         />
         <div>
           <p class="coordonnées">
-            +33(0)2 XX XX XX XX<br />
+            +33(0)2 51 72 90 22<br />
+            contact@mobilum-france.com<br />
+            <br />
             104 rue de l'Industrie<br />
             44430 Le Loroux-Bottereau
           </p>
-          <Button theme="blue" to="/contact/">Nous contacter</Button>
         </div>
       </div>
 
@@ -25,10 +31,8 @@
           <g-link class="footer__nav" to="/Mentions/">Mentions légales</g-link>
           <g-link class="footer__nav" to="/Plan/">Plan du site</g-link>
         </div>
-
-        <!-- Penser à créer des boutons logos RS 
-        <LogoRS />
-        -->
+        <Button theme="blue" to="/contact/">Réseaux sociaux</Button>
+        <!-- Penser à créer des boutons logos RS <LogoRS /> -->
       </div>
     </div>
 
@@ -68,54 +72,92 @@ em {
 }
 
 footer {
+  z-index: 200;
+  position: absolute;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  align-items: space-between;
-  background-color: rgb(26, 148, 157, 0.6);
+  background-color: rgba(26, 148, 157, 1);
   font-size: 14px;
   font-style: normal;
   width: 100%;
 }
 
-/* 
+/*
+--------------------------------------------------------------
+Bandeau photo :
+- Recentrer légèrement sur les galets (supprimer marge en bas)
+--------------------------------------------------------------
+*/
+
+.contact_zone {
+  background: url("http://image.noelshack.com/fichiers/2022/51/3/1671619469-2021-07-22-mobilum-rouen-27.jpg")
+    center center no-repeat;
+  filter: grayscale(80%);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Bebas Neue";
+}
+
+/*
 --------------------------------------------------------------
 Zone haute du footer
 --------------------------------------------------------------
 */
 
 .content_top {
-  padding-top: 1em;
-  margin-left: 7rem;
-  margin-right: 7rem;
+  border-top: #fefcf3 solid 1px;
+  padding-top: 2rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: space-between;
   flex-wrap: wrap;
 }
-/* 
+/*
 ---------------------------------
 Colonne de droite
 ---------------------------------
 */
+.Logo_mobilum {
+  margin-right: 1rem;
+}
 .contact {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: flex-end;
+  align-items: flex-end;
   gap: 10px;
 }
 
 .coordonnées {
   text-decoration: none;
-  color: white;
+  margin: 0;
+  color: #fefcf3;
 }
 
 .contact a {
   text-decoration: none;
-  color: white;
+  color: #fefcf3;
 }
 
-/* 
+/*
+------------------
+Mettre réseaux sociaux
+------------------
+*/
+
+.blue {
+  margin-top: 1rem;
+}
+
+/*
 ---------------------------------
 Colonne de gauche
 ---------------------------------
@@ -129,7 +171,7 @@ Colonne de gauche
   align-items: right;
 }
 
-/* 
+/*
 ------------------
 Menu secondaire
 ------------------
@@ -142,37 +184,32 @@ Menu secondaire
 .footer__nav {
   font-size: 14px;
   text-decoration: none;
-  color: white;
+  color: #fefcf3;
 }
 
 .footer__nav:hover,
 .footer__nav:focus {
-  color: #1a949d;
+  color: black;
   text-decoration: none;
 }
 
 .footer__nav.active {
-  color: #1a949d;
+  color: black;
   text-decoration: none;
 }
 
-/* 
-------------------
-Mettre réseaux sociaux
-------------------
-*/
-
-/* 
+/*
 --------------------------------------------------------------
 Zone basse du footer
 --------------------------------------------------------------
 */
 
 .legal {
+  border-top: #fefcf3 solid 1px;
+  margin-top: 2rem;
+  padding: 1rem;
   display: flex;
-  align-items: center;
   justify-content: center;
-  margin-bottom: 0rem;
   color: white;
 }
 
