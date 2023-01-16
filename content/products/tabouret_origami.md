@@ -1,13 +1,13 @@
 ---
-title: Module Hook bois
+title: Tabouret Origami
 published: true
-designer : Spritz
-collection : Aménagement
-category : Coffrets 
-sub_category : Module HOOK
-gamme: HOOK
+designer : Forma6
+collection : Mobilier Urbain
+category : Assises 
+sub_category : Tabouret
+gamme: Origami
 
-cover_image: ./images/module_hook_bois.jpg
+cover_image: ./images/tabouret_origami.jpg
 illustration_image :
 
 materiau : BFUP (Béton Fibré à Ultra-haute Performance)

@@ -1,13 +1,13 @@
 ---
-title: Module Hook bois
+title: Fontaine Loella
 published: true
-designer : Spritz
+designer : C. Planchais
 collection : Aménagement
-category : Coffrets 
-sub_category : Module HOOK
-gamme: HOOK
+category : Fontaine
+sub_category : Fontaine
+gamme: Loella
 
-cover_image: ./images/module_hook_bois.jpg
+cover_image: ./images/fontaine_loella.jpg
 illustration_image :
 
 materiau : BFUP (Béton Fibré à Ultra-haute Performance)

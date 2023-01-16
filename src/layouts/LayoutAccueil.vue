@@ -1,7 +1,7 @@
 <template>
   <div class="LayoutAccueil">
     <Header />
-    <slot name="slot_image"> </slot>
+    <slot name="slot_image" class="slot_image"> </slot>
 
     <section class="contenu">
       <slot />
@@ -40,5 +40,6 @@ query {
   padding-top: 1rem;
   padding-left: 10rem;
   padding-right: 10rem;
+  padding-bottom: 0;
 }
 </style>

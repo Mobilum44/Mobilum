@@ -20,6 +20,8 @@
 
     <template #slot_bandeau>
       <div class="gallery">
+        <Caroussel />
+        <!--
         <div class="image_gallery">
           <g-image
             class="img"
@@ -29,7 +31,7 @@
           />
         </div>
 
-        <!-- Images défilantes en fond -->
+        <!-- Images défilantes en fond
         <div class="text_gallery">
           <p>
             Mini galerie d'images <br />
@@ -37,6 +39,7 @@
             que le défilement des photos in situ
           </p>
         </div>
+        -->
       </div>
     </template>
     <!-----
@@ -82,11 +85,13 @@ query Product ($id: ID!) {
 <script>
 import LayoutProduct from "@/layouts/LayoutProduct.vue";
 import Button from "@/components/Button.vue";
+import Caroussel from "@/components/Caroussel.vue";
 
 export default {
   components: {
     Button,
-    LayoutProduct
+    LayoutProduct,
+    Caroussel
   }
 };
 </script>

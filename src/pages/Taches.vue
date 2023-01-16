@@ -13,6 +13,8 @@
       Harmonisation et choix globaux de l'esthétisme du site <br />
       Photos à modifier <br />
     </p>
+
+    <g-link to="/Test/">Page test caroussel</g-link>
   </Layout>
 </template>
 

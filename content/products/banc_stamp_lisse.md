@@ -1,13 +1,13 @@
 ---
-title: Module Hook bois
+title: Banc Stamp lisse
 published: true
-designer : Spritz
-collection : Aménagement
-category : Coffrets 
-sub_category : Module HOOK
-gamme: HOOK
+designer : Sovann Kim
+collection : Mobilier Urbain
+category : Assises
+sub_category : Banc
+gamme: Stamp
 
-cover_image: ./images/module_hook_bois.jpg
+cover_image: ./images/banc_stamp_lisse.jpg
 illustration_image :
 
 materiau : BFUP (Béton Fibré à Ultra-haute Performance)

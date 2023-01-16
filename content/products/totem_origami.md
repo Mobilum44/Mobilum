@@ -7,7 +7,7 @@ category : Totem
 sub_category : Totem
 gamme: Origami
 
-cover_image: ./images/chaise_obrac.jpg
+cover_image: ./images/totem_origami.jpg
 illustration_image :
 
 materiau : BFUP (Béton Fibré à Ultra-haute Performance)

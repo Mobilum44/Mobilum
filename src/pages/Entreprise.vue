@@ -6,7 +6,7 @@
   <Layout>
     <h1>Notre entreprise</h1>
 
-    <div class="section">
+    <div class="section_top">
       <p>
         Ici, le texte qui présentera l'entreprise Mobilum, global.
         </br>
@@ -19,59 +19,106 @@
     </div>
     
     <div class="section">
-      <h2> La griffe "Mobilum"</h2>
-      <p>
-        La marque et le design : designers et distinctions
-        </br>
-        </br>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
-        doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur
-        rerum illum odit fugit assumenda rem dolores inventore iste
-        reprehenderit maxime! Iusto.
-        </p>
-    </div>
-    
-        <div class="section">
-      <h2> Notre savoir-faire</h2>
-      <p>
-        100% français + le BFUP : couleur, finition, ... + formation + BE
-        </br>
-        </br>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
-        doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur
-        rerum illum odit fugit assumenda rem dolores inventore iste
-        reprehenderit maxime! Iusto.
-        </p>
+        <h2> La griffe "Mobilum"</h2>
+      
+      <div class="section_content">
+        <div class="section_image">
+          <g-image
+            alt="SNCF Gare Auxerre"
+            src="../../content/products/images/saint_cyr.jpg"
+            center
+            height="250px"
+            width="400px"
+          />
+        </div>
+        
+        <div class="section_text">
+          <p>
+            La marque et le design : designers et distinctions
+            </br>
+            </br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
+            doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur
+            rerum illum odit fugit assumenda rem dolores inventore iste
+            reprehenderit maxime! Iusto.
+          </p>
+        </div>
+      </div>
+        <!-- Mettre des cartes en markdown pour afficher les designers -->
     </div>
     
     <div class="section">
-            <h2>Nos activités</h2>
-            <p> SOit sous forme de carte, soit sous forme de liste</p>
-    <div class="maps">
-      <g-image class="fond" alt="photo ville" src="@/assets/img/VilleOlivier.JPG" />
-      <div class="maps_text">
-        <div class="activity_order">
+      <h2> Notre savoir-faire</h2>
+      
+      <div class="section_content">
+        <div class="section_image">
+          <g-image
+            alt="SNCF Gare Auxerre"
+            src="@/assets/img/travail_usine.jpg"
+            center
+            height="250px"
+            width="400px"
+          />
+        </div>
+          
+        <div class="section_text">
+          <p>
+          100% français + le BFUP : couleur, finition, ... + formation + BE
+          </br>
+          </br>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
+          doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur
+          rerum illum odit fugit assumenda rem dolores inventore iste
+          reprehenderit maxime! Iusto.
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="section_map">
+        <h2>Nos activités</h2>
+      
+      <p> SOit sous forme de carte, soit sous forme de liste</p>
+      <div class="maps">
+        <g-image class="fond" alt="photo ville" src="@/assets/img/VilleOlivier.JPG" />
+        <div class="maps_text">
+          <div class="activity_order">
               <Activity class='Hook'/>
               <Activity class='ShopCenter'/>
               <Activity class='SNCF'/>
               <Activity class="Seaside"/>
               <Activity class="Parc"/>
+          </div>
         </div>
       </div>
-    </div>
     </div>  
       
-          <div class="section">
-      <h2> Nos engagements </h2>
-      <p>
-        Fournisseurs 100% français : vicat, transport, tous en général
-        </br>
-        </br>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
-        doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur
-        rerum illum odit fugit assumenda rem dolores inventore iste
-        reprehenderit maxime! Iusto.
-        </p>
+    <div class="section">
+        <h2> Nos engagements </h2>
+
+      <div class="section_content">
+        <div class="section_image">
+          <g-image
+            alt="SNCF Gare Auxerre"
+            src="@/assets/img/angers_tram.jpg"
+            center
+            height="250px"
+            width="400px"
+          />
+        </div>
+
+        <div class="section_text">
+          <p>
+          Fournisseurs 100% français : vicat, transport, tous en général
+          </br>
+          </br>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
+          doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur
+          rerum illum odit fugit assumenda rem dolores inventore iste
+          reprehenderit maxime! Iusto.
+          </p>
+        </div>
+      </div>
     </div>
     
     
@@ -112,9 +159,62 @@ export default {
 };
 </script>
 
+<!--
+<page-query>
+query Collection ($id: ID!) {
+  designers : designers (id: $id) {
+    name
+  }
+}
+</page-query>
+
+-->
+
 <style scoped>
 .section {
-  margin-top: 3rem;
+  border-bottom : solid black 1px;
+  height : 60vh;
+  
+  display : flex;
+  justify-content : flex-end;
+  flex-direction : column;
+  padding-bottom : 3rem;
+  margin-bottom : 4rem;
+}
+
+.section h2 {
+  padding : 0;
+  margin : 0;
+}
+
+.section_image {
+  flex : 80%;
+  height : 250px;
+  width : 400px;
+}
+
+.section_image > img {
+  fit: cover;
+}
+
+.section_content {
+  display : flex;
+  flex-direction : row;
+  justify-content : flex-end;
+  align-items : flex-end;
+}
+
+.section_text {
+  border-top : solid black 1px;
+  padding-top : 3rem;
+  margin: 5rem  0rem 0 5rem;
+}
+
+.section_text p {
+  padding :0 2rem 0 10rem;
+  margin : 0;
+  font-size : 1.1rem;
+  text-align : left;
 }
 
 /* map space */

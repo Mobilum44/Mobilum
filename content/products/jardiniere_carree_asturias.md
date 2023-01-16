@@ -1,13 +1,13 @@
 ---
-title: Module Hook bois
+title: Jardinière Asturias
 published: true
-designer : Spritz
-collection : Aménagement
-category : Coffrets 
-sub_category : Module HOOK
-gamme: HOOK
+designer : Carrée
+collection : Mobilier Urbain
+category : Jardinières 
+sub_category : Jardinière
+gamme: Asturias
 
-cover_image: ./images/module_hook_bois.jpg
+cover_image: ./images/jardiniere_carree_asturias.jpg
 illustration_image :
 
 materiau : BFUP (Béton Fibré à Ultra-haute Performance)

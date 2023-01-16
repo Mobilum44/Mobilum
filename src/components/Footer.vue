@@ -90,8 +90,7 @@ Bandeau photo :
 */
 
 .contact_zone {
-  background: url("http://image.noelshack.com/fichiers/2022/51/3/1671619469-2021-07-22-mobilum-rouen-27.jpg")
-    center center no-repeat;
+  background: url("../../src/assets/img/Galets.jpg") center center no-repeat;
   filter: grayscale(80%);
   background-size: cover;
   background-attachment: fixed;

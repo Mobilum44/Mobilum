@@ -1,13 +1,13 @@
 ---
-title: Module Hook bois
+title: Chaise Elium
 published: true
-designer : Spritz
-collection : Aménagement
-category : Coffrets 
-sub_category : Module HOOK
-gamme: HOOK
+designer : Sovann Kim
+collection : Mobilier Urbain
+category : Assises
+sub_category : Chaises
+gamme: Elium
 
-cover_image: ./images/module_hook_bois.jpg
+cover_image: ./images/chaise_elium.jpg
 illustration_image :
 
 materiau : BFUP (Béton Fibré à Ultra-haute Performance)

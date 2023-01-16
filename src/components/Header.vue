@@ -61,6 +61,7 @@ header {
 .logo_header {
   position: fixed;
   margin-left: 2.5rem;
+  z-index: 1;
 }
 
 .header_content {

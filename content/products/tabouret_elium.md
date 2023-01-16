@@ -1,13 +1,13 @@
 ---
-title: Module Hook bois
+title: Tabouret Elium
 published: true
-designer : Spritz
-collection : Aménagement
-category : Coffrets 
-sub_category : Module HOOK
+designer : Sovann Kim
+collection : Mobilier Urbain
+category : Assises 
+sub_category : Tabouret
 gamme: HOOK
 
-cover_image: ./images/module_hook_bois.jpg
+cover_image: ./images/tabouret_elium.jpg
 illustration_image :
 
 materiau : BFUP (Béton Fibré à Ultra-haute Performance)
