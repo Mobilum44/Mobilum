@@ -2,7 +2,7 @@
 title: Module Hook bois
 published: true
 designer : Spritz
-collection : Aménagement
+collection : HOOK
 category : Coffrets 
 sub_category : Module HOOK
 gamme: HOOK

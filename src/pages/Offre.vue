@@ -3,6 +3,9 @@
   Supprimer sav -->
   <Layout>
     <h1>Notre offre</h1>
+
+    <p>Supprimer les doublons</p>
+
     <div class="body_offer">
       <div class="collection">
         <g-link
@@ -31,20 +34,7 @@
             height="300px"
             width="500px"
           />
-          <p>Grands comptes</p>
-        </g-link>
-
-        <g-link class="items_styling" to="/Sur-mesure/">
-          <g-image
-            alt="SNCF Gare Auxerre"
-            src="@/assets/img/SNCF_auxerre.png"
-            center
-            height="300px"
-            width="500px"
-          />
-          <p>
-            Réalisations sur mesure
-          </p>
+          <p>Grands comptes et sur-mesure</p>
         </g-link>
       </div>
     </div>

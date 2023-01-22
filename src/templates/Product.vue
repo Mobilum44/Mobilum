@@ -42,25 +42,26 @@
         -->
       </div>
     </template>
-    <!-----
-        <div class="product_description">
-          <div class="items">
-            <h3>Caractéristiques</h3>
-            <p>
-              <em>Matériau</em> : {{ $page.product.materiau }}<br />
-              <em>Poids</em> : {{ $page.product.poids }}<br />
-              <em>Dimensions</em> : {{ $page.product.dimensions }} <br />
-              <em>Traitement</em> : {{ $page.product.traitement }}
-            </p>
-          </div>
-          <div class="items">
-            <h3>Description</h3>
-            <p>{{ $page.product.description }}</p>
-          </div>
-        </div>
-        -->
+
+    <div class="product_description">
+      <div class="items">
+        <h3>Caractéristiques</h3>
+        <p>
+          <!--
+          <em>Matériau</em> : {{ $page.product.materiau }}<br />
+          <em>Traitement</em> : {{ $page.product.traitement }}
+         -->
+          <em>Poids</em> : {{ $page.product.poids }}<br />
+          <em>Dimensions</em> : {{ $page.product.dimensions }} <br />
+        </p>
+      </div>
+      <div class="items">
+        <h3>Description</h3>
+        <p>{{ $page.product.description }}</p>
+      </div>
+    </div>
+
     <div class="other_products">
-      <p>Infos de base sur le produit (mesures, etc)</p>
       <h2>Mettre les autres produits de la gamme ici</h2>
     </div>
   </LayoutProduct>
@@ -147,14 +148,28 @@ h1 {
   object-fit: cover;
 }
 
-/*
+/*-----------------------------------------------------------------
+      Zone galerie
+  ---------------------------------------------------------------*/
+.product_description {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  align-items: center;
+}
+
 .items {
-  width: 50%;
+  width: 60%;
+  padding: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 em {
   color: #1a949d;
-} */
+}
 
 .other_products {
   margin-top: 2rem;

@@ -2,7 +2,7 @@
 title: Fontaine Loella
 published: true
 designer : C. Planchais
-collection : Aménagement
+collection : Mobilier Urbain
 category : Fontaine
 sub_category : Fontaine
 gamme: Loella

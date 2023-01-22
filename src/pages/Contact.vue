@@ -19,11 +19,7 @@
               <h3> Commerce </h3>
               <p> contact@mobilum-france.com </br> +33(0)2 51 72 90 22 </p>
             </div>
-            
-            <div class="service">
-              <h3> Partenaires </h3>
-              <p> stephane@mobilum-france.com </br> Téléphone </p>
-            </div>
+          
             
             <div class="service">
               <h3> Facturation </h3>
@@ -100,11 +96,11 @@ export default {
 }
 
 services, h3 {
-  font-size : 1.5rem;
+  font-size : 1rem;
   margin : 0;
   padding : 0;
-  color : #1A949D;
-  text-decoration : underline;
+  color : black;
+  text-decoration : none;
 }
 
 services, p {

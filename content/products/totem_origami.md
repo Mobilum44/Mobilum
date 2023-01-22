@@ -2,7 +2,7 @@
 title: Totem Origami
 published: true
 designer : Forma6
-collection : Aménagement
+collection : Signalétique
 category : Totem
 sub_category : Totem
 gamme: Origami

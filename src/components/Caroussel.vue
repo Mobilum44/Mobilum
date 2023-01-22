@@ -68,32 +68,27 @@
       <div class="carousel__track">
         <li class="carousel__slide">
           <div class="text__slide">
-            <h3>Slide 1</h3>
-            <p>Bancs Vasco de Gamma, tram d'Angers</p>
+            <h3>Bancs Vasco de Gamma, tram d'Angers</h3>
           </div>
         </li>
         <li class="carousel__slide">
           <div class="text__slide">
-            <h3>Slide 2</h3>
-            <p>Image de l'usine, bancs Obrac</p>
+            <h3>Image de l'usine, bancs Obrac</h3>
           </div>
         </li>
         <li class="carousel__slide">
           <div class="text__slide">
-            <h3>Slide 3</h3>
-            <p>Galets à Rouen</p>
+            <h3>Galets à Rouen</h3>
           </div>
         </li>
         <li class="carousel__slide">
           <div class="text__slide">
-            <h3>Slide 4</h3>
-            <p>Chaises Obrac à la Rochelle</p>
+            <h3>Chaises Obrac à la Rochelle</h3>
           </div>
         </li>
         <li class="carousel__slide">
           <div class="text__slide">
-            <h3>Slide 5</h3>
-            <p>Fond transparent</p>
+            <h3>Fond transparent</h3>
           </div>
         </li>
       </div>
@@ -122,7 +117,7 @@
 }
 
 .carousel {
-  height: 500px;
+  height: 100vh;
   width: 98.9vw;
   overflow: hidden;
   text-align: center;
@@ -178,22 +173,27 @@
   ------------------------------------------------------------------------------*/
 
 .text__slide {
-  margin-left: 60vw;
-  margin-top: 20vh;
-  width: 30%;
-  border: double white 5px;
-
-  color: white;
-  background-color: rgba(250, 250, 250, 0.6);
+  width: 100%;
+  height: 100%;
+  padding-right: 2rem;
 
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
-.text__slide p {
+.text__slide h3 {
+  font-family: "Inconsolata";
+
+  font-size: 1.5rem;
   color: white;
+  text-shadow: 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000,
+    0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000,
+    0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000,
+    0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000,
+    0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000,
+    0 0 2px #000000;
 }
 
 /*--------------------------------------------------------------------------------

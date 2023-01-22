@@ -5,6 +5,8 @@
       Faire une barre ou section recherche <br />
       Formulaire de Contact <br />
       Mettre logo réseaux sociaux <br />
+      Faire liste des produits et des photos / retraitements à prévoir <br />
+      Proposer vidéastes
     </p>
 
     <h3>Propositions</h3>

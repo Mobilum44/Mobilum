@@ -1,6 +1,14 @@
 <template>
   <LayoutAccueil>
     
+        <g-link to="/#/">
+      <g-image
+        class="logo_header"
+        alt="Logo mobilum"
+        src="@/assets/img/logos/Blue_logo.png"
+        width="80"
+      />
+    </g-link>
 <!-----------------------------------------------
 Partie en attente de développement complet du site
 -------------------------------------------------->
@@ -8,16 +16,21 @@ Partie en attente de développement complet du site
     <template #slot_image>
       <section class="bandeau">
         <div class=bandeau_content">
-        <g-image
+          <g-image
           class='logo'
           alt="Logo mobilum"
           src="@/assets/img/logos/Blue_logo.png"
           width="200"
           center
-        />
+          />
         
-        <h1> Notre site internet fait peau neuve ! </h1>
+          <h1> Notre site internet fait peau neuve ! </h1>
         </div>
+          <p>
+            Nous avons le plaisir de vous présenter nos réalisations et notre histoire sous un nouveau format. </br>
+            Le site est en cours de finalisation mais vous pouvez déjà accéder à l’ensemble de notre offre et nous contacter. </br>
+            Nous avons hâte de vous le présenter terminé et espérons qu’en attendant vous prendrez plaisir à découvrir ou redécouvrir notre collection !
+        </p>
       </section>
     </template>
     
@@ -27,11 +40,7 @@ Partie en attente de développement complet du site
 --------------------------------->
 
       <div class="section">
-        <p>
-Nous avons le plaisir de vous présenter nos réalisations et notre histoire sous un nouveau format. </br>
-Le site est en cours de finalisation mais vous pouvez déjà accéder à l’ensemble de notre offre et nous contacter. </br>
-Nous avons hâte de vous le présenter terminé et espérons qu’en attendant vous prendrez plaisir à découvrir ou redécouvrir notre collection !
-        </p>
+
 
 <!--------------------------------
     Citation
@@ -97,9 +106,19 @@ export default {
 
 <style scoped>
 
+
+.logo_header {
+  position: fixed;
+  margin-top: -70vh;
+  margin-left: 0rem;
+}
+
+
 /* General */
 h1 {
   color: #1A949D;
+  margin : 4vh;
+  padding : 4vh;
 }
 
 h3 {
@@ -120,11 +139,12 @@ background-color: #fefcf3;
 }
 
 .bandeau {
-  background: url("../../src/assets/img/fond_transparent.png")
-    center center no-repeat;
+  /*background: url("../../src/assets/img/fond_transparent.png")
+    center center no-repeat;*/
+  padding-top : 30vh;
   background-size: cover;
   width: 100%;
-  height : 100vh;
+  height : 70vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -132,7 +152,7 @@ background-color: #fefcf3;
 }
 
 .bandeau_content {
-  opacity : 1;
+  padding-bottom : 4vh;
 }
 
 /* Section 2 : latest posts + content */
@@ -152,7 +172,7 @@ justify-content : center;
   ------------------------------------------------------------------*/
   
 .quote {
-  margin-top : 4rem;
+  padding : 4vh;
   
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
