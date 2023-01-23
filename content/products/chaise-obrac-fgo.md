@@ -2,7 +2,7 @@
 title: Chaise Obrac FGO
 published: false
 designer: "/"
-collection: "/"
+collection: Mobilier Urbain
 category: "/"
 sub_category: "/"
 gamme: "/"
