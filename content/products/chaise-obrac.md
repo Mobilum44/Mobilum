@@ -1,5 +1,5 @@
 ---
-title: Chaise Obrac
+title: Chaise Obrac FGO
 published: false
 designer: ''
 collection: Mobilier Urbain
