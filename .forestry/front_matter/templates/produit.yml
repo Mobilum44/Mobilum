@@ -53,3 +53,5 @@ fields:
 - type: textarea
   name: description
   label: description
+pages:
+- content/products/banc-origami.md
