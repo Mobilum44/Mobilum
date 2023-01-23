@@ -53,6 +53,3 @@ fields:
 - type: textarea
   name: description
   label: description
-pages:
-- content/products/banc-duchesse.md
-- content/products/banc-origami.md
