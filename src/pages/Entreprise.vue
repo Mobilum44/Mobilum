@@ -25,7 +25,7 @@
         <div class="section_image">
           <g-image
             alt="SNCF Gare Auxerre"
-            src="../../content/products/images/saint_cyr.jpg"
+            src="../../content/images/saint_cyr.jpg"
             center
             height="250px"
             width="400px"

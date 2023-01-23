@@ -32,9 +32,9 @@ query Collection ($id: ID!) {
       edges {
         node {
           ...on Product {
-            title
-            cover_image
-            path
+              title
+              cover_image
+              path
           }
         }
       }

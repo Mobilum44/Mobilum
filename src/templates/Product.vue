@@ -20,14 +20,14 @@
 
     <template #slot_bandeau>
       <div class="gallery">
-        <Caroussel :img="$page.product.illustration_image" />
+        <Caroussel :img="$page.product.caroussel" />
         <!--
         <div class="image_gallery">
           <g-image
             class="img"
             alt="Cover image"
-            v-if="$page.product.illustration_image"
-            :src="$page.product.illustration_image"
+            v-if="$page.product.caroussel"
+            :src="$page.product.caroussel"
           />
         </div>
 
@@ -73,7 +73,7 @@ query Product ($id: ID!) {
     title
     gamme
     designer
-    illustration_image
+    caroussel
     materiau
     poids
     dimensions

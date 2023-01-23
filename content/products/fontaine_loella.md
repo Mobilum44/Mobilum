@@ -7,8 +7,10 @@ category : Fontaine
 sub_category : Fontaine
 gamme: Loella
 
-cover_image: ./images/fontaine_loella.jpg
-illustration_image :
+cover_image: ../images/fontaine_loella.jpg
+caroussel:
+    - ../images/banc_stamp_lisse.jpg
+    - ../images/banc_stamp_lisse.jpg
 
 materiau : BFUP (Béton Fibré à Ultra-haute Performance)
 poids : 118 kg

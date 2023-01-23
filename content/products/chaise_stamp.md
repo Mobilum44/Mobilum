@@ -7,8 +7,10 @@ category : Assises
 sub_category : Chaises
 gamme: Stamp
 
-cover_image: ./images/test_chaise_stamp.jpg
-illustration_image :
+cover_image: ../images/test_chaise_stamp.jpg
+caroussel:
+    - ../images/banc_stamp_lisse.jpg
+    - ../images/banc_stamp_lisse.jpg
 
 materiau : BFUP (Béton Fibré à Ultra-haute Performance)
 poids : 118 kg

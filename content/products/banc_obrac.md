@@ -7,8 +7,10 @@ category : Assises
 sub_category : Chaises
 gamme: Obrac
 
-cover_image: ./images/test_chaise_obrac.jpg
-illustration_image : ['./images/saint_cyr.jpg']
+cover_image: ../images/test_chaise_obrac.jpg
+caroussel:
+    - ../images/banc_stamp_lisse.jpg
+    - ../images/banc_stamp_lisse.jpg
 
 materiau : BFUP (Béton Fibré à Ultra-haute Performance)
 poids : 118 kg

@@ -7,8 +7,10 @@ category : Jardinières
 sub_category : Jardinière
 gamme: Asturias
 
-cover_image: ./images/jardiniere_carree_asturias.jpg
-illustration_image :
+cover_image: ../images/jardiniere_carree_asturias.jpg
+caroussel:
+    - ../images/banc_stamp_lisse.jpg
+    - ../images/banc_stamp_lisse.jpg
 
 materiau : BFUP (Béton Fibré à Ultra-haute Performance)
 poids : 118 kg

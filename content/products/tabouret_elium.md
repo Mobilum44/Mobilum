@@ -7,8 +7,10 @@ category : Assises
 sub_category : Tabouret
 gamme: HOOK
 
-cover_image: ./images/test_tabouret_elium.jpg
-illustration_image :
+cover_image: ../images/test_tabouret_elium.jpg
+caroussel:
+    - ../images/banc_stamp_lisse.jpg
+    - ../images/banc_stamp_lisse.jpg
 
 materiau : BFUP (Béton Fibré à Ultra-haute Performance)
 poids : 118 kg
