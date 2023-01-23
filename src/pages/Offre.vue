@@ -4,7 +4,9 @@
   <Layout>
     <h1>Notre offre</h1>
 
-    <p>Supprimer les doublons</p>
+    <p>
+      Idée : texte défilant en largeur avec tous les noms de villes / clients
+    </p>
 
     <div class="body_offer">
       <div class="collection">
@@ -34,7 +36,10 @@
             height="300px"
             width="500px"
           />
-          <p>Grands comptes et sur-mesure</p>
+          <p>
+            Grands comptes <br />
+            et <br />sur-mesure
+          </p>
         </g-link>
       </div>
     </div>

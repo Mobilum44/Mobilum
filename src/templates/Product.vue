@@ -20,7 +20,7 @@
 
     <template #slot_bandeau>
       <div class="gallery">
-        <Caroussel />
+        <Caroussel :img="$page.product.illustration_image" />
         <!--
         <div class="image_gallery">
           <g-image

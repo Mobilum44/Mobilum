@@ -7,7 +7,7 @@ category : Assises
 sub_category : Tabouret
 gamme: Origami
 
-cover_image: ./images/tabouret_origami.jpg
+cover_image: ./images/test_chaise_obrac2.jpg
 illustration_image :
 
 materiau : BFUP (Béton Fibré à Ultra-haute Performance)

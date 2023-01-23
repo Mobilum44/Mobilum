@@ -7,7 +7,7 @@ category : Assises
 sub_category : Chaises
 gamme: Stamp
 
-cover_image: ./images/chaise_stamp_lisse_window.jpg
+cover_image: ./images/test_chaise_stamp.jpg
 illustration_image :
 
 materiau : BFUP (Béton Fibré à Ultra-haute Performance)

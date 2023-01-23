@@ -7,7 +7,7 @@ category : Assises
 sub_category : Tabouret
 gamme: HOOK
 
-cover_image: ./images/tabouret_elium.jpg
+cover_image: ./images/test_tabouret_elium.jpg
 illustration_image :
 
 materiau : BFUP (Béton Fibré à Ultra-haute Performance)

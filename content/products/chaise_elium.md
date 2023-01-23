@@ -7,7 +7,7 @@ category : Assises
 sub_category : Chaises
 gamme: Elium
 
-cover_image: ./images/chaise_elium.jpg
+cover_image: ./images/test_chaise_elium.jpg
 illustration_image :
 
 materiau : BFUP (Béton Fibré à Ultra-haute Performance)

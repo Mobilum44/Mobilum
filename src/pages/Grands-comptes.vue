@@ -12,3 +12,5 @@
     <p>Saclay (Tolerie forezienne)</p>
   </Layout>
 </template>
+
+<style scoped></style>

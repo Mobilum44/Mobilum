@@ -1,5 +1,7 @@
 <template>
   <Layout>
+    <h3>Inspirations</h3>
+    <p>https://www.sanleonardo.it/</p>
     <h3>A faire</h3>
     <p>
       Faire une barre ou section recherche <br />
