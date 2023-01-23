@@ -1,5 +1,5 @@
 ---
-title: Chaise Stamp
+title: Chaise Stamp FB
 published: true
 designer: Sovann Kim
 collection: Mobilier Urbain
