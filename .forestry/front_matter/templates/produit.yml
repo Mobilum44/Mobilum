@@ -26,9 +26,10 @@ fields:
 - type: file
   name: cover_image
   label: cover_image
-- type: text
-  name: illustration_image
-  label: illustration_image
+- name: caroussel
+  type: image_gallery
+  config: {}
+  label: caroussel
 - type: text
   name: materiau
   label: materiau
