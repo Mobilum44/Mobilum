@@ -6,7 +6,7 @@ collection: Mobilier Urbain
 category: Assises
 sub_category: Banc
 gamme: Origami
-cover_image: content/images/origami-banc-bfup.jpg
+cover_image: ../images/origami-banc-bfup.jpg
 caroussel: []
 materiau: Bfup
 poids: 200kg
