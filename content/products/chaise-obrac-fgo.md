@@ -6,7 +6,7 @@ collection: ''
 category: ''
 sub_category: ''
 gamme: ''
-cover_image: ''
+cover_image: "../../images/test_chaise_obrac2.jpg"
 caroussel: []
 materiau: ''
 poids: ''
