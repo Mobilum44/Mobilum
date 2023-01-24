@@ -4,7 +4,18 @@
 - Notre engagement ()
 -->
   <Layout>
-    <h1>Notre entreprise</h1>
+    
+    <template #slot_image>
+      <section class="slot_image">
+      </section>
+    </template>
+    
+      <section class="page_top">
+        <div class="title">
+          <h1>Notre entreprise</h1>
+        </div>
+      </section>
+
 
     <div class="section_top">
       <p>
@@ -12,27 +23,30 @@
         </br>
         </br>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
+        doloremque omnis animi, eligendi magni.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
         doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur
         rerum illum odit fugit assumenda rem dolores inventore iste
         reprehenderit maxime! Iusto.
-        </p>
+      </p>
     </div>
     
-    <div class="section">
-        <h2> La griffe "Mobilum"</h2>
-      
+    <div class="section">      
       <div class="section_content">
         <div class="section_image">
           <g-image
             alt="SNCF Gare Auxerre"
             src="@/assets/img/Galets.jpg"
             center
-            height="250px"
-            width="400px"
+            height="500px"
+            width="800px"
           />
         </div>
         
         <div class="section_text">
+          <h2> La griffe "Mobilum"</h2>
           <p>
             La marque et le design : designers et distinctions
             </br>
@@ -51,20 +65,12 @@
     </div>
     
     <div class="section">
-      <h2> Notre savoir-faire</h2>
       
       <div class="section_content">
-        <div class="section_image">
-          <g-image
-            alt="SNCF Gare Auxerre"
-            src="@/assets/img/travail_usine.jpg"
-            center
-            height="250px"
-            width="400px"
-          />
-        </div>
           
         <div class="section_text">
+          <h2> Notre savoir-faire</h2>
+          
           <p>
           100% français + le BFUP : couleur, finition, ... + formation + BE
           </br>
@@ -75,6 +81,18 @@
           reprehenderit maxime! Iusto.
           </p>
         </div>
+        
+        <div class="section_image">
+          <g-image
+            alt="SNCF Gare Auxerre"
+            src="@/assets/img/travail_usine.jpg"
+            center
+            height="500px"
+            width="800px"
+          />
+        </div>
+        
+        
       </div>
     </div>
     
@@ -82,7 +100,8 @@
         <h2>Nos activités</h2>
       
       <p> SOit sous forme de carte, soit sous forme de liste</p>
-      <div class="maps">
+    <!-- 
+        <div class="maps">
         <g-image class="fond" alt="photo ville" src="@/assets/img/VilleOlivier.JPG" />
         <div class="maps_text">
           <div class="activity_order">
@@ -94,23 +113,24 @@
           </div>
         </div>
       </div>
+      -->
     </div>  
       
     <div class="section">
-        <h2> Nos engagements </h2>
-
+      
       <div class="section_content">
         <div class="section_image">
           <g-image
             alt="SNCF Gare Auxerre"
             src="@/assets/img/angers_tram.jpg"
             center
-            height="250px"
-            width="400px"
+            height="500px"
+            width="800px"
           />
         </div>
 
         <div class="section_text">
+          <h2> Nos engagements </h2>
           <p>
           Fournisseurs 100% français : vicat, transport, tous en général
           </br>
@@ -174,13 +194,46 @@ query Collection ($id: ID!) {
 -->
 
 <style scoped>
+/*-------------------------------------------------------------------------
+    Page top 
+  -----------------------------------------------------------------------*/
+.slot_image {
+  background : url("../assets/img/fond_entreprise.jpg") center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height : 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content : center;
+}
+
+.section_top {
+  width : 65%;
+
+    margin : 3rem;
+  display : flex;
+  flex-direction : row;
+  gap : 2rem;
+  
+  text-align : justify;
+}
+  
+.section_top p{
+  width : 50%;
+}
+  
+/*-------------------------------------------------------------------------
+    Page content 
+  -----------------------------------------------------------------------*/
+    
 .section {
-  border-bottom : solid black 1px;
-  height : 60vh;
   
   display : flex;
   justify-content : flex-end;
   flex-direction : column;
+  
+    margin-top : 4rem;
   padding-bottom : 3rem;
   margin-bottom : 4rem;
 }
@@ -192,12 +245,14 @@ query Collection ($id: ID!) {
 
 .section_image {
   flex : 80%;
-  height : 250px;
-  width : 400px;
+  height : 500px;
+  width : 800px;
+
 }
 
 .section_image > img {
   fit: cover;
+
 }
 
 .section_content {
@@ -208,19 +263,30 @@ query Collection ($id: ID!) {
 }
 
 .section_text {
-  border-top : solid black 1px;
-  padding-top : 3rem;
-  margin: 5rem  0rem 0 5rem;
+  position : absolute;
+  width : 30vw;
+  padding : 2rem 1rem 2rem 3rem;
+  margin: 3rem  0 1rem 6rem;
+  margin-left : 0vw;
+  
+/* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+  border-radius : 8px;
+  background-color : rgba(245,235,224, 0.8);
 }
 
-.section_text p {
-  padding :0 2rem 0 10rem;
+.section p {
+  padding :0 2rem 0 2rem;
   margin : 0;
   font-size : 1.1rem;
   text-align : left;
 }
 
 /* map space */
+
+.section_map {
+  border : solid black 1px;
+  padding : 3rem;
+}
 .maps { 
   width : 100%;/* Faire en sorte que cette zone fasse la taille de l'écran */
   height : 100vh;

@@ -2,6 +2,10 @@
   <div class="layout">
     
     <Header />
+        <slot name="slot_image" class="slot_image">
+          <section class="image_title">
+            </section>
+        </slot>
     <section class="contenu">
       <slot />
     </section>
@@ -34,6 +38,9 @@ query {
 </static-query>
 
 <style>
+.image_title{
+  height : 20vh;
+}
 
 .contenu {
   padding-left: 10rem;

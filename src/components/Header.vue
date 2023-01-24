@@ -60,14 +60,16 @@ header {
 
 .logo_header {
   position: fixed;
+  margin-top: 2rem;
   margin-left: 2.5rem;
   z-index: 1;
 }
 
 .header_content {
+  position: absolute;
   margin-top: 3rem;
   padding-right: 3rem;
-  padding-left: 3rem;
+  padding-left: 55vw;
   display: flex;
   justify-content: center;
 }

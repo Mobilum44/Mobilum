@@ -3,11 +3,10 @@
   Supprimer sav -->
   <Layout>
     <h1>Notre offre</h1>
-
     <p>
-      Idée : texte défilant en largeur avec tous les noms de villes / clients
+      Fond transparent en t1 et carte qui apparait en t2 <br />
+      Espacer le nom des villes, choisir une typo / couleur plus "douce"
     </p>
-
     <div class="body_offer">
       <div class="collection">
         <g-link
@@ -43,6 +42,8 @@
         </g-link>
       </div>
     </div>
+
+    <Defilant />
   </Layout>
 </template>
 
@@ -51,7 +52,13 @@ query Collections {allCollection{edges{node{title, path}}}}
 </page-query>
 
 <script>
+import Defilant from "@/components/Villes.vue";
+
 export default {
+  components: {
+    Defilant
+  },
+
   metaInfo: {
     title: "Notre offre"
   }

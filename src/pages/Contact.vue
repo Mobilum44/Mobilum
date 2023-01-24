@@ -10,9 +10,10 @@
      </div>
      
      <div class ="content_box">
-       <!-- Mettre les informations en colonne -->
-       <p> Les coordonnées de nos différents services : </p>
+       <!-- Mettre les informations en colonne -->       
           <div class ="services_box">
+       <p> Nous sommes joignables du lundi au vendredi, <br/> de 9h à 12h30 et de 14h à 18h. <br/><br/><br/>
+       Les coordonnées de nos différents services : </p>
           <!-- Mettre les informations en colonne -->
             <div class="service">
               <!-- Mettre les informations en colonne-->
@@ -27,9 +28,10 @@
             </div>
             
           </div>
-        </div>
+          
+      </div>
     </div>
-     <p> Tous nos services sont joignables du lundi au vendredi, .... </p>
+
     </div>
     <div class="content_box">
       <Itinary/>
@@ -77,7 +79,8 @@ export default {
 .services_box {
   display : flex;
   flex-direction : column;
-  justify-content :space-evenly;
+  justify-content :center;
+  align-items : center;
   height : 100%;
 }
 
@@ -96,7 +99,7 @@ export default {
 }
 
 services, h3 {
-  font-size : 1rem;
+  font-size : 1.2rem;
   margin : 0;
   padding : 0;
   color : black;
