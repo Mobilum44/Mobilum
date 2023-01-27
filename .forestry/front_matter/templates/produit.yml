@@ -53,7 +53,3 @@ fields:
 - type: textarea
   name: description
   label: description
-pages:
-- content/products/hook-765.md
-- content/products/table-cantine.md
-- content/products/totem-origami.md
