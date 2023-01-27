@@ -53,5 +53,3 @@ fields:
 - type: textarea
   name: description
   label: description
-pages:
-- content/products/chaise-stamp.md
