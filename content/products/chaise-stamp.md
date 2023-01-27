@@ -1,18 +1,17 @@
 ---
-title: Chaise Stamp FB
+collection: Mobilier urbain
+title: Chaise STAMP
 published: true
 designer: Sovann Kim
-collection: Mobilier Urbain
 category: Assises
 sub_category: Chaise
 gamme: Stamp
-cover_image: "../../images/test_chaise_stamp.jpg"
-caroussel:
-- "../images/saint-cyr.jpg"
-materiau: "/"
-poids: "/"
-dimensions: "/"
-traitement: "/"
+cover_image: "../../images/test-chaise-stamp-transparent.jpg"
+caroussel: []
+materiau: ''
+poids: ''
+dimensions: ''
+traitement: ''
 tags: []
 series: false
 canonical_url: false
