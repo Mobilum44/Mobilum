@@ -15,7 +15,7 @@ Partie en attente de développement complet du site
 
     <template #slot_image>
       <section class="bandeau">
-        <div class=bandeau_content">
+        <div class="bandeau_content">
           <g-image
           class='logo'
           alt="Logo mobilum"
@@ -153,6 +153,10 @@ background-color: #fefcf3;
 
 .bandeau_content {
   padding-bottom : 4vh;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content : center;
 }
 
 /* Section 2 : latest posts + content */
