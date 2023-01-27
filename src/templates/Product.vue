@@ -73,8 +73,8 @@ query Product ($id: ID!) {
     title
     gamme
     designer
-    caroussel
     materiau
+    caroussel
     poids
     dimensions
     traitement
