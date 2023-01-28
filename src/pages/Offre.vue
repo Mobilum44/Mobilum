@@ -1,109 +1,133 @@
 <template>
+  <!--mobilier urbain, Ammenagement(hook + signaletique), grands comptes, Nos réalisations sur mesure
+  Supprimer sav -->
   <Layout>
     <h1>Notre offre</h1>
+    <p>
+      Fond transparent en t1 et carte qui apparait en t2 <br />
+      Espacer le nom des villes, choisir une typo / couleur plus "douce"
+    </p>
+    <div class="body_offer">
+      <div class="collection">
+        <g-link
+          class="items_styling"
+          :to="edge.node.path"
+          v-for="edge in $page.allCollection.edges"
+          :key="edge.node.id"
+        >
+          <g-image
+            alt="SNCF Gare Auxerre"
+            src="@/assets/img/angers_tram.jpg"
+            center
+            height="300px"
+            width="500px"
+          />
+          <p>
+            {{ edge.node.title }}
+          </p>
+        </g-link>
 
-    <div class="collection">
-      <!-- Touver comment afficher du texte sur les images -->
-      <div class="image-container">
-        <div class="image">
-          <img
-            src="https://i.picsum.photos/id/21/200/200.jpg?hmac=a2iQ6UhOjpU6jn7QSsCpk1CiiKTxmW1R4UivDsv-n8o"
-          /><img
-            src="https://i.picsum.photos/id/21/200/200.jpg?hmac=a2iQ6UhOjpU6jn7QSsCpk1CiiKTxmW1R4UivDsv-n8o"
+        <g-link class="items_styling" to="/Grands-comptes/">
+          <g-image
+            alt="SNCF Gare Auxerre"
+            src="@/assets/img/SNCF_auxerre.png"
+            center
+            height="300px"
+            width="500px"
           />
-        </div>
-        <div class="image">
-          <img
-            src="https://i.picsum.photos/id/139/200/200.jpg?hmac=FNSPvHsHcRzKQtNxKKauJgIXpoaAufCwYvr-1w5T3R4"
-          /><img
-            src="https://i.picsum.photos/id/139/200/200.jpg?hmac=FNSPvHsHcRzKQtNxKKauJgIXpoaAufCwYvr-1w5T3R4"
-          />
-        </div>
-        <div class="image">
-          <img
-            src="https://i.picsum.photos/id/642/200/200.jpg?hmac=MJkhEaTWaybCn0y7rKfh_irNHvVuqRHmxcpziWABTKw"
-          /><img
-            src="https://i.picsum.photos/id/642/200/200.jpg?hmac=MJkhEaTWaybCn0y7rKfh_irNHvVuqRHmxcpziWABTKw"
-          />
-        </div>
-        <div class="image">
-          <img
-            src="https://i.picsum.photos/id/253/200/200.jpg?hmac=_dceojr9yz5ZIKoye8I9HOqPCBHfn-jT9aRYdoLx1kQ"
-          /><img
-            src="https://i.picsum.photos/id/253/200/200.jpg?hmac=_dceojr9yz5ZIKoye8I9HOqPCBHfn-jT9aRYdoLx1kQ"
-          />
-        </div>
-        <div class="image">
-          <img
-            src="https://i.picsum.photos/id/604/200/200.jpg?hmac=qgFjxODI1hMBMfHo68VvLeji-zvG9y-iPYhyW0EkvOs"
-          /><img
-            src="https://i.picsum.photos/id/604/200/200.jpg?hmac=qgFjxODI1hMBMfHo68VvLeji-zvG9y-iPYhyW0EkvOs"
-          />
-        </div>
-        <div class="image">
-          <img
-            src="https://i.picsum.photos/id/119/200/200.jpg?hmac=JGrHG7yCKfebsm5jJSWw7F7x2oxeYnm5YE_74PhnRME"
-          /><img
-            src="https://i.picsum.photos/id/119/200/200.jpg?hmac=JGrHG7yCKfebsm5jJSWw7F7x2oxeYnm5YE_74PhnRME"
-          />
-        </div>
+          <p>
+            Grands comptes <br />
+            et <br />sur-mesure
+          </p>
+        </g-link>
       </div>
     </div>
+
+    <Defilant />
   </Layout>
 </template>
 
+<page-query>
+query Collections {allCollection{edges{node{title, path}}}}
+</page-query>
+
 <script>
+import Defilant from "@/components/Villes.vue";
+
 export default {
-  metaInfo: {
-    title: "Notre offre",
+  components: {
+    Defilant
   },
+
+  metaInfo: {
+    title: "Notre offre"
+  }
 };
 </script>
 
 <style scoped>
-* {
-  box-sizing: border-box;
-}
-
-.collection {
+.body_offer {
   display: flex;
   justify-content: center;
 }
 
-.image-container {
+.collection {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  width: 80%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  width: 700px;
-  grid-gap: 0.5rem;
+  grid-gap: 1rem;
 }
-.image-container .image {
+
+.items_styling {
+  border-radius: 4px;
+
+  justify-self: center;
   position: relative;
-  padding-bottom: 100%;
-  --clip-start: inset(100% 100% 100% 100%);
-  --clip-end: inset(0 0 0 0);
-}
-.image-container .image img {
-  height: 100%;
+
+  height: 300px;
   width: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  left: 0;
+
+  background-color: rgba(250, 250, 250, 0.25);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.items_styling > img {
+  border-radius: 4px;
+  fit: cover;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+.items_styling p {
   position: absolute;
-  top: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  margin: 0;
+  opacity: 0;
+
+  font-family: "Bebas Neue";
+  font-size: 1.5rem;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 2px;
+  color: white;
+  transition: all 0.5s ease-in-out;
 }
-.image-container .image img:nth-of-type(1) {
-  filter: grayscale(1) brightness(40%);
+
+.items_styling:hover p {
+  text-shadow: #0a2647 1px 0 10px;
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
 }
-.image-container .image img:nth-of-type(2) {
-  -webkit-clip-path: var(--clip-start);
-  clip-path: var(--clip-start);
-  transition: -webkit-clip-path 0.5s;
-  transition: clip-path 0.5s;
-  transition: clip-path 0.5s, -webkit-clip-path 0.5s;
-}
-.image-container .image:hover img:nth-of-type(2) {
-  -webkit-clip-path: var(--clip-end);
-  clip-path: var(--clip-end);
+
+.items_styling:hover > img {
+  opacity: 0.3;
+  transition: all 0.3s ease-in-out;
 }
 </style>

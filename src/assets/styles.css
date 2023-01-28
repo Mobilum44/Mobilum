@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@200;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 50;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  background-color: #fefcf3;
+}
+
+h1 {
+  /*margin-top: 0rem;
+  margin-left: -7rem;
+  position: fixed;
+  font-variant: small-caps;
+
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+
+  */
+  letter-spacing: -0.25px;
+  text-align: left;
+  font-family: "Montserrat";
+  font-weight: 200;
+  font-size: 3rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-bottom: black solid 1px;
+}
+
+h2,
+h3 {
+  text-align: left;
+  font-family: "Bebas Neue";
+  font-weight: 100;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+p {
+  color: black;
+}
+
+::selection {
+  color: #fefcf3;
+  background: #1a949d;
+}
+/*--------------------------------------------
+    header global
+---------------------------------------------*/
+
+.nav__link {
+  font-family: "Bebas Neue";
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: black;
+  margin: 1rem;
+  position: relative;
+}
+.nav__link::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #1a949d;
+  transform-origin: center;
+  transform: translate(-50%, 0) scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav__link:hover::before {
+  transform: translate(-50%, 0) scaleX(1);
+}
+
+.nav__link:focus {
+  color: #1a949d;
+}
+
+.nav__link.active {
+  color: #1a949d;
+  text-decoration: none;
+  border-radius: 5px;
+}

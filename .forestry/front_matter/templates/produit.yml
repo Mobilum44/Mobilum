@@ -1,0 +1,71 @@
+---
+label: Produit
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: boolean
+  name: published
+  label: published
+- type: text
+  name: designer
+  label: designer
+- name: collection
+  type: select
+  default: Mobilier urbain
+  config:
+    required: true
+    options:
+    - Mobilier urbain
+    - Hook
+    - Signalétique
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: collection
+- type: text
+  name: category
+  label: category
+- type: text
+  name: sub_category
+  label: sub_category
+- name: gamme
+  type: text
+  config:
+    required: true
+  label: gamme
+- type: file
+  name: cover_image
+  label: cover_image
+- type: image_gallery
+  name: caroussel
+  label: caroussel
+- type: text
+  name: materiau
+  label: materiau
+- type: text
+  name: poids
+  label: poids
+- type: text
+  name: dimensions
+  label: dimensions
+- type: text
+  name: traitement
+  label: traitement
+- type: list
+  name: tags
+  label: tags
+- type: boolean
+  name: series
+  label: series
+- type: boolean
+  name: canonical_url
+  label: canonical_url
+- type: textarea
+  name: description
+  label: description
+pages:
+- content/products/chaise-stamp.md
