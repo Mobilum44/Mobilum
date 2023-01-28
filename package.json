@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "develop": "gridsome develop",
+    "develop": "SET NODE_OPTIONS=--openssl-legacy-provider && gridsome develop",
     "explore": "gridsome explore",
     "build": "gridsome build"
   },
@@ -9,5 +9,11 @@
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.4",
     "gridsome": "^0.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "sass": "^1.57.1",
+    "sass-loader": "^10.1.1"
   }
 }

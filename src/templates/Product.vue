@@ -9,7 +9,12 @@
 
     <template #slot_titre>
       <section class="page_top">
-        <g-link class="return" to="/Offre/">Retour</g-link>
+        <g-link
+          class="return"
+          to="/Offre/"
+        >
+          Retour
+        </g-link>
         <!-- trouver le bon chemin pour faire un vrai bouton retour-->
         <div class="contenu">
           <h1>{{ $page.product.title }}</h1>
@@ -31,7 +36,7 @@
           />
         </div>
 
-        <!-- Images défilantes en fond
+        Images défilantes en fond
         <div class="text_gallery">
           <p>
             Mini galerie d'images <br />
@@ -51,8 +56,8 @@
           <em>Matériau</em> : {{ $page.product.materiau }}<br />
           <em>Traitement</em> : {{ $page.product.traitement }}
          -->
-          <em>Poids</em> : {{ $page.product.poids }}<br />
-          <em>Dimensions</em> : {{ $page.product.dimensions }} <br />
+          <em>Poids</em> : {{ $page.product.poids }}<br>
+          <em>Dimensions</em> : {{ $page.product.dimensions }} <br>
         </p>
       </div>
       <div class="items">
@@ -85,15 +90,15 @@ query Product ($id: ID!) {
 
 <script>
 import LayoutProduct from "@/layouts/LayoutProduct.vue";
-import Button from "@/components/Button.vue";
+// import Button from "@/components/Button.vue";
 import Caroussel from "@/components/Caroussel.vue";
 
 export default {
-  components: {
-    Button,
-    LayoutProduct,
-    Caroussel
-  }
+	components: {
+		// Button,
+		LayoutProduct,
+		Caroussel,
+	},
 };
 </script>
 
@@ -102,76 +107,76 @@ export default {
       Bouton retour
   ---------------------------------------------------------------*/
 .return {
-  color: black;
-  text-decoration: none;
+	color: black;
+	text-decoration: none;
 }
 .return:hover {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 /*-----------------------------------------------------------------
       Zone titre
   ---------------------------------------------------------------*/
 .page_top {
-  padding-top: 1rem;
-  padding-left: 10rem;
-  padding-right: 10rem;
+	padding-top: 1rem;
+	padding-left: 10rem;
+	padding-right: 10rem;
 }
 
 .contenu {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .contenu,
 p {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 .contenu,
 h1 {
-  padding-bottom: 1rem;
-  margin-bottom: 1rem;
+	padding-bottom: 1rem;
+	margin-bottom: 1rem;
 }
 
 /*-----------------------------------------------------------------
       Zone galerie
   ---------------------------------------------------------------*/
 .image_gallery {
-  width: 100%;
-  height: 100vh;
+	width: 100%;
+	height: 100vh;
 }
 .image_gallery > img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 /*-----------------------------------------------------------------
       Zone galerie
   ---------------------------------------------------------------*/
 .product_description {
-  display: flex;
-  flex-direction: column;
-  padding-top: 3vh;
-  padding-bottom: 3vh;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+	align-items: center;
 }
 
 .items {
-  width: 60%;
-  padding: 2vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	width: 60%;
+	padding: 2vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 em {
-  color: #1a949d;
+	color: #1a949d;
 }
 
 .other_products {
-  margin-top: 2rem;
+	margin-top: 2rem;
 }
 </style>

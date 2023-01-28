@@ -6,13 +6,13 @@
     <div class="collection_order">
       <g-link
         v-for="edge in $page.collection.belongsTo.edges"
-        :to="edge.node.path"
         :key="edge.node.id"
+        :to="edge.node.path"
       >
         <div class="image_cover">
           <g-image
-            alt="photo d'un Obrac"
             v-if="edge.node.cover_image"
+            alt="photo d'un Obrac"
             :src="edge.node.cover_image"
           />
           <p>

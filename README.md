@@ -1,1 +1,0 @@
-# Gridsome starter for codesandbox
