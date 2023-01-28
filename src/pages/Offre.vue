@@ -4,7 +4,7 @@
   <Layout>
     <h1>Notre offre</h1>
     <p>
-      Fond transparent en t1 et carte qui apparait en t2 <br />
+      Fond transparent en t1 et carte qui apparait en t2 <br>
       Espacer le nom des villes, choisir une typo / couleur plus "douce"
     </p>
     <div class="body_offer">
@@ -27,7 +27,10 @@
           </p>
         </g-link>
 
-        <g-link class="items_styling" to="/Grands-comptes/">
+        <g-link
+          class="items_styling"
+          to="/Grands-comptes/"
+        >
           <g-image
             alt="SNCF Gare Auxerre"
             src="@/assets/img/SNCF_auxerre.png"
@@ -36,8 +39,8 @@
             width="500px"
           />
           <p>
-            Grands comptes <br />
-            et <br />sur-mesure
+            Grands comptes <br>
+            et <br>sur-mesure
           </p>
         </g-link>
       </div>
@@ -97,7 +100,7 @@ export default {
 
 .items_styling > img {
   border-radius: 4px;
-  fit: cover;
+  object-fit: cover;
   opacity: 1;
   transition: all 0.3s ease-in-out;
 }
