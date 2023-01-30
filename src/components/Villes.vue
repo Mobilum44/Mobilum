@@ -3,8 +3,8 @@
     <div class="messagedefilant">
       <div>
         <span>
-          Paris Marseille Lyon Toulouse Nice Nantes Montpellier Strasbourg
-          Bordeaux Lille Rennes Reims Saint-Étienne Toulon Le Havre Grenoble
+          Paris  Marseille  Lyon  Toulouse  Nice  Nantes  Montpellier  Strasbourg
+          Bordeaux  Lille  Rennes  Reims  Saint-Étienne  Toulon  Le Havre  Grenoble
           Dijon Angers Nîmes Saint-Denis (La Réunion) Villeurbanne
           Clermont-Ferrand Le Mans Aix-en-Provence Brest Tours Amiens Limoges
         </span>

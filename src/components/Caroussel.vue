@@ -67,6 +67,8 @@ export default {
  
 <style scoped>
 ul {
+  max-width : 100vw;
+  max-height : 70vh;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -77,6 +79,7 @@ ul {
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
   position: relative;
+
 }
  
 ul li {
@@ -84,6 +87,7 @@ ul li {
   flex: 0 0 fit-content;
   position: relative;
 }
+
  
 ul li button {
   cursor: pointer;

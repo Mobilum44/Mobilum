@@ -1,15 +1,26 @@
 <template>
   <div class="SlideRedirection">
-    <g-link class="box" to="/Entreprise/">
+    <g-link
+      class="box"
+      to="/Entreprise/"
+    >
       <g-image src="@/assets/img/usine.jpg" />
-      <p to="/Entreprise/"">Notre entreprise</p>
+      <p to="/Entreprise/">
+        Notre entreprise
+      </p>
     </g-link>
-    <g-link class="box"  to="/Materiau/">
+    <g-link
+      class="box"
+      to="/Materiau/"
+    >
       <g-image src="@/assets/img/coulage_BFUP.jpg" />
       <p>Le BFUP</p>
     </g-link>
-    <g-link class="box" to="/Offre/">
-      <g-image src="/../../assets/img/La_rochelle.jpg" />
+    <g-link
+      class="box"
+      to="/Offre/"
+    >
+      <g-image src="@/assets/img/La_rochelle.jpg" />
       <p>Notre collection</p>
     </g-link>
   </div>
