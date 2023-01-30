@@ -68,6 +68,7 @@ fields:
   name: description
   label: description
 pages:
+- content/products/appuis-velo-karo.md
 - content/products/banc-duchesse.md
 - content/products/banc-elium.md
 - content/products/banquette-beam.md
