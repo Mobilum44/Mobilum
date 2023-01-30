@@ -2,7 +2,7 @@
   <div class="LayoutProduct">
     <Header />
     <slot name="slot_titre"></slot>
-    <slot name="slot_bandeau"> </slot>
+    <slot name="slot_bandeau"></slot>
     <section class="contenu">
       <slot />
     </section>

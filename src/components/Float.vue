@@ -7,7 +7,12 @@
    ----------------------------->
 
   <div class="Float">
-    <g-link class="nav__link" to="/Accueil/">Votre projet</g-link>
+    <g-link
+      class="nav__link"
+      to="/Accueil/"
+    >
+      Votre projet
+    </g-link>
   </div>
 </template>
 

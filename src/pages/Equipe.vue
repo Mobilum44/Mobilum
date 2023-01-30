@@ -1,40 +1,54 @@
 <template>
   <TeamPage>
-
-      <g-link class="Retour" to="/Entreprise/">Retour</g-link>
+    <g-link
+      class="Retour"
+      to="/Entreprise/"
+    >
+      Retour
+    </g-link>
     
     <div class="title">
       <h1> Bienvenue chez nous ! </h1>
     </div>
     
     <article class="comic">
-  <div class="panel">
-    <p class="text top-left">Oh, vous êtes là...</p>
-    <p class="text bottom-right">...Venez on va se présenter !</p>
-  </div>
-  <div class="panel">
-    <p class="speech">C'est là où on travaille tous</p>
-  </div>
+      <div class="panel">
+        <p class="text top-left">
+          Oh, vous êtes là...
+        </p>
+        <p class="text bottom-right">
+          ...Venez on va se présenter !
+        </p>
+      </div>
+      <div class="panel">
+        <p class="speech">
+          C'est là où on travaille tous
+        </p>
+      </div>
   
-  <div class="panel">
-    <p class="text top-left">Ah, voici le chef de la tribu !</p>
-  </div>
+      <div class="panel">
+        <p class="text top-left">
+          Ah, voici le chef de la tribu !
+        </p>
+      </div>
 
-  <div class="panel"></div>
-  <div class="panel"></div>
-  <div class="panel"></div>
-  <div class="panel">
-        <p class="thought">Dans le compte 658</p>
-  </div>
-  <div class="panel"></div>
-    <div class="panel"></div>
+      <div class="panel"></div>
+      <div class="panel"></div>
+      <div class="panel"></div>
+      <div class="panel">
+        <p class="thought">
+          Dans le compte 658
+        </p>
+      </div>
+      <div class="panel"></div>
+      <div class="panel"></div>
       
-  <div class="panel">
-    <p class="text bottom-right">Au revoir !</p>
-  </div>
-</article>
-
- 
+      <div class="panel">
+        <p class="text bottom-right">
+          Au revoir !
+        </p>
+      </div>
+    </article>
   </TeamPage>
 </template>
 

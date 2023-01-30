@@ -2,40 +2,39 @@
   <Layout>
     <h1>Contact</h1>
     
-    <div class ="base">
-<p> Nous ne travaillons pas avec les particuliers </p>
-   <div class="content">
-     <div class ="content_box">
-        <Form/>
-     </div>
+    <div class="base">
+      <p> Nous ne travaillons pas avec les particuliers </p>
+      <div class="content">
+        <div class="content_box">
+          <Form />
+        </div>
      
-     <div class ="content_box">
-       <!-- Mettre les informations en colonne -->       
-          <div class ="services_box">
-       <p> Nous sommes joignables du lundi au vendredi, <br/> de 9h à 12h30 et de 14h à 18h. <br/><br/><br/>
-       Les coordonnées de nos différents services : </p>
-          <!-- Mettre les informations en colonne -->
+        <div class="content_box">
+          <!-- Mettre les informations en colonne -->       
+          <div class="services_box">
+            <p>
+              Nous sommes joignables du lundi au vendredi, <br /> de 9h à 12h30 et de 14h à 18h. <br /><br /><br />
+              Les coordonnées de nos différents services :
+            </p>
+            <!-- Mettre les informations en colonne -->
             <div class="service">
               <!-- Mettre les informations en colonne-->
               <h3> Commerce </h3>
-              <p> contact@mobilum-france.com </br> +33(0)2 51 72 90 22 </p>
+              <p> contact@mobilum-france.com <br> +33(0)2 51 72 90 22 </p>
             </div>
           
             
             <div class="service">
               <h3> Facturation </h3>
-              <p> fournisseurs@mobilum-france.com </br> Téléphone </p>
+              <p> fournisseurs@mobilum-france.com <br> Téléphone </p>
             </div>
-            
           </div>
-          
+        </div>
       </div>
-    </div>
-
     </div>
     <div class="content_box">
-      <Itinary/>
-      </div>
+      <Itinary />
+    </div>
   </Layout>
 </template>
 

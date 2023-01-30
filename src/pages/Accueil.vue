@@ -1,7 +1,6 @@
 <template>
   <LayoutAccueil>
-    
-        <g-link to="/#/">
+    <g-link to="/#/">
       <g-image
         class="logo_header"
         alt="Logo mobilum"
@@ -9,7 +8,7 @@
         width="80"
       />
     </g-link>
-<!-----------------------------------------------
+    <!-----------------------------------------------
 Partie en attente de développement complet du site
 -------------------------------------------------->
 
@@ -17,84 +16,78 @@ Partie en attente de développement complet du site
       <section class="bandeau">
         <div class="bandeau_content">
           <g-image
-          class='logo'
-          alt="Logo mobilum"
-          src="@/assets/img/logos/Blue_logo.png"
-          width="200"
-          center
+            class="logo"
+            alt="Logo mobilum"
+            src="@/assets/img/logos/Blue_logo.png"
+            width="200"
+            center
           />
         
           <h1> Notre site internet fait peau neuve ! </h1>
         </div>
-          <p>
-            Nous avons le plaisir de vous présenter nos réalisations et notre histoire sous un nouveau format. </br>
-            Le site est en cours de finalisation mais vous pouvez déjà accéder à l’ensemble de notre offre et nous contacter. </br>
-            Nous avons hâte de vous le présenter terminé et espérons qu’en attendant vous prendrez plaisir à découvrir ou redécouvrir notre collection !
+        <p>
+          Nous avons le plaisir de vous présenter nos réalisations et notre histoire sous un nouveau format. <br>
+          Le site est en cours de finalisation mais vous pouvez déjà accéder à l’ensemble de notre offre et nous contacter. <br>
+          Nous avons hâte de vous le présenter terminé et espérons qu’en attendant vous prendrez plaisir à découvrir ou redécouvrir notre collection !
         </p>
       </section>
     </template>
     
-<!--------------------------------
+    <!--------------------------------
   PARTIE A DEVELOPPER PLUS TARD
   Mise en page : Cartes RS avec texte en dessous, 3 directement affichés
 --------------------------------->
 
-      <div class="section">
-
-
-<!--------------------------------
+    <div class="section">
+      <!--------------------------------
     Citation
 --------------------------------->
 
-        <p class="quote">
-         <span>Une&thinsp;</span>
-         <span>jolie&thinsp;</span>
-         <span>citation&thinsp;</span>
-         <span>inspirante&thinsp; </span>
-         <span>avec&thinsp; </span>
-         <span>des &thinsp;</span>
-         <span>mots&thinsp; </span>
-         <span>ajoutés&thinsp; </span>
-         <span>pour&thinsp; </span>
-         <span>qu'elle&thinsp; </span>
-         <span>soit&thinsp; </span>
-         <span>plus&thinsp; </span>
-         <span>longue &thinsp;</span>
-         <span>!&thinsp; </span>
-         <span>!&thinsp; </span>
-         <span>!&thinsp; </span>
-        </p>
+      <p class="quote">
+        <span>Une&thinsp;</span>
+        <span>jolie&thinsp;</span>
+        <span>citation&thinsp;</span>
+        <span>inspirante&thinsp; </span>
+        <span>avec&thinsp; </span>
+        <span>des &thinsp;</span>
+        <span>mots&thinsp; </span>
+        <span>ajoutés&thinsp; </span>
+        <span>pour&thinsp; </span>
+        <span>qu'elle&thinsp; </span>
+        <span>soit&thinsp; </span>
+        <span>plus&thinsp; </span>
+        <span>longue &thinsp;</span>
+        <span>!&thinsp; </span>
+        <span>!&thinsp; </span>
+        <span>!&thinsp; </span>
+      </p>
+    </div>
       
-      </div>
-      
-<!--------------------------------
+    <!--------------------------------
     Explorer
 --------------------------------->    
 
-  <template #slot_bandeau>
+    <template #slot_bandeau>
       <div class="redirection"> 
         <h3> Pour commencer à explorer notre site ... </h3>
-        <SlideRedirection/>
+        <SlideRedirection />
       </div>
-  </template>
+    </template>
     
-  <template #slot_contact>
-  </template>
-    
+    <template #slot_contact>
+    </template>
   </LayoutAccueil>
 </template>
 
 
 <script>
 import LayoutAccueil from "@/layouts/LayoutAccueil.vue";
-import Button from "@/components/Button.vue";
 import SlideRedirection from "@/components/SlideRedirection.vue";
 
 
 export default {
   components: {
     LayoutAccueil,
-    Button,
     SlideRedirection,
   },
 

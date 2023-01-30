@@ -1,14 +1,20 @@
 <template>
   <div class="LayoutAccueil">
     <Header />
-    <slot name="slot_image" class="slot_image"> </slot>
+    <slot
+      name="slot_image"
+      class="slot_image"
+    >
+    </slot>
 
     <section class="contenu">
       <slot />
     </section>
 
-    <slot name="slot_bandeau"> </slot>
-    <slot name="slot_contact"> </slot>
+    <slot name="slot_bandeau">
+    </slot>
+    <slot name="slot_contact">
+    </slot>
 
     <Footer />
   </div>

@@ -18,7 +18,9 @@
       Photos à modifier <br />
     </p>
 
-    <g-link to="/Test/">Page test caroussel</g-link>
+    <g-link to="/Test/">
+      Page test caroussel
+    </g-link>
   </Layout>
 </template>
 

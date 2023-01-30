@@ -103,11 +103,26 @@
           </li>
         </div>
         <div class="carousel__indicators">
-          <label class="carousel__indicator" for="F"></label>
-          <label class="carousel__indicator" for="G"></label>
-          <label class="carousel__indicator" for="H"></label>
-          <label class="carousel__indicator" for="I"></label>
-          <label class="carousel__indicator" for="J"></label>
+          <label
+            class="carousel__indicator"
+            for="F"
+          ></label>
+          <label
+            class="carousel__indicator"
+            for="G"
+          ></label>
+          <label
+            class="carousel__indicator"
+            for="H"
+          ></label>
+          <label
+            class="carousel__indicator"
+            for="I"
+          ></label>
+          <label
+            class="carousel__indicator"
+            for="J"
+          ></label>
         </div>
       </div>
     </div>

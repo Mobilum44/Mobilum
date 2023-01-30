@@ -1,17 +1,18 @@
 <template>
   <div class="layout">
-    
     <Header />
-        <slot name="slot_image" class="slot_image">
-          <section class="image_title">
-            </section>
-        </slot>
+    <slot
+      name="slot_image"
+      class="slot_image"
+    >
+      <section class="image_title">
+      </section>
+    </slot>
     <section class="contenu">
       <slot />
     </section>
-    </Float>
+    <Float />
     <Footer />
-    
   </div>
 </template>
 

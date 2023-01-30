@@ -15,11 +15,36 @@
     </g-link>
     <div class="header_content">
       <div class="nav_header">
-        <g-link class="nav__link" to="/Accueil/">Accueil</g-link>
-        <g-link class="nav__link" to="/Entreprise/">Notre entreprise</g-link>
-        <g-link class="nav__link" to="/Offre/">Notre offre</g-link>
-        <g-link class="nav__link" to="/Contact/">Contact</g-link>
-        <g-link class="nav__link" to="/Taches/">🔎</g-link>
+        <g-link
+          class="nav__link"
+          to="/Accueil/"
+        >
+          Accueil
+        </g-link>
+        <g-link
+          class="nav__link"
+          to="/Entreprise/"
+        >
+          Notre entreprise
+        </g-link>
+        <g-link
+          class="nav__link"
+          to="/Offre/"
+        >
+          Notre offre
+        </g-link>
+        <g-link
+          class="nav__link"
+          to="/Contact/"
+        >
+          Contact
+        </g-link>
+        <g-link
+          class="nav__link"
+          to="/Taches/"
+        >
+          🔎
+        </g-link>
       </div>
     </div>
   </Header>

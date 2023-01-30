@@ -1,27 +1,25 @@
 <template>
-
-<!--
+  <!--
 - Notre engagement ()
 -->
   <Layout>
-    
     <template #slot_image>
       <section class="slot_image">
       </section>
     </template>
     
-      <section class="page_top">
-        <div class="title">
-          <h1>Notre entreprise</h1>
-        </div>
-      </section>
+    <section class="page_top">
+      <div class="title">
+        <h1>Notre entreprise</h1>
+      </div>
+    </section>
 
 
     <div class="section_top">
       <p>
         Ici, le texte qui présentera l'entreprise Mobilum, global.
-        </br>
-        </br>
+        <br>
+        <br>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
         doloremque omnis animi, eligendi magni.
       </p>
@@ -49,36 +47,34 @@
           <h2> La griffe "Mobilum"</h2>
           <p>
             La marque et le design : designers et distinctions
-            </br>
-            </br>
+            <br>
+            <br>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
             doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur
             rerum illum odit fugit assumenda rem dolores inventore iste
             reprehenderit maxime! Iusto.
             
-            </br>
+            <br>
             Bouton designer avec page designer
           </p>
         </div>
       </div>
-        <!-- Mettre des cartes en markdown pour afficher les designers -->
+      <!-- Mettre des cartes en markdown pour afficher les designers -->
     </div>
     
     <div class="section">
-      
       <div class="section_content">
-          
         <div class="section_text">
           <h2> Notre savoir-faire</h2>
           
           <p>
-          100% français + le BFUP : couleur, finition, ... + formation + BE
-          </br>
-          </br>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
-          doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur
-          rerum illum odit fugit assumenda rem dolores inventore iste
-          reprehenderit maxime! Iusto.
+            100% français + le BFUP : couleur, finition, ... + formation + BE
+            <br>
+            <br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
+            doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur
+            rerum illum odit fugit assumenda rem dolores inventore iste
+            reprehenderit maxime! Iusto.
           </p>
         </div>
         
@@ -91,14 +87,11 @@
             width="800px"
           />
         </div>
-        
-        
       </div>
     </div>
     
     <div class="section_map">
-        <h2>Nos activités</h2>
-      
+      <h2>Nos activités</h2>
       <p> SOit sous forme de carte, soit sous forme de liste</p>
     <!-- 
         <div class="maps">
@@ -117,7 +110,6 @@
     </div>  
       
     <div class="section">
-      
       <div class="section_content">
         <div class="section_image">
           <g-image
@@ -132,20 +124,20 @@
         <div class="section_text">
           <h2> Nos engagements </h2>
           <p>
-          Fournisseurs 100% français : vicat, transport, tous en général
-          </br>
-          </br>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
-          doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur
-          rerum illum odit fugit assumenda rem dolores inventore iste
-          reprehenderit maxime! Iusto.
+            Fournisseurs 100% français : vicat, transport, tous en général
+            <br>
+            <br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
+            doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur
+            rerum illum odit fugit assumenda rem dolores inventore iste
+            reprehenderit maxime! Iusto.
           </p>
         </div>
       </div>
     </div>
     
     
-<!---------------------------------------------------
+  <!---------------------------------------------------
          PARTIE TEAM : MISE EN SUSPEND 
   ---------------------------------------------------
   
@@ -160,7 +152,6 @@
     </div>
     
     --------------------------------------------------->
-    
   </Layout>
 </template>
 
@@ -194,6 +185,7 @@ query Collection ($id: ID!) {
 -->
 
 <style scoped>
+
 /*-------------------------------------------------------------------------
     Page top 
   -----------------------------------------------------------------------*/
@@ -251,7 +243,7 @@ query Collection ($id: ID!) {
 }
 
 .section_image > img {
-  fit: cover;
+  object-fit: cover;
 
 }
 

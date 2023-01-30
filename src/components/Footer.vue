@@ -1,7 +1,12 @@
 <template>
   <footer>
     <div class="contact_zone">
-      <Button theme="white" to="/Contact/">Nous contacter</Button>
+      <Button
+        theme="white"
+        to="/Contact/"
+      >
+        Nous contacter
+      </Button>
     </div>
 
     <div class="content_top">
@@ -25,13 +30,31 @@
 
       <div class="colonne_gauche">
         <div class="menu_footer">
-          <g-link class="footer__nav" to="/Politiques/"
-            >Politiques de confidentialité</g-link
+          <g-link
+            class="footer__nav"
+            to="/Politiques/"
           >
-          <g-link class="footer__nav" to="/Mentions/">Mentions légales</g-link>
-          <g-link class="footer__nav" to="/Plan/">Plan du site</g-link>
+            Politiques de confidentialité
+          </g-link>
+          <g-link
+            class="footer__nav"
+            to="/Mentions/"
+          >
+            Mentions légales
+          </g-link>
+          <g-link
+            class="footer__nav"
+            to="/Plan/"
+          >
+            Plan du site
+          </g-link>
         </div>
-        <Button theme="blue" to="/contact/">Réseaux sociaux</Button>
+        <Button
+          theme="blue"
+          to="/contact/"
+        >
+          Réseaux sociaux
+        </Button>
         <!-- Penser à créer des boutons logos RS <LogoRS /> -->
       </div>
     </div>

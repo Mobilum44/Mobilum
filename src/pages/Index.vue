@@ -5,7 +5,12 @@
         alt="Logo mobilum"
         src="@/assets/img/logos/logo_transparent.png"
       />
-      <Button theme="slide" to="/Accueil/"> Entrer </Button>
+      <Button
+        theme="slide"
+        to="/Accueil/"
+      >
+        Entrer
+      </Button>
     </div>
   </Empty>
 </template>

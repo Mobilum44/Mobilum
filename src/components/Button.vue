@@ -1,5 +1,8 @@
 <template>
-  <g-link :to="to" :class="theme">
+  <g-link
+    :to="to"
+    :class="theme"
+  >
     <slot />
   </g-link>
 </template>
