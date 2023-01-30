@@ -67,8 +67,8 @@ query Collection ($id: ID!) {
   height: 225px;
   width: 225px;
   background-color: #1a949d;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  /*box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;*/
 }
 
 .image_cover > img {
@@ -98,11 +98,17 @@ query Collection ($id: ID!) {
 /*---------------------------------------------------------
     Paramètres de la galerie - position selection
   ---------------------------------------------------------*/
-
+.image_cover:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+      transition: all 0.3s ease-in-out;
+}
 .image_cover:hover p {
   opacity: 1;
   transition: all 0.5s ease-in-out;
+
 }
+
 
 .image_cover:hover > img {
   opacity: 0.3;
