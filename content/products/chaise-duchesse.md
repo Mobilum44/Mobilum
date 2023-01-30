@@ -7,7 +7,8 @@ category: Assises
 sub_category: Chaise
 gamme: Duchesse
 cover_image: "../../images/chaise-duchesse.jpg"
-caroussel: []
+caroussel:
+- "../../images/chaise-duchesse-bfup-place-bruz.JPG"
 materiau: ''
 poids: ''
 dimensions: ''
