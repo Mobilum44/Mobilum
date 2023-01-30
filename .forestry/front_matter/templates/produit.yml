@@ -68,4 +68,5 @@ fields:
   name: description
   label: description
 pages:
+- content/products/chaise-obrac.md
 - content/products/chaise-stamp.md
