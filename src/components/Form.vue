@@ -33,7 +33,10 @@
         style="height:200px"
       ></textarea>
 
-      <input type="submit" value="Envoyer" />
+      <input
+        type="submit"
+        value="Envoyer"
+      />
     </form>
   </div>
 </template>
