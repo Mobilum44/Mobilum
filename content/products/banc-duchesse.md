@@ -7,7 +7,8 @@ category: Assises
 sub_category: Banc
 gamme: Duchesse
 cover_image: "../../images/banc-duchesse.jpg"
-caroussel: []
+caroussel:
+- "../../images/banc-duchesse-face-place-bruz-bfup.JPG"
 materiau: ''
 poids: ''
 dimensions: ''
