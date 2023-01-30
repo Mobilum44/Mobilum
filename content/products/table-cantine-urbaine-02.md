@@ -1,6 +1,6 @@
 ---
 collection: Mobilier urbain
-title: Table Cantine urbaine 01
+title: Table Cantine urbaine 02
 published: true
 designer: Sovann Kim
 category: Table
