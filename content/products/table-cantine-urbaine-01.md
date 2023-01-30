@@ -5,7 +5,7 @@ published: true
 designer: Sovann Kim
 category: Table
 sub_category: Table
-gamme: Cantine urbaine
+gamme: Cantine
 cover_image: "../../images/table-cantine-urbaine-01.jpg"
 caroussel: []
 materiau: ''
