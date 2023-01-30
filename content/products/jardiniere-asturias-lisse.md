@@ -1,6 +1,6 @@
 ---
 collection: Mobilier urbain
-title: Jardinière Asturias lisse
+title: Jardinière Asturias ronde lisse
 published: true
 designer: "?"
 category: Jardinière
