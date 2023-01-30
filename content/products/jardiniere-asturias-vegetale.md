@@ -1,6 +1,6 @@
 ---
 collection: Mobilier urbain
-title: Jardinière Asturias végétale
+title: Jardinière Asturias ronde végétale
 published: true
 designer: "?"
 category: Jardinière
