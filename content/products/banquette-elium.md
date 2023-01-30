@@ -7,7 +7,8 @@ category: Assises
 sub_category: Banquette
 gamme: Elium
 cover_image: "../../images/banquette-elium.jpg"
-caroussel: []
+caroussel:
+- "../../images/p-40-41-photo-in-situ-gamme-elium-jardin.jpg"
 materiau: ''
 poids: ''
 dimensions: ''
