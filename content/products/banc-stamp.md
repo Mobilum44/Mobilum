@@ -6,7 +6,7 @@ designer: Sovann Kim
 category: Assises
 sub_category: Banc
 gamme: Stamp
-cover_image: ''
+cover_image: "../../images/banc-stamp-lisse-1.jpg"
 caroussel: []
 materiau: ''
 poids: ''
