@@ -5,7 +5,7 @@ published: true
 designer: Sovann Kim
 category: Table
 sub_category: Table
-gamme: Cantine champêtre
+gamme: Cantine
 cover_image: "../../images/table-cantine-champetre-04.jpg"
 caroussel: []
 materiau: ''
