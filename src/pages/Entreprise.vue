@@ -20,8 +20,7 @@
         Ici, le texte qui présentera l'entreprise Mobilum, global.
         <br>
         <br>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
-        doloremque omnis animi, eligendi magni.
+        Page 6 : Faire sélections texte selon cohérence
       </p>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
@@ -48,11 +47,10 @@
           <p>
             La marque et le design : designers et distinctions
             <br>
+
+            Photos : dessins sovann kim cantine pour janus, avec photos produit réel + logo janus
             <br>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
-            doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur
-            rerum illum odit fugit assumenda rem dolores inventore iste
-            reprehenderit maxime! Iusto.
+            Partie 2 texte catalogue p. 14
             
             <br>
             Bouton designer avec page designer
@@ -91,8 +89,8 @@
     </div>
     
     <div class="section_map">
-      <h2>Nos activités</h2>
-      <p> SOit sous forme de carte, soit sous forme de liste</p>
+      <h2>Activité 1</h2>
+      <p> Activité 1 (Aménagement urbain, Sur-mesure, SNCF, centre commerciaux, la mer, les parcs, ...)</p>
     <!-- 
         <div class="maps">
         <g-image class="fond" alt="photo ville" src="@/assets/img/VilleOlivier.JPG" />
@@ -108,6 +106,14 @@
       </div>
       -->
     </div>  
+    <div class="section_map">
+      <h2>Activité 2</h2>
+      <p> Activité 2 (Aménagement urbain, Sur-mesure, SNCF, centre commerciaux, la mer, les parcs, ...)</p>
+    </div>  
+    <div class="section_map">
+      <h2>Activité 3</h2>
+      <p> Activité 3 (Aménagement urbain, Sur-mesure, SNCF, centre commerciaux, la mer, les parcs, ...)</p>
+    </div>   
       
     <div class="section">
       <div class="section_content">
@@ -157,14 +163,10 @@
 
 <script>
 
-import Activity from "@/components/Activity.vue";
-import Button from "@/components/Button.vue";
 
 export default {
   
     components: {
-        Activity,
-        Button
   },
   
   metaInfo: {
@@ -278,6 +280,7 @@ query Collection ($id: ID!) {
 .section_map {
   border : solid black 1px;
   padding : 3rem;
+  margin-top : 4px;
 }
 .maps { 
   width : 100%;/* Faire en sorte que cette zone fasse la taille de l'écran */

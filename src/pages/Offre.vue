@@ -4,7 +4,6 @@
   <Layout>
     <h1>Notre offre</h1>
     <p>
-      Fond transparent en t1 et carte qui apparait en t2 <br>
       Espacer le nom des villes, choisir une typo / couleur plus "douce"
     </p>
     <div class="body_offer">
