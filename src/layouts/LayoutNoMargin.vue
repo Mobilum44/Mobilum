@@ -11,7 +11,6 @@
     <section class="contenu-no-margin">
       <slot />
     </section>
-    <Float />
     <Footer />
   </div>
 </template>
@@ -19,13 +18,11 @@
 <script>
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
-import Float from "@/components/Float.vue";
 
 export default {
   components: {
     Header,
     Footer,
-    Float
   },
 };
 </script>

@@ -4,104 +4,203 @@
    Faire un menu burger pour les petits écrans 
    ----------------------------->
 
-  <Header>
-    <div class="header_content">
-      <div class="nav_header">
-        <g-link
-          class="nav__link"
-          to="/Accueil/"
-        >
-          Accueil
-        </g-link>
-        <g-link
-          class="nav__link"
-          to="/Entreprise/"
-        >
-          Notre entreprise
-        </g-link>
-        <g-link
-          class="nav__link"
-          to="/Offre/"
-        >
-          Notre offre
-        </g-link>
-        <g-link
-          class="nav__link"
-          to="/Contact/"
-        >
-          Contact
-        </g-link>
-        <g-link
-          class="nav__link"
-          to="/Taches/"
-        >
-          🔎
-        </g-link>
-      </div>
+  <Header class="header-fixed">
+    <div class="header-limiter">
+      <h1><a href="#">Company<span>logo</span></a></h1>
+
+      <nav>
+        <a href="#">Home</a>
+        <a
+          href="#"
+          class="selected"
+        >Blog</a>
+        <a href="#">Pricing</a>
+        <a href="#">About</a>
+        <a href="#">Faq</a>
+        <a href="#">Contact</a>
+      </nav>
     </div>
   </Header>
 </template>
 
-<!--
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script>
-export default {
-  mounted() {
-    // Regarde si on scroll sur la page et si c'est le cas
-    // appelle la fonction "onScroll"
-    window.addEventListener("scroll", this.onScroll);
-  },
-  beforeDestroy() {
-    window.removeEventListener("scroll", this.onScroll);
-  },
-  methods: {
-    onScroll(e) {
-      if (e.target.documentElement.scrollTop > 10) {
-        document.getElementsByClassName("navbar")[0].classList.add("active");
-      } else {
-        document.getElementsByClassName("navbar")[0].classList.remove("active");
-      }
-    },
-  },
-};
+
+	$(document).ready(function(){
+
+		var showHeaderAt = 150;
+
+		var win = $(window),
+				body = $('body');
+
+		// Show the fixed header only on larger screen devices
+
+		if(win.width() > 400){
+
+			// When we scroll more than 150px down, we set the
+			// "fixed" class on the body element.
+
+			win.on('scroll', function(e){
+
+				if(win.scrollTop() > showHeaderAt) {
+					body.addClass('fixed');
+				}
+				else {
+					body.removeClass('fixed');
+				}
+			});
+
+		}
+
+	});
+
 </script>
 
--->
+
+
 
 <style scoped>
-header {
-  margin-top: 0rem;
-  /*background-color: rgb(26, 148, 157, 0.6);
-  box-shadow: 0 5px 20px rgba(10, 4, 60, 0.3);*/
-  z-index: 1;
+.header-fixed {
+	background-color:#292c2f;
+	box-shadow:0 1px 1px #ccc;
+	padding: 20px 40px;
+	height: 80px;
+	color: #ffffff;
+	box-sizing: border-box;
+	top:-100px;
 
-  width: 100%;
-  display: flex;
-  justify-content: center;
+	-webkit-transition:top 0.3s;
+	transition:top 0.3s;
 }
 
-.header_content {
-  position: absolute;
-  margin-top: 3rem;
+.header-fixed .header-limiter {
+	max-width: 1200px;
+	text-align: center;
+	margin: 0 auto;
 }
 
-.nav_header {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 1.5%;
-  gap: 1rem;
-  /*
-  margin-top: 2rem;
-  padding: 2rem;
-  width: 75%;
-  border-top: #1a949d 1px solid;
+/*	The header placeholder. It is displayed when the header is fixed to the top of the
+	browser window, in order to prevent the content of the page from jumping up. */
 
-  display: flex;
-  flex-direction: row;
-  align-items: space-evenly;
-  justify-content: space-evenly;
-  gap: 2rem;
-   */
+.header-fixed-placeholder{
+	height: 80px;
+	display: none;
+}
+
+/* Logo */
+
+.header-fixed .header-limiter h1 {
+	float: left;
+	font: normal 28px Cookie, Arial, Helvetica, sans-serif;
+	line-height: 40px;
+	margin: 0;
+}
+
+.header-fixed .header-limiter h1 span {
+	color: #5383d3;
+}
+
+/* The navigation links */
+
+.header-fixed .header-limiter a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.header-fixed .header-limiter nav {
+	font:16px Arial, Helvetica, sans-serif;
+	line-height: 40px;
+	float: right;
+}
+
+.header-fixed .header-limiter nav a{
+	display: inline-block;
+	padding: 0 5px;
+	text-decoration:none;
+	color: #ffffff;
+	opacity: 0.9;
+}
+
+.header-fixed .header-limiter nav a:hover{
+	opacity: 1;
+}
+
+.header-fixed .header-limiter nav a.selected {
+	color: #608bd2;
+	pointer-events: none;
+	opacity: 1;
+}
+
+/* Fixed version of the header */
+
+body.fixed .header-fixed {
+	padding: 10px 40px;
+	height: 50px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+body.fixed .header-fixed-placeholder {
+	display: block;
+}
+
+body.fixed .header-fixed .header-limiter h1 {
+	font-size: 24px;
+	line-height: 30px;
+}
+
+body.fixed .header-fixed .header-limiter nav {
+	line-height: 28px;
+	font-size: 13px;
+}
+
+
+/* Making the header responsive */
+
+@media all and (max-width: 600px) {
+
+	.header-fixed {
+		padding: 20px 0;
+		height: 75px;
+	}
+
+	.header-fixed .header-limiter h1 {
+		float: none;
+		margin: -8px 0 10px;
+		text-align: center;
+		font-size: 24px;
+		line-height: 1;
+	}
+
+	.header-fixed .header-limiter nav {
+		line-height: 1;
+		float:none;
+	}
+
+	.header-fixed .header-limiter nav a {
+		font-size: 13px;
+	}
+
+	body.fixed .header-fixed {
+		display: none;
+	}
+
+}
+
+/*
+	 We are clearing the body's margin and padding, so that the header fits properly.
+	 We are also adding a height to demonstrate the scrolling behavior. You can remove
+	 these styles.
+ */
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 1500px;
 }
 </style>
