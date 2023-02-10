@@ -1,206 +1,167 @@
 <template>
-  <!----------------------------
-   Header classique : bandeau fixe
-   Faire un menu burger pour les petits écrans 
-   ----------------------------->
-
-  <Header class="header-fixed">
-    <div class="header-limiter">
-      <h1><a href="#">Company<span>logo</span></a></h1>
-
+  <header class="header">
+    <div class="fit-content header__content">
       <nav>
-        <a href="#">Home</a>
-        <a
-          href="#"
-          class="selected"
-        >Blog</a>
-        <a href="#">Pricing</a>
-        <a href="#">About</a>
-        <a href="#">Faq</a>
-        <a href="#">Contact</a>
+        <ul>
+          <li>
+            <g-link
+              class="nav__link"
+              to="/Accueil/"
+            >
+              Accueil
+            </g-link>
+          </li>
+          <li>
+            <g-link
+              class="nav__link"
+              to="/Entreprise/"
+            >
+              Notre entreprise
+            </g-link>
+          </li>
+          <li>
+            <g-link
+              class="nav__link"
+              to="/Offre/"
+            >
+              Notre offre
+            </g-link>
+          </li>
+          <li>
+            <g-link
+              class="nav__link"
+              to="/Contact/"
+            >
+              Contact
+            </g-link>
+          </li>
+          <li>
+            <g-link
+              class="nav__link"
+              to="/Taches/"
+            >
+              🔎
+            </g-link>
+          </li>
+        </ul>
       </nav>
     </div>
-  </Header>
+  </header>
 </template>
 
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script>
 
-	$(document).ready(function(){
+export default {
+	components: {
+	},
 
-		var showHeaderAt = 150;
-
-		var win = $(window),
-				body = $('body');
-
-		// Show the fixed header only on larger screen devices
-
-		if(win.width() > 400){
-
-			// When we scroll more than 150px down, we set the
-			// "fixed" class on the body element.
-
-			win.on('scroll', function(e){
-
-				if(win.scrollTop() > showHeaderAt) {
-					body.addClass('fixed');
+	
+	mounted() {
+		this.$nextTick(() => {
+			window.addEventListener("scroll", () => {
+				let header = document.getElementsByTagName("header")[0];
+				let img = document.getElementsByClassName("header__svg")[0];
+				if (document.documentElement.scrollTop >= window.innerHeight / 2) {
+					img.classList.add("header__svg--mini");
+				} else {
+					img.classList.remove("header__svg--mini");
 				}
-				else {
-					body.removeClass('fixed');
-				}
-			});
-
-		}
-
-	});
-
+			})
+		});
+	}
+}
 </script>
 
+<style lang="scss">
 
-
-
-<style scoped>
-.header-fixed {
-	background-color:#292c2f;
-	box-shadow:0 1px 1px #ccc;
-	padding: 20px 40px;
-	height: 80px;
-	color: #ffffff;
-	box-sizing: border-box;
-	top:-100px;
-
-	-webkit-transition:top 0.3s;
-	transition:top 0.3s;
+ul,li{
+  list-style  : none;
 }
 
-.header-fixed .header-limiter {
-	max-width: 1200px;
-	text-align: center;
-	margin: 0 auto;
+
+nav {
+	display: flex;
+	align-items: center;
+
+	> ul {
+		display: flex;
+
+		li {
+			margin-right: 0;
+
+			&:last-child {
+				margin: 0;
+			}
+		}
+	}
 }
 
-/*	The header placeholder. It is displayed when the header is fixed to the top of the
-	browser window, in order to prevent the content of the page from jumping up. */
 
-.header-fixed-placeholder{
-	height: 80px;
-	display: none;
-}
-
-/* Logo */
-
-.header-fixed .header-limiter h1 {
-	float: left;
-	font: normal 28px Cookie, Arial, Helvetica, sans-serif;
-	line-height: 40px;
-	margin: 0;
-}
-
-.header-fixed .header-limiter h1 span {
-	color: #5383d3;
-}
-
-/* The navigation links */
-
-.header-fixed .header-limiter a {
-	color: #ffffff;
-	text-decoration: none;
-}
-
-.header-fixed .header-limiter nav {
-	font:16px Arial, Helvetica, sans-serif;
-	line-height: 40px;
-	float: right;
-}
-
-.header-fixed .header-limiter nav a{
-	display: inline-block;
-	padding: 0 5px;
-	text-decoration:none;
-	color: #ffffff;
-	opacity: 0.9;
-}
-
-.header-fixed .header-limiter nav a:hover{
-	opacity: 1;
-}
-
-.header-fixed .header-limiter nav a.selected {
-	color: #608bd2;
-	pointer-events: none;
-	opacity: 1;
-}
-
-/* Fixed version of the header */
-
-body.fixed .header-fixed {
-	padding: 10px 40px;
-	height: 50px;
+.header {
 	position: fixed;
-	width: 100%;
+    z-index: 999;
+	width: 100vw;
 	top: 0;
 	left: 0;
-	z-index: 1;
-}
+	padding-top: 2vh;
+	padding-bottom: 2vh;
 
-body.fixed .header-fixed-placeholder {
-	display: block;
-}
-
-body.fixed .header-fixed .header-limiter h1 {
-	font-size: 24px;
-	line-height: 30px;
-}
-
-body.fixed .header-fixed .header-limiter nav {
-	line-height: 28px;
-	font-size: 13px;
-}
-
-
-/* Making the header responsive */
-
-@media all and (max-width: 600px) {
-
-	.header-fixed {
-		padding: 20px 0;
-		height: 75px;
+	&__content {
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		padding-top: 0;
+		padding-bottom: 0;
 	}
 
-	.header-fixed .header-limiter h1 {
-		float: none;
-		margin: -8px 0 10px;
-		text-align: center;
-		font-size: 24px;
-		line-height: 1;
+	&__svg {
+		width: 48px;
+		transition: all 0.3s ease-in-out;
 	}
 
-	.header-fixed .header-limiter nav {
-		line-height: 1;
-		float:none;
-	}
-
-	.header-fixed .header-limiter nav a {
-		font-size: 13px;
-	}
-
-	body.fixed .header-fixed {
-		display: none;
+	&__svg--mini {
+		width: 36px;
+		transition: all 0.3s ease-in-out;
 	}
 
 }
 
-/*
-	 We are clearing the body's margin and padding, so that the header fits properly.
-	 We are also adding a height to demonstrate the scrolling behavior. You can remove
-	 these styles.
- */
+@media screen and (max-width: 120wh) {
+	.header {
+		&__content {
+			flex-direction: column;
+			align-items: center;
+		}
 
-body {
-	margin: 0;
-	padding: 0;
-	height: 1500px;
+		&__svg {
+			width: 36px;
+            height: 100%;
+		}
+
+		&__svg--mini {
+			width: 24px;
+            height: 100%;
+		}
+
+		&__title {
+			font-size: 10;
+		}
+
+		nav {
+			margin-top: 0;
+			width: 100%;
+			
+			ul {
+				width: 100%;
+				display: flex;
+				justify-content: space-between;
+			}
+
+			li {
+				margin: 0;
+			}
+		}
+	}
 }
+
 </style>

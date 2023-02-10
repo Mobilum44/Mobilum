@@ -78,8 +78,8 @@
         
         <div class="section_image">
           <g-image
-            alt="SNCF Gare Auxerre"
-            src="@/assets/img/travail_usine.jpg"
+            alt="Mobilum travail des moules pour BFUP"
+            src="@/assets/img/savoir-faire.jpg"
             center
             height="500px"
             width="800px"
