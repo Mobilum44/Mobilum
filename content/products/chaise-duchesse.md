@@ -1,12 +1,12 @@
 ---
 collection: Mobilier urbain
-title: Chaise Duchesse
+title: Fauteuil Duchesse
 published: true
 designer: "/"
 category: Assises
 sub_category: Chaise
 gamme: Duchesse
-cover_image: "../../images/chaise-duchesse.jpg"
+cover_image: "../../images/fauteuil-duchesse.JPG"
 caroussel:
 - "../../images/chaise-duchesse-bfup-place-bruz.JPG"
 materiau: ''
