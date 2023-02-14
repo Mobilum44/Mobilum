@@ -16,7 +16,7 @@
               class="nav__link"
               to="/Entreprise/"
             >
-              Notre entreprise
+              L'entreprise
             </g-link>
           </li>
           <li>
@@ -24,7 +24,7 @@
               class="nav__link"
               to="/Offre/"
             >
-              Notre offre
+              La collection
             </g-link>
           </li>
           <li>

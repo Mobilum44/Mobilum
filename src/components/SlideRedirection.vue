@@ -4,24 +4,28 @@
       class="box"
       to="/Entreprise/"
     >
-      <g-image src="@/assets/img/usine.jpg" />
+      <g-image src="@/assets/img/plaques-hook-coulage-usine.jpg" />
       <p to="/Entreprise/">
-        Notre entreprise
+        Une entreprise
       </p>
     </g-link>
+
+    <!--
     <g-link
       class="box"
       to="/Materiau/"
-    >
-      <g-image src="@/assets/img/coulage_BFUP.jpg" />
-      <p>Le BFUP</p>
-    </g-link>
+    > -->
+    <div class="box">
+      <g-image src="@/assets/img/bfup-coulage-mobilum.jpg" />
+      <p>Du BFUP</p>
+    </div>
+    <!-- </g-link> -->
     <g-link
       class="box"
       to="/Offre/"
     >
       <g-image src="@/assets/img/La_rochelle.jpg" />
-      <p>Notre collection</p>
+      <p>Une collection</p>
     </g-link>
   </div>
 </template>

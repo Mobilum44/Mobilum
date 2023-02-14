@@ -69,7 +69,7 @@ Partie en attente de développement complet du site
 
     <template #slot_bandeau>
       <div class="redirection"> 
-        <h3> Pour commencer à explorer notre site ... </h3>
+        <h3> Mobilum c'est ... </h3>
         <SlideRedirection />
       </div>
     </template>
@@ -116,6 +116,7 @@ h1 {
 
 h3 {
   margin-bottom : 0;
+  font-size : 1.5rem;
 }
 
 p {

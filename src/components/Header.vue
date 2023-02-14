@@ -25,13 +25,13 @@
           class="nav__link"
           to="/Entreprise/"
         >
-          Notre entreprise
+          L'entreprise
         </g-link>
         <g-link
           class="nav__link"
           to="/Offre/"
         >
-          Notre offre
+          La collection
         </g-link>
         <g-link
           class="nav__link"
