@@ -43,6 +43,13 @@ fields:
 - type: image_gallery
   name: caroussel
   label: caroussel
+- name: reference
+  type: text
+  config:
+    required: true
+  label: Référence
+  description: Référence article (SAGE commerce)
+  hidden: false
 - type: text
   name: materiau
   label: materiau
