@@ -6,7 +6,7 @@ designer: "/"
 category: Assises
 sub_category: Banc
 gamme: Duchesse
-cover_image: "../../images/banc-duchesse.jpg"
+cover_image: "../../images/banc-duchesse.JPG"
 caroussel:
 - "../../images/banc-duchesse-bfup-dos-place-bruz.JPG"
 - "../../images/banc-duchesse-face-place-bruz-bfup.JPG"
