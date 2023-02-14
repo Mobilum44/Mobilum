@@ -8,6 +8,7 @@ sub_category: Jardinière
 gamme: Asturias
 cover_image: "../../images/jardinere-asturias-ronde-vegetale.jpg"
 caroussel: []
+reference : ''
 materiau: ''
 poids: ''
 dimensions: ''
@@ -16,5 +17,4 @@ tags: []
 series: false
 canonical_url: false
 description: ''
-
 ---

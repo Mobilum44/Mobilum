@@ -8,6 +8,7 @@ sub_category: Banquette
 gamme: Beam
 cover_image: "../../images/banquette-beam-double-1.JPG"
 caroussel: []
+reference : ''
 materiau: ''
 poids: ''
 dimensions: ''
@@ -16,5 +17,4 @@ tags: []
 series: false
 canonical_url: false
 description: ''
-
 ---

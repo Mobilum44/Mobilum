@@ -7,6 +7,10 @@ category: Assises
 sub_category: Chaise
 gamme: Stamp
 cover_image: "../../images/test-chaise-stamp-transparent.jpg"
+caroussel:
+- "../../images/fauteuil-et-table.jpg"
+- "../../images/test-chaise-stamp-transparent.jpg"
+reference : ''
 materiau: ''
 poids: ''
 dimensions: ''
@@ -15,8 +19,4 @@ tags: []
 series: false
 canonical_url: false
 description: ''
-caroussel:
-- "../../images/fauteuil-et-table.jpg"
-- "../../images/test-chaise-stamp-transparent.jpg"
-
 ---

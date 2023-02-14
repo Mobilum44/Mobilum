@@ -8,6 +8,7 @@ sub_category: Cendrier
 gamme: Goya
 cover_image: "../../images/cendrier-goya.jpg"
 caroussel: []
+reference : ''
 materiau: ''
 poids: ''
 dimensions: ''
@@ -16,5 +17,4 @@ tags: []
 series: false
 canonical_url: false
 description: ''
-
 ---

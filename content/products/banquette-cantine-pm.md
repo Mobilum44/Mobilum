@@ -8,6 +8,7 @@ sub_category: Banquette
 gamme: Cantine
 cover_image: "../../images/banquette-cantine-pm.jpg"
 caroussel: []
+reference : ''
 materiau: ''
 poids: ''
 dimensions: ''

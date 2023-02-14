@@ -8,6 +8,7 @@ sub_category: Banquette
 gamme: Duchesse
 cover_image: "../../images/banquette-duchesse.JPG"
 caroussel: []
+reference : ''
 materiau: ''
 poids: ''
 dimensions: ''

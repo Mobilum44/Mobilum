@@ -8,6 +8,7 @@ sub_category: Canapé
 gamme: Stamp
 cover_image: "../../images/canape-stamp-window.jpg"
 caroussel: []
+reference : ''
 materiau: ''
 poids: ''
 dimensions: ''
@@ -16,5 +17,4 @@ tags: []
 series: false
 canonical_url: false
 description: ''
-
 ---

@@ -10,6 +10,7 @@ cover_image: "../../images/banquette-beam.jpg"
 caroussel:
 - "../../images/banquette-beam-double.jpg"
 - "../../images/banquette-beam-1.jpg"
+reference : ''
 materiau: ''
 poids: ''
 dimensions: ''

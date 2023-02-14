@@ -9,6 +9,7 @@ gamme: Elium
 cover_image: "../../images/banquette-elium.jpg"
 caroussel:
 - "../../images/p-40-41-photo-in-situ-gamme-elium-jardin.jpg"
+reference : ''
 materiau: ''
 poids: ''
 dimensions: ''

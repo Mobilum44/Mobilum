@@ -9,6 +9,7 @@ gamme: Obrac
 cover_image: "../../images/chaise-obrac-temporaire.jpg"
 caroussel:
 - "../../images/2021-07-01-mobilum-st-cyr-06.JPG"
+reference : ''
 materiau: ''
 poids: ''
 dimensions: ''
@@ -17,5 +18,4 @@ tags: []
 series: false
 canonical_url: false
 description: ''
-
 ---

@@ -9,6 +9,7 @@ gamme: Asturias
 cover_image: "../../images/jardinere-asturias-carree-vegetale.jpg"
 caroussel:
 - "../../images/p-89-photo-jardinie-cre-asturias-carre-ue-ve-uge-utale.jpg"
+reference : ''
 materiau: ''
 poids: ''
 dimensions: ''

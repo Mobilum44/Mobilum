@@ -8,6 +8,7 @@ sub_category: Chaise
 gamme: Elium
 cover_image: "../../images/chaise-elium.jpg"
 caroussel: []
+reference : ''
 materiau: ''
 poids: ''
 dimensions: ''
@@ -16,5 +17,4 @@ tags: []
 series: false
 canonical_url: false
 description: ''
-
 ---

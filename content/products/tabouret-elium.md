@@ -8,6 +8,7 @@ sub_category: Tabouret
 gamme: Elium
 cover_image: "../../images/tabouret-elium.jpg"
 caroussel: []
+reference : ''
 materiau: ''
 poids: ''
 dimensions: ''

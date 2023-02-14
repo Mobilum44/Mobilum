@@ -8,6 +8,7 @@ sub_category: Corbeille
 gamme: Asturias
 cover_image: "../../images/corbeille-asturias-vegetale.jpg"
 caroussel: []
+reference : ''
 materiau: ''
 poids: ''
 dimensions: ''

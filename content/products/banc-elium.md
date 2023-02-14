@@ -10,6 +10,7 @@ cover_image: "../../images/banc-elium-2-dossiers.jpg"
 caroussel:
 - "../../images/banc-elium-3-dossiers.jpg"
 - "../../images/banc-elium-2-dossiers-1.jpg"
+reference : ''
 materiau: ''
 poids: ''
 dimensions: ''

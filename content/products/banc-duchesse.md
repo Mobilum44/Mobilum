@@ -10,6 +10,7 @@ cover_image: "../../images/banc-duchesse-1.JPG"
 caroussel:
 - "../../images/banc-duchesse-bfup-dos-place-bruz.JPG"
 - "../../images/banc-duchesse-face-place-bruz-bfup.JPG"
+reference : ''
 materiau: ''
 poids: ''
 dimensions: ''
@@ -18,5 +19,4 @@ tags: []
 series: false
 canonical_url: false
 description: ''
-
 ---

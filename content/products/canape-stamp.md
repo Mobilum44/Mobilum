@@ -8,6 +8,7 @@ sub_category: Canapé
 gamme: Stamp
 cover_image: "../../images/canape-stamp-lisse.jpg"
 caroussel: []
+reference : ''
 materiau: ''
 poids: ''
 dimensions: ''

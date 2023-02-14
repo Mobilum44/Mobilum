@@ -8,6 +8,7 @@ sub_category: Table
 gamme: Cantine
 cover_image: "../../images/table-cantine-urbaine-01.jpg"
 caroussel: []
+reference : ''
 materiau: ''
 poids: ''
 dimensions: ''
@@ -16,5 +17,4 @@ tags: []
 series: false
 canonical_url: false
 description: ''
-
 ---

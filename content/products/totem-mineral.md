@@ -8,6 +8,7 @@ sub_category: Totem
 gamme: Minéral
 cover_image: "../../images/totem-mineral.jpg"
 caroussel: []
+reference : ''
 materiau: ''
 poids: ''
 dimensions: ''

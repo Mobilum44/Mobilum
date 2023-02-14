@@ -8,6 +8,7 @@ sub_category: Banc
 gamme: Obrac
 cover_image: "../../images/banc-obrac.jpg"
 caroussel: []
+reference : ''
 materiau: ''
 poids: ''
 dimensions: ''

@@ -8,6 +8,7 @@ sub_category: Appuis-Vélo
 gamme: Karo
 cover_image: "../../images/appuis-velo-karo.jpg"
 caroussel: []
+reference : ''
 materiau: ''
 poids: ''
 dimensions: ''

@@ -8,6 +8,7 @@ sub_category: Jardinière
 gamme: Asturias
 cover_image: "../../images/jardinere-asturias-carree-lisse.jpg"
 caroussel: []
+reference : ''
 materiau: ''
 poids: ''
 dimensions: ''
