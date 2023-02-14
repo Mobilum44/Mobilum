@@ -1,15 +1,13 @@
 ---
 collection: Mobilier urbain
-title: Banc Duchesse
+title: Banquette Duchesse
 published: true
 designer: "/"
 category: Assises
-sub_category: Banc
+sub_category: Banquette
 gamme: Duchesse
-cover_image: "../../images/banc-duchesse-1.JPG"
-caroussel:
-- "../../images/banc-duchesse-bfup-dos-place-bruz.JPG"
-- "../../images/banc-duchesse-face-place-bruz-bfup.JPG"
+cover_image: "../../images/banquette-duchesse.JPG"
+caroussel: []
 materiau: ''
 poids: ''
 dimensions: ''
