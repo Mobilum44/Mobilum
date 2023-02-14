@@ -1,14 +1,13 @@
 ---
 collection: Mobilier urbain
-title: Fauteuil Duchesse
+title: Banquette Beam - double
 published: true
 designer: "/"
 category: Assises
-sub_category: Chaise
-gamme: Duchesse
-cover_image: "../../images/fauteuil-duchesse.JPG"
-caroussel:
-- "../../images/chaise-duchesse-bfup-place-bruz.JPG"
+sub_category: Banquette
+gamme: Beam
+cover_image: "../../images/banquette-beam-double-1.JPG"
+caroussel: []
 materiau: ''
 poids: ''
 dimensions: ''
