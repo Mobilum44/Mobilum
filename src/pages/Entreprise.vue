@@ -61,6 +61,13 @@
           </p>
         </div>
         <div class="second_image">
+                    <g-image
+            alt="Croquis Sovann Kim gamme Cantine Mobilum"
+            src="@/assets/img/angers_tram.jpg"
+            center
+            height="300px"
+            width="500px"
+          />
         </div>
       </div>
     </div>
@@ -117,7 +124,7 @@
           alt="SNCF Gare Auxerre"
           src="@/assets/img/angers_tram.jpg"
           center
-          height="500px"
+          height="600px"
           width="800px"
         />
       </div>
@@ -266,9 +273,9 @@ query Collection ($id: ID!) {
 }
 
 .second_image {
-  background-color : red;
-  height : 50px;
-  width : 200px;
+  margin-top :2rem;
+  object-fit: cover;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 

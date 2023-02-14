@@ -54,6 +54,7 @@
 .box > img {
   width: 200%;
   height: calc(100%);
+  filter :grayscale(100) contrast(1.2);
   object-fit: cover;
   transition: 0.5s;
 }
@@ -75,6 +76,7 @@
 }
 
 .box:hover > img {
+    filter :grayscale(0);
   width: 100%;
   height: 100%;
 }

@@ -69,7 +69,7 @@ Partie en attente de développement complet du site
 
     <template #slot_bandeau>
       <div class="redirection"> 
-        <h3> Mobilum c'est ... </h3>
+        <h3> En quelques mots, Mobilum c'est ... </h3>
         <SlideRedirection />
       </div>
     </template>
