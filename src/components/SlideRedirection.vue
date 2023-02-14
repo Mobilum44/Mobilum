@@ -6,10 +6,13 @@
     >
       <g-image src="@/assets/img/plaques-hook-coulage-usine.jpg" />
       <p to="/Entreprise/">
-        Une entreprise
+        Un atelier
       </p>
     </g-link>
-
+    <div class="box">
+      <g-image src="@/assets/img/design-mobilum.jpg" />
+      <p>Du design</p>
+    </div>
     <!--
     <g-link
       class="box"

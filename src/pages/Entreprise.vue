@@ -1,7 +1,4 @@
 <template>
-  <!--
-- Notre engagement ()
--->
   <Layout>
     <template #slot_image>
       <section class="slot_image">
@@ -29,19 +26,26 @@
         reprehenderit maxime! Iusto.
       </p>
     </div>
-    
-    <div class="section">      
-      <div class="section_content">
+         
+
+    <!-------------------------------------------------------------------
+    La griffe Mobilum
+  -------------------------------------------------------------------->
+
+    <div class="section_content">
+      <div class="section_left">
         <div class="section_image">
           <g-image
-            alt="SNCF Gare Auxerre"
-            src="@/assets/img/Galets.jpg"
+            alt="Croquis Sovann Kim gamme Cantine Mobilum"
+            src="@/assets/img/croquis-sovann-kim-pour-mobilum.jpg"
             center
-            height="500px"
-            width="800px"
+            height="600px"
+            width="500px"
           />
         </div>
-        
+      </div>
+
+      <div class="section_right">
         <div class="section_text">
           <h2> La griffe "Mobilum"</h2>
           <p>
@@ -56,80 +60,79 @@
             Bouton designer avec page designer
           </p>
         </div>
+        <div class="second_image">
+        </div>
       </div>
-      <!-- Mettre des cartes en markdown pour afficher les designers -->
     </div>
+    <!-- Mettre des cartes en markdown pour afficher les designers -->
     
-    <div class="section">
-      <div class="section_content">
-        <div class="section_text">
-          <h2> Notre savoir-faire</h2>
+
+    <!-------------------------------------------------------------------
+    Notre savoir-faire
+  -------------------------------------------------------------------->
+
+    <div class="section_content">
+      <div class="section_text">
+        <h2> Notre savoir-faire</h2>
           
-          <p>
-            100% français + le BFUP : couleur, finition, ... + formation + BE
-            <br>
-            <br>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
-            doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur
-            rerum illum odit fugit assumenda rem dolores inventore iste
-            reprehenderit maxime! Iusto.
-          </p>
-        </div>
+        <p>
+          100% français + le BFUP : couleur, finition, ... + formation + BE
+          <br>
+          <br>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
+          doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur
+          rerum illum odit fugit assumenda rem dolores inventore iste
+          reprehenderit maxime! Iusto.
+        </p>
+      </div>
         
-        <div class="section_image">
-          <g-image
-            alt="Mobilum travail des moules pour BFUP"
-            src="@/assets/img/savoir-faire.jpg"
-            center
-            height="500px"
-            width="800px"
-          />
-        </div>
+      <div class="section_image">
+        <g-image
+          alt="Mobilum travail des moules pour BFUP"
+          src="@/assets/img/savoir-faire.jpg"
+          height="500px"
+          width="800px"
+          fit="cover"
+        />
       </div>
     </div>
 
     <!---------------------------------------------------
-         PARTIE ACTIVITES : Cartes
+      Nos activités
   --------------------------------------------------->
 
-    
-    <div class="section_map">
-      <h2>Activités</h2>
+    <h2>Activités</h2>
+    <div class="section_content">
       <Card />
     </div>   
       
     <!---------------------------------------------------
-         PARTIE ACTIVITES : Cartes
+      Nos engagements
   --------------------------------------------------->
 
   
-    <div class="section">
-      <div class="section_content">
-        <div class="section_image">
-          <g-image
-            alt="SNCF Gare Auxerre"
-            src="@/assets/img/angers_tram.jpg"
-            center
-            height="500px"
-            width="800px"
-          />
-        </div>
+    <div class="section_content">
+      <div class="section_image">
+        <g-image
+          alt="SNCF Gare Auxerre"
+          src="@/assets/img/angers_tram.jpg"
+          center
+          height="500px"
+          width="800px"
+        />
+      </div>
 
-
-
-
-        <div class="section_text">
-          <h2> Nos engagements </h2>
-          <p>
-            Fournisseurs 100% français : vicat, transport, tous en général
-            <br>
-            <br>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
-            doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur
-            rerum illum odit fugit assumenda rem dolores inventore iste
-            reprehenderit maxime! Iusto.
-          </p>
-        </div>
+      <div class="section_text">
+        <h2> Nos engagements </h2>
+        <p>
+          Fournisseurs 100% français : vicat, transport, tous en général
+          <br>
+          <br>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
+          doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur
+          rerum illum odit fugit assumenda rem dolores inventore iste
+          reprehenderit maxime! Iusto.
+        </p>
       </div>
     </div>
     
@@ -197,7 +200,7 @@ query Collection ($id: ID!) {
 .section_top {
   width : 65%;
 
-    margin : 3rem;
+  margin : 3rem;
   display : flex;
   flex-direction : row;
   gap : 2rem;
@@ -212,156 +215,62 @@ query Collection ($id: ID!) {
 /*-------------------------------------------------------------------------
     Page content 
   -----------------------------------------------------------------------*/
-    
-.section {
-  
+
+.section_content {
+  height : 100vh;
+
   display : flex;
-  justify-content : flex-end;
-  flex-direction : column;
-  
-    margin-top : 4rem;
-  padding-bottom : 3rem;
-  margin-bottom : 4rem;
+  flex-direction : row;
+  align-items : center;
 }
 
-.section h2 {
+.section_content h2 {
   padding : 0;
   margin : 0;
 }
 
-.section_image {
-  flex : 80%;
-  height : 500px;
-  width : 800px;
-
-}
-
 .section_image > img {
   object-fit: cover;
-
-}
-
-.section_content {
-  display : flex;
-  flex-direction : row;
-  justify-content : flex-end;
-  align-items : flex-end;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 .section_text {
-  position : absolute;
   width : 30vw;
-  padding : 2rem 1rem 2rem 3rem;
-  margin: 3rem  0 1rem 6rem;
-  margin-left : 0vw;
-  
+  padding : 2rem;
+  text-align : justify;
 /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
   border-radius : 8px;
   background-color : rgba(245,235,224, 0.8);
 }
 
 .section p {
-  padding :0 2rem 0 2rem;
+
+  padding :0;
   margin : 0;
   font-size : 1.1rem;
   text-align : left;
 }
 
-/* map space */
+.section_left {
+  display : flex;
+  flex-direction : column;
 
-.section_map {
-  margin-top : 4px;
-    margin-bottom : 4px;
-}
-.maps { 
-  width : 100%;/* Faire en sorte que cette zone fasse la taille de l'écran */
-  height : 100vh;
-  display: flex;
-  flex-wrap: wrap;
-  margin-top :3rem;
-  margin-bottom : 3rem;
-}
-
-.fond {
-  /* Mettre cette image en fond, avec du texte au dessus */
-  width : 80%;
-  position : absolute;
-  z-index: 1;
-}
-
-.maps_text {
-  display: flex;
-  width : 100%;
-  flex-direction: column;
-  z-index: 100;
-}
-
-.activity_order {
-  padding-left : 30px;
-  height : 100%;
-  width : 100%;
-  display: grid;
-  grid-template-columns: 25% [col-start] 25% [col-start] 25% [col-start] 25% [col-start];
-  grid-template-rows: [row1-start] 25% [row1-end row2-start] 25% [row2-end row3-start] 15% [rox3-end row4-start] 1% [rox4-end];
-  grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
-}
-
-.ShopCenter {
-  grid-column-start: 3;
-  grid-column-end: two;
-  grid-row-start: row2-start;
-  grid-row-end: 2;
-}
-
-.Hook {
-  grid-column-start: 4;
-  grid-column-end: one;
-  grid-row-start: row3-start;
-  grid-row-end: 2;
-}
-
-.SNCF {
-  grid-column-start: 1;
-  grid-column-end: one;
-  grid-row-start: row3-start;
-  grid-row-end: 3;
-}
-
-.Seaside {
-  grid-column-start: 3;
-  grid-column-end: one;
-  grid-row-start: row4-start;
-  grid-row-end: 4;
-}
-
-.Parc {
-  grid-column-start: 2;
-  grid-column-end: two;
-  grid-row-start: row3-start;
-  grid-row-end: 3;
-}
-
-/* processus space */
-
-.processus {
   padding : 1rem;
-  display : flex;
-  flex-direction : row;
-  justify-content : space-evenly;;
 }
 
-.rectangle {
-  height : 200px;
-  width : 200px;
-  background :#1A949D;
-  border-radius: 50%;
-  
+.section_right {
   display : flex;
-  align-items : center;
-  justify-content: center;
-  color : white;
+  flex-direction : column;
+
+    padding : 1rem;
 }
+
+.second_image {
+  background-color : red;
+  height : 50px;
+  width : 200px;
+}
+
 
 /* team space */
 .team {
@@ -384,7 +293,5 @@ query Collection ($id: ID!) {
   background-color : #1A949D;
   font-size : 0.8rem;
 }
-
-
 
 </style>
