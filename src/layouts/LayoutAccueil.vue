@@ -15,7 +15,7 @@
     </slot>
     <slot name="slot_contact">
     </slot>
-
+    <Banner />
     <Footer />
   </div>
 </template>
@@ -23,13 +23,14 @@
 <script>
 import Header from "@/components/SecondHeader.vue";
 import Footer from "@/components/Footer.vue";
+import Banner from "@/components/Banner.vue";
 
 export default {
-  name: "LayoutAccueil",
   components: {
     Header,
-    Footer
-  }
+    Footer,
+    Banner,
+  },
 };
 </script>
 

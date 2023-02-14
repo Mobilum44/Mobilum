@@ -60,7 +60,7 @@ query Collection ($id: ID!) {
     Paramètres de la galerie - position de base
   ---------------------------------------------------------*/
 .image_cover {
-  border-radius: 4px;
+  border-radius: 7px;
   border : solid white;
 
   position: relative;
@@ -101,6 +101,8 @@ query Collection ($id: ID!) {
     Paramètres de la galerie - position selection
   ---------------------------------------------------------*/
 .image_cover:hover {
+    border-radius: 4px;
+  border : 0px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
       transition: all 0.3s ease-in-out;
@@ -113,6 +115,7 @@ query Collection ($id: ID!) {
 
 
 .image_cover:hover > img {
+
   opacity: 0.3;
   transition: all 0.3s ease-in-out;
 }

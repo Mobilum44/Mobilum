@@ -1,14 +1,5 @@
 <template>
   <footer>
-    <div class="contact_zone">
-      <Button
-        theme="white"
-        to="/Contact/"
-      >
-        Nous contacter
-      </Button>
-    </div>
-
     <div class="content_top">
       <div class="contact">
         <g-image
@@ -106,26 +97,7 @@ footer {
 }
 
 /*
---------------------------------------------------------------
-Bandeau photo :
-- Recentrer légèrement sur les galets (supprimer marge en bas)
---------------------------------------------------------------
-*/
 
-.contact_zone {
-  background: url("../../src/assets/img/Galets.jpg") center center no-repeat;
-  filter: grayscale(80%);
-  background-size: cover;
-  background-attachment: fixed;
-  height: 15rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family: "Bebas Neue";
-}
-
-/*
 --------------------------------------------------------------
 Zone haute du footer
 --------------------------------------------------------------

@@ -87,34 +87,22 @@
         </div>
       </div>
     </div>
+
+    <!---------------------------------------------------
+         PARTIE ACTIVITES : Cartes
+  --------------------------------------------------->
+
     
     <div class="section_map">
-      <h2>Activité 1</h2>
-      <p> Activité 1 (Aménagement urbain, Sur-mesure, SNCF, centre commerciaux, la mer, les parcs, ...)</p>
-    <!-- 
-        <div class="maps">
-        <g-image class="fond" alt="photo ville" src="@/assets/img/VilleOlivier.JPG" />
-        <div class="maps_text">
-          <div class="activity_order">
-              <Activity class='Hook'/>
-              <Activity class='ShopCenter'/>
-              <Activity class='SNCF'/>
-              <Activity class="Seaside"/>
-              <Activity class="Parc"/>
-          </div>
-        </div>
-      </div>
-      -->
-    </div>  
-    <div class="section_map">
-      <h2>Activité 2</h2>
-      <p> Activité 2 (Aménagement urbain, Sur-mesure, SNCF, centre commerciaux, la mer, les parcs, ...)</p>
-    </div>  
-    <div class="section_map">
-      <h2>Activité 3</h2>
-      <p> Activité 3 (Aménagement urbain, Sur-mesure, SNCF, centre commerciaux, la mer, les parcs, ...)</p>
+      <h2>Activités</h2>
+      <Card />
     </div>   
       
+      <!---------------------------------------------------
+         PARTIE ACTIVITES : Cartes
+  --------------------------------------------------->
+
+  
     <div class="section">
       <div class="section_content">
         <div class="section_image">
@@ -126,6 +114,9 @@
             width="800px"
           />
         </div>
+
+
+
 
         <div class="section_text">
           <h2> Nos engagements </h2>
@@ -163,10 +154,11 @@
 
 <script>
 
-
+import Card from "@/components/Card.vue";
 export default {
   
     components: {
+      Card
   },
   
   metaInfo: {
@@ -278,9 +270,8 @@ query Collection ($id: ID!) {
 /* map space */
 
 .section_map {
-  border : solid black 1px;
-  padding : 3rem;
   margin-top : 4px;
+    margin-bottom : 4px;
 }
 .maps { 
   width : 100%;/* Faire en sorte que cette zone fasse la taille de l'écran */
