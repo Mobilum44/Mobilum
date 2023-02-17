@@ -1,5 +1,7 @@
 <template>
   <footer>
+
+    <!-- Mobiliers plus espacés, lignes entre les deux, moins de mobiliers -->
     <div class="content_top">
       <div class="contact">
         <g-image

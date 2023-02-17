@@ -2,20 +2,21 @@
   <div class="card-container">
     <div class="card">
       <figure class="card__thumb">
+        <!-- Parcs, Bords de mer, Gare, Lycée, ...
+        -->
         <img
-          src="@/assets/img/angers_tram.jpg"
-          alt="Picture by Kyle Cottrell"
+          src="@/assets/img/Galets.jpg"
+          alt="Galets rouen bfup Mobilum"
           class="card__image"
           fit="cover"
-          height="350px"
+          height="260px"
         >
         <figcaption class="card__caption">
           <h2 class="card__title">
-            Aménagement urbain
+            Centre ville
           </h2>
           <p class="card__text">
-            On fait des HOOK :)
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            Des mobiliers sur mesure pour les villes de Caen et Rouen.
           </p>
         </figcaption>
       </figure>
@@ -24,18 +25,18 @@
     <div class="card">
       <figure class="card__thumb">
         <img
-          src="@/assets/img/jardin_elium_vasco.jpg"
-          alt="Picture by Nathan Dumlao"
+          src="@/assets/img/olivier.jpg"
+          alt="photo parc du loroux-botereau mobilum"
           class="card__image"
           fit="cover"
           height="350px"
         >
         <figcaption class="card__caption">
           <h2 class="card__title">
-            Sur-mesure
+            Parc
           </h2>
           <p class="card__text">
-            Les affaires faites à la demande des clients  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            De nombreuses demandes concernent les amménagements des aires de parc.
           </p>
         </figcaption>
       </figure>
@@ -44,38 +45,18 @@
     <div class="card">
       <figure class="card__thumb">
         <img
-          src="@/assets/img/La_rochelle.jpg"
-          alt="Picture by Daniel Lincoln"
+          src="@/assets/img/cucq-bord-de-mer-transat-mobilum.jpg"
+          alt="Bord de mer à cucq transat Camah de Mobilum"
           class="card__image"
           fit="cover"
-          height="350px"
-        >
-        <figcaption class="card__caption">
-          <h2 class="card__title">
-            Parcs
-          </h2>
-          <p class="card__text">
-            On Friday, offices around the country celebrated the 15th annual Take Your Dog to Work Day. Though the event's primary goal is to raise awareness for pet adoption, the unanticipated impact may be a slightly more relaxing work environment for any office choosing to participate.
-          </p>
-        </figcaption>
-      </figure>
-    </div>
-
-    <div class="card">
-      <figure class="card__thumb">
-        <img
-          src="@/assets/img/La_rochelle.jpg"
-          alt="Picture by Kyle Cottrell"
-          class="card__image"
-          fit="cover"
-          height="350px"
+          height="260px"
         >
         <figcaption class="card__caption">
           <h2 class="card__title">
             Bord de mer
           </h2>
           <p class="card__text">
-            NASA released a list of 219 new “planet candidates” discovered by the Kepler space telescope, 10 of which are similar to Earth’s size and may be habitable by other life forms.
+            Grâce à ses propriétés innovantes, le BFUP est idéal pour les bords de mer. Sa tenue blablabla 
           </p>
         </figcaption>
       </figure>
@@ -84,18 +65,18 @@
     <div class="card">
       <figure class="card__thumb">
         <img
-          src="@/assets/img/Galets.jpg"
-          alt="Picture by Nathan Dumlao"
+          src="@/assets/img/gare-est-paris-mobilum.jpg"
+          alt="Photo gare paris mobilum"
           class="card__image"
           fit="cover"
-          height="350px"
+          height="300px"
         >
         <figcaption class="card__caption">
           <h2 class="card__title">
-            Centres commerciaux
+            Gare
           </h2>
           <p class="card__text">
-            Drinking more caffeine during the coronavirus lockdown? Here's how it can affect you over time and advice on making it better for you.
+            Depuis 2017 déjà, nous travaillons avec Synthèse pour réamménager l'intérieur des gares SNCF partout en France.
           </p>
         </figcaption>
       </figure>
@@ -104,18 +85,164 @@
     <div class="card">
       <figure class="card__thumb">
         <img
-          src="@/assets/img/SNCF_auxerre.png"
-          alt="Picture by Daniel Lincoln"
+          src="@/assets/img/tram-angers-banc-mobilum.jpg"
+          alt="Banc Vasco de Gamma Angers Mobilum"
           class="card__image"
           fit="cover"
-          width="350px"
+          height="260px"
         >
         <figcaption class="card__caption">
           <h2 class="card__title">
-            Intérieur
+            Tram
           </h2>
           <p class="card__text">
-            On Friday, offices around the country celebrated the 15th annual Take Your Dog to Work Day. Though the event's primary goal is to raise awareness for pet adoption, the unanticipated impact may be a slightly more relaxing work environment for any office choosing to participate.
+            Un incontournable des centres-villes, le tramway est lieu de rencontre de toute une population.
+          </p>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="card">
+      <figure class="card__thumb">
+        <img
+          src="@/assets/img/place-bruz-mobilum.png"
+          alt="chaise et banc mobilum à Bruz en Bretagne"
+          class="card__image"
+          fit="cover"
+          width="280px"
+        >
+        <figcaption class="card__caption">
+          <h2 class="card__title">
+            Place
+          </h2>
+          <p class="card__text">
+            Réaménagement de la place de Bruz avec une collection sur-mesure.
+          </p>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="card">
+      <figure class="card__thumb">
+        <!-- Parcs, Bords de mer, Gare, Lycée, ...-->
+        <img
+          src="@/assets/img/zone-commerciale-puilboreau-mobilum-origami.jpeg"
+          alt="Banc et totem origami par mobilum zone commerciale la rochelle"
+          class="card__image"
+          fit="cover"
+          height="260px"
+        >
+        <figcaption class="card__caption">
+          <h2 class="card__title">
+            Zone commerciale
+          </h2>
+          <p class="card__text">
+            Une gamme complète a été créée pour la création d'une zone commerciale à Puilboreau.
+          </p>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="card">
+      <figure class="card__thumb">
+        <!-- Parcs, Bords de mer, Gare, Lycée, ...-->
+        <img
+          src="@/assets/img/lycée-nord-sur-erdre-mobilum.jpg"
+          alt="Vue du ciel Lycée Nord sur Erdre à Nantes Mobilum"
+          class="card__image"
+          fit="cover"
+          height="300px"
+        >
+        <figcaption class="card__caption">
+          <h2 class="card__title">
+            Ecole
+          </h2>
+          <p class="card__text">
+            Présents dans de nombreux lieux d'enseignements, nous participons aux moments de pause des élèves.
+          </p>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="card">
+      <figure class="card__thumb">
+        <!-- Parcs, Bords de mer, Gare, Lycée, ...-->
+        <img
+          src="@/assets/img/granville-jardiniere-mobilum.png"
+          alt="centre de granville jardinière mobilum"
+          class="card__image"
+          fit="cover"
+          height="260px"
+        >
+        <figcaption class="card__caption">
+          <h2 class="card__title">
+            Bourg
+          </h2>
+          <p class="card__text">
+            Grandes villes ou petits villages, nous ne faisons pas de différence !
+          </p>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="card">
+      <figure class="card__thumb">
+        <!-- Parcs, Bords de mer, Gare, Lycée, ...-->
+        <img
+          src="@/assets/img/banc-feuille-roquefert-mobilum.png"
+          alt="Banc personnalisé empreinte de feuille dans le BFUP Roquefert"
+          class="card__image"
+          fit="cover"
+          height="260px"
+        >
+        <figcaption class="card__caption">
+          <h2 class="card__title">
+            Randonnées
+          </h2>
+          <p class="card__text">
+            Une demande spéciale : marquer l'empreinte des feuilles présentes sur le sentier !
+          </p>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="card">
+      <figure class="card__thumb">
+        <!-- Parcs, Bords de mer, Gare, Lycée, ...-->
+        <img
+          src="@/assets/img/totem-tertiaire-mobilum.jpg"
+          alt="totem en BFUP pour l'entreprise Luneau Papin par Mobilum"
+          class="card__image"
+          fit="cover"
+          height="300px"
+        >
+        <figcaption class="card__caption">
+          <h2 class="card__title">
+            Tertiaire
+          </h2>
+          <p class="card__text">
+            Toute une gamme de totem personnalisables avec le nom de votre entreprise vous attend.
+          </p>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="card">
+      <figure class="card__thumb">
+        <!-- Parcs, Bords de mer, Gare, Lycée, ...-->
+        <img
+          src="@/assets/img/lotissement-hook-mobilum.png"
+          alt="Lotissement coffret technique hook mobilum"
+          class="card__image"
+          fit="cover"
+          height="260px"
+        >
+        <figcaption class="card__caption">
+          <h2 class="card__title">
+            Lotissement
+          </h2>
+          <p class="card__text">
+            Un grand classique de la maison, utilisé dans les nouveaux quarties : le HOOK.
           </p>
         </figcaption>
       </figure>
@@ -133,12 +260,12 @@
   justify-content: center;
   width: 100%;
   height : 100%;
-  margin: 20px 0 80px;
+  margin-bottom : 3rem;
 }
 
 .card {
-  width: 300px;
-  height : 300px;
+  width: 250px;
+  height : 250px;
   margin: 10px;
   background-color: white;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
@@ -164,7 +291,7 @@
     margin : 0;
   position: relative;
   overflow: hidden;
-  height : 300px;
+  height : 250px;
 }
 @media (min-width: 1024px) {
   .card__thumb {
