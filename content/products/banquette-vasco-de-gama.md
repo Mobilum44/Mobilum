@@ -12,8 +12,8 @@ caroussel:
 - "../../images/banquette-vasco-de-gamma-tram-angers.JPG"
 reference: ''
 materiau: ''
-poids: ''
-dimensions: ''
+poids: "198"
+dimensions: L2000 x P400 x H550
 traitement: ''
 tags: []
 series: false
