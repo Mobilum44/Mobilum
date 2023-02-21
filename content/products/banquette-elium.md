@@ -12,8 +12,8 @@ caroussel:
 - "../../images/banquette-elium-parc.jpg"
 reference: ''
 materiau: ''
-poids: 209 kg
-dimensions: L1800 x P500 x H540 mm
+poids: "209"
+dimensions: L1800 x P500 x H540
 traitement: ''
 tags: []
 series: false
