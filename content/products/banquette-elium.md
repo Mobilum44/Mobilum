@@ -8,8 +8,8 @@ sub_category: Banquette
 gamme: Elium
 cover_image: "../../images/banquette-elium-1.jpg"
 caroussel:
-- "../../images/jardin-banquette-elium.jpg"
 - "../../images/banquette-elium-parc.jpg"
+- "../../images/jardin-banquette-elium.jpg"
 reference: ''
 materiau: ''
 poids: ''
