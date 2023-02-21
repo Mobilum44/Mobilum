@@ -76,7 +76,6 @@ export default {
  
 <style scoped>
 ul {
-  border : solid black;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -124,11 +123,16 @@ ul li:hover button {
   transition: all 0.2s ease-in-out;
 }
 
+ul::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+
 .carousel__container {
   margin : 0;
   position: relative;
   overflow: hidden;
-  height : 100vh;
+  height : 80vh;
   width : 100%;
 }
 

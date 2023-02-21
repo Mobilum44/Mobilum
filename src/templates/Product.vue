@@ -1,10 +1,7 @@
 <template>
   <LayoutProduct>
-    <!-- SUPPRIMER toute l'architecture, pour avoir juste 1 sous catégorie 
-    MISE EN PAGE : image de fond, défilant avec texte sur le coté (inspi xiaomi
-    
+    <!-- 
     En dessous du bandeau plein : infos techniques et reste de la gamme
-    
         -->
 
     <template #slot_titre>
@@ -132,6 +129,7 @@ p {
 }
 .contenu,
 h1 {
+  margin-top : 3rem;
 	padding-bottom: 1rem;
 	margin-bottom: 1rem;
 }
