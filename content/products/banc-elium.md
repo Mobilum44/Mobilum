@@ -8,12 +8,11 @@ sub_category: Banc
 gamme: Elium
 cover_image: "../../images/banc-elium-2-dossiers.jpg"
 caroussel:
-- "../../images/banc-elium-3-dossiers.jpg"
-- "../../images/banc-elium-2-dossiers-1.jpg"
-reference : ''
+- "../../images/banc-elium-3-dossiers-jardin-photoshop.jpg"
+reference: ''
 materiau: ''
-poids: ''
-dimensions: ''
+poids: 256 - 291
+dimensions: L1800 x P544 x H844
 traitement: ''
 tags: []
 series: false
