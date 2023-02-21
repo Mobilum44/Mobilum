@@ -49,12 +49,11 @@
       <div class="items">
         <h3>Caractéristiques</h3>
         <p>
-          <em>Poids</em> : {{ $page.product.poids }}<br>
-          <em>Dimensions</em> : {{ $page.product.dimensions }} <br>
+          <em>Poids</em> : {{ $page.product.poids }}kg<br> 
+          <em>Dimensions</em> : {{ $page.product.dimensions }}mm <br> 
         </p>
       </div>
       <div class="items">
-        <h3>Description</h3>
         <p>{{ $page.product.description }}</p>
       </div>
     </div>
