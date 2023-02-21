@@ -8,7 +8,6 @@ sub_category: Banquette
 gamme: Vasco de Gama
 cover_image: "../../images/banquette-vasco-de-gama.JPG"
 caroussel:
-- "../../images/banquette-lumineuse-vasco-de-gamma-trelaze.JPG"
 - "../../images/banquette-vasco-de-gamma-tram-angers.JPG"
 reference: ''
 materiau: ''
