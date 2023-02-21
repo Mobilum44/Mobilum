@@ -6,16 +6,18 @@ designer: Sovann Kim
 category: Assises
 sub_category: Chaise
 gamme: Obrac
-cover_image: "../../images/chaise-obrac-temporaire.jpg"
+cover_image: "../../images/chaise-obrac.jpg"
 caroussel:
-- "../../images/2021-07-01-mobilum-st-cyr-06.JPG"
-reference : ''
+- "../../images/chaise-obrac-saint-cyr.JPG"
+- "../../images/chaises-obrac-jardin-andouille.png"
+reference: ''
 materiau: ''
-poids: ''
-dimensions: ''
+poids: "135"
+dimensions: L550 x P725 x H930
 traitement: ''
 tags: []
 series: false
 canonical_url: false
 description: ''
+
 ---
