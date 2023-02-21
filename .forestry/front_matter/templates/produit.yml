@@ -46,7 +46,7 @@ fields:
 - name: reference
   type: text
   config:
-    required: true
+    required: false
   label: Référence
   description: Référence article (SAGE commerce)
   hidden: false
