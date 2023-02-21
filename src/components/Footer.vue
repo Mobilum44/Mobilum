@@ -1,9 +1,8 @@
 <template>
   <footer>
-
     <!-- Mobiliers plus espacés, lignes entre les deux, moins de mobiliers -->
     <div class="content_top">
-      <div class="contact">
+      <div class="column__left">
         <g-image
           class="Logo_mobilum"
           alt="Logo mobilum"
@@ -21,7 +20,7 @@
         </div>
       </div>
 
-      <div class="colonne_gauche">
+      <div class="column__right">
         <div class="menu_footer">
           <g-link
             class="footer__nav"
@@ -42,13 +41,44 @@
             Plan du site
           </g-link>
         </div>
-        <Button
-          theme="blue"
-          to="/contact/"
-        >
-          Réseaux sociaux
-        </Button>
-        <!-- Penser à créer des boutons logos RS <LogoRS /> -->
+
+        <div class="content__RS">
+          <g-link to="/Contact/">
+            <g-image
+              class="logo__RS"
+              alt="Logo mail"
+              src="@/assets/img/logos/mail.png"
+              width="30"
+            />
+          </g-link>
+
+          <g-link to="https://www.facebook.com/people/MOBILUM/100063454155980/">
+            <g-image
+              class="logo__RS"
+              alt="Logo facebook"
+              src="@/assets/img/logos/facebook.png"
+              width="30"
+            />
+          </g-link>
+
+          <g-link to="https://www.instagram.com/mobilum_france/?hl=fr">
+            <g-image
+              class="logo__RS"
+              alt="Logo instagram"
+              src="@/assets/img/logos/instagram.png"
+              width="30"
+            />
+          </g-link>
+
+          <g-link to="https://www.linkedin.com/company/mobilum-france/">
+            <g-image
+              class="logo__RS"
+              alt="Logo linkedin"
+              src="@/assets/img/logos/linkedin.png"
+              width="30"
+            />
+          </g-link>
+        </div>
       </div>
     </div>
 
@@ -62,11 +92,9 @@
 </template>
 
 <script>
-import Button from "@/components/Button.vue";
 
 export default {
   components: {
-    Button
   },
 
   metaInfo: {
@@ -116,15 +144,21 @@ Zone haute du footer
   align-items: space-between;
   flex-wrap: wrap;
 }
-/*
----------------------------------
-Colonne de droite
----------------------------------
-*/
+
+
 .Logo_mobilum {
   margin-right: 1rem;
 }
-.contact {
+
+
+/*
+---------------------------------
+Colonne de gauche
+---------------------------------
+*/
+
+
+.column__left {
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -138,34 +172,34 @@ Colonne de droite
   color: #fefcf3;
 }
 
-.contact a {
+.column__left a {
   text-decoration: none;
   color: #fefcf3;
 }
 
 /*
-------------------
-Mettre réseaux sociaux
-------------------
-*/
-
-.blue {
-  margin-top: 1rem;
-}
-
-/*
 ---------------------------------
-Colonne de gauche
+Colonne de droite
 ---------------------------------
 */
 
-.colonne_gauche {
+.column__right {
   display: flex;
   flex-direction: column;
   padding-top: 1em;
   justify-content: right;
   align-items: right;
 }
+
+.content__RS {
+  display : flex;
+  flex-direction : row;
+  gap : 1rem;
+  margin-top : 1rem;
+}
+
+
+
 
 /*
 ------------------

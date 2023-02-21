@@ -5,44 +5,53 @@
         v-for="(path, i) in img"
         :key="i"
       >
-        <button
-          v-if="i > 0"
-          @click="scrollTo(i - 1)"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="48"
-            height="48"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="#ffffff"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          ><path
-            d="M19 12H6M12 5l-7 7 7 7"
-          /></svg>
-        </button>
-        <g-image
-          :src="path"
-          :id="`slide-${i}`"
-        />
-        <button
-          v-if="i + 1 < img.length"
-          @click="scrollTo(i + 1)"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="48"
-            height="48"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="#ffffff"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          ><path d="M5 12h13M12 5l7 7-7 7" /></svg>
-        </button>
+        <div>
+          <button
+            v-if="i > 0"
+            @click="scrollTo(i - 1)"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="48"
+              height="48"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#ffffff"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ><path
+              d="M19 12H6M12 5l-7 7 7 7"
+            /></svg>
+          </button>
+
+          <div class="carousel__container">
+            <g-image
+              class="carousel__photo"
+              fit="cover"
+              height="2000px"
+              :src="path"
+              :id="`slide-${i}`"
+            />
+          </div>
+
+          <button
+            v-if="i + 1 < img.length"
+            @click="scrollTo(i + 1)"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="48"
+              height="48"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#ffffff"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ><path d="M5 12h13M12 5l7 7-7 7" /></svg>
+          </button>
+        </div>
       </li>
     </ul>
   </div>
@@ -67,8 +76,7 @@ export default {
  
 <style scoped>
 ul {
-  max-width : 100vw;
-  max-height : 70vh;
+  border : solid black;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -114,5 +122,23 @@ ul li button:last-child {
 ul li:hover button {
   opacity: 1;
   transition: all 0.2s ease-in-out;
+}
+
+.carousel__container {
+  margin : 0;
+  position: relative;
+  overflow: hidden;
+  height : 100vh;
+  width : 100%;
+}
+
+
+.carousel__photo {
+  position: relative;
+  flex: 0 0 100%;
+  width : 100%;
+  /* 
+  background-color: #f99;
+  counter-increment: item; */
 }
 </style>

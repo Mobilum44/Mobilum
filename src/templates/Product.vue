@@ -52,10 +52,6 @@
       <div class="items">
         <h3>Caractéristiques</h3>
         <p>
-          <!--
-          <em>Matériau</em> : {{ $page.product.materiau }}<br />
-          <em>Traitement</em> : {{ $page.product.traitement }}
-         -->
           <em>Poids</em> : {{ $page.product.poids }}<br>
           <em>Dimensions</em> : {{ $page.product.dimensions }} <br>
         </p>
@@ -143,18 +139,10 @@ h1 {
 /*-----------------------------------------------------------------
       Zone galerie
   ---------------------------------------------------------------*/
-.image_gallery {
-	width: 100%;
-	height: 100vh;
-}
-.image_gallery > img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
+
 
 /*-----------------------------------------------------------------
-      Zone galerie
+      Zone description
   ---------------------------------------------------------------*/
 .product_description {
 	display: flex;
