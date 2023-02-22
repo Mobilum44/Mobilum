@@ -132,7 +132,7 @@ ul::-webkit-scrollbar {
   margin : 0;
   position: relative;
   overflow: hidden;
-  height : 90vh;
+  height : 80vh;
   width : 100%;
 }
 

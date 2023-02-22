@@ -1,37 +1,24 @@
 <template>
   <LayoutProduct>
-    <!-- 
-    En dessous du bandeau plein : infos techniques et reste de la gamme
-        -->
+    <section class="page_top">
+      <g-link
+        class="return"
+        to="/Offre/"
+      >
+        Retour
+      </g-link>
+      <!-- trouver le bon chemin pour faire un vrai bouton retour-->
+      <div class="title">
+        <h1>{{ $page.product.title }}</h1>
+        <p>{{ $page.product.designer }}</p>
+      </div>
+    </section>
 
-    <template #slot_titre>
-      <section class="page_top">
-        <g-link
-          class="return"
-          to="/Offre/"
-        >
-          Retour
-        </g-link>
-        <!-- trouver le bon chemin pour faire un vrai bouton retour-->
-        <div class="contenu">
-          <h1>{{ $page.product.title }}</h1>
-          <p>{{ $page.product.designer }}</p>
-        </div>
-      </section>
-    </template>
 
-    <template #slot_bandeau>
-      <div class="gallery">
-        <Caroussel :img="$page.product.caroussel" />
-        <!--
-        <div class="image_gallery">
-          <g-image
-            class="img"
-            alt="Cover image"
-            v-if="$page.product.caroussel"
-            :src="$page.product.caroussel"
-          />
-        </div>
+    <div class="gallery">
+      <Caroussel :img="$page.product.caroussel" />
+
+      <!--
 
         Images défilantes en fond
         <div class="text_gallery">
@@ -42,8 +29,7 @@
           </p>
         </div>
         -->
-      </div>
-    </template>
+    </div>
 
     <div class="product_description">
       <div class="items">
@@ -110,25 +96,26 @@ export default {
       Zone titre
   ---------------------------------------------------------------*/
 .page_top {
+  margin-top : 5rem;
 	padding-top: 1rem;
-	padding-left: 10rem;
-	padding-right: 10rem;
+  display : flex;
+  flex-direction : row;
 }
 
-.contenu {
+.title {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-.contenu,
+.title,
 p {
 	margin: 0;
 	padding: 0;
 }
-.contenu,
+.title,
 h1 {
-  margin-top : 3rem;
+  margin-top : 1rem;
 	padding-bottom: 1rem;
 	margin-bottom: 1rem;
 }
