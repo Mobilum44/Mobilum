@@ -12,8 +12,8 @@ caroussel:
 - "../../images/banc-perron-stoop-sorbonne.jpg"
 reference: ''
 materiau: ''
-poids: ''
-dimensions: ''
+poids: "192"
+dimensions: L1000 x P1000 x H510
 traitement: ''
 tags: []
 series: false
