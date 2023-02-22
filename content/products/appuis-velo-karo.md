@@ -1,10 +1,10 @@
 ---
 collection: Mobilier urbain
-title: Appuis-vélo Karo
+title: Appui-vélo Karo
 published: true
 designer: "?"
-category: Appuis-Vélo
-sub_category: Appuis-Vélo
+category: Appui-Vélo
+sub_category: Appui-Vélo
 gamme: Karo
 cover_image: "../../images/appuis-velo-karo.jpg"
 caroussel: []
