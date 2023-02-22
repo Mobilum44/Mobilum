@@ -8,7 +8,7 @@ sub_category: Appui-vélo
 gamme: Track
 cover_image: "../../images/appui-velo-track.jpg"
 caroussel:
-- "../../images/appui-velo-track-saint-cyr.JPG"
+- "../../images/appui-velo-track-saint-cyr-1.JPG"
 - "../../images/appui-velo-track-grand-quevilly.JPG"
 reference: ''
 materiau: ''
