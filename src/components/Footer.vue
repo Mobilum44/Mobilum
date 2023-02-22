@@ -42,45 +42,39 @@
           </g-link>
         </div>
 
-        <div class="content__RS">
+        <ul class="content__RS">
           <g-link to="/Contact/">
-            <g-image
-              class="logo__RS"
-              alt="Logo mail"
-              src="@/assets/img/logos/mail.png"
-              width="30"
-            />
+            <li class="icon mail">
+              <span class="tooltip">Mail</span>
+              <p class="icon__text">Mail</p>
+            </li>
           </g-link>
 
           <g-link to="https://www.facebook.com/people/MOBILUM/100063454155980/">
-            <g-image
-              class="logo__RS"
-              alt="Logo facebook"
-              src="@/assets/img/logos/facebook.png"
-              width="30"
-            />
-          </g-link>
-
-          <g-link to="https://www.instagram.com/mobilum_france/?hl=fr">
-            <g-image
-              class="logo__RS"
-              alt="Logo instagram"
-              src="@/assets/img/logos/instagram.png"
-              width="30"
-            />
+            <li class="icon facebook">
+              <span class="tooltip">Facebook</span>
+              <p class="icon__text">Fb</p>
+            </li>
           </g-link>
 
           <g-link to="https://www.linkedin.com/company/mobilum-france/">
-            <g-image
-              class="logo__RS"
-              alt="Logo linkedin"
-              src="@/assets/img/logos/linkedin.png"
-              width="30"
-            />
+            <li class="icon linkedin">
+              <span class="tooltip">Linkedin</span>
+              <span class="icon__text">Lk</span>
+            </li>
           </g-link>
-        </div>
+
+
+          <g-link to="https://www.instagram.com/mobilum_france/?hl=fr">
+            <li class="icon instagram">
+              <span class="tooltip">Instagram</span>
+              <span class="icon__text">Ins</span>
+            </li>
+          </g-link>
+        </ul>
       </div>
     </div>
+
 
     <div class="legal">
       <p class="coordonnées">
@@ -104,6 +98,7 @@ export default {
 </script>
 
 <style>
+
 *,
 *:before,
 *:after {
@@ -191,13 +186,105 @@ Colonne de droite
   align-items: right;
 }
 
-.content__RS {
-  display : flex;
-  flex-direction : row;
-  gap : 1rem;
-  margin-top : 1rem;
+
+*:focus,
+*:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
 }
 
+.content__RS {
+  list-style: none;
+  display: flex;
+  justify-content : flex-start;
+  gap : 1rem;
+  margin-top : 1rem;
+  padding : 0;
+  color : #1A949D;
+  text-decoration: none;
+}
+
+.content__RS .icon {
+  position: relative;
+  background: #ffffff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.content__RS .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.content__RS .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.content__RS .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.content__RS .icon:hover span,
+.content__RS .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.content__RS .mail:hover,
+.content__RS .mail:hover .tooltip,
+.content__RS .mail:hover .tooltip::before {
+  background: #333333;
+  color: #ffffff;
+}
+
+.content__RS .facebook:hover,
+.content__RS .facebook:hover .tooltip,
+.content__RS .facebook:hover .tooltip::before {
+  background: #1877F2;
+  color: #ffffff;
+}
+
+.content__RS .instagram:hover,
+.content__RS .instagram:hover .tooltip,
+.content__RS .instagram:hover .tooltip::before {
+  background: #E4405F;
+  color: #ffffff;
+}
+
+.content__RS .linkedin:hover,
+.content__RS .linkedin:hover .tooltip,
+.content__RS .linkedin:hover .tooltip::before {
+  background: #0e76a8;
+  color: #ffffff;
+}
 
 
 

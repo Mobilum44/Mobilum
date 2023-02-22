@@ -101,7 +101,7 @@
         </figcaption>
       </figure>
     </div>
-
+<!----
     <div class="card">
       <figure class="card__thumb">
         <img
@@ -121,7 +121,7 @@
         </figcaption>
       </figure>
     </div>
-
+-----> 
     <div class="card">
       <figure class="card__thumb">
         <!-- Parcs, Bords de mer, Gare, Lycée, ...-->
@@ -164,9 +164,10 @@
       </figure>
     </div>
 
+
+<!-----
     <div class="card">
       <figure class="card__thumb">
-        <!-- Parcs, Bords de mer, Gare, Lycée, ...-->
         <img
           src="@/assets/img/granville-jardiniere-mobilum.png"
           alt="centre de granville jardinière mobilum"
@@ -176,7 +177,7 @@
         >
         <figcaption class="card__caption">
           <h2 class="card__title">
-            Bourg
+            Cimetières
           </h2>
           <p class="card__text">
             Grandes villes ou petits villages, nous ne faisons pas de différence !
@@ -184,27 +185,7 @@
         </figcaption>
       </figure>
     </div>
-
-    <div class="card">
-      <figure class="card__thumb">
-        <!-- Parcs, Bords de mer, Gare, Lycée, ...-->
-        <img
-          src="@/assets/img/banc-feuille-roquefert-mobilum.png"
-          alt="Banc personnalisé empreinte de feuille dans le BFUP Roquefert"
-          class="card__image"
-          fit="cover"
-          height="260px"
-        >
-        <figcaption class="card__caption">
-          <h2 class="card__title">
-            Randonnées
-          </h2>
-          <p class="card__text">
-            Une demande spéciale : marquer l'empreinte des feuilles présentes sur le sentier !
-          </p>
-        </figcaption>
-      </figure>
-    </div>
+------> 
 
     <div class="card">
       <figure class="card__thumb">
@@ -221,7 +202,7 @@
             Tertiaire
           </h2>
           <p class="card__text">
-            Toute une gamme de totem personnalisables avec le nom de votre entreprise vous attend.
+            PHOTO DE PIANO REZZO
           </p>
         </figcaption>
       </figure>
@@ -258,7 +239,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 100%;
+  width: 80%;
   height : 100%;
   margin-bottom : 3rem;
 }

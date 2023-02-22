@@ -35,9 +35,12 @@
     <div class="product_description">
       <div class="items">
         <h3>Caractéristiques</h3>
+        <p> Ajouter filaires + dimensions </p>
         <p>
+          BFUP / Inox, ......... <br />
           <em>Poids</em> : {{ $page.product.poids }}kg<br> 
-          <em>Dimensions</em> : {{ $page.product.dimensions }}mm <br> 
+          <em>Dimensions</em> : {{ $page.product.dimensions }}mm <br>
+          Monobloc/ multibloc
         </p>
       </div>
       <div class="items">
