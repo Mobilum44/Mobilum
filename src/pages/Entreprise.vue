@@ -183,11 +183,7 @@ article {
   -----------------------------------------------------------------------*/
 
 .section__content {
-  /* border : solid blue; */
-  margin-top : 15rem;
-  margin-bottom : 10rem;
   height : 80vh;
-
   display : flex;
   flex-direction : row;
   align-items : flex-end;

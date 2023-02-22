@@ -32,42 +32,16 @@ export default {
 </script>
 
 <style>
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
 
-em {
-  font-style: normal;
-  color: #f56d91;
-}
-
-footer {
-  z-index: 200;
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  background-color: rgba(26, 148, 157, 1);
-  font-size: 14px;
-  font-style: normal;
-  width: 100%;
-}
-
-/*
---------------------------------------------------------------
-Bandeau photo :
-- Recentrer légèrement sur les galets (supprimer marge en bas)
---------------------------------------------------------------
-*/
 
 .banniere {
-    height : 200px;
+  height : 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
   font-family: "Bebas Neue";
+  margin-top : 6rem;
 }
 
 .banner__button {

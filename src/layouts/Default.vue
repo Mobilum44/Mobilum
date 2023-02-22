@@ -46,7 +46,9 @@ query {
 .contenu {
   padding-left: 10rem;
   padding-right: 10rem;
-  padding-bottom: 5rem;
+  display : flex;
+  flex-direction : column;
+  gap : 5rem;
 }
 
 </style>

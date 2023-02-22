@@ -74,8 +74,6 @@ export default {
 }
 
 .collection {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
   width: 80%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -85,13 +83,10 @@ export default {
 
 .items_styling {
   border-radius: 4px;
-
   justify-self: center;
   position: relative;
-
   height: 300px;
   width: 100%;
-
   background-color: rgba(250, 250, 250, 0.25);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;

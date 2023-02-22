@@ -29,7 +29,7 @@
             <g-image
               class="carousel__photo"
               fit="cover"
-              width="2000px"
+              height="80vh"
               :src="path"
               :id="`slide-${i}`"
             />

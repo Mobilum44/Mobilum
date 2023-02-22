@@ -3,14 +3,14 @@
     <h1>Contact</h1>
     
     <div class="base">
-      <p> Nous ne travaillons pas avec les particuliers </p>
       <div class="content">
         <div class="content_box">
           <Form />
         </div>
      
         <div class="content_box">
-          <!-- Mettre les informations en colonne -->       
+          <!-- Mettre les informations en colonne --> 
+          <p> Nous ne travaillons pas avec les particuliers </p>      
           <div class="services_box">
             <p>
               Nous sommes joignables du lundi au vendredi, <br /> de 9h à 12h30 et de 14h à 18h. <br /><br /><br />

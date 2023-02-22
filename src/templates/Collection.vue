@@ -1,8 +1,17 @@
 <template>
   <Layout>
-    <h1>
-      {{ $page.collection.title }}
-    </h1>
+    <div class="title">
+      <h1>
+        {{ $page.collection.title }}
+      </h1>
+      <g-link
+        class="return"
+        onclick="history.go(-1)"
+      >
+        Retour
+      </g-link>
+    </div>
+
     <div class="collection_order">
       <g-link
         v-for="edge in $page.collection.belongsTo.edges"
@@ -44,6 +53,23 @@ query Collection ($id: ID!) {
 </page-query>
 
 <style scoped>
+
+.title {
+  display : flex;
+  flex-direction : row;
+  justify-content: space-between;
+  align-items : flex-end;
+  margin-bottom : 3rem;
+  padding-bottom: 1rem;
+  border-bottom : black solid 1px;
+}
+
+ h1 {
+  border-bottom : none;
+  margin : 0 0 0 1rem;
+  padding : 0;
+
+}
 /*---------------------------------------------------------
     Paramètres de la galerie - généralités
   ---------------------------------------------------------*/

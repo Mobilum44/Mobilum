@@ -12,22 +12,14 @@ body {
 }
 
 h1 {
-  /*margin-top: 0rem;
-  margin-left: -7rem;
-  position: fixed;
-  font-variant: small-caps;
 
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-
-  */
   letter-spacing: -0.25px;
   text-align: left;
   font-family: "Montserrat";
   font-weight: 200;
   font-size: 3rem;
   margin-top: 1rem;
-  padding: 1rem;
+  padding: 0 0 1rem 1rem;
   border-bottom: black solid 1px;
 }
 

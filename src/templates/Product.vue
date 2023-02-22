@@ -1,13 +1,14 @@
 <template>
-  <LayoutProduct>
+  <Layout>
     <section class="page_top">
       <g-link
         class="return"
-        to="/Offre/"
+        onclick="history.go(-1)"
       >
         Retour
       </g-link>
-      <!-- trouver le bon chemin pour faire un vrai bouton retour-->
+
+
       <div class="title">
         <h1>{{ $page.product.title }}</h1>
         <p>{{ $page.product.designer }}</p>
@@ -47,7 +48,7 @@
     <div class="other_products">
       <h2>Mettre les autres produits de la gamme ici</h2>
     </div>
-  </LayoutProduct>
+  </Layout>
 </template>
 
 <page-query>
@@ -67,14 +68,14 @@ query Product ($id: ID!) {
 </page-query>
 
 <script>
-import LayoutProduct from "@/layouts/LayoutProduct.vue";
+import Layout from "@/layouts/Default.vue";
 // import Button from "@/components/Button.vue";
 import Caroussel from "@/components/Caroussel.vue";
 
 export default {
 	components: {
 		// Button,
-		LayoutProduct,
+		Layout,
 		Caroussel,
 	},
 };
@@ -96,8 +97,6 @@ export default {
       Zone titre
   ---------------------------------------------------------------*/
 .page_top {
-  margin-top : 5rem;
-	padding-top: 1rem;
   display : flex;
   flex-direction : row;
 }
@@ -131,14 +130,11 @@ h1 {
 .product_description {
 	display: flex;
 	flex-direction: column;
-	padding-top: 3vh;
-	padding-bottom: 3vh;
 	align-items: center;
 }
 
 .items {
 	width: 60%;
-	padding: 2vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -148,7 +144,4 @@ em {
 	color: #1a949d;
 }
 
-.other_products {
-	margin-top: 2rem;
-}
 </style>
