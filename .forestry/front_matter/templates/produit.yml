@@ -94,6 +94,7 @@ fields:
   label: description
 pages:
 - content/products/appui-velo-track.md
+- content/products/appui-velo-yoon.md
 - content/products/appuis-velo-karo.md
 - content/products/banc-duchesse.md
 - content/products/banc-elium.md
