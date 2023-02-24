@@ -21,7 +21,7 @@
         <div class="image_cover">
           <g-image
             v-if="edge.node.cover_image"
-            alt="photo d'un Obrac"
+            alt="photo mobilier urbain"
             :src="edge.node.cover_image"
           />
           <p>
