@@ -9,7 +9,8 @@ gamme: Stamp
 cover_image: "../../images/canape-stamp-window.jpg"
 caroussel: []
 reference : ''
-materiau: ''
+filaire: ''
+materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
 poids: ''
 dimensions: ''
 traitement: ''

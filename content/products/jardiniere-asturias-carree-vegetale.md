@@ -10,7 +10,8 @@ cover_image: "../../images/jardinere-asturias-carree-vegetale.jpg"
 caroussel:
 - "../../images/p-89-photo-jardinie-cre-asturias-carre-ue-ve-uge-utale.jpg"
 reference : ''
-materiau: ''
+filaire: ''
+materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
 poids: ''
 dimensions: ''
 traitement: ''

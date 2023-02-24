@@ -9,7 +9,8 @@ gamme: Asturias
 cover_image: "../../images/jardinere-asturias-ronde-vegetale.jpg"
 caroussel: []
 reference : ''
-materiau: ''
+filaire: ''
+materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
 poids: ''
 dimensions: ''
 traitement: ''

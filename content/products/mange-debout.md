@@ -9,7 +9,8 @@ gamme: Cantine
 cover_image: "../../images/mange-debout.JPG"
 caroussel: []
 reference : ''
-materiau: ''
+filaire: ''
+materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
 poids: ''
 dimensions: ''
 traitement: ''

@@ -101,7 +101,7 @@
         </figcaption>
       </figure>
     </div>
-<!----
+    <!----
     <div class="card">
       <figure class="card__thumb">
         <img
@@ -165,7 +165,7 @@
     </div>
 
 
-<!-----
+    <!-----
     <div class="card">
       <figure class="card__thumb">
         <img
@@ -238,15 +238,15 @@
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  width: 80%;
+  justify-content: flex-start;
+  width: 100%;
   height : 100%;
   margin-bottom : 3rem;
 }
 
 .card {
-  width: 250px;
-  height : 250px;
+  width: 200px;
+  height : 200px;
   margin: 10px;
   background-color: white;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
@@ -272,7 +272,7 @@
     margin : 0;
   position: relative;
   overflow: hidden;
-  height : 250px;
+  height : 200px;
 }
 @media (min-width: 1024px) {
   .card__thumb {

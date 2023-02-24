@@ -9,7 +9,8 @@ gamme: Beam
 cover_image: "../../images/banquette-beam-double-1.JPG"
 caroussel: []
 reference : ''
-materiau: ''
+filaire: ''
+materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
 poids: ''
 dimensions: ''
 traitement: ''

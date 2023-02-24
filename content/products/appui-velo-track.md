@@ -11,7 +11,8 @@ caroussel:
 - "../../images/appui-velo-track-saint-cyr-1.JPG"
 - "../../images/appui-velo-track-grand-quevilly.JPG"
 reference: ''
-materiau: ''
+filaire: '' 
+materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
 poids: "28"
 dimensions: L217 x P72 x H900
 traitement: ''

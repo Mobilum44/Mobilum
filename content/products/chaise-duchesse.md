@@ -10,7 +10,8 @@ cover_image: "../../images/fauteuil-duchesse.JPG"
 caroussel:
 - "../../images/chaise-duchesse-bfup-place-bruz.JPG"
 reference : ''
-materiau: ''
+filaire: ''
+materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP) et inox'
 poids: ''
 dimensions: ''
 traitement: ''

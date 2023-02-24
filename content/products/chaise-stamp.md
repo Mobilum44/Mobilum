@@ -11,7 +11,8 @@ caroussel:
 - "../../images/fauteuil-et-table.jpg"
 - "../../images/test-chaise-stamp-transparent.jpg"
 reference : ''
-materiau: ''
+filaire: ''
+materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
 poids: ''
 dimensions: ''
 traitement: ''

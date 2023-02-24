@@ -11,7 +11,8 @@ caroussel:
 - "../../images/banquette-beam-double.jpg"
 - "../../images/banquette-beam-1.jpg"
 reference : ''
-materiau: ''
+filaire: ''
+materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
 poids: ''
 dimensions: ''
 traitement: ''

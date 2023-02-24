@@ -9,8 +9,9 @@ gamme: Vasco de Gama
 cover_image: "../../images/banquette-vasco-de-gama-demi-lunes.JPG"
 caroussel:
 - "../../images/banquette-lumineuse-vasco-de-gamma-trelaze.JPG"
-reference: ''
-materiau: ''
+reference : ''
+filaire: ''
+materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
 poids: "192"
 dimensions: L2000 x P400 x H550
 traitement: ''

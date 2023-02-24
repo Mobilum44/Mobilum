@@ -10,8 +10,9 @@ cover_image: "../../images/transat-camah.jpg"
 caroussel:
 - "../../images/transat-camah-flesselles.JPG"
 - "../../images/transat-camah-cucq.JPG"
-reference: ''
-materiau: ''
+reference : ''
+filaire: ''
+materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
 poids: "181"
 dimensions: L1861 x P650 x H625
 traitement: ''

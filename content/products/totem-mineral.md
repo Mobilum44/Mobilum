@@ -9,7 +9,8 @@ gamme: Minéral
 cover_image: "../../images/totem-mineral.jpg"
 caroussel: []
 reference : ''
-materiau: ''
+filaire: ''
+materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
 poids: ''
 dimensions: ''
 traitement: ''

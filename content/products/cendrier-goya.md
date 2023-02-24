@@ -9,7 +9,8 @@ gamme: Goya
 cover_image: "../../images/cendrier-goya.jpg"
 caroussel: []
 reference : ''
-materiau: ''
+filaire: ''
+materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
 poids: ''
 dimensions: ''
 traitement: ''

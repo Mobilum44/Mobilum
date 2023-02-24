@@ -9,7 +9,8 @@ gamme: Duchesse
 cover_image: "../../images/banquette-duchesse.JPG"
 caroussel: []
 reference : ''
-materiau: ''
+filaire: ''
+materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP) et inox'
 poids: ''
 dimensions: ''
 traitement: ''

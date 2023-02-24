@@ -10,8 +10,9 @@ cover_image: "../../images/banquette-elium-2.jpg"
 caroussel:
 - "../../images/jardin-banquette-elium.jpg"
 - "../../images/banquette-elium-parc.jpg"
-reference: ''
-materiau: ''
+reference : ''
+filaire: ''
+materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
 poids: "209"
 dimensions: L1800 x P500 x H540
 traitement: ''

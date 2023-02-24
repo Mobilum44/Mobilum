@@ -10,8 +10,9 @@ cover_image: "../../images/banc-perron-stoop.jpg"
 caroussel:
 - "../../images/banc-perron-stoop-ecouflant.jpg"
 - "../../images/banc-perron-stoop-sorbonne.jpg"
-reference: ''
-materiau: ''
+reference : ''
+filaire: ''
+materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
 poids: "192"
 dimensions: L1000 x P1000 x H510
 traitement: ''

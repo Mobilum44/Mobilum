@@ -9,7 +9,8 @@ gamme: Stamp
 cover_image: "../../images/banc-stamp-lisse-1.jpg"
 caroussel: []
 reference : ''
-materiau: ''
+filaire: ''
+materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
 poids: ''
 dimensions: ''
 traitement: ''

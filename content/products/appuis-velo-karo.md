@@ -9,7 +9,8 @@ gamme: Karo
 cover_image: "../../images/appuis-velo-karo.jpg"
 caroussel: []
 reference : ''
-materiau: ''
+filaire: ''
+materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
 poids: ''
 dimensions: ''
 traitement: ''

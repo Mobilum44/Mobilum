@@ -9,7 +9,8 @@ gamme: Elium
 cover_image: "../../images/chaise-elium.jpg"
 caroussel: []
 reference : ''
-materiau: ''
+filaire: ''
+materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
 poids: ''
 dimensions: ''
 traitement: ''
