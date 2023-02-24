@@ -18,26 +18,19 @@
 
     <div class="gallery">
       <Caroussel :img="$page.product.caroussel" />
-
-      <!--
-
-        Images défilantes en fond
-        <div class="text_gallery">
-          <p>
-            Mini galerie d'images <br />
-            Inclure le nom des prescripteurs, lieu du projet, ... en même temps
-            que le défilement des photos in situ
-          </p>
-        </div>
-        -->
     </div>
 
     <div class="product_description">
+      <h3>Caractéristiques</h3>
       <div class="items">
-        <h3>Caractéristiques</h3>
+        <g-image
+          v-if="edge.node.cover_image"
+          alt="photo mobilier urbain"
+          :src="edge.node.cover_image"
+        />
         <p> Ajouter filaires + dimensions </p>
         <p>
-          BFUP / Inox, ......... <br />
+          <em>Materiau :</em> : {{ $page.product.materiau }}kg<br> 
           <em>Poids</em> : {{ $page.product.poids }}kg<br> 
           <em>Dimensions</em> : {{ $page.product.dimensions }}mm <br>
           Monobloc/ multibloc
