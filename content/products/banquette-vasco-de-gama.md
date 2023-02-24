@@ -1,6 +1,6 @@
 ---
 collection: Mobilier urbain
-title: Banquette Vasco de Gama
+title: Banquette Vasco de Gama lisse
 published: true
 designer: Sans demi-lune
 category: Assises
