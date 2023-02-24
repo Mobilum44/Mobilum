@@ -15,6 +15,7 @@ materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
 poids: ''
 dimensions: ''
 traitement: ''
+format  : ''
 tags: []
 series: false
 canonical_url: false

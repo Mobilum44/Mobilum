@@ -16,6 +16,7 @@ materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
 poids: "28"
 dimensions: L217 x P72 x H900
 traitement: ''
+format  : ''
 tags: []
 series: false
 canonical_url: false
