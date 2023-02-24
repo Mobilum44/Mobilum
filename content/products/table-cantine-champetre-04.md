@@ -7,15 +7,18 @@ category: Table
 sub_category: Table
 gamme: Cantine
 cover_image: "../../images/table-cantine-champetre-04.jpg"
-caroussel: []
-reference : ''
-filaire: ''
-materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
-poids: ''
-dimensions: ''
+caroussel:
+- "../../images/cantine-04-dieppe-bois-rosendal.jpg"
+- "../../images/cantine-04-breteville-parc-du-studio-1.jpg"
+reference: ''
+filaire: []
+materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
+poids: 1 010
+dimensions: L2600 x P1650 x H810
 traitement: ''
 tags: []
 series: false
 canonical_url: false
 description: ''
+
 ---
