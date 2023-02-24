@@ -63,6 +63,11 @@ fields:
 - type: text
   name: dimensions
   label: dimensions
+- name: format
+  type: text
+  config:
+    required: false
+  label: Format
 - type: text
   name: traitement
   label: traitement
