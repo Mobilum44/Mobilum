@@ -9,7 +9,7 @@
           alt="Galets rouen bfup Mobilum"
           class="card__image"
           fit="cover"
-          height="260px"
+          height="220px"
         >
         <figcaption class="card__caption">
           <h2 class="card__title">
@@ -49,7 +49,7 @@
           alt="Bord de mer à cucq transat Camah de Mobilum"
           class="card__image"
           fit="cover"
-          height="260px"
+          height="220px"
         >
         <figcaption class="card__caption">
           <h2 class="card__title">
@@ -89,7 +89,7 @@
           alt="Banc Vasco de Gamma Angers Mobilum"
           class="card__image"
           fit="cover"
-          height="260px"
+          height="220px"
         >
         <figcaption class="card__caption">
           <h2 class="card__title">
@@ -130,7 +130,7 @@
           alt="Banc et totem origami par mobilum zone commerciale la rochelle"
           class="card__image"
           fit="cover"
-          height="260px"
+          height="220px"
         >
         <figcaption class="card__caption">
           <h2 class="card__title">
@@ -173,7 +173,7 @@
           alt="centre de granville jardinière mobilum"
           class="card__image"
           fit="cover"
-          height="260px"
+          height="220px"
         >
         <figcaption class="card__caption">
           <h2 class="card__title">
@@ -216,7 +216,7 @@
           alt="Lotissement coffret technique hook mobilum"
           class="card__image"
           fit="cover"
-          height="260px"
+          height="220px"
         >
         <figcaption class="card__caption">
           <h2 class="card__title">
@@ -250,6 +250,11 @@
   margin: 10px;
   background-color: white;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+  filter : grayscale(80%);
+}
+
+.card:hover{
+  filter : grayscale(0);
 }
 
 
@@ -286,7 +291,7 @@
   content: "";
   width: 100%;
   height: 100%;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 40%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 10%, rgba(255, 255, 255, 0) 100%);
   transition: 0.3s;
 }
 @media (min-width: 1024px) {

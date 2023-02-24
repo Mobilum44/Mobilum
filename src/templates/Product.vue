@@ -22,27 +22,31 @@
 
     <div class="product_description">
       <h3>Caractéristiques</h3>
+
+
       <div class="items">
-        <g-image
-          v-if="edge.node.cover_image"
-          alt="photo mobilier urbain"
-          :src="edge.node.cover_image"
-        />
-        <p> Ajouter filaires + dimensions </p>
         <p>
-          <em>Materiau :</em> : {{ $page.product.materiau }}kg<br> 
+          Filaire ici
+        <!--
+        <g-image
+          v-if="$page.product.filaire"
+          alt="photo mobilier urbain"
+          :src="$page.product.filaire"
+        />
+        --->
+        </p>
+        <p>
+          <em>Materiau :</em> : {{ $page.product.materiau }}<br> 
           <em>Poids</em> : {{ $page.product.poids }}kg<br> 
           <em>Dimensions</em> : {{ $page.product.dimensions }}mm <br>
-          Monobloc/ multibloc
+          <em>Format :</em> {{ $page.product.format }} Monobloc/ multibloc
         </p>
       </div>
-      <div class="items">
-        <p>{{ $page.product.description }}</p>
-      </div>
+      <p>{{ $page.product.description }}</p>
     </div>
 
     <div class="other_products">
-      <h2>Mettre les autres produits de la gamme ici</h2>
+      <p>Mettre les autres produits de la gamme ici</p>
     </div>
   </Layout>
 </template>
@@ -53,10 +57,12 @@ query Product ($id: ID!) {
     title
     gamme
     designer
-    materiau
     caroussel
+    filaire
+    materiau
     poids
     dimensions
+    format
     traitement
     description
   }
@@ -127,13 +133,16 @@ h1 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+  justify-content : center;
+  gap : 3rem;
+
 }
 
 .items {
 	width: 60%;
 	display: flex;
-	flex-direction: column;
-	align-items: center;
+	flex-direction: row;
+  justify-content: space-between;
 }
 
 em {

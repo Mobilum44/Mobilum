@@ -48,7 +48,7 @@ query {
   padding-right: 10rem;
   display : flex;
   flex-direction : column;
-  gap : 10rem;
+  gap : 2rem;
 }
 
 </style>

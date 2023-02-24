@@ -172,10 +172,11 @@ article {
   -webkit-column-count:2;
   -moz-column-count:2;
   column-count:2;
-
   -webkit-column-gap: 30px;
   -moz-column-gap: 30px;
   column-gap: 30px;
+  
+  margin-bottom : 3rem;
 }
   
 /*-------------------------------------------------------------------------
@@ -188,7 +189,7 @@ article {
   flex-direction : row;
   align-items : flex-end;
   justify-content: center;
-  /*gap : 2rem;*/
+  margin :  4rem 0 6rem 0;
 }
 
 .section__side {
