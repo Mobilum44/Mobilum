@@ -39,7 +39,7 @@
           <em>Materiau :</em> : {{ $page.product.materiau }}<br> 
           <em>Poids</em> : {{ $page.product.poids }}kg<br> 
           <em>Dimensions</em> : {{ $page.product.dimensions }}mm <br>
-          <em>Format :</em> {{ $page.product.format }} Monobloc/ multibloc
+          <em>Format :</em> {{ $page.product.format }}
         </p>
       </div>
       <p>{{ $page.product.description }}</p>
@@ -134,7 +134,7 @@ h1 {
 	flex-direction: column;
 	align-items: center;
   justify-content : center;
-  gap : 3rem;
+  gap : 2rem;
 
 }
 
