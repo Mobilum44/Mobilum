@@ -11,7 +11,8 @@ caroussel:
 - "../../images/cantine-04-dieppe-bois-rosendal.jpg"
 - "../../images/cantine-04-breteville-parc-du-studio-1.jpg"
 reference: ''
-filaire: []
+filaire:
+- "../../images/filaire-cantine-04.png"
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 1 010
 dimensions: L2600 x P1650 x H810
