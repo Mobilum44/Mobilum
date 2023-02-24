@@ -64,9 +64,18 @@ fields:
   name: dimensions
   label: dimensions
 - name: format
-  type: text
+  type: select
+  default: ''
   config:
     required: false
+    options:
+    - Monobloc
+    - Multibloc
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
   label: Format
 - type: text
   name: traitement
