@@ -1,13 +1,18 @@
 <template>
   <Layout>
-    <h1> Mentions légales </h1>
+    <template #slot_image>
+      <section class="slot_image">
+        <h1> Mentions légales </h1>
+      </section>
+    </template>
+
 
     <p>
       Ce site internet est le site officiel de la société MOBILUM.
 
       www.mobilum-france.com
     </p>
-    <h3 class="h3-style">
+    <h3>
       Editeur du site
     </h3>
 
@@ -42,13 +47,13 @@
       Christophe Canadell, Sovann Kim, Raphaёl Prézelin
     </p>
 
-    <h3 class="h3-style">
+    <h3>
       Propriété intellectuelle
     </h3>
     <p>
       En application de la loi du 11 mars 1957 (art. 41) et du code de la propriété intellectuelle du 1er juillet 1992, toute reproduction, représentation, utilisation partielle ou totale à usage collectif est strictement interdite sans avoir obtenu l’autorisation préalable de la société MOBILUM et constitue un délit de contrefaçon. L’ensemble des photographies, logos, dessins techniques, textes relèvent de la propriété de MOBILUM.
     </p>
-    <h3 class="h3-style">
+    <h3>
       Liens hypertexte
     </h3>
     <p>
@@ -79,9 +84,14 @@ export default {
 </script>
 
 
-<style>
+<style scoped>
+.slot_image {
+    background : url("../assets/img/fond_entreprise.jpg") center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
-.h3-style {
+h3 {
   color : #1A949D;
   margin-top : 2vh;
 }

@@ -1,6 +1,11 @@
 <template>
   <Layout>
-    <h1>Notre matériau</h1>
+
+    <template #slot_image>
+      <section class="slot_image">
+        <h1>Notre matériau</h1>
+      </section>
+    </template>
 
     <div class="big_box">
       <h2>Le BFUP</h2>
@@ -69,6 +74,12 @@ export default {
 </script>
 
 <style scoped>
+.slot_image {
+    background : url("../assets/img/fond_entreprise.jpg") center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .big_box {
   display: flex;
   flex-direction: column;

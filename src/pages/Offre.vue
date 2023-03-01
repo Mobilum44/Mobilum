@@ -2,7 +2,13 @@
   <!--mobilier urbain, Ammenagement(hook + signaletique), grands comptes, Nos réalisations sur mesure
   Supprimer sav -->
   <Layout>
-    <h1>Notre offre</h1>
+    <template #slot_image>
+      <section class="slot_image">
+        <h1>Notre offre</h1>
+      </section>
+    </template>
+    
+
     <div class="body_offer">
       <div class="collection">
         <g-link
@@ -68,6 +74,14 @@ export default {
 </script>
 
 <style scoped>
+.slot_image {
+    background : url("../assets/img/fond_entreprise.jpg") center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
 .body_offer {
   display: flex;
   justify-content: center;

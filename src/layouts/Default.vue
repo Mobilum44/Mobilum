@@ -44,6 +44,7 @@ query {
 }
 
 .contenu {
+  margin-top: 3rem;
   padding-left: 10rem;
   padding-right: 10rem;
   display : flex;

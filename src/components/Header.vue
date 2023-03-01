@@ -91,7 +91,6 @@ header {
 }
 
 .header_content {
-  position: absolute;
   margin-top: 3rem;
   padding-right: 3rem;
   padding-left: 55vw;

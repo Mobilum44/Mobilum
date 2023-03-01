@@ -1,6 +1,12 @@
 <template>
   <Layout>
-    <h1>Contact</h1>
+
+<template #slot_image>
+      <section class="slot_image">
+        <h1>Contact</h1>
+      </section>
+    </template>
+
     
     <div class="base">
       <div class="content">
@@ -55,6 +61,15 @@ export default {
 </script>
 
 <style scoped>
+
+
+.slot_image {
+    background : url("../assets/img/fond_entreprise.jpg") center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
 .base {
   text-align: center;
   display : flex;

@@ -2,12 +2,12 @@
   <Layout>
     <template #slot_image>
       <section class="slot_image">
+        <h1>Notre entreprise</h1>
       </section>
     </template>
     
     <section class="page_top">
       <div class="title">
-        <h1>Notre entreprise</h1>
       </div>
     </section>
 
@@ -140,6 +140,13 @@ export default {
 /*-------------------------------------------------------------------------
     General
   -----------------------------------------------------------------------*/
+.slot_image {
+    background : url("../assets/img/fond_entreprise.jpg") center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
 h2 {
   padding-bottom : 1rem;
   margin : 2rem;
@@ -149,16 +156,6 @@ h2 {
 /*-------------------------------------------------------------------------
     Page top 
   -----------------------------------------------------------------------*/
-.slot_image {
-  background : url("../assets/img/fond_entreprise.jpg") center center no-repeat;
-  background-size: cover;
-  width: 100%;
-  height : 80vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content : center;
-}
 
 .section_top {
   width : 70%;

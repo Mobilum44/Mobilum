@@ -46,21 +46,25 @@
           <g-link to="/Contact/">
             <li class="icon mail">
               <span class="tooltip">Mail</span>
-              <p class="icon__text">Mail</p>
+              <div class="icon__text"></div>
             </li>
           </g-link>
 
           <g-link to="https://www.facebook.com/people/MOBILUM/100063454155980/">
             <li class="icon facebook">
               <span class="tooltip">Facebook</span>
-              <p class="icon__text">Fb</p>
+              <div class="icon__text">
+                Fb
+              </div>
             </li>
           </g-link>
 
           <g-link to="https://www.linkedin.com/company/mobilum-france/">
             <li class="icon linkedin">
               <span class="tooltip">Linkedin</span>
-              <span class="icon__text">Lk</span>
+              <div class="icon__text">
+                Lk
+              </div>
             </li>
           </g-link>
 
@@ -68,7 +72,9 @@
           <g-link to="https://www.instagram.com/mobilum_france/?hl=fr">
             <li class="icon instagram">
               <span class="tooltip">Instagram</span>
-              <span class="icon__text">Ins</span>
+              <div class="icon__text">
+                Ins
+              </div>
             </li>
           </g-link>
         </ul>
@@ -219,6 +225,7 @@ Colonne de droite
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
+
 
 .content__RS .tooltip {
   position: absolute;

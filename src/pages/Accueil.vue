@@ -1,13 +1,5 @@
 <template>
   <LayoutAccueil>
-    <g-link to="/#/">
-      <g-image
-        class="logo_header"
-        alt="Logo mobilum"
-        src="@/assets/img/logos/Blue_logo.png"
-        width="80"
-      />
-    </g-link>
     <!-----------------------------------------------
 Partie en attente de développement complet du site
 -------------------------------------------------->
@@ -100,18 +92,15 @@ export default {
 <style scoped>
 
 
-.logo_header {
-  position: fixed;
-  margin-top: -70vh;
-  margin-left: 0rem;
-}
-
-
 /* General */
 h1 {
+  width : 100%;
+  text-transform: none;
+  font-weight: 200;
+  border-bottom : 1px solid;
   color: #1A949D;
-  margin : 4vh;
-  padding : 4vh;
+  margin : 2rem;
+  padding : 1rem;
 }
 
 h3 {
