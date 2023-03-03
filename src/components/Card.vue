@@ -250,7 +250,7 @@
   margin: 10px;
   background-color: white;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
-  filter : grayscale(80%);
+  filter : grayscale(0%);
 }
 
 .card:hover{

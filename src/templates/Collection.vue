@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <LayoutAccueil>
     <div class="title">
       <h1>
         {{ $page.collection.title }}
@@ -30,7 +30,7 @@
         </div>
       </g-link>
     </div>
-  </Layout>
+  </LayoutAccueil>
 </template>
 
 <page-query>
@@ -65,10 +65,13 @@ query Collection ($id: ID!) {
 }
 
  h1 {
-  border-bottom : none;
-  margin : 0 0 0 1rem;
+  text-align: left;
+  font-weight: 200;
+  text-transform: none;
+  border: none;
+  color : black;
   padding : 0;
-
+  margin : 0;
 }
 /*---------------------------------------------------------
     Paramètres de la galerie - généralités

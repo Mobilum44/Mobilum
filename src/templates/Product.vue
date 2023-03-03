@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <LayoutAccueil>
     <section class="page_top">
       <g-link
         class="return"
@@ -10,7 +10,9 @@
 
 
       <div class="title">
-        <h1>{{ $page.product.title }}</h1>
+        <h1 class="h1_title">
+          {{ $page.product.title }}
+        </h1>
         <p>{{ $page.product.designer }}</p>
       </div>
     </section>
@@ -48,7 +50,7 @@
     <div class="other_products">
       <p>Mettre les autres produits de la gamme ici</p>
     </div>
-  </Layout>
+  </LayoutAccueil>
 </template>
 
 <page-query>
@@ -70,14 +72,14 @@ query Product ($id: ID!) {
 </page-query>
 
 <script>
-import Layout from "@/layouts/Default.vue";
+import LayoutAccueil from "@/layouts/LayoutAccueil.vue";
 // import Button from "@/components/Button.vue";
 import Caroussel from "@/components/Caroussel.vue";
 
 export default {
 	components: {
 		// Button,
-		Layout,
+		LayoutAccueil,
 		Caroussel,
 	},
 };
@@ -114,8 +116,19 @@ p {
 	margin: 0;
 	padding: 0;
 }
-.title,
+
+.h1_title {
+  border-bottom: solid black 1px;
+}
+
+
 h1 {
+  font-weight: 200;
+  text-transform: none;
+  border: none;
+  color : black;
+  padding : 0;
+  margin : 0;
   margin-top : 1rem;
 	padding-bottom: 1rem;
 	margin-bottom: 1rem;
