@@ -171,9 +171,7 @@ article {
   column-count:2;
   -webkit-column-gap: 30px;
   -moz-column-gap: 30px;
-  column-gap: 30px;
-  
-  margin-bottom : 3rem;
+  column-gap: 30px;;
 }
   
 /*-------------------------------------------------------------------------
@@ -201,11 +199,12 @@ article {
 /*--------------------------------------------
     Gestion des images
 --------------------------------------------*/
+/*
 .shadow {
   z-index : 5;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
 }
-
+*/
 
 .croquis {
   width : 30vw;
@@ -239,7 +238,7 @@ article {
   z-index : 1;
   padding : 2rem;
   text-align : justify;
-  background-color : rgba(245,235,224, 0.8);
+  /*background-color : rgba(245,235,224, 0.8);*/
 }
 
 .design {

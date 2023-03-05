@@ -3,10 +3,10 @@
     <div class="banniere">
       <Button
         class="banner__button"
-        theme="blue"
+        theme="bordered"
         to="/Contact/"
       >
-        Nous contacter - changer le bouton (il est moche)
+        Nous contacter
       </Button>
       <img
         class="banner__image"

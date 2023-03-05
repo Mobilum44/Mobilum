@@ -1,14 +1,13 @@
 <template>
   <LayoutAccueil>
+    <Button
+      theme="bordered"
+      onclick="history.go(-2)"
+    >
+      Retour à la collection
+    </Button>
+
     <section class="page_top">
-      <g-link
-        class="return"
-        onclick="history.go(-1)"
-      >
-        Retour
-      </g-link>
-
-
       <div class="title">
         <h1 class="h1_title">
           {{ $page.product.title }}
@@ -73,12 +72,12 @@ query Product ($id: ID!) {
 
 <script>
 import LayoutAccueil from "@/layouts/LayoutAccueil.vue";
-// import Button from "@/components/Button.vue";
+import Button from "@/components/Button.vue";
 import Caroussel from "@/components/Caroussel.vue";
 
 export default {
 	components: {
-		// Button,
+		Button,
 		LayoutAccueil,
 		Caroussel,
 	},

@@ -1,7 +1,6 @@
 <template>
   <Layout>
-
-<template #slot_image>
+    <template #slot_image>
       <section class="slot_image">
         <h1>Contact</h1>
       </section>
@@ -112,7 +111,7 @@ export default {
   color : #1A949D;
 }
 
-services, h3 {
+.services, h3 {
   font-size : 1.2rem;
   margin : 0;
   padding : 0;
@@ -120,7 +119,7 @@ services, h3 {
   text-decoration : none;
 }
 
-services, p {
+.services, p {
   color : black;
 }
 

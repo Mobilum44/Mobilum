@@ -41,8 +41,7 @@
             width="500px"
           />
           <p>
-            Grands comptes <br>
-            et <br>sur-mesure
+            Dossiers d'exception
           </p>
         </g-link>
       </div>

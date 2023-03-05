@@ -13,7 +13,7 @@ export default {
     theme: {
       type: String,
       default: "accueil",
-      validator: val => ["blue", "slide"].indexOf(val) !== -1
+      validator: val => ["blue", "slide", "bordered"].indexOf(val) !== -1
     },
 
     to: {
@@ -90,4 +90,30 @@ export default {
 .slide:hover:before {
   left: 100%;
 }
+
+
+/* ---------------------------------------------------------------
+    Style du bouton bordered
+  --------------------------------------------------------------*/
+.bordered {
+  width : 10rem;
+  height : 2rem;
+  display : flex;
+  align-items : center;
+  justify-content: center;
+  font-family: "Bebas Neue";
+  text-decoration : none;
+  height : 2rem;
+  border: 1px solid black;
+  color : black;
+    box-shadow:rgb(0,0,0) 5px 5px 0px -3px
+  /*padding: 1rem 3rem 1rem 3rem;*/
+}
+
+.bordered:hover {
+  background-color : black;
+  color : white;
+   box-shadow:#1a949d 5px 5px 0px -3px
+  }
+
 </style>

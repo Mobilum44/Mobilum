@@ -1,52 +1,33 @@
 <template>
-  <LayoutNoMargin>
-    <section class="page">
-      <section class="sections">
-        <div class="boxes">
-          <div class="item sncf">
-            <p>SNCF</p>
-          </div>
-        </div>
+  <Layout>
+    <h1> Nos dossiers d'exception </h1>
 
-        <div class="boxes">
-          <div class="title grands-comptes">
-            <h1>Grands comptes</h1>
-          </div>
-          <div class="item grand-paris">
-            <p>Grand paris</p>
-          </div>
-        </div>
-      </section>
+    <h2> Les grands comptes </h2>
+    <div class="section__exception">
+      <h3> La SNCF </h3>
+      <p> On a refait l'intérieur des gares</p>
+    </div>
 
-      <section class="sections">
-        <div class="boxes">
-          <div class="title sur-mesure">
-            <h1>Sur mesure</h1>
-          </div>
-          <div class="item saclay">
-            <p>Saclay (Tolerie forezienne)</p>
-          </div>
-          <div class="item roquefert">
-            <p>Roquefert</p>
-          </div>
-        </div>
+    <div class="section__exception">
+    </div>
+    <h2> Les sur-mesure </h2>
 
-        <div class="boxes">
-          <div class="item trocadero">
-            <p>Trocadero</p>
-          </div>
-        </div>
-      </section>
-    </section>
-  </LayoutNoMargin>
+    <div class="section__exception">
+      <h3> Roquefert</h3>
+      <p> On a imprimé des feuilles sur les bancs </p>
+    </div>
+
+    <div class="section__exception">
+    </div>
+  </Layout>
 </template>
 
 <script>
-import LayoutNoMargin from "@/layouts/LayoutNoMargin.vue";
+import Layout from "@/layouts/LayoutAccueil.vue";
 
 export default {
   components: {
-    LayoutNoMargin
+    Layout
   },
 
   metaInfo: {
@@ -56,88 +37,11 @@ export default {
 </script>
 
 <style scoped>
-/*------------------------------------------------------------------------------
-    General
-  ----------------------------------------------------------------------------*/
-
 h1 {
-  font-size: 2rem;
-  margin: 0;
-  padding: 0;
-}
-
-p {
-  margin: 0;
-  padding: 0;
-}
-
-.page {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.sections {
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-}
-
-.boxes {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  width: 50%;
-}
-
-.item {
-  width: 100%;
-  background-color: blue;
-}
-
-.title {
-  height: 120px;
-
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-/*------------------------------------------------------------------------------
-    Grands comptes
-  ----------------------------------------------------------------------------*/
-
-.sncf {
-  height: 100%;
-  background: url("../../src/assets/img/SNCF_auxerre.png") center center
-    no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.grand-paris {
-  height: 40vh;
-}
-
-/*------------------------------------------------------------------------------
-    Sur mesure
-  ----------------------------------------------------------------------------*/
-.sur-mesure {
-  justify-content: flex-end;
-}
-.trocadero {
-  height: 70vh;
-}
-
-.saclay {
-  height: 50%;
-}
-
-.roquefert {
-  height: 50%;
+  padding-top : 0;
+  margin : 0;
+  color : black;
+  border-bottom: black solid 1px;
+  width : 100%;
 }
 </style>

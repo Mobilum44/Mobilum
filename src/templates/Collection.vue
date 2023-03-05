@@ -1,15 +1,16 @@
 <template>
   <LayoutAccueil>
+    <Button
+      theme="bordered"
+      onclick="history.go(-2)"
+    >
+      Retour à l'offre
+    </Button>
+
     <div class="title">
       <h1>
         {{ $page.collection.title }}
       </h1>
-      <g-link
-        class="return"
-        onclick="history.go(-1)"
-      >
-        Retour
-      </g-link>
     </div>
 
     <div class="collection_order">
@@ -51,6 +52,19 @@ query Collection ($id: ID!) {
   }
 }
 </page-query>
+
+<script>
+import LayoutAccueil from "@/layouts/LayoutAccueil.vue";
+import Button from "@/components/Button.vue";
+
+export default {
+	components: {
+		Button,
+		LayoutAccueil,
+	},
+};
+</script>
+
 
 <style scoped>
 

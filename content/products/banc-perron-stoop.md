@@ -6,10 +6,10 @@ designer: Spritz
 category: Assises
 sub_category: Banc perron
 gamme: Stoop
-cover_image: "../../images/banc-perron-stoop.jpg"
+cover_image: ../../images/banc-perron-stoop.jpg
 caroussel:
-- "../../images/banc-perron-stoop-ecouflant.jpg"
-- "../../images/banc-perron-stoop-sorbonne.jpg"
+- ../../images/banc-perron-stoop-ecouflant.jpg
+- ../../images/banc-perron-stoop-sorbonne.jpg
 reference : ''
 filaire: ''
 materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
