@@ -1,25 +1,22 @@
 ---
-collection: Mobilier urbain
-title: Corbeille Asturias lisse
-published: true
+title: Corbeille ASTURIAS lisse
+published: TRUE
 designer: Sovann Kim
-category: Propreté
+collection: Mobilier urbain
+category: Corbeille
 sub_category: Corbeille
-gamme: Asturias
-cover_image: "../../images/corbeille-asturias-lisse.jpg"
-caroussel:
-- "../../images/corbeille-asturias-lisse-raismes.jpg"
-reference: ''
-filaire:
-- "../../images/filaire-corbeille-lisse-asturias.png"
+gamme: ASTURIAS
+finitions: lisse
+cover_image: 
+caroussel: 
+filaire: 
+reference: COASTUR0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
-poids: "98"
-dimensions: D493 x H826
-traitement: ''
+poids: 98
+dimensions: ⌀493 H826
 format: Monobloc
-tags: []
-series: false
-canonical_url: false
-description: Corbeille d'une capacité de 60L. Le couvercle est en inox brossé.
-
+traitement: 
+tags: 
+canonical_url: 
+description: 
 ---
