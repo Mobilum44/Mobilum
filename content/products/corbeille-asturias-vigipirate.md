@@ -1,22 +1,23 @@
 ---
-title: Corbeille VIGIPIRATE ASTURIAS
-published: TRUE
-designer: Sovann Kim
 collection: Mobilier urbain
-category: Corbeille
+title: Corbeille Asturias Vigipirate
+published: true
+designer: Sovann Kim
+category: Propreté
 sub_category: Corbeille
-gamme: ASTURIAS
-finitions: VIGIPIRATE
-cover_image: 
-caroussel: 
-filaire: 
-reference: COASTUR0601
-materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
-poids: 54
-dimensions: ⌀500 H830
-format: Multibloc
-traitement: 
-tags: 
-canonical_url: 
-description: 
+gamme: Asturias
+cover_image: "../../images/corbeille-asturias-vigipirate.jpg"
+caroussel: []
+reference : ''
+filaire: ''
+materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
+poids: ''
+dimensions: ''
+traitement: ''
+format  : ''
+tags: []
+series: false
+canonical_url: false
+description: ''
+
 ---

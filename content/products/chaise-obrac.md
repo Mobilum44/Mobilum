@@ -1,22 +1,25 @@
 ---
-title: Chaise OBRAC
-published: TRUE
-designer: Sovann Kim
 collection: Mobilier urbain
-category: Assise
+title: Chaise Obrac
+published: true
+designer: Sovann Kim
+category: Assises
 sub_category: Chaise
-gamme: OBRAC
-finitions: 
-cover_image: 
-caroussel: 
-filaire: 
-reference: CHOBRAC0101
-materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
-poids: 134
+gamme: Obrac
+cover_image: "../../images/chaise-obrac.jpg"
+caroussel:
+- "../../images/chaise-obrac-saint-cyr.JPG"
+- "../../images/chaises-obrac-jardin-andouille.png"
+reference : ''
+filaire: ''
+materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
+poids: "135"
 dimensions: L550 x P725 x H930
-format: Monobloc
-traitement: 
-tags: 
-canonical_url: 
-description: 
+traitement: ''
+format  : ''
+tags: []
+series: false
+canonical_url: false
+description: ''
+
 ---

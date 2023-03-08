@@ -1,22 +1,23 @@
 ---
-title: Jardinière ASTURIAS carrée lisse
-published: TRUE
-designer: Sovann Kim
 collection: Mobilier urbain
+title: Jardinière Asturias ronde lisse
+published: true
+designer: "?"
 category: Jardinière
 sub_category: Jardinière
-gamme: ASTURIAS
-finitions: lisse
-cover_image: 
-caroussel: 
-filaire: 
-reference: JAASTUR0101
-materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
-poids: 330
-dimensions: L1000 x P1000 x H900
-format: Monobloc
-traitement: 
-tags: 
-canonical_url: 
-description: 
+gamme: Asturias
+cover_image: "../../images/jardinere-asturias-ronde-lisse.jpg"
+caroussel: []
+reference : ''
+filaire: ''
+materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
+poids: ''
+dimensions: ''
+traitement: ''
+format  : ''
+tags: []
+series: false
+canonical_url: false
+description: ''
+
 ---

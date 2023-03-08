@@ -1,22 +1,25 @@
 ---
-title: Banquette ELIUM
-published: TRUE
-designer: Sovann Kim
 collection: Mobilier urbain
-category: Assise
+title: Banquette Elium
+published: true
+designer: Sovann Kim
+category: Assises
 sub_category: Banquette
-gamme: ELIUM
-finitions: 
-cover_image: 
-caroussel: 
-filaire: 
-reference: BAELIUM0101
-materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
-poids: 201
-dimensions: L1800 x P500 x H440
-format: Multibloc
-traitement: 
-tags: 
-canonical_url: 
-description: 
+gamme: Elium
+cover_image: "../../images/banquette-elium-2.jpg"
+caroussel:
+- "../../images/jardin-banquette-elium.jpg"
+- "../../images/banquette-elium-parc.jpg"
+reference : ''
+filaire: ''
+materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
+poids: "209"
+dimensions: L1800 x P500 x H540
+traitement: ''
+format  : ''
+tags: []
+series: false
+canonical_url: false
+description: ''
+
 ---

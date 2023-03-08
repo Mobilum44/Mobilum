@@ -1,22 +1,23 @@
 ---
-title: Banc OBRAC
-published: TRUE
-designer: Sovann Kim
 collection: Mobilier urbain
-category: Assise
+title: Banc Obrac
+published: true
+designer: Sovann Kim
+category: Assises
 sub_category: Banc
-gamme: OBRAC
-finitions: 
-cover_image: 
-caroussel: 
-filaire: 
-reference: BSOBRAC0101
-materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
-poids: 441
-dimensions: L2000 x P725 x H930
-format: Monobloc
-traitement: 
-tags: 
-canonical_url: 
-description: 
+gamme: Obrac
+cover_image: "../../images/banc-obrac.jpg"
+caroussel: []
+reference : ''
+filaire: ''
+materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
+poids: ''
+dimensions: ''
+traitement: ''
+format  : ''
+tags: []
+series: false
+canonical_url: false
+description: ''
+
 ---
