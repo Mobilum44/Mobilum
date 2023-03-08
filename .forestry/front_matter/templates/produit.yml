@@ -11,6 +11,11 @@ fields:
 - type: text
   name: designer
   label: designer
+- name: cover_image
+  type: image_gallery
+  config: {}
+  label: cover_image
+  description: Ne mettre qu'une seule image en 500x500px
 - name: collection
   type: select
   default: Mobilier urbain
@@ -27,9 +32,6 @@ fields:
       path: 
   label: collection
 - type: text
-  name: category
-  label: category
-- type: text
   name: sub_category
   label: sub_category
 - name: gamme
@@ -37,9 +39,9 @@ fields:
   config:
     required: true
   label: gamme
-- type: file
-  name: cover_image
-  label: cover_image
+- type: text
+  name: category
+  label: category
 - type: image_gallery
   name: caroussel
   label: caroussel
@@ -93,8 +95,6 @@ fields:
   name: description
   label: description
 pages:
-- content/products/banc-duchesse.md
-- content/products/banc-obrac.md
 - content/products/banc-perron-stoop.md
 - content/products/banquette-beam-double.md
 - content/products/banquette-cantine-pm.md
@@ -102,9 +102,7 @@ pages:
 - content/products/banquette-duchesse.md
 - content/products/banquette-elium.md
 - content/products/canape-stamp-window.md
-- content/products/cendrier-goya.md
 - content/products/chaise-elium.md
-- content/products/chaise-longue-obrac.md
 - content/products/chaise-obrac.md
 - content/products/corbeille-asturias-lisse.md
 - content/products/corbeille-asturias-vigipirate.md
