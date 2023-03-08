@@ -46,7 +46,12 @@
           <g-link to="/Contact/">
             <li class="icon mail">
               <span class="tooltip">Mail</span>
-              <div class="icon__text"></div>
+              <div class="icon__text">
+                <g-image
+                  src="../../src/assets/img/logos/mail.png"
+                  width="40"
+                />
+              </div>
             </li>
           </g-link>
 
@@ -212,7 +217,7 @@ Colonne de droite
 
 .content__RS .icon {
   position: relative;
-  background: #ffffff;
+  background: #1A949D;
   border-radius: 50%;
   width: 40px;
   height: 40px;

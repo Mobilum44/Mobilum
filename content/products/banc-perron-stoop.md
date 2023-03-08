@@ -1,25 +1,22 @@
 ---
-collection: Mobilier urbain
-title: Banc Perron Stoop
-published: true
+title: Banc perron STOOP
+published: TRUE
 designer: Spritz
-category: Assises
+collection: Mobilier urbain
+category: Assise
 sub_category: Banc perron
-gamme: Stoop
-cover_image: ../../images/banc-perron-stoop.jpg
-caroussel:
-- ../../images/banc-perron-stoop-ecouflant.jpg
-- ../../images/banc-perron-stoop-sorbonne.jpg
-reference : ''
-filaire: ''
-materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
-poids: "192"
+gamme: STOOP
+finitions: 
+cover_image: 
+caroussel: 
+filaire: 
+reference: BPSTOOP0101
+materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
+poids: 192
 dimensions: L1000 x P1000 x H510
-traitement: ''
-format  : ''
-tags: []
-series: false
-canonical_url: false
-description: ''
-
+format: Monobloc
+traitement: 
+tags: 
+canonical_url: 
+description: 
 ---

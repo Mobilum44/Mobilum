@@ -1,5 +1,5 @@
 <template>
-  <LayoutAccueil>
+  <Layout>
     <Button
       theme="bordered"
       onclick="history.go(-2)"
@@ -31,7 +31,7 @@
         </div>
       </g-link>
     </div>
-  </LayoutAccueil>
+  </Layout>
 </template>
 
 <page-query>
@@ -54,13 +54,13 @@ query Collection ($id: ID!) {
 </page-query>
 
 <script>
-import LayoutAccueil from "@/layouts/LayoutAccueil.vue";
+import Layout from "@/layouts/LayoutAccueil.vue";
 import Button from "@/components/Button.vue";
 
 export default {
 	components: {
 		Button,
-		LayoutAccueil,
+		Layout,
 	},
 };
 </script>

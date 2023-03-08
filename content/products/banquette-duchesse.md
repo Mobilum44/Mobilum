@@ -1,23 +1,22 @@
 ---
+title: Banquette DUCHESSE
+published: TRUE
+designer: Forma6
 collection: Mobilier urbain
-title: Banquette Duchesse
-published: true
-designer: "/"
-category: Assises
+category: Assise
 sub_category: Banquette
-gamme: Duchesse
-cover_image: "../../images/banquette-duchesse.JPG"
-caroussel: []
-reference : ''
-filaire: ''
-materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP) et inox'
-poids: ''
-dimensions: ''
-traitement: ''
-format  : ''
-tags: []
-series: false
-canonical_url: false
-description: ''
-
+gamme: DUCHESSE
+finitions: 
+cover_image: 
+caroussel: 
+filaire: 
+reference: BADUCHE0101
+materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
+poids: 208
+dimensions: L2424 x P635 H450
+format: Monobloc
+traitement: 
+tags: 
+canonical_url: 
+description: 
 ---

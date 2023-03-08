@@ -1,24 +1,22 @@
 ---
+title: Banc DUCHESSE
+published: TRUE
+designer: Forma6
 collection: Mobilier urbain
-title: Banc Duchesse
-published: true
-designer: "/"
-category: Assises
+category: Assise
 sub_category: Banc
-gamme: Duchesse
-cover_image: "../../images/banc-duchesse-1.JPG"
-caroussel:
-- "../../images/banc-duchesse-bfup-dos-place-bruz.JPG"
-- "../../images/banc-duchesse-face-place-bruz-bfup.JPG"
-reference : ''
-filaire: ''
-materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
-poids: ''
-dimensions: ''
-traitement: ''
-format  : ''
-tags: []
-series: false
-canonical_url: false
-description: ''
+gamme: DUCHESSE
+finitions: 
+cover_image: 
+caroussel: 
+filaire: 
+reference: BSDUCHE0101
+materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
+poids: 232
+dimensions: L2424 x P635 H800
+format: Multibloc
+traitement: 
+tags: 
+canonical_url: 
+description: 
 ---

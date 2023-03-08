@@ -1,5 +1,5 @@
 <template>
-  <LayoutAccueil>
+  <Layout>
     <Button
       theme="bordered"
       onclick="history.go(-2)"
@@ -49,7 +49,7 @@
     <div class="other_products">
       <p>Mettre les autres produits de la gamme ici</p>
     </div>
-  </LayoutAccueil>
+  </Layout>
 </template>
 
 <page-query>
@@ -71,14 +71,14 @@ query Product ($id: ID!) {
 </page-query>
 
 <script>
-import LayoutAccueil from "@/layouts/LayoutAccueil.vue";
+import Layout from "@/layouts/LayoutAccueil.vue";
 import Button from "@/components/Button.vue";
 import Caroussel from "@/components/Caroussel.vue";
 
 export default {
 	components: {
 		Button,
-		LayoutAccueil,
+		Layout,
 		Caroussel,
 	},
 };

@@ -50,42 +50,41 @@
   </Header>
 </template>
 
-<!--
 <script>
 export default {
   mounted() {
-    // Regarde si on scroll sur la page et si c'est le cas
-    // appelle la fonction "onScroll"
-    window.addEventListener("scroll", this.onScroll);
-  },
-  beforeDestroy() {
-    window.removeEventListener("scroll", this.onScroll);
-  },
-  methods: {
-    onScroll(e) {
-      if (e.target.documentElement.scrollTop > 10) {
-        document.getElementsByClassName("navbar")[0].classList.add("active");
-      } else {
-        document.getElementsByClassName("navbar")[0].classList.remove("active");
-      }
-    },
-  },
-};
+        this.$nextTick(() => {
+            window.addEventListener("scroll", () => {
+                let header = document.getElementsByClassName("header_content")[0];
+                let nav = document.getElementsByClassName("nav_header")[0];
+                if (document.documentElement.scrollTop >= 25) {
+                    header.classList.add("header_content--mini");
+                    nav.classList.add("nav_header--mini");
+                } else {
+                    header.classList.remove("header_content--mini");
+                    nav.classList.remove("nav_header--mini");
+                }
+            })
+        });
+    }
+}
 </script>
-
--->
 
 <style scoped>
 header {
+  top : 0;
+  width : 100%;
+  background-color : #fefcf3;
+  position : fixed;
   margin-top: 0rem;
   /*background-color: rgb(26, 148, 157, 0.6);
   box-shadow: 0 5px 20px rgba(10, 4, 60, 0.3);*/
-  z-index: 1;
+  z-index: 999;
 }
 
 .logo_header {
   position: fixed;
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-left: 2.5rem;
   z-index: 1;
 }
@@ -93,9 +92,15 @@ header {
 .header_content {
   margin-top: 3rem;
   padding-right: 3rem;
-  padding-left: 55vw;
   display: flex;
   justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.header_content--mini {
+  transition: all 0.3s ease-in-out;
+  margin-top: 1rem;
+  border-bottom : solid black 1px;
 }
 
 .nav_header {
@@ -105,17 +110,9 @@ header {
   align-items: center;
   padding-bottom: 1.5%;
   gap: 1rem;
-  /*
-  margin-top: 2rem;
-  padding: 2rem;
-  width: 75%;
-  border-top: #1a949d 1px solid;
+}
 
-  display: flex;
-  flex-direction: row;
-  align-items: space-evenly;
-  justify-content: space-evenly;
-  gap: 2rem;
-   */
+.nav_header--mini {
+  padding : 0;
 }
 </style>

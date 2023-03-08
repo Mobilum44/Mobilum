@@ -171,7 +171,7 @@ article {
   column-count:2;
   -webkit-column-gap: 30px;
   -moz-column-gap: 30px;
-  column-gap: 30px;;
+  column-gap: 30px;
 }
   
 /*-------------------------------------------------------------------------

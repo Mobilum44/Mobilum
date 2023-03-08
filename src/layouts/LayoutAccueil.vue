@@ -1,5 +1,5 @@
 <template>
-  <div class="LayoutAccueil">
+  <div class="layout">
     <Header />
     <slot
       name="slot_image"
