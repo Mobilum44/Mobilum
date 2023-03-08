@@ -7,7 +7,7 @@ category: Fontaine
 sub_category: Fontaine
 gamme: LOELLA
 finitions: 1140
-cover_image: []
+cover_image: ''
 caroussel: []
 filaire: []
 reference: FOLOELL0105

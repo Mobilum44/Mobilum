@@ -7,7 +7,7 @@ category: Assise
 sub_category: Banc
 gamme: ELIUM
 finitions: 3 dossiers
-cover_image: []
+cover_image: ''
 caroussel: []
 filaire: []
 reference: BSELIUM0102

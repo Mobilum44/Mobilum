@@ -7,7 +7,7 @@ category: Assise
 sub_category: Fauteuil
 gamme: STAMP
 finitions: lisse
-cover_image: []
+cover_image: ''
 caroussel: []
 filaire: []
 reference: FASTAMP0101

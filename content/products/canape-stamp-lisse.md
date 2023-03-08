@@ -7,7 +7,7 @@ category: Assise
 sub_category: Canapé
 gamme: STAMP
 finitions: lisse
-cover_image: []
+cover_image: ''
 caroussel: []
 filaire: []
 reference: CASTAMP0101

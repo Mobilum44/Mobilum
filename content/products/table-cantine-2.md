@@ -7,7 +7,7 @@ category: Table
 sub_category: Table
 gamme: CANTINE
 finitions: 2
-cover_image: []
+cover_image: ''
 caroussel: []
 filaire: []
 reference: TACANTI0102

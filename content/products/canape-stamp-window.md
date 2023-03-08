@@ -7,7 +7,7 @@ category: Assise
 sub_category: Canapé
 gamme: STAMP
 finitions: window
-cover_image: []
+cover_image: ''
 caroussel: []
 filaire: []
 reference: CASTAMP0201

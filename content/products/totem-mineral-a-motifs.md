@@ -7,7 +7,7 @@ category: Totem
 sub_category: Totem
 gamme: MINERAL
 finitions: à motifs
-cover_image: []
+cover_image: ''
 caroussel: []
 filaire: []
 reference: TOMINER0102

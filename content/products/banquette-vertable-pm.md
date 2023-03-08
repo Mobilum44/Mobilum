@@ -7,7 +7,7 @@ category: Assise
 sub_category: Banquette
 gamme: VERTABLE
 finitions: PM
-cover_image: []
+cover_image: ''
 caroussel: []
 filaire: []
 reference: BAVERTA0102

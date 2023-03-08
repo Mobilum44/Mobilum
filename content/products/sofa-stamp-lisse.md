@@ -7,7 +7,7 @@ category: Assise
 sub_category: Sofa
 gamme: STAMP
 finitions: lisse
-cover_image: []
+cover_image: ''
 caroussel: []
 filaire: []
 reference: SOSTAMP0101

@@ -7,7 +7,7 @@ category: Assise
 sub_category: Banquette
 gamme: CANTINE
 finitions: PM
-cover_image: []
+cover_image: ''
 caroussel: []
 filaire: []
 reference: BACANTI0102

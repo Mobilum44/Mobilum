@@ -7,7 +7,7 @@ category: Corbeille
 sub_category: Corbeille
 gamme: ASTURIAS
 finitions: lisse
-cover_image: []
+cover_image: ''
 caroussel: []
 filaire: []
 reference: COASTUR0102

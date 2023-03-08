@@ -7,7 +7,7 @@ category: Assise
 sub_category: Banc
 gamme: STAMP
 finitions: window
-cover_image: []
+cover_image: ''
 caroussel: []
 filaire: []
 reference: BSSTAMP0201

@@ -1,13 +1,13 @@
 ---
 title: Banc VASCO DE GAMA demi lunes 
 published: TRUE
-designer: 
+designer: ''
 collection: Mobilier urbain
 category: Assise
 sub_category: Banc
 gamme: VASCO DE GAMA
 finitions: demi-lunes
-cover_image: []
+cover_image: ''
 caroussel: []
 filaire: []
 reference: BAVASCO0101

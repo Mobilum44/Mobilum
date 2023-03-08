@@ -7,7 +7,7 @@ category: Jardinière
 sub_category: Jardinière
 gamme: ASTURIAS
 finitions: lisse
-cover_image: []
+cover_image: ''
 caroussel: []
 filaire: []
 reference: JAASTUR0101

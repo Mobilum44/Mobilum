@@ -7,7 +7,7 @@ category: Assise
 sub_category: Fauteuil
 gamme: STAMP
 finitions: window
-cover_image: []
+cover_image: ''
 caroussel: []
 filaire: []
 reference: FASTAMP0201

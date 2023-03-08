@@ -7,7 +7,7 @@ category: Table
 sub_category: Table
 gamme: CANTINE
 finitions: 4
-cover_image: []
+cover_image: ''
 caroussel: []
 filaire: []
 reference: TCCANTI0104

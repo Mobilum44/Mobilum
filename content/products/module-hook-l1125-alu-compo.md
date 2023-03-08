@@ -7,7 +7,7 @@ category: Module
 sub_category: Module
 gamme: HOOK
 finitions: L1125 alu compo
-cover_image: []
+cover_image: ''
 caroussel: []
 filaire: []
 reference: 

@@ -7,7 +7,7 @@ category: Table
 sub_category: Table
 gamme: VERTABLE
 finitions: PM
-cover_image: []
+cover_image: ''
 caroussel: []
 filaire: []
 reference: ENVERTA0102

@@ -7,7 +7,7 @@ category: Assise
 sub_category: Chaise
 gamme: STAMP
 finitions: lisse
-cover_image: []
+cover_image: ''
 caroussel: []
 filaire: []
 reference: CHSTAMP0101
