@@ -11,6 +11,11 @@ fields:
 - type: text
   name: designer
   label: designer
+- name: cover_image
+  type: image_gallery
+  config: {}
+  label: cover_image
+  description: Ne mettre qu'une seule image en 500x500px
 - name: collection
   type: select
   default: Mobilier urbain
