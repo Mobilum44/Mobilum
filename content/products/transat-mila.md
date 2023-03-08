@@ -1,22 +1,25 @@
 ---
-title: Transat MILA 
-published: TRUE
+title: Transat MILA
+published: true
 designer: Gautier & Conquet
 collection: Mobilier urbain
 category: Transat
 sub_category: Transat
-gamme: MILA 
+gamme: MILA
 finitions: 
-cover_image: []
+cover_image:
+- "../../images/transat-mila.JPG"
 caroussel: []
 filaire: []
 reference: TRMILA_0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
-poids: 385
+poids: "385"
 dimensions: L750 x P2320 H1100
 format: Monobloc
 traitement: ''
-tags: ''
-canonical_url: ''
+tags: []
+canonical_url: false
 description: ''
+series: false
+
 ---
