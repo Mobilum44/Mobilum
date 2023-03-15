@@ -1,22 +1,23 @@
 ---
-title: Banquette CANTINE PM 
-published: TRUE
-designer: Sovann Kim
 collection: Mobilier urbain
-category: Assise
+title: Banquette Cantine PM
+published: true
+designer: Sovann Kim
+category: Assises
 sub_category: Banquette
-gamme: CANTINE
-finitions: PM
-cover_image: ''
+gamme: Cantine
+cover_image: "../../images/banquette-cantine-pm.jpg"
 caroussel: []
-filaire: []
-reference: BACANTI0102
-materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
-poids: 156
-dimensions: L1840 x P430 x H430
-format: Monobloc
+reference : ''
+filaire: ''
+materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
+poids: ''
+dimensions: ''
 traitement: ''
-tags: ''
-canonical_url: ''
-description: ''
+format  : ''
+tags: []
+series: false
+canonical_url: false
+description: Petit modèle
+
 ---

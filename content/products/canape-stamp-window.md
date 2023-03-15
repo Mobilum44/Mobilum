@@ -1,22 +1,22 @@
 ---
-title: Canapé STAMP window 
-published: TRUE
-designer: Sovann Kim
 collection: Mobilier urbain
-category: Assise
+title: Canapé Stamp window
+published: true
+designer: Sovann Kim
+category: Assises
 sub_category: Canapé
-gamme: STAMP
-finitions: window
-cover_image: ''
+gamme: Stamp
+cover_image: "../../images/canape-stamp-window.jpg"
 caroussel: []
-filaire: []
-reference: CASTAMP0201
-materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
-poids: 366
-dimensions: L1800 x P550 x H830 
-format: Multibloc
+reference : ''
+filaire: ''
+materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
+poids: ''
+dimensions: ''
 traitement: ''
-tags: ''
-canonical_url: ''
+format  : ''
+tags: []
+series: false
+canonical_url: false
 description: ''
 ---
