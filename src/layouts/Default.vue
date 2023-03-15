@@ -46,28 +46,9 @@ query {
 }
 
 .contenu {
-  margin-top: 3rem;
-  padding-left: 10rem;
-  padding-right: 10rem;
   display : flex;
   flex-direction : column;
   gap : 2rem;
-}
-
-/* ------------------------------------------------------------------------------------------
-
-            RESPONSIVE TELEPHONES
-
---------------------------------------------------------------------------------------------*/
-
-@media only screen and (max-width: 600px) {
-.contenu {
-  margin-top: 3rem;
-  padding : 0.5rem;
-  display : flex;
-  flex-direction : column;
-  gap : 2rem;
-}
 }
 
 

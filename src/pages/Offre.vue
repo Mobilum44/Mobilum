@@ -79,10 +79,12 @@ export default {
 
 .body_offer {
   display: flex;
+  align-items : flex-start;
   justify-content: center;
 }
 
 .collection {
+  margin-top : 2rem;
   width: 80%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -144,8 +146,15 @@ export default {
   .collection {
     display : flex;
     flex-direction : column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top : 0;
   }
 
+  .items_styling {
+    height : 20rem;
+    width : 20rem;
+  }
   .items_styling p {
   opacity : 1;
   }

@@ -4,7 +4,9 @@
       class="box"
       to="/Entreprise/"
     >
-      <g-image src="@/assets/img/plaques-hook-coulage-usine.jpg" />
+      <g-image
+        src="@/assets/img/plaques-hook-coulage-usine.jpg"
+      />
       <p to="/Entreprise/">
         Un atelier
       </p>
@@ -57,6 +59,7 @@
   filter :grayscale(100) contrast(1.2);
   object-fit: cover;
   transition: 0.5s;
+  
 }
 
 .box p{
@@ -80,4 +83,26 @@
   width: 100%;
   height: 100%;
 }
+
+
+@media only screen and (max-width: 600px) {
+.SlideRedirection {
+  z-index : 20;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height : 100vh;
+  width : 95%;
+  gap : 1%;
+}
+
+.box > img {
+  background-attachment: fixed;
+}
+.box {
+  height : 200px;
+}
+}
+
+
 </style>

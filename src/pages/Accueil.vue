@@ -98,6 +98,7 @@ h1 {
   width : 100%;
   text-transform: none;
   font-weight: 200;
+  border : none;
   border-bottom : 1px solid;
   color: #1A949D;
   margin : 2rem;
@@ -311,9 +312,26 @@ span:nth-child(29) {
 }
 
 @media only screen and (max-width: 600px) {
+.bandeau p {
+  margin-top: 0rem;
+  padding : 0.5rem;
+  display : flex;
+  flex-direction : column;
+  gap : 2rem;
+}
+
+.redirection {
+  margin-left : 0rem;
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+}
+
   .redirection h3{
   margin-left : 0rem;
 }
+
+
 }
 
 /* Section 4 : action band */
