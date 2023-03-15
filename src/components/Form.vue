@@ -103,4 +103,12 @@ input[type="submit"]:hover {
   background-color: rgba(26, 148, 157);
   box-shadow: none;
 }
+
+@media only screen and (max-width: 600px) {
+.Form {
+  margin : 0;
+  width : 100%;
+}
+}
+
 </style>

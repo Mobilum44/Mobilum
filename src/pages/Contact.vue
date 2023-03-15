@@ -18,7 +18,7 @@
           <p> Nous ne travaillons pas avec les particuliers </p>      
           <div class="services_box">
             <p>
-              Nous sommes joignables du lundi au vendredi, <br /> de 9h à 12h30 et de 14h à 18h. <br /><br /><br />
+              Nos services sont joignables du lundi au vendredi, <br /> de 9h à 12h30 et de 14h à 18h. <br /><br /><br />
               Les coordonnées de nos différents services :
             </p>
             <!-- Mettre les informations en colonne -->
@@ -123,5 +123,18 @@ export default {
   color : black;
 }
 
+
+/* ------------------------------------------------------------------------------------------
+
+            RESPONSIVE TELEPHONES
+
+--------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 600px) {
+  .content {
+    display : flex;
+    flex-direction: column;
+  }
+}
 
 </style>

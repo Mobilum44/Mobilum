@@ -363,12 +363,17 @@ Zone basse du footer
   flex-direction :column;
   align-items: center;
   gap : 1rem;
+  margin-top : 1rem;
 }
 
 .menu_footer {
   display : flex;
   flex-direction: row;
-  margin : 1rem;
+  margin : 0rem;
+  margin-top : 1rem;
+  padding : 1rem;
+  border-top : solid #fefcf3 1px;
+  border-bottom:solid #fefcf3 1px;
 }
 
 .menu_footer a{
@@ -378,6 +383,11 @@ width : 33%;
 
 .content__RS {
   justify-content : center;
+  margin-top : 2rem;
+}
+
+.legal {
+  text-align: center;
 }
 }
 

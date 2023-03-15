@@ -41,7 +41,7 @@ export default {
   align-items: center;
   justify-content: flex-end;
   font-family: "Bebas Neue";
-  margin-top : 6rem;
+  margin-top : 3rem;
 }
 
 .banner__button {
@@ -59,7 +59,7 @@ export default {
      ---------------------------------------------------- */
 @media only screen and (max-width: 600px) {
 .banniere {
-  margin-top : 3rem;
+  margin-top : 1rem;
 }
 }
 </style>
