@@ -30,11 +30,11 @@ Partie en attente de développement complet du site
   Mise en page : Cartes RS avec texte en dessous, 3 directement affichés
 --------------------------------->
 
-    <div class="section">
-      <!--------------------------------
-    Citation
+    <!--------------------------------
+    Citation - Supprimée pour le moment.
 --------------------------------->
-
+    <!--
+        <div class="section">
       <p class="quote">
         <span>Une&thinsp;</span>
         <span>jolie&thinsp;</span>
@@ -54,7 +54,7 @@ Partie en attente de développement complet du site
         <span>!&thinsp; </span>
       </p>
     </div>
-      
+      --> 
     <!--------------------------------
     Explorer
 --------------------------------->    
@@ -68,6 +68,7 @@ Partie en attente de développement complet du site
     
     <template #slot_contact>
     </template>
+    </div>
   </LayoutAccueil>
 </template>
 
@@ -124,10 +125,8 @@ background-color: #fefcf3;
 .bandeau {
   /*background: url("../../src/assets/img/fond_transparent.png")
     center center no-repeat;*/
-  padding-top : 30vh;
   background-size: cover;
   width: 100%;
-  height : 70vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -146,7 +145,6 @@ background-color: #fefcf3;
 
 
 .section {
-height : 70vh;
 display : flex;
 flex-direction : column;
 align-items : center;
@@ -310,6 +308,12 @@ span:nth-child(29) {
 /* section 3 : Activity cards */
 .redirection h3{
   margin-left : 20rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .redirection h3{
+  margin-left : 0rem;
+}
 }
 
 /* Section 4 : action band */

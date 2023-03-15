@@ -1,6 +1,7 @@
 <template>
   <div class="layout">
     <Header />
+    
     <slot
       name="slot_image"
       class="slot_image"
@@ -52,5 +53,22 @@ query {
   flex-direction : column;
   gap : 2rem;
 }
+
+/* ------------------------------------------------------------------------------------------
+
+            RESPONSIVE TELEPHONES
+
+--------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 600px) {
+.contenu {
+  margin-top: 3rem;
+  padding : 0.5rem;
+  display : flex;
+  flex-direction : column;
+  gap : 2rem;
+}
+}
+
 
 </style>

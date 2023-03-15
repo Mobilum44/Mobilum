@@ -179,7 +179,6 @@ article {
   -----------------------------------------------------------------------*/
 
 .section__content {
-  height : 80vh;
   display : flex;
   flex-direction : row;
   align-items : flex-end;
@@ -252,4 +251,33 @@ article {
 .engagement {
     width : 40vw;
 }
+
+/* ------------------------------------------------------------------------------------------
+
+            RESPONSIVE TELEPHONES
+
+--------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 600px) {
+
+  h2 {
+  padding-bottom : 1rem;
+  margin : 0rem;
+  border-bottom: solid 1px;
+}
+
+  article {
+  -webkit-column-count:1;
+  -moz-column-count:1;
+  column-count:1;
+  width : 100%;
+}
+
+  .section__content {
+    display : flex;
+    flex-direction : column;
+    align-items: center;
+  }
+}
+
 </style>

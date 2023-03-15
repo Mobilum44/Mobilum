@@ -30,6 +30,7 @@ export default {
   --------------------------------------------------------------*/
 
 .blue {
+  z-index : 1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -54,6 +55,7 @@ export default {
     Style du bouton Slide
   --------------------------------------------------------------*/
 .slide {
+  z-index : 1;
   cursor: pointer;
   border: 1px solid rgba(255, 255, 255, 0.4);
   position: relative;
@@ -96,6 +98,7 @@ export default {
     Style du bouton bordered
   --------------------------------------------------------------*/
 .bordered {
+  z-index : 1;
   width : 10rem;
   height : 2rem;
   display : flex;

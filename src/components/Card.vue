@@ -244,6 +244,14 @@
   margin-bottom : 3rem;
 }
 
+@media only screen and (max-width: 600px) {
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+}
+
+
 .card {
   width: 200px;
   height : 200px;

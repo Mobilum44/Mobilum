@@ -18,11 +18,10 @@
           :key="edge.node.id"
         >
           <g-image
+            class="items__img"
             alt="SNCF Gare Auxerre"
             src="@/assets/img/angers_tram.jpg"
             center
-            height="300px"
-            width="500px"
           />
           <p>
             {{ edge.node.title }}
@@ -34,11 +33,10 @@
           to="/Grands-comptes/"
         >
           <g-image
+            class="items__img"
             alt="SNCF Gare Auxerre"
             src="@/assets/img/SNCF_auxerre.png"
             center
-            height="300px"
-            width="500px"
           />
           <p>
             Dossiers d'exception
@@ -79,8 +77,6 @@ export default {
     background-attachment: fixed;
 }
 
-
-
 .body_offer {
   display: flex;
   justify-content: center;
@@ -105,8 +101,10 @@ export default {
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
-.items_styling > img {
+.items_styling > .items__img {
   border-radius: 4px;
+  width : 100%;
+  height : 100%;
   object-fit: cover;
   opacity: 1;
   transition: all 0.3s ease-in-out;
@@ -140,4 +138,17 @@ export default {
   opacity: 0.3;
   transition: all 0.3s ease-in-out;
 }
+
+
+@media only screen and (max-width: 600px) {
+  .collection {
+    display : flex;
+    flex-direction : column;
+  }
+
+  .items_styling p {
+  opacity : 1;
+  }
+}
+
 </style>

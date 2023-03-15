@@ -161,4 +161,26 @@ em {
 	color: #1a949d;
 }
 
+/* ------------------------------------------------------------------------------------------
+
+            RESPONSIVE TELEPHONES
+
+--------------------------------------------------------------------------------------------*/
+
+
+@media only screen and (max-width: 600px) {
+
+.items {
+  display : flex;
+  flex-direction : column;
+  align-items : center;
+}
+
+.items p {
+  padding-top : 2rem;
+}
+
+}
+
+
 </style>

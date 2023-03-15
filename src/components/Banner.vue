@@ -57,16 +57,9 @@ export default {
 /* ----------------------------------------------------
      Responsive qui marche bien
      ---------------------------------------------------- */
-
-@media screen and (min-width: 24.375em) {
-  .legal .legal__links {
-    margin-left: auto;
-  }
+@media only screen and (max-width: 600px) {
+.banniere {
+  margin-top : 3rem;
 }
-
-@media screen and (min-width: 40.375em) {
-  .footer__nav > * {
-    flex: 1;
-  }
 }
 </style>

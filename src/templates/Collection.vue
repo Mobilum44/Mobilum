@@ -162,4 +162,21 @@ export default {
   opacity: 0.3;
   transition: all 0.3s ease-in-out;
 }
+
+/* ------------------------------------------------------------------------------------------
+
+            RESPONSIVE TELEPHONES
+
+--------------------------------------------------------------------------------------------*/
+
+
+@media only screen and (max-width: 600px) {
+.collection_order {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+}
+
+
 </style>

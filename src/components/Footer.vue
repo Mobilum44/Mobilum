@@ -342,19 +342,43 @@ Zone basse du footer
   color: white;
 }
 
-/* ----------------------------------------------------
-     Responsive qui marche bien
-     ---------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------
 
-@media screen and (min-width: 24.375em) {
-  .legal .legal__links {
-    margin-left: auto;
-  }
+            RESPONSIVE TELEPHONES
+
+--------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 600px) {
+.content_top {
+  padding : 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-@media screen and (min-width: 40.375em) {
-  .footer__nav > * {
-    flex: 1;
-  }
+.column__left {
+  display : flex;
+  flex-direction :column;
+  align-items: center;
+  gap : 1rem;
 }
+
+.menu_footer {
+  display : flex;
+  flex-direction: row;
+  margin : 1rem;
+}
+
+.menu_footer a{
+text-align: center;
+width : 33%;
+}
+
+.content__RS {
+  justify-content : center;
+}
+}
+
 </style>
