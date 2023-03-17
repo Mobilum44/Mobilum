@@ -49,7 +49,6 @@
   flex: 1;
   overflow: hidden;
   transition: 0.5s;
-
   text-decoration: none;
 }
 

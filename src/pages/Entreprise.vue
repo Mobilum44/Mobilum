@@ -37,7 +37,7 @@
             src="../../src/assets/img/croquis-sovann-kim-pour-mobilum.jpg"
             center
             width="600"
-            fit="contain"
+            fit="cover"
           />
         </div>
 
@@ -46,9 +46,7 @@
             <article>
               <!--
             La marque et le design : designers et distinctions
-            <br />
-            Photos : dessins sovann kim cantine pour janus, avec photos produit réel + logo janus <br />
-            REORIENTER LE BANC + janus en bas droit du dessin-->
+          ---->
               Nous avons fait le choix de travailler avec des designers aguérris et rompus aux exigences de
               l'espace public depuis de nombreuses années, qui pensent avant tout à l'usage dans leurs créations
               et dans la réinterprétaiton de classiques du mobilier urbain. Leurs dessins expriment la vision qu'ils
@@ -57,13 +55,22 @@
               j'espère le plus élégant possible sans ostentation, et durable dans le temps aussi bien par son dessin que
               par la qualité de son usage." Sovann KIM.
             </article>
-            <g-image
-              alt="Table cantine réelle"
-              src="@/assets/img/table-cantine-02-transparent.png"
-              center
-              height="200px"
-              width="300px"
-            />
+            <div class="real__model">
+              <g-image
+                alt="Table cantine réelle"
+                src="@/assets/img/table-cantine-02-croquis.png"
+                center
+                width="200px"
+                fit="cover"
+              />
+              <g-image
+                alt="Table cantine réelle"
+                src="@/assets/img/table-cantine-01-croquis.png"
+                center
+                width="200px"
+                fit="cover"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -73,12 +80,11 @@
     <!-------------------------------------------------------------------
     Notre savoir-faire
   -------------------------------------------------------------------->
-        
-    <div>    
+    <div>
       <h2> Notre savoir-faire</h2>
       <div class="section__content">
         <div class="section__side text">
-          <div class="section__text savoir__faire">
+          <div class="section__text engagement">
             <article>
               100% français + le BFUP : couleur, finition, ... + formation + BE
               <br>
@@ -89,12 +95,16 @@
               reprehenderit maxime! Iusto.
             </article>
           </div>
-        </div>              
-        <g-image
-          class="section__side illustration"
-          src="../../src/assets/img/savoir-faire.jpg"
-          width="1000px"
-        />
+        </div>
+        <div class="section__side savoir-faire">
+          <g-image
+            alt="mains mobilum"
+            src="../../src/assets/img/savoir-faire.jpg"
+            center
+            width="1000px"
+            fit="cover"
+          />
+        </div>
       </div>
     </div>
     <!---------------------------------------------------
@@ -116,10 +126,11 @@
       <div class="section__content">
         <div class="section__side illustration">
           <g-image
-            alt="Table cantine réelle"
+            alt="Angers tram"
             src="../assets/img/angers_tram.jpg"
             center
             width="1000px"
+            fit="cover"
           />
         </div>
         <div class="section__side text">
@@ -182,6 +193,7 @@ h2 {
 .section_top {
   width : 70%;
   margin-left : 3rem;
+  margin-bottom : 2rem;
   display : flex;
   flex-direction : row;
   text-align : justify;
@@ -201,7 +213,6 @@ article {
   -----------------------------------------------------------------------*/
 
 .section__content {
-  border : solid purple;
   display : flex;
   flex-direction : row;
   align-items : flex-end;
@@ -210,15 +221,29 @@ article {
 }
 
 .section__side {
-  border : solid pink;
   display : flex;
   flex-direction : column;
   justify-content: flex-end;
-  height : 100%;
 }
 
-.illustration {
+.illustration img {
   object-fit: cover;
+    width : 35vw;
+    height : 80vh;
+}
+
+.savoir-faire img {
+  object-fit: cover;
+    width : 55vw;
+    height : 80vh;
+}
+
+
+.real__model {
+  margin-top : 3rem;
+  display : flex;
+  flex-direction : row;
+  justify-content: space-evenly;
 }
 
 /*--------------------------------------------
@@ -256,6 +281,28 @@ article {
     flex-direction : column;
     align-items: center;
   }
+
+.illustration img {
+  object-fit: cover;
+    width : 95vw;
+    height : 70vh;
+}
+
+.savoir-faire img {
+  object-fit: cover;
+    width : 95vw;
+    height : 70vh;
+}
+
+  .real__model {
+  display : flex;
+  flex-direction : column;
+  margin : 0;
+  margin-top : 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
 }
 
 </style>
