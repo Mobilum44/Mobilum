@@ -114,7 +114,6 @@ Header {
   display: flex;
   justify-content: right;
   align-items: center;
-  gap: 1rem;
   list-style-type: none
 }
 

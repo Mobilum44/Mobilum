@@ -46,30 +46,30 @@
           <g-link to="/Contact/">
             <li class="icon mail">
               <span class="tooltip">Mail</span>
-              <div class="icon__text">
-                <g-image
-                  src="../../src/assets/img/logos/mail.png"
-                  width="40"
-                />
-              </div>
+              <g-image
+                src="../../src/assets/img/logos/mail.png"
+                width="40"
+              />
             </li>
           </g-link>
 
           <g-link to="https://www.facebook.com/people/MOBILUM/100063454155980/">
             <li class="icon facebook">
               <span class="tooltip">Facebook</span>
-              <div class="icon__text">
-                Fb
-              </div>
+              <g-image
+                src="../../src/assets/img/logos/facebook.png"
+                width="40"
+              />
             </li>
           </g-link>
 
           <g-link to="https://www.linkedin.com/company/mobilum-france/">
             <li class="icon linkedin">
               <span class="tooltip">Linkedin</span>
-              <div class="icon__text">
-                Lk
-              </div>
+              <g-image
+                src="../../src/assets/img/logos/linkedin.png"
+                width="40"
+              />
             </li>
           </g-link>
 
@@ -77,9 +77,10 @@
           <g-link to="https://www.instagram.com/mobilum_france/?hl=fr">
             <li class="icon instagram">
               <span class="tooltip">Instagram</span>
-              <div class="icon__text">
-                Ins
-              </div>
+              <g-image
+                src="../../src/assets/img/logos/instagram.png"
+                width="40"
+              />
             </li>
           </g-link>
         </ul>
@@ -226,7 +227,7 @@ Colonne de droite
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); */
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
@@ -287,7 +288,7 @@ Colonne de droite
 .content__RS .instagram:hover,
 .content__RS .instagram:hover .tooltip,
 .content__RS .instagram:hover .tooltip::before {
-  background: #E4405F;
+  background: #DD2A7B;
   color: #ffffff;
 }
 

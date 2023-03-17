@@ -2,8 +2,6 @@
   <div class="card-container">
     <div class="card">
       <figure class="card__thumb">
-        <!-- Parcs, Bords de mer, Gare, Lycée, ...
-        -->
         <img
           src="@/assets/img/Galets.jpg"
           alt="Galets rouen bfup Mobilum"
@@ -16,7 +14,7 @@
             Centre ville
           </h2>
           <p class="card__text">
-            Des mobiliers sur mesure pour les villes de Caen et Rouen.
+            Design urbain unique.
           </p>
         </figcaption>
       </figure>
@@ -36,7 +34,7 @@
             Parc
           </h2>
           <p class="card__text">
-            De nombreuses demandes concernent les amménagements des aires de parc.
+            Développement durable assumé.
           </p>
         </figcaption>
       </figure>
@@ -45,7 +43,7 @@
     <div class="card">
       <figure class="card__thumb">
         <img
-          src="@/assets/img/cucq-bord-de-mer-transat-mobilum.jpg"
+          src="@/assets/img/obrac-la-rochelle-port-neuf.png"
           alt="Bord de mer à cucq transat Camah de Mobilum"
           class="card__image"
           fit="cover"
@@ -56,7 +54,7 @@
             Bord de mer
           </h2>
           <p class="card__text">
-            Grâce à ses propriétés innovantes, le BFUP est idéal pour les bords de mer. Sa tenue blablabla 
+            Embruns, climats ne sont plus des contraintes.
           </p>
         </figcaption>
       </figure>
@@ -76,7 +74,7 @@
             Gare
           </h2>
           <p class="card__text">
-            Depuis 2017 déjà, nous travaillons avec Synthèse pour réamménager l'intérieur des gares SNCF partout en France.
+            Nous participons aux grands projets.
           </p>
         </figcaption>
       </figure>
@@ -96,32 +94,12 @@
             Tram
           </h2>
           <p class="card__text">
-            Un incontournable des centres-villes, le tramway est lieu de rencontre de toute une population.
+            Usage assumé pour un fort traffic.
           </p>
         </figcaption>
       </figure>
     </div>
-    <!----
-    <div class="card">
-      <figure class="card__thumb">
-        <img
-          src="@/assets/img/place-bruz-mobilum.png"
-          alt="chaise et banc mobilum à Bruz en Bretagne"
-          class="card__image"
-          fit="cover"
-          width="280px"
-        >
-        <figcaption class="card__caption">
-          <h2 class="card__title">
-            Place
-          </h2>
-          <p class="card__text">
-            Réaménagement de la place de Bruz avec une collection sur-mesure.
-          </p>
-        </figcaption>
-      </figure>
-    </div>
------> 
+
     <div class="card">
       <figure class="card__thumb">
         <!-- Parcs, Bords de mer, Gare, Lycée, ...-->
@@ -137,7 +115,7 @@
             Zone commerciale
           </h2>
           <p class="card__text">
-            Une gamme complète a été créée pour la création d'une zone commerciale à Puilboreau.
+            Nos gammes sont cohérentes et séduisantes.
           </p>
         </figcaption>
       </figure>
@@ -145,7 +123,6 @@
 
     <div class="card">
       <figure class="card__thumb">
-        <!-- Parcs, Bords de mer, Gare, Lycée, ...-->
         <img
           src="@/assets/img/lycée-nord-sur-erdre-mobilum.jpg"
           alt="Vue du ciel Lycée Nord sur Erdre à Nantes Mobilum"
@@ -158,38 +135,15 @@
             Ecole
           </h2>
           <p class="card__text">
-            Présents dans de nombreux lieux d'enseignements, nous participons aux moments de pause des élèves.
+            Nous accompagnons les générations novatrices.
           </p>
         </figcaption>
       </figure>
     </div>
 
 
-    <!-----
     <div class="card">
       <figure class="card__thumb">
-        <img
-          src="@/assets/img/granville-jardiniere-mobilum.png"
-          alt="centre de granville jardinière mobilum"
-          class="card__image"
-          fit="cover"
-          height="220px"
-        >
-        <figcaption class="card__caption">
-          <h2 class="card__title">
-            Cimetières
-          </h2>
-          <p class="card__text">
-            Grandes villes ou petits villages, nous ne faisons pas de différence !
-          </p>
-        </figcaption>
-      </figure>
-    </div>
-------> 
-
-    <div class="card">
-      <figure class="card__thumb">
-        <!-- Parcs, Bords de mer, Gare, Lycée, ...-->
         <img
           src="@/assets/img/totem-tertiaire-mobilum.jpg"
           alt="totem en BFUP pour l'entreprise Luneau Papin par Mobilum"
@@ -202,6 +156,8 @@
             Tertiaire
           </h2>
           <p class="card__text">
+            Image de marque remarquable et personnalisable.
+
             PHOTO DE PIANO REZZO
           </p>
         </figcaption>
@@ -223,11 +179,34 @@
             Lotissement
           </h2>
           <p class="card__text">
-            Un grand classique de la maison, utilisé dans les nouveaux quarties : le HOOK.
+            De l'efficacité dans la simplicité.
           </p>
         </figcaption>
       </figure>
     </div>
+
+    <div class="card">
+      <figure class="card__thumb">
+        <img
+          src="@/assets/img/lotissement-hook-mobilum.png"
+          alt="Lotissement coffret technique hook mobilum"
+          class="card__image"
+          fit="cover"
+          height="220px"
+        >
+        <figcaption class="card__caption">
+          <h2 class="card__title">
+            National
+          </h2>
+          <p class="card__text">
+            Un rayonnement sur tout le territoire français.
+          </p>
+        </figcaption>
+      </figure>
+    </div>
+
+
+
   </div>
 </template>
 
@@ -238,8 +217,7 @@
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  width: 100%;
+  justify-content: center;
   height : 100%;
   margin-bottom : 3rem;
 }
@@ -250,7 +228,6 @@
   justify-content: center;
 }
 }
-
 
 .card {
   width: 200px;

@@ -116,7 +116,7 @@ export default {
 .bordered:hover {
   background-color : black;
   color : white;
-   box-shadow:#1a949d 5px 5px 0px -3px
+  box-shadow:#1a949d00 5px 5px 0px -3px
   }
 
 </style>

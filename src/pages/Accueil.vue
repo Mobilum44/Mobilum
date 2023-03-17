@@ -115,14 +115,6 @@ p {
 }
 
 /* Section 1 : Logo /Image */
-
-.logo {
-  border-radius : 30px;
-background-color: #fefcf3;
-  box-shadow: 0px 0px 50px rgba(254,252,243, 1),
-    0 0 75px rgba(254,252,243, 1), 0 0 150px rgba(254,252,243);
-}
-
 .bandeau {
   /*background: url("../../src/assets/img/fond_transparent.png")
     center center no-repeat;*/
@@ -132,6 +124,7 @@ background-color: #fefcf3;
   flex-direction: column;
   align-items: center;
   justify-content : center;
+  padding-bottom : 3rem;
 }
 
 .bandeau_content {
@@ -143,8 +136,6 @@ background-color: #fefcf3;
 }
 
 /* Section 2 : latest posts + content */
-
-
 .section {
 display : flex;
 flex-direction : column;
@@ -312,6 +303,10 @@ span:nth-child(29) {
 }
 
 @media only screen and (max-width: 600px) {
+.bandeau {
+  padding-bottom : 0;
+}
+
 .bandeau p {
   margin-top: 0rem;
   padding : 0.5rem;

@@ -9,7 +9,16 @@
     </div>
 
     <div class="section__exception">
+      <h3> Paris Saclay </h3>
+      <p> Projet tolerie forezienne </p>
     </div>
+
+    <div class="section__exception">
+      <h3> Le Grand Paris </h3>
+      <p> Projet monumental du renouvellement des gares</p>
+    </div>
+
+
     <h2> Les sur-mesure </h2>
 
     <div class="section__exception">
@@ -18,6 +27,8 @@
     </div>
 
     <div class="section__exception">
+      <h3> Le Trocadéro </h3>
+      <p> Des jaridinières </p>
     </div>
   </Layout>
 </template>
@@ -37,11 +48,24 @@ export default {
 </script>
 
 <style scoped>
+.contenu {
+  gap : 0;
+}
 h1 {
-  padding-top : 0;
+  padding-top : 3;
   margin : 0;
   color : black;
+  border : none;
   border-bottom: black solid 1px;
   width : 100%;
+}
+
+h2 {
+  margin-left : 3rem;
+  color : grey;
+}
+
+.section__exception {
+  border : solid pink;
 }
 </style>

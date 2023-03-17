@@ -43,5 +43,7 @@ query {
 </static-query>
 
 <style scoped>
-
+.contenu {
+  gap : 0;
+}
 </style>
