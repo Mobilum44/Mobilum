@@ -7,7 +7,7 @@ category: Fontaine
 sub_category: Fontaine
 gamme: LOELLA
 finitions: 900
-cover_image: "../../images/canape-stamp-lisse.jpg"
+cover_image: "../../images/cover_image/banc-obrac.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"
 - "../../images/canape-stamp-lisse.jpg"

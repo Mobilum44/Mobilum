@@ -7,7 +7,7 @@ category: Corbeille
 sub_category: Corbeille
 gamme: ASTURIAS
 finitions: lisse
-cover_image: "../../images/canape-stamp-lisse.jpg"
+cover_image: "../../images/cover_image/banc-obrac.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 

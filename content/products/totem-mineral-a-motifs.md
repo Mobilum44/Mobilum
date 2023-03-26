@@ -7,7 +7,7 @@ category: Totem
 sub_category: Totem
 gamme: MINERAL
 finitions: à motifs
-cover_image: "../../images/canape-stamp-lisse.jpg"
+cover_image: "../../images/cover_image/banc-obrac.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 
