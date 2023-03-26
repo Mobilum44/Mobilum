@@ -6,3 +6,5 @@ fields:
   type: image_gallery
   config: {}
   label: test
+pages:
+- content/products/patate.md
