@@ -7,7 +7,7 @@ sections:
 - type: directory
   path: content/products
   label: Produit
-  create: documents
+  create: all
   match: "**/*"
 upload_dir: images
 public_path: "../../images"
