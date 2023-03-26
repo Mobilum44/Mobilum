@@ -2,7 +2,7 @@
 name: Sovann Kim
 published: true
 
-cover_image: ../../images/canape-stamp-lisse.jpg ./images/banc_stamp_lisse.jpg
+cover_image: "../../images/canape-stamp-lisse.jpg" ./images/banc_stamp_lisse.jpg
 
 tags: ['Markdown', 'Cover Image']
 series: false

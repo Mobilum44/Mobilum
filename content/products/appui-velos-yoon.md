@@ -7,11 +7,11 @@ category: Appui-vélos
 sub_category: Appui-vélos 
 gamme: YOON 
 finitions: 
-cover_image: ../../images/canape-stamp-lisse.jpg
+cover_image: "../../images/canape-stamp-lisse.jpg"
 caroussel: 
-- ../../images/canape-stamp-lisse.jpg
+- "../../images/canape-stamp-lisse.jpg"
 filaire: 
- - ../../images/canape-stamp-lisse.jpg
+ - "../../images/canape-stamp-lisse.jpg"
 reference: AVYOON_0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 28

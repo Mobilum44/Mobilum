@@ -7,11 +7,11 @@ category: Table
 sub_category: Table
 gamme: CANTINE
 finitions: 4
-cover_image: ../../images/canape-stamp-lisse.jpg
+cover_image: "../../images/canape-stamp-lisse.jpg"
 caroussel: 
-- ../../images/canape-stamp-lisse.jpg
+- "../../images/canape-stamp-lisse.jpg"
 filaire: 
- - ../../images/canape-stamp-lisse.jpg
+ - "../../images/canape-stamp-lisse.jpg"
 reference: TCCANTI0104
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 901
