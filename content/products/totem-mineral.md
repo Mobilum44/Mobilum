@@ -1,23 +1,23 @@
 ---
+title: Totem MINERAL  
+published: TRUE
+designer: Spritz
 collection: Signalétique
-title: Totem Minéral
-published: true
-designer: "?"
 category: Totem
 sub_category: Totem
-gamme: Minéral
-cover_image: "../../images/totem-mineral.jpg"
-caroussel: []
-reference : ''
-filaire: ''
-materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
-poids: ''
-dimensions: ''
-traitement: ''
-format  : ''
-tags: []
-series: false
-canonical_url: false
-description: ''
-
+gamme: MINERAL
+finitions: 
+cover_image: ../../images/canape-stamp-lisse.jpg
+caroussel: 
+- ../../images/canape-stamp-lisse.jpg
+filaire: 
+ - ../../images/canape-stamp-lisse.jpg
+reference: TOMINER0101
+materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
+poids: 206
+dimensions: L600 x P60 x H2500 
+format: Monobloc
+traitement: ""
+tags: 
+description: ""
 ---

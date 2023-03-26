@@ -1,23 +1,23 @@
 ---
-collection: Mobilier urbain
-title: Tabouret Elium
-published: true
+title: Tabouret ELIUM 
+published: TRUE
 designer: Sovann Kim
-category: Assises
+collection: Mobilier urbain
+category: Assise
 sub_category: Tabouret
-gamme: Elium
-cover_image: "../../images/tabouret-elium.jpg"
-caroussel: []
-reference : ''
-filaire: ''
-materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
-poids: ''
-dimensions: ''
-traitement: ''
-format  : ''
-tags: []
-series: false
-canonical_url: false
-description: ''
-
+gamme: ELIUM
+finitions: 
+cover_image: ../../images/canape-stamp-lisse.jpg
+caroussel: 
+- ../../images/canape-stamp-lisse.jpg
+filaire: 
+ - ../../images/canape-stamp-lisse.jpg
+reference: TAELIUM0101
+materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
+poids: 94
+dimensions: L500 x P500 x H540
+format: Multibloc
+traitement: ""
+tags: 
+description: ""
 ---

@@ -38,11 +38,12 @@
 query Collection ($id: ID!) {
   collection (id: $id) {
     title
-    belongsTo {
+    belongsTo(sortBy: "gamme", order: ASC) {
       edges {
         node {
           ...on Product {
               title
+              gamme
               cover_image
               path
           }

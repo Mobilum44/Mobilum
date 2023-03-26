@@ -1,25 +1,23 @@
 ---
-collection: Mobilier urbain
-title: Transat Camah
-published: true
+title: Transat CAMAH 
+published: TRUE
 designer: Sovann Kim
-category: Assises
-sub_category: Transats
-gamme: Camah
-cover_image: "../../images/transat-camah.jpg"
-caroussel:
-- "../../images/transat-camah-flesselles.JPG"
-- "../../images/transat-camah-cucq.JPG"
-reference : ''
-filaire: ''
-materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
-poids: "181"
-dimensions: L1861 x P650 x H625
-traitement: ''
-format  : ''
-tags: []
-series: false
-canonical_url: false
-description: ''
-
+collection: Mobilier urbain
+category: Transat
+sub_category: Transat
+gamme: CAMAH 
+finitions: 
+cover_image: ../../images/canape-stamp-lisse.jpg
+caroussel: 
+- ../../images/canape-stamp-lisse.jpg
+filaire: 
+ - ../../images/canape-stamp-lisse.jpg
+reference: TRCAMAH0101
+materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
+poids: 181
+dimensions: L1861 x P650 x H625 
+format: Multibloc
+traitement: ""
+tags: 
+description: ""
 ---

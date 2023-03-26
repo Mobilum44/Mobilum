@@ -1,23 +1,23 @@
 ---
-collection: Mobilier urbain
-title: Corbeille Asturias Vigipirate
-published: true
+title: Corbeille VIGIPIRATE ASTURIAS 
+published: TRUE
 designer: Sovann Kim
-category: Propreté
+collection: Mobilier urbain
+category: Corbeille
 sub_category: Corbeille
-gamme: Asturias
-cover_image: "../../images/corbeille-asturias-vigipirate.jpg"
-caroussel: []
-reference : ''
-filaire: ''
-materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
-poids: ''
-dimensions: ''
-traitement: ''
-format  : ''
-tags: []
-series: false
-canonical_url: false
-description: ''
-
+gamme: ASTURIAS
+finitions: VIGIPIRATE
+cover_image: ../../images/canape-stamp-lisse.jpg
+caroussel: 
+- ../../images/canape-stamp-lisse.jpg
+filaire: 
+ - ../../images/canape-stamp-lisse.jpg
+reference: COASTUR0601
+materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
+poids: 54
+dimensions: ⌀500 H830 
+format: Multibloc
+traitement: ""
+tags: 
+description: ""
 ---

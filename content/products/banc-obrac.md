@@ -1,23 +1,24 @@
 ---
-collection: Mobilier urbain
-title: Banc Obrac
-published: true
+title: Banc OBRAC 
+published: TRUE
 designer: Sovann Kim
-category: Assises
+collection: Mobilier urbain
+category: Assise
 sub_category: Banc
-gamme: Obrac
-cover_image: "../../images/banc-obrac.jpg"
-caroussel: []
-reference : ''
-filaire: ''
-materiau: 'Béton Fibré à Ultra-hautes Performances (BFUP)'
-poids: ''
-dimensions: ''
-traitement: ''
-format  : ''
-tags: []
-series: false
-canonical_url: false
-description: ''
-
+gamme: OBRAC 
+finitions: 
+cover_image: ../../images/canape-stamp-lisse.jpg
+caroussel: 
+- ../../images/canape-stamp-lisse.jpg
+filaire: 
+ - ../../images/canape-stamp-lisse.jpg
+ - ../../images/canape-stamp-lisse.jpg
+reference: BSOBRAC0101
+materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
+poids: 441
+dimensions: L2000 x P725 x H930
+format: Monobloc
+traitement: ""
+tags: 
+description: ""
 ---

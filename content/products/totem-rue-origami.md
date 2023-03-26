@@ -1,0 +1,23 @@
+---
+title: Totem RUE 
+published: TRUE
+designer: Forma6
+collection: Signalétique
+category: Totem
+sub_category: Totem rue
+gamme: ORIGAMI
+finitions: 
+cover_image: ../../images/canape-stamp-lisse.jpg
+caroussel: 
+- ../../images/canape-stamp-lisse.jpg
+filaire: 
+ - ../../images/canape-stamp-lisse.jpg
+reference: TOORIGA0101
+materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
+poids: 96
+dimensions: L300 x P97 x H2000
+format: Monobloc
+traitement: ""
+tags: 
+description: ""
+---

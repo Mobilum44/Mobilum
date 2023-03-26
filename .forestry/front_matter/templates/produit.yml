@@ -15,7 +15,7 @@ fields:
   type: image_gallery
   config: {}
   label: cover_image
-  description: Ne mettre qu'une seule image en 500x500px
+  description: ""Ne mettre qu'une seule image en 500x500px
 - name: collection
   type: select
   default: Mobilier urbain
@@ -54,7 +54,7 @@ fields:
   config:
     required: false
   label: Référence
-  description: Référence article (SAGE commerce)
+  description: ""Référence article (SAGE commerce)
   hidden: false
 - type: text
   name: materiau
