@@ -235,7 +235,7 @@ Header {
     float: left;
   }
   .header li .nav__link {
-    padding: 20px 30px;
+    margin: 1.5rem;
   }
   .header .menu {
     clear: none;
