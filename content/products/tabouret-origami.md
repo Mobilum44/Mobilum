@@ -4,7 +4,7 @@ published: TRUE
 designer: Forma6
 collection: Mobilier urbain
 category: Assise
-sub_category: Tabouret
+sub_category: 01 Tabouret
 gamme: ORIGAMI
 finitions: 
 cover_image: "../../images/cover_image/banc-obrac.jpg"

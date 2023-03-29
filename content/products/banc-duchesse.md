@@ -4,7 +4,7 @@ published: TRUE
 designer: Forma6
 collection: Mobilier urbain
 category: Assise
-sub_category: Banc
+sub_category: 06 Banc
 gamme: DUCHESSE 
 finitions: 
 cover_image: "../../images/cover_image/banc-duchesse.jpg"

@@ -4,7 +4,7 @@ published: TRUE
 designer: Spritz
 collection: Mobilier urbain
 category: Assise
-sub_category: Banc perron
+sub_category: 04 Banc perron
 gamme: STOOP
 finitions: 
 cover_image: "../../images/cover_image/banc-perron-stoop.jpg"

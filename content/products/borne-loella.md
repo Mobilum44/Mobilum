@@ -4,7 +4,7 @@ published: TRUE
 designer: Cecile Planchais
 collection: Mobilier urbain
 category: Borne
-sub_category: Borne
+sub_category: 15 Borne
 gamme: LOELLA
 finitions: 
 cover_image: "../../images/cover_image/banc-obrac.jpg"

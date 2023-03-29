@@ -4,7 +4,7 @@ published: TRUE
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Corbeille
-sub_category: Corbeille
+sub_category: 13 Corbeille
 gamme: ASTURIAS
 finitions: lisse
 cover_image: "../../images/cover_image/corbeille-asturias-lisse.jpg"

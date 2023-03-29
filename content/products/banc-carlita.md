@@ -4,7 +4,7 @@ published: TRUE
 designer: 
 collection: Mobilier urbain
 category: Assise
-sub_category: Banc
+sub_category: 06 Banc
 gamme: CARLITA
 finitions: 
 cover_image: "../../images/cover_image/banc-obrac.jpg"

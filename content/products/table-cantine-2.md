@@ -4,9 +4,9 @@ published: TRUE
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Table
-sub_category: Table
+sub_category: 11 2 Table urbaine
 gamme: CANTINE
-finitions: 2
+finitions: 02
 cover_image: "../../images/cover_image/table-cantine-urbaine-02.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"

@@ -4,7 +4,7 @@ published: TRUE
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise
-sub_category: Chaise
+sub_category: 02 Chaise
 gamme: STAMP
 finitions: lisse
 cover_image: "../../images/cover_image/chaise-stamp-lisse.jpg"

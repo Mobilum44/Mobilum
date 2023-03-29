@@ -4,7 +4,7 @@ published: TRUE
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Jardinière
-sub_category: Jardinière
+sub_category: 14 Jardinière
 gamme: ASTURIAS
 finitions: lisse
 cover_image: "../../images/cover_image/jardiniere-asturias-carree-lisse.jpg"

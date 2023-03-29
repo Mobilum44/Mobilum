@@ -4,7 +4,7 @@ published: TRUE
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise
-sub_category: Fauteuil
+sub_category: 03 Fauteuil
 gamme: STAMP
 finitions: window
 cover_image: "../../images/cover_image/banc-obrac.jpg"

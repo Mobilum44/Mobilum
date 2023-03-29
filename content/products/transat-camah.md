@@ -4,7 +4,7 @@ published: TRUE
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Transat
-sub_category: Transat
+sub_category: 09 Transat
 gamme: CAMAH 
 finitions: 
 cover_image: "../../images/cover_image/transat-camah.jpg"

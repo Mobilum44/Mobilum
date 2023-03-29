@@ -4,7 +4,7 @@ published: TRUE
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise
-sub_category: Banc
+sub_category: 06 Banc
 gamme: OBRAC 
 finitions: 
 cover_image: "../../images/cover_image/banc-obrac.jpg"

@@ -4,7 +4,7 @@ published: TRUE
 designer: Forma6
 collection: Mobilier urbain
 category: Assise
-sub_category: Banquette
+sub_category: 05 Banquette
 gamme: ORIGAMI
 finitions: 
 cover_image: "../../images/cover_image/banc-obrac.jpg"

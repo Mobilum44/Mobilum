@@ -4,7 +4,7 @@ published: TRUE
 designer: Phytolab
 collection: Mobilier urbain
 category: Table
-sub_category: Table
+sub_category: 11 Table
 gamme: VERTABLE
 finitions: PM
 cover_image: "../../images/cover_image/table-vertable-pm.jpg"

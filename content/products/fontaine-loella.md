@@ -4,7 +4,7 @@ published: TRUE
 designer: Cecile Planchais
 collection: Mobilier urbain
 category: Fontaine
-sub_category: Fontaine
+sub_category: 16 Fontaine
 gamme: LOELLA
 finitions: 
 cover_image: "../../images/cover_image/banc-obrac.jpg"

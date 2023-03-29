@@ -4,7 +4,7 @@ published: TRUE
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Appui-vélos 
-sub_category: Appui-vélos 
+sub_category: 18 Appui-vélos
 gamme: KARO
 finitions: 
 cover_image: "../../images/cover_image/appuis-velo-karo.jpg"

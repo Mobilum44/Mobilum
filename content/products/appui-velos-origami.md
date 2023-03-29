@@ -4,7 +4,7 @@ published: TRUE
 designer: Forma6
 collection: Mobilier urbain
 category: Appui-vélos 
-sub_category: Appui-vélos 
+sub_category: 18 Appui-vélos
 gamme: ORIGAMI
 finitions: 
 cover_image: "../../images/cover_image/banc-obrac.jpg"

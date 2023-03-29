@@ -4,7 +4,7 @@ published: true
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Jardinière
-sub_category: Jardinière
+sub_category: 14 Jardinière
 gamme: ASTURIAS
 finitions: végétal
 cover_image: "../../images/cover_image/jardiniere-asturias-ronde-vegetal.jpg"

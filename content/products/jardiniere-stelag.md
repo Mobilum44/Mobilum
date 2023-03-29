@@ -4,7 +4,7 @@ published: TRUE
 designer: 
 collection: Mobilier urbain
 category: Jardinière
-sub_category: Jardinière
+sub_category: 14 Jardinière
 gamme: STELAG
 finitions: 
 cover_image: "../../images/cover_image/banc-obrac.jpg"

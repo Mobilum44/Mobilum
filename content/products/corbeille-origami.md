@@ -4,7 +4,7 @@ published: TRUE
 designer: Forma6
 collection: Mobilier urbain
 category: Corbeille
-sub_category: Corbeille
+sub_category: 13 Corbeille
 gamme: ORIGAMI
 finitions: 
 cover_image: "../../images/cover_image/banc-obrac.jpg"

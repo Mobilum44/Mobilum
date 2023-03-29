@@ -4,7 +4,7 @@ published: TRUE
 designer: Phytolab
 collection: Mobilier urbain
 category: Assise
-sub_category: Banquette
+sub_category: 05 Banquette
 gamme: VERTABLE
 finitions: 
 cover_image: "../../images/cover_image/banc-obrac.jpg"

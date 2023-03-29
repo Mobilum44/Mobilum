@@ -4,7 +4,7 @@ published: TRUE
 designer: Gautier & Conquet
 collection: Mobilier urbain
 category: Transat
-sub_category: Transat
+sub_category: 09 Transat
 gamme: MILA 
 finitions: 
 cover_image: "../../images/cover_image/transat-mila.jpg"

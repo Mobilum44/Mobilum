@@ -4,7 +4,7 @@ published: TRUE
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise
-sub_category: Banc
+sub_category: 06 Banc
 gamme: ELIUM
 finitions: 3 dossiers
 cover_image: "../../images/cover_image/banc-elium-3-dossiers.jpg"

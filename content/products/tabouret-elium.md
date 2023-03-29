@@ -4,7 +4,7 @@ published: TRUE
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise
-sub_category: Tabouret
+sub_category: 01 Tabouret
 gamme: ELIUM
 finitions: 
 cover_image: "../../images/cover_image/tabouret-elium.jpg"

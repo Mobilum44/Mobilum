@@ -4,7 +4,7 @@ published: TRUE
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise
-sub_category: Chaise Longue
+sub_category: 08 Chaise Longue
 gamme: OBRAC 
 finitions: 
 cover_image: "../../images/cover_image/chaise-longue-obrac.jpg"

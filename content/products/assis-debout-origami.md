@@ -4,7 +4,7 @@ published: TRUE
 designer: Forma6
 collection: Mobilier urbain
 category: Assise
-sub_category: Assis debout 
+sub_category: 10 Assis debout
 gamme: ORIGAMI
 finitions: 
 cover_image: "../../images/cover_image/banc-obrac.jpg"

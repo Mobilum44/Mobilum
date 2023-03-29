@@ -4,7 +4,7 @@ published: TRUE
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise
-sub_category: Canapé
+sub_category: 07 Canapé
 gamme: STAMP
 finitions: lisse
 cover_image: "../../images/cover_image/canape-stamp-lisse.jpg"

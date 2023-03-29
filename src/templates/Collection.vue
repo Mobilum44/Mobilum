@@ -38,7 +38,7 @@
 query Collection ($id: ID!) {
   collection (id: $id) {
     title
-    belongsTo(sortBy: "gamme", order: ASC) {
+    belongsTo(sortBy: "sub_category", order: ASC) {
       edges {
         node {
           ...on Product {
