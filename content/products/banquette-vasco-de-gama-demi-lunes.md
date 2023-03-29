@@ -1,13 +1,13 @@
 ---
-title: Banc VASCO DE GAMA demi lunes 
+title: Banquette VASCO DE GAMA demi lunes 
 published: TRUE
 designer: 
 collection: Mobilier urbain
 category: Assise
-sub_category: Banc
+sub_category: Banquette
 gamme: VASCO DE GAMA
 finitions: demi-lunes
-cover_image: "../../images/cover_image/banc-obrac.jpg"
+cover_image: "../../images/cover_image/banquette-vasco-de-gamma-demo-lune.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 

@@ -7,7 +7,7 @@ category: Assise
 sub_category: Chaise
 gamme: STAMP
 finitions: lisse
-cover_image: "../../images/cover_image/banc-obrac.jpg"
+cover_image: "../../images/cover_image/chaise-stamp-lisse.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 

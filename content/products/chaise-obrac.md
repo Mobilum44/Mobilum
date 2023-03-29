@@ -7,7 +7,7 @@ category: Assise
 sub_category: Chaise
 gamme: OBRAC 
 finitions: 
-cover_image: "../../images/cover_image/banc-obrac.jpg"
+cover_image: "../../images/cover_image/chaise-obrac.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 

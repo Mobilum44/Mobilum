@@ -7,7 +7,7 @@ category: Assise
 sub_category: Banquette
 gamme: BEAM 
 finitions: simple
-cover_image: "../../images/cover_image/banc-obrac.jpg"
+cover_image: "../../images/cover_image/banquette-beam-simple.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 

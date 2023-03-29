@@ -7,7 +7,7 @@ category: Appui-vélos
 sub_category: Appui-vélos 
 gamme: YOON 
 finitions: 
-cover_image: "../../images/cover_image/banc-obrac.jpg"
+cover_image: "../../images/cover_image/appui-velo-yoon.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 

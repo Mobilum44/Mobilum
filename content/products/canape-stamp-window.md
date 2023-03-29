@@ -7,7 +7,7 @@ category: Assise
 sub_category: Canapé
 gamme: STAMP
 finitions: window
-cover_image: "../../images/cover_image/banc-obrac.jpg"
+cover_image: "../../images/cover_image/canape-stamp-window.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 

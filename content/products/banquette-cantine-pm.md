@@ -7,7 +7,7 @@ category: Assise
 sub_category: Banquette
 gamme: CANTINE
 finitions: PM
-cover_image: "../../images/cover_image/banc-obrac.jpg"
+cover_image: "../../images/cover_image/banquette-cantine-pm.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 

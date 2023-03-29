@@ -7,7 +7,7 @@ category: Assise
 sub_category: Banc
 gamme: ELIUM
 finitions: 2 dossiers
-cover_image: "../../images/cover_image/banc-obrac.jpg"
+cover_image: "../../images/cover_image/banc-elium-2-dossiers.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 

@@ -7,7 +7,7 @@ category: Assise
 sub_category: Banquette
 gamme: DUCHESSE 
 finitions: 
-cover_image: "../../images/cover_image/banc-obrac.jpg"
+cover_image: "../../images/cover_image/banquette-duchesse.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 
