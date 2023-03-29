@@ -7,7 +7,7 @@ category: Transat
 sub_category: Transat
 gamme: MILA 
 finitions: 
-cover_image: "../../images/cover_image/banc-obrac.jpg"
+cover_image: "../../images/cover_image/transat-mila.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 

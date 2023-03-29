@@ -7,7 +7,7 @@ category: Assise
 sub_category: Banquette
 gamme: VASCO DE GAMA
 finitions: demi-lunes
-cover_image: "../../images/cover_image/banquette-vasco-de-gamma-demo-lune.jpg"
+cover_image: "../../images/cover_image/banquette-vasco-de-gama-demi-lunes.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 

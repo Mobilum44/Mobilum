@@ -1,5 +1,5 @@
 ---
-title: Banc VASCO DE GAMA
+title: Banquette VASCO DE GAMA
 published: TRUE
 designer: 
 collection: Mobilier urbain
@@ -7,7 +7,7 @@ category: Assise
 sub_category: Banc
 gamme: VASCO DE GAMA
 finitions: 
-cover_image: "../../images/cover_image/banc-obrac.jpg"
+cover_image: "../../images/cover_image/banquette-vasco-de-gamma.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 

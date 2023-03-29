@@ -7,7 +7,7 @@ category: Table
 sub_category: Table
 gamme: CANTINE
 finitions: 2
-cover_image: "../../images/cover_image/banc-obrac.jpg"
+cover_image: "../../images/cover_image/table-cantine-urbaine-02.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 

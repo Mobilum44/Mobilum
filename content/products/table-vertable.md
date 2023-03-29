@@ -7,7 +7,7 @@ category: Table
 sub_category: Table
 gamme: VERTABLE
 finitions: 
-cover_image: "../../images/cover_image/banc-obrac.jpg"
+cover_image: "../../images/cover_image/table-vertable.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 

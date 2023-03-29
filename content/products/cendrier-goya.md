@@ -7,7 +7,7 @@ category: Cendrier
 sub_category: Cendrier
 gamme: GOYA 
 finitions: 
-cover_image: "../../images/cover_image/banc-obrac.jpg"
+cover_image: "../../images/cover_image/cendrier-goya.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 
