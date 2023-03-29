@@ -10,8 +10,10 @@ finitions:
 cover_image: "../../images/cover_image/cendrier-goya.jpg"
 caroussel: 
 - "../../images/banquette-elium-parc.jpg"
+- "../../images/fauteuil-et-table.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
+ - "../../images/filaires/filaire-chaise-longue-obrac.png"
 reference: CEGOYA_0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 30

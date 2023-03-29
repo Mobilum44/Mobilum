@@ -10,8 +10,10 @@ finitions: PM
 cover_image: "../../images/cover_image/table-vertable-pm.jpg"
 caroussel: 
 - "../../images/banquette-elium-parc.jpg"
+- "../../images/fauteuil-et-table.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
+ - "../../images/filaires/filaire-chaise-longue-obrac.png"
 reference: ENVERTA0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 610

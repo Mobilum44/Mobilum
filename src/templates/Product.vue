@@ -28,7 +28,7 @@
       <div class="items">
         <p>
           Filaire ici - Donner un autre nom à l'élément
-          <Caroussel :img="$page.product.filaire" />
+          <Filaire :img="$page.product.filaire" />
         </p>
         <p>
           <em>Materiau :</em> : {{ $page.product.materiau }}<br> 
@@ -68,12 +68,14 @@ query Product ($id: ID!) {
 import Layout from "@/layouts/LayoutAccueil.vue";
 import Button from "@/components/Button.vue";
 import Caroussel from "@/components/Caroussel.vue";
+import Filaire from "@/components/Filaires.vue";
 
 export default {
 	components: {
 		Button,
 		Layout,
 		Caroussel,
+    Filaire,
 	},
 };
 </script>
@@ -130,7 +132,9 @@ h1 {
 /*-----------------------------------------------------------------
       Zone galerie
   ---------------------------------------------------------------*/
-
+.gallery {
+  margin : 2rem 0;
+}
 
 /*-----------------------------------------------------------------
       Zone description

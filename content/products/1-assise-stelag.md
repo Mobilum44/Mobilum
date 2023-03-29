@@ -10,8 +10,10 @@ finitions:
 cover_image: "../../images/cover_image/galet-1-assise.jpg"
 caroussel: 
 - "../../images/banquette-elium-parc.jpg"
+- "../../images/fauteuil-et-table.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
+ - "../../images/filaires/filaire-chaise-longue-obrac.png"
 reference: AGSTELA0202
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 411

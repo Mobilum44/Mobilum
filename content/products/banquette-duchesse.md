@@ -10,8 +10,10 @@ finitions:
 cover_image: "../../images/cover_image/banquette-duchesse.jpg"
 caroussel: 
 - "../../images/banquette-elium-parc.jpg"
+- "../../images/fauteuil-et-table.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
+ - "../../images/filaires/filaire-chaise-longue-obrac.png"
 reference: BADUCHE0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 208

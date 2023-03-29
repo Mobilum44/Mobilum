@@ -10,8 +10,10 @@ finitions: simple
 cover_image: "../../images/cover_image/banquette-beam-simple.jpg"
 caroussel: 
 - "../../images/banquette-elium-parc.jpg"
+- "../../images/fauteuil-et-table.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
+ - "../../images/filaires/filaire-chaise-longue-obrac.png"
 reference: BABEAM_0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 260

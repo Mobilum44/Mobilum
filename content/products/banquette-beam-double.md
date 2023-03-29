@@ -10,8 +10,10 @@ finitions: double
 cover_image: "../../images/cover_image/banquette-beam-double.jpg"
 caroussel: 
 - "../../images/banquette-elium-parc.jpg"
+- "../../images/fauteuil-et-table.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
+ - "../../images/filaires/filaire-chaise-longue-obrac.png"
 reference: BABEAM_0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 527

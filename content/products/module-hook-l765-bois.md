@@ -10,8 +10,10 @@ finitions: L765 bois
 cover_image: "../../images/cover_image/banc-obrac.jpg"
 caroussel: 
 - "../../images/banquette-elium-parc.jpg"
+- "../../images/fauteuil-et-table.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
+ - "../../images/filaires/filaire-chaise-longue-obrac.png"
 reference: 
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et bois
 poids: 86
