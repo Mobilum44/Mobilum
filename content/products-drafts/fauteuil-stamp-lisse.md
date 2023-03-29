@@ -1,6 +1,6 @@
 ---
 title: Fauteuil STAMP lisse 
-published: TRUE
+published: FALSE
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise

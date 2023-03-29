@@ -4,7 +4,7 @@ published: TRUE
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise
-sub_category: 02 Sofa
+sub_category: 06 Sofa
 gamme: STAMP
 finitions: window
 cover_image: "../../images/cover_image/banc-obrac.jpg"

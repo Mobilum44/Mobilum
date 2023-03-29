@@ -7,7 +7,7 @@ category: Borne
 sub_category: 15 Borne
 gamme: LOELLA
 finitions: 
-cover_image: "../../images/cover_image/banc-obrac.jpg"
+cover_image: "../../images/cover_image/borne-loella.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 

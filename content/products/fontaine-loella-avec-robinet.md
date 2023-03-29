@@ -1,21 +1,21 @@
 ---
-title: Fontaine simple 1 140 LOËLLA 
+title: Fontaine avec robinet LOËLLA
 published: TRUE
 designer: Cecile Planchais
 collection: Mobilier urbain
 category: Fontaine
 sub_category: 16 Fontaine
 gamme: LOELLA
-finitions: 1140
-cover_image: "../../images/cover_image/banc-obrac.jpg"
+finitions: 
+cover_image: "../../images/cover_image/fontaine-loella-avec-robinet.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 
  - "../../images/canape-stamp-lisse.jpg"
-reference: FOLOELL0105
+reference: FOLOELL0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
-poids: 95
-dimensions: L395 x P433 x H1105 
+poids: 98
+dimensions: L397 x P640 x H1110 
 format: Multibloc
 traitement: ""
 tags: 
