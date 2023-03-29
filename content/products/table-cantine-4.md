@@ -9,7 +9,7 @@ gamme: CANTINE
 finitions: 04
 cover_image: "../../images/cover_image/table-cantine-champetre-04.jpg"
 caroussel: 
-- "../../images/canape-stamp-lisse.jpg"
+- "../../images/banquette-elium-parc.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
 reference: TCCANTI0104

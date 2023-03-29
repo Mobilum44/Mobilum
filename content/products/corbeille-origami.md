@@ -9,9 +9,9 @@ gamme: ORIGAMI
 finitions: 
 cover_image: "../../images/cover_image/corbeille-origami.jpg"
 caroussel: 
-- "../../images/canape-stamp-lisse.jpg"
+- "../../images/banquette-elium-parc.jpg"
 filaire: 
- - "../../images/canape-stamp-lisse.jpg"
+ - "../../images/filaires/filaire-cantine-04.png"
 reference: COORIGA0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 111

@@ -9,9 +9,9 @@ gamme: YOON
 finitions: 
 cover_image: "../../images/cover_image/appui-velo-yoon.jpg"
 caroussel: 
-- "../../images/canape-stamp-lisse.jpg"
+- "../../images/banquette-elium-parc.jpg"
 filaire: 
- - "../../images/canape-stamp-lisse.jpg"
+ - "../../images/filaires/filaire-cantine-04.png"
 reference: AVYOON_0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 28

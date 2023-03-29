@@ -9,9 +9,9 @@ gamme: LOELLA
 finitions: 1140
 cover_image: "../../images/cover_image/fontaine-loella.jpg"
 caroussel: 
-- "../../images/canape-stamp-lisse.jpg"
+- "../../images/banquette-elium-parc.jpg"
 filaire: 
- - "../../images/canape-stamp-lisse.jpg"
+ - "../../images/filaires/filaire-cantine-04.png"
 reference: FOLOELL0105
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 95

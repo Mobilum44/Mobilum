@@ -27,14 +27,8 @@
 
       <div class="items">
         <p>
-          Filaire ici
-        <!--
-        <g-image
-          v-if="$page.product.filaire"
-          alt="photo mobilier urbain"
-          :src="$page.product.filaire"
-        />
-        --->
+          Filaire ici - Donner un autre nom à l'élément
+          <Caroussel :img="$page.product.filaire" />
         </p>
         <p>
           <em>Materiau :</em> : {{ $page.product.materiau }}<br> 

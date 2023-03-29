@@ -9,9 +9,9 @@ gamme: STAMP
 finitions: window
 cover_image: "../../images/cover_image/canape-stamp-window.jpg"
 caroussel: 
-- "../../images/canape-stamp-lisse.jpg"
+- "../../images/banquette-elium-parc.jpg"
 filaire: 
- - "../../images/canape-stamp-lisse.jpg"
+ - "../../images/filaires/filaire-cantine-04.png"
 reference: CASTAMP0201
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 366

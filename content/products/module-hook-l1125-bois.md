@@ -9,9 +9,9 @@ gamme: HOOK
 finitions: L1125 bois
 cover_image: "../../images/cover_image/banc-obrac.jpg"
 caroussel: 
-- "../../images/canape-stamp-lisse.jpg"
+- "../../images/banquette-elium-parc.jpg"
 filaire: 
- - "../../images/canape-stamp-lisse.jpg"
+ - "../../images/filaires/filaire-cantine-04.png"
 reference: 
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et bois
 poids: 101

@@ -9,10 +9,10 @@ gamme: LOELLA
 finitions: 900
 cover_image: "../../images/cover_image/banc-obrac.jpg"
 caroussel: 
-- "../../images/canape-stamp-lisse.jpg"
+- "../../images/banquette-elium-parc.jpg"
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 
- - "../../images/canape-stamp-lisse.jpg"
+ - "../../images/filaires/filaire-cantine-04.png"
 reference: FOLOELL0106
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 82

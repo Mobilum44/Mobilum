@@ -9,9 +9,9 @@ gamme: OBRAC
 finitions: 
 cover_image: "../../images/cover_image/banc-obrac.jpg"
 caroussel: 
-- "../../images/canape-stamp-lisse.jpg"
+- "../../images/banquette-elium-parc.jpg"
 filaire: 
- - "../../images/canape-stamp-lisse.jpg"
+ - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/canape-stamp-lisse.jpg"
 reference: BSOBRAC0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)

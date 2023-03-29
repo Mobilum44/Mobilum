@@ -9,9 +9,9 @@ gamme: ASTURIAS
 finitions: lisse
 cover_image: "../../images/cover_image/corbeille-asturias-lisse.jpg"
 caroussel: 
-- "../../images/canape-stamp-lisse.jpg"
+- "../../images/banquette-elium-parc.jpg"
 filaire: 
- - "../../images/canape-stamp-lisse.jpg"
+ - "../../images/filaires/filaire-cantine-04.png"
 reference: COASTUR0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 98
