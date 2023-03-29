@@ -1,13 +1,13 @@
 ---
-title: Galet jardinière 
+title: Jardinière STELAG
 published: TRUE
 designer: 
 collection: Mobilier urbain
 category: Jardinière
-sub_category: 14 Jardinière
+sub_category: 93 Jardinière
 gamme: STELAG
 finitions: 
-cover_image: "../../images/cover_image/banc-obrac.jpg"
+cover_image: "../../images/cover_image/jardiniere-stelag.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 

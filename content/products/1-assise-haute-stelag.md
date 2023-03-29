@@ -1,23 +1,24 @@
 ---
-title: Galet STELAG 
+title: 1 assise haute STELAG
 published: TRUE
 designer: 
 collection: Mobilier urbain
-category: Autre
-sub_category: 90 Décoration
+category: Assise
+sub_category: 921 Assise
 gamme: STELAG
 finitions: 
-cover_image: "../../images/cover_image/galet-stelag.jpg"
+cover_image: "../../images/cover_image/galet-1-assise-L.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 
  - "../../images/canape-stamp-lisse.jpg"
-reference: GASTELA0101
+reference: AGSTELA0202
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
-poids: 388
-dimensions: L1805 x P1260 H593
+poids: 411
+dimensions: L1805 x P1260 H762
 format: Monobloc
 traitement: ""
 tags: 
 description: ""
 ---
+

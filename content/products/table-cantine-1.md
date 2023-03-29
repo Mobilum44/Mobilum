@@ -7,7 +7,7 @@ category: Table
 sub_category: 11 1 Table
 gamme: CANTINE
 finitions: 01
-cover_image: "../../images/cover_image/table-cantine-urbaine-01.jpg"
+cover_image: "../../images/cover_image/table-urbaine-cantine-01.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 

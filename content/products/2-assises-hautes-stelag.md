@@ -1,13 +1,13 @@
 ---
-title: STELAG 01
+title: 2 assises hautes STELAG
 published: TRUE
 designer: 
 collection: Mobilier urbain
 category: Assise
-sub_category: Assise
+sub_category: 922 Assise
 gamme: STELAG
 finitions: 
-cover_image: "../../images/cover_image/banc-obrac.jpg"
+cover_image: "../../images/cover_image/galet-2-assises-L.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 

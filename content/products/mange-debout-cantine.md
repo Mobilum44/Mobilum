@@ -7,7 +7,7 @@ category: Table
 sub_category: 12 Mange debout
 gamme: CANTINE
 finitions: 02
-cover_image: "../../images/cover_image/table-cantine-urbaine-02.jpg"
+cover_image: "../../images/cover_image/mange-debout.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 
