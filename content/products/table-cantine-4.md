@@ -9,8 +9,8 @@ gamme: CANTINE
 finitions: 04
 cover_image: "../../images/cover_image/table-cantine-champetre-04.jpg"
 caroussel: 
-- "../../images/banquette-elium-parc.jpg"
-- "../../images/fauteuil-et-table.jpg"
+- "../../images/table-cantine-04-st-viaud.jpg"
+- "../../images/table-cantine-04-bleue.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/filaires/filaire-chaise-longue-obrac.png"

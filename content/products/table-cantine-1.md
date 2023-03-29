@@ -9,8 +9,8 @@ gamme: CANTINE
 finitions: 01
 cover_image: "../../images/cover_image/table-urbaine-cantine-01.jpg"
 caroussel: 
-- "../../images/banquette-elium-parc.jpg"
-- "../../images/fauteuil-et-table.jpg"
+- "../../images/table-cantine-01-neuville-de-poitou.jpg"
+- "../../images/table-cantine-01-parc.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/filaires/filaire-chaise-longue-obrac.png"

@@ -9,8 +9,7 @@ gamme: KARO
 finitions: 
 cover_image: "../../images/cover_image/appuis-velo-karo.jpg"
 caroussel: 
-- "../../images/banquette-elium-parc.jpg"
-- "../../images/fauteuil-et-table.jpg"
+- "../../images/appui-velo-karo-vicat.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/filaires/filaire-chaise-longue-obrac.png"

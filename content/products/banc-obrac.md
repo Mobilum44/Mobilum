@@ -9,12 +9,10 @@ gamme: OBRAC
 finitions: 
 cover_image: "../../images/cover_image/banc-obrac.jpg"
 caroussel: 
-- "../../images/banquette-elium-parc.jpg"
-- "../../images/fauteuil-et-table.jpg"
+- "../../images/banc-obrac-la-rochelle.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/filaires/filaire-chaise-longue-obrac.png"
- - "../../images/canape-stamp-lisse.jpg"
 reference: BSOBRAC0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 441

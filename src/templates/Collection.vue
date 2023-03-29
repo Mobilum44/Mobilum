@@ -2,8 +2,9 @@
   <Layout>
     <Button
       theme="bordered"
-      onclick="history.go(-2)"
+      onclick="history.go(-1)"  
     >
+      <!--Bouton tout pété ----> 
       Retour à l'offre
     </Button>
 

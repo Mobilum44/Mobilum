@@ -2,7 +2,7 @@
   <Layout>
     <Button
       theme="bordered"
-      onclick="history.go(-2)"
+      onclick="history.go(-1)"
     >
       Retour à la collection
     </Button>
