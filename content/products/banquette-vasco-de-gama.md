@@ -4,7 +4,7 @@ published: TRUE
 designer: 
 collection: Mobilier urbain
 category: Assise
-sub_category: 06 Banc
+sub_category: 05 Banquette
 gamme: VASCO DE GAMA
 finitions: 
 cover_image: "../../images/cover_image/banquette-vasco-de-gamma.jpg"

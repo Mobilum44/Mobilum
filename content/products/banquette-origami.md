@@ -7,7 +7,7 @@ category: Assise
 sub_category: 05 Banquette
 gamme: ORIGAMI
 finitions: 
-cover_image: "../../images/cover_image/banc-obrac.jpg"
+cover_image: "../../images/cover_image/banquette-origami.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 

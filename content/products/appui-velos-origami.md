@@ -7,7 +7,7 @@ category: Appui-vélos
 sub_category: 18 Appui-vélos
 gamme: ORIGAMI
 finitions: 
-cover_image: "../../images/cover_image/banc-obrac.jpg"
+cover_image: "../../images/cover_image/appui-velo-origami.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 

@@ -7,7 +7,7 @@ category: Assise
 sub_category: 10 Assis debout
 gamme: ORIGAMI
 finitions: 
-cover_image: "../../images/cover_image/banc-obrac.jpg"
+cover_image: "../../images/cover_image/assis-debout-origami.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 

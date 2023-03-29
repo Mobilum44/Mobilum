@@ -7,7 +7,7 @@ category: Assise
 sub_category: 01 Tabouret
 gamme: ORIGAMI
 finitions: 
-cover_image: "../../images/cover_image/banc-obrac.jpg"
+cover_image: "../../images/cover_image/tabouret-origami.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 
