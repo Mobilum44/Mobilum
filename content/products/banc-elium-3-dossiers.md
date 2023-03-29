@@ -9,8 +9,7 @@ gamme: ELIUM
 finitions: 3 dossiers
 cover_image: "../../images/cover_image/banc-elium-3-dossiers.jpg"
 caroussel: 
-- "../../images/banquette-elium-parc.jpg"
-- "../../images/fauteuil-et-table.jpg"
+- "../../images/banc-elium-3-dossiers-bretteville.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/filaires/filaire-chaise-longue-obrac.png"

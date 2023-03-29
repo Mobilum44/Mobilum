@@ -9,8 +9,8 @@ gamme: CANTINE
 finitions: 02
 cover_image: "../../images/cover_image/mange-debout.jpg"
 caroussel: 
-- "../../images/banquette-elium-parc.jpg"
-- "../../images/fauteuil-et-table.jpg"
+- "../../images/attente-showroom.jpg"
+- "../../images/attente-showroom.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/filaires/filaire-chaise-longue-obrac.png"

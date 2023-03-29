@@ -27,7 +27,7 @@
 
       <div class="items">
         <p>
-          Filaire ici - Donner un autre nom à l'élément
+          Trouver pourquoi filaire marche pas
           <Filaire :img="$page.product.filaire" />
         </p>
         <p>
@@ -53,7 +53,6 @@ query Product ($id: ID!) {
     gamme
     designer
     caroussel
-    filaire
     materiau
     poids
     dimensions

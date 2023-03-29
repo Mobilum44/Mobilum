@@ -9,8 +9,7 @@ gamme: ELIUM
 finitions: 
 cover_image: "../../images/cover_image/tabouret-elium.jpg"
 caroussel: 
-- "../../images/banquette-elium-parc.jpg"
-- "../../images/fauteuil-et-table.jpg"
+- "../../images/tabouret-et-banquette-elium.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/filaires/filaire-chaise-longue-obrac.png"

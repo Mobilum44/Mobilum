@@ -30,6 +30,16 @@
       <h3> Le Trocadéro </h3>
       <p> Des jaridinières </p>
     </div>
+
+    <div class="section__exception">
+      <h3> Vertable </h3>
+      <p> Une table infinie </p>
+    </div>
+
+    <div class="section__exception">
+      <h3> Carnon </h3>
+      <p> Des transats infinis </p>
+    </div>
   </Layout>
 </template>
 
@@ -52,7 +62,7 @@ export default {
   gap : 0;
 }
 h1 {
-  padding-top : 3;
+  padding-top : 0rem;
   margin : 0;
   color : black;
   border : none;
@@ -61,11 +71,11 @@ h1 {
 }
 
 h2 {
+  margin-top : 2rem;
   margin-left : 3rem;
   color : grey;
 }
 
 .section__exception {
-  border : solid pink;
 }
 </style>

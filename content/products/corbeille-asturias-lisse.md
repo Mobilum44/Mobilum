@@ -9,8 +9,8 @@ gamme: ASTURIAS
 finitions: lisse
 cover_image: "../../images/cover_image/corbeille-asturias-lisse.jpg"
 caroussel: 
-- "../../images/banquette-elium-parc.jpg"
-- "../../images/fauteuil-et-table.jpg"
+- "../../images/attente-showroom.jpg"
+- "../../images/corbeille-asturias-lisse-raismes.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/filaires/filaire-chaise-longue-obrac.png"
