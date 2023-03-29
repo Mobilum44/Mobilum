@@ -7,7 +7,7 @@ category: Corbeille
 sub_category: Corbeille
 gamme: ASTURIAS
 finitions: végétal
-cover_image: "../../images/cover_image/banc-obrac.jpg"
+cover_image: "../../images/cover_image/corbeille-asturias-vegetal.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 

@@ -1,13 +1,13 @@
 ---
-title: Jardinière ASTURIAS ronde végétale
-published: FALSE
+title: Jardinière ASTURIAS ronde végétal
+published: true
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Jardinière
 sub_category: Jardinière
 gamme: ASTURIAS
 finitions: végétal
-cover_image: "../../images/cover_image/banc-obrac.jpg"
+cover_image: "../../images/cover_image/jardiniere-asturias-ronde-vegetal.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 

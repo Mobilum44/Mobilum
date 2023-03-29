@@ -7,7 +7,7 @@ category: Assise
 sub_category: Fauteuil
 gamme: DUCHESSE 
 finitions: 
-cover_image: "../../images/cover_image/banc-obrac.jpg"
+cover_image: "../../images/cover_image/fauteuil-duchesse.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 

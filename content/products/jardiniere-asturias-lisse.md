@@ -7,7 +7,7 @@ category: Jardinière
 sub_category: Jardinière
 gamme: ASTURIAS
 finitions: lisse
-cover_image: "../../images/cover_image/banc-obrac.jpg"
+cover_image: "../../images/cover_image/jardiniere-asturias-carree-lisse.jpg"
 caroussel: 
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 
