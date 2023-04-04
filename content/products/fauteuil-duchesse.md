@@ -9,7 +9,7 @@ gamme: DUCHESSE
 finitions: 
 cover_image: "../../images/cover_image/fauteuil-duchesse.jpg"
 caroussel: 
-- "../../images/banquette-elium-parc.jpg"
+- "../../images/focus-chaise-duchesse.jpg"
 - "../../images/attente-showroom.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"

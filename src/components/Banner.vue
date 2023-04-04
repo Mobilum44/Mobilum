@@ -62,4 +62,9 @@ export default {
   margin-top : 1rem;
 }
 }
+
+.banner__button {
+    z-index : 999;
+    margin-bottom : 10vh;
+}
 </style>

@@ -30,7 +30,7 @@
 
         <g-link
           class="items_styling"
-          to="/Grands-comptes/"
+          to="/Exceptionnels/"
         >
           <g-image
             class="items__img"

@@ -2,7 +2,7 @@
   <Layout>
     <Button
       theme="bordered"
-      onclick="history.go(-1)"  
+      to="/Offre/"  
     >
       <!--Bouton tout pété ----> 
       Retour à l'offre

@@ -10,7 +10,8 @@ finitions:
 cover_image: "../../images/cover_image/chaise-obrac.jpg"
 caroussel: 
 - "../../images/chaises-obrac-la-rochelle.jpg"
-- "../../images/attente-showroom.jpg"
+- "../../images/obrac-chaises-la-rochelle-velo.jpg"
+- "../../images/chaises-obrac-place-urbaine.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/filaires/filaire-chaise-longue-obrac.png"

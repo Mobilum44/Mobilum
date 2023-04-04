@@ -9,7 +9,7 @@ gamme: STOOP
 finitions: 
 cover_image: "../../images/cover_image/banc-perron-stoop.jpg"
 caroussel: 
-- "../../images/banquette-elium-parc.jpg"
+- "../../images/banc-perron-stoop-ecouflant.jpg"
 - "../../images/attente-showroom.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
