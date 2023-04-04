@@ -1,5 +1,5 @@
 ---
-title: Potelet fixe 
+title: Potelet fixe ORIGAMI
 published: TRUE
 designer: Forma6
 collection: Mobilier urbain
@@ -7,7 +7,7 @@ category: Potelet
 sub_category: 17 Potelet
 gamme: ORIGAMI
 finitions: 
-cover_image: "../../images/cover_image/banc-obrac.jpg"
+cover_image: "../../images/cover_image/potelet-fixe-origami.jpg"
 caroussel: 
 - "../../images/banquette-elium-parc.jpg"
 - "../../images/fauteuil-et-table.jpg"

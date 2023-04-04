@@ -1,5 +1,5 @@
 ---
-title: Module HOOK L765 sans BAL
+title: Module HOOK L765
 published: TRUE
 designer: Spritz
 collection: HOOK
@@ -7,7 +7,7 @@ category: Assise
 sub_category: Module
 gamme: HOOK
 finitions: L765 bois
-cover_image: "../../images/cover_image/banc-obrac.jpg"
+cover_image: "../../images/cover_image/hook-765-bois.jpg"
 caroussel: 
 - "../../images/banquette-elium-parc.jpg"
 - "../../images/fauteuil-et-table.jpg"

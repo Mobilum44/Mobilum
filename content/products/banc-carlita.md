@@ -7,7 +7,7 @@ category: Assise
 sub_category: 06 Banc
 gamme: CARLITA
 finitions: 
-cover_image: "../../images/cover_image/banc-obrac.jpg"
+cover_image: "../../images/cover_image/banc-carlita.jpg"
 caroussel: 
 - "../../images/banquette-elium-parc.jpg"
 - "../../images/fauteuil-et-table.jpg"

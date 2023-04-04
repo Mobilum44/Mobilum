@@ -7,7 +7,7 @@ category: Assise
 sub_category: 05 Banquette
 gamme: VERTABLE
 finitions: PM
-cover_image: "../../images/cover_image/banc-obrac.jpg"
+cover_image: "../../images/cover_image/banquette-vertable-pm.jpg"
 caroussel: 
 - "../../images/banquette-elium-parc.jpg"
 - "../../images/fauteuil-et-table.jpg"

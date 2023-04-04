@@ -7,7 +7,7 @@ category: Assise
 sub_category: 06 Sofa
 gamme: STAMP
 finitions: window
-cover_image: "../../images/cover_image/banc-obrac.jpg"
+cover_image: "../../images/cover_image/sofa-stamp-window.jpg"
 caroussel: 
 - "../../images/banquette-elium-parc.jpg"
 - "../../images/fauteuil-et-table.jpg"

@@ -7,7 +7,7 @@ category: Assise
 sub_category: 05 Banquette
 gamme: BEAM 
 finitions: simple
-cover_image: "../../images/cover_image/banquette-beam-simple.jpg"
+cover_image: "../../images/cover_image/banquette-beam.jpg"
 caroussel: 
 - "../../images/banquette-elium-parc.jpg"
 - "../../images/fauteuil-et-table.jpg"
