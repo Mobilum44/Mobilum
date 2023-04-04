@@ -9,8 +9,8 @@ gamme: ORIGAMI
 finitions: 
 cover_image: "../../images/cover_image/banc-origami.jpg"
 caroussel: 
-- "../../images/banquette-elium-parc.jpg"
-- "../../images/fauteuil-et-table.jpg"
+- "../../images/bancs-origami.jpeg"
+- "../../images/rangee-banc-origami.jpeg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/filaires/filaire-chaise-longue-obrac.png"

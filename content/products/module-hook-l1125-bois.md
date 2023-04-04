@@ -10,7 +10,7 @@ finitions: L1125 bois
 cover_image: "../../images/cover_image/hook-1125-double-alu-compo.jpg"
 caroussel: 
 - "../../images/banquette-elium-parc.jpg"
-- "../../images/fauteuil-et-table.jpg"
+- "../../images/attente-showroom.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/filaires/filaire-chaise-longue-obrac.png"

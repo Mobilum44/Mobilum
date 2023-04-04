@@ -10,7 +10,7 @@ finitions: 1140
 cover_image: "../../images/cover_image/fontaine-loella.jpg"
 caroussel: 
 - "../../images/banquette-elium-parc.jpg"
-- "../../images/fauteuil-et-table.jpg"
+- "../../images/attente-showroom.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/filaires/filaire-chaise-longue-obrac.png"

@@ -10,7 +10,7 @@ finitions:
 cover_image: "../../images/cover_image/totem-mineral.jpg"
 caroussel: 
 - "../../images/banquette-elium-parc.jpg"
-- "../../images/fauteuil-et-table.jpg"
+- "../../images/attente-showroom.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/filaires/filaire-chaise-longue-obrac.png"

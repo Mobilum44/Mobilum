@@ -10,7 +10,7 @@ finitions: 900
 cover_image: "../../images/cover_image/banc-obrac.jpg"
 caroussel: 
 - "../../images/banquette-elium-parc.jpg"
-- "../../images/fauteuil-et-table.jpg"
+- "../../images/attente-showroom.jpg"
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
