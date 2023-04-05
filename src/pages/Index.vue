@@ -37,8 +37,7 @@ img {
 }
 
 .Empty {
-  background: url("http://image.noelshack.com/fichiers/2022/51/3/1671619469-2021-07-22-mobilum-rouen-27.jpg")
-    center center no-repeat;
+  background : url("../assets/img/page-entree.jpg") center center no-repeat;
   background-size: cover;
   height: 100vh;
   display: flex;

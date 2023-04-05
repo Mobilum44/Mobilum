@@ -29,7 +29,7 @@
       class="box"
       to="/Offre/"
     >
-      <g-image src="@/assets/img/La_rochelle.jpg" />
+      <g-image src="@/assets/img/fond_transparent.png" />
       <p>Une collection</p>
     </g-link>
   </div>

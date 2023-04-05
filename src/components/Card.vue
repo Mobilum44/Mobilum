@@ -188,7 +188,7 @@
     <div class="card">
       <figure class="card__thumb">
         <img
-          src="@/assets/img/lotissement-hook-mobilum.png"
+          src="@/assets/img/carte-france.jpg"
           alt="Lotissement coffret technique hook mobilum"
           class="card__image"
           fit="cover"
