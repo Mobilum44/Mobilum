@@ -29,7 +29,7 @@
       class="box"
       to="/Offre/"
     >
-      <g-image src="@/assets/img/fond_transparent.png" />
+      <g-image src="@/assets/img/obrac-la-rochelle-port-neuf.png" />
       <p>Une collection</p>
     </g-link>
   </div>
@@ -42,6 +42,7 @@
   padding: 2% 0%;
   width: 100%;
   height: 50vh;
+  gap : 1rem;
 }
 
 .box {
