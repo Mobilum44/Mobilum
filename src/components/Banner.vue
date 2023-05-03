@@ -10,7 +10,7 @@
       </Button>
       <img
         class="banner__image"
-        src="@/assets/img/nouvelle-frise.png"
+        src="@/assets/img/nouvelle-frise-v2.png"
         alt="Mobiliers Mobilum filaires"
       >
     </div>
@@ -35,7 +35,6 @@ export default {
 
 
 .banniere {
-  height : 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,11 +45,11 @@ export default {
 
 .banner__button {
     z-index : 999;
-    margin-bottom : 20vh;
+    margin-bottom : 1rem;
 }
 
 .banner__image{
-    position : absolute;
+    position : relative;
     width : 100%;
 }
 
@@ -58,13 +57,11 @@ export default {
      Responsive qui marche bien
      ---------------------------------------------------- */
 @media only screen and (max-width: 600px) {
-.banniere {
-  margin-top : 1rem;
-}
-}
 
 .banner__button {
     z-index : 999;
-    margin-bottom : 10vh;
+    margin-bottom : 1rem;
+}
+
 }
 </style>

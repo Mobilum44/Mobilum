@@ -4,7 +4,7 @@
     <slot
       name="slot_image"
       class="slot_image"
-    >
+    ></slot>
     </slot>
 
     <section class="contenu">

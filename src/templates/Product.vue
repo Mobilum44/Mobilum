@@ -2,7 +2,7 @@
   <Layout>
     <Button
       theme="bordered"
-      onclick="history.go(-1)"
+      onclick="history.back()"
     >
       Retour à la collection
     </Button>
@@ -40,8 +40,58 @@
       <p>{{ $page.product.description }}</p>
     </div>
 
+    <div class="color__section">
+      <h3> Nos coloris </h3>
+      <div class="colors">
+        <g-image
+          class="color_square"
+          alt="Angers tram"
+          src="../assets/img/color-1.png"
+          center
+          width="200vw"
+          fit="cover"
+        />
+
+        <g-image
+          class="color_square"
+          alt="Angers tram"
+          src="../assets/img/color-2.png"
+          center
+          width="200vw"
+          fit="cover"
+        />
+        <g-image
+          class="color_square"
+          alt="Angers tram"
+          src="../assets/img/color-3.png"
+          center
+          width="200vw"
+          fit="cover"
+        />
+
+        <g-image
+          class="color_square"
+          alt="Angers tram"
+          src="../assets/img/color-4.png"
+          center
+          width="200vw"
+          fit="cover"
+        />
+      </div>
+
+      <p> Autres coloris possibles sur demande </p>
+      <br />
+      <p>
+        Couleurs à valider <br />
+        Mettre RAL ?
+      </p>
+    </div>
+
+
+
     <div class="other_products">
       <p>Mettre les autres produits de la gamme ici</p>
+    </div>
     </div>
   </Layout>
 </template>
@@ -157,6 +207,35 @@ h1 {
 em {
 	color: #1a949d;
 }
+
+/*-----------------------------------------------------------------
+      Zone couleurs
+  ---------------------------------------------------------------*/
+.color__section {
+  margin-top : 2rem;
+  margin-bottom : 2rem;
+  display : flex;
+  flex-direction :column;
+  align-items: center;
+}
+.colors {
+  margin-top : 2rem;
+  margin-bottom : 2rem;
+  width : 100%;
+  display : flex;
+  justify-content: center;
+  gap : 2rem;
+}
+
+.color_square{
+  height : 10vh;
+  width : 10vh
+}
+
+  /*-----------------------------------------------------------------
+      Zone autres produits
+  ---------------------------------------------------------------*/
+
 
 /* ------------------------------------------------------------------------------------------
 

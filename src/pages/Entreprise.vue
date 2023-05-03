@@ -232,9 +232,13 @@ article {
     height : 80vh;
 }
 
+.croquis {
+  border : solid black 1px;
+}
+
 .savoir-faire img {
   object-fit: cover;
-    width : 55vw;
+    width : 45vw;
     height : 80vh;
 }
 

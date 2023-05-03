@@ -4,59 +4,214 @@
 
     <section>
       <h2> Les grands comptes </h2>
-      <div class="section__exception">
-        <h3> La SNCF </h3>
-        <p> On a refait l'intérieur des gares</p>
-      </div>
 
-      <div class="section__exception">
-        <h3> Paris Saclay </h3>
-        <p> Projet tolerie forezienne </p>
-      </div>
+      <section class="horizontal__align">
+        <CarteMarches>
+          <template #img__marche>
+            <g-image
+              alt="mains mobilum"
+              src="../../src/assets/img/gare-sncf-grenoble.jpg"
+              center
+              width="1000px"
+              fit="cover"
+            />
+          </template>
 
-      <div class="section__exception">
-        <h3> Le Grand Paris </h3>
-        <p> Projet monumental du renouvellement des gares</p>
-      </div>
+          <template #titre__marche>
+            <h3> La SNCF</h3>
+          </template>
+
+          <template #texte__marche>
+            <p>
+              On refait l'intérieur des gares
+            </p>
+          </template>
+        </CarteMarches>
+
+
+        <CarteMarches>
+          <template #img__marche>
+            <g-image
+              alt="mains mobilum"
+              src="../../src/assets/img/paris-saclay-tolerie-foreizienne-exceptionnel.jpg"
+              center
+              width="1000px"
+              fit="cover"
+            />
+          </template>
+
+          <template #titre__marche>
+            <h3> Paris Saclay </h3>
+          </template>
+
+          <template #texte__marche>
+            <p>
+              Projet tolerie forezienne
+            </p>
+          </template>
+        </CarteMarches>
+
+
+        <CarteMarches>
+          <template #img__marche>
+            <g-image
+              alt="mains mobilum"
+              src="../../src/assets/img/eiffela.jpg"
+              center
+              width="1000px"
+              fit="cover"
+            />
+          </template>
+
+          <template #titre__marche>
+            <h3> Le grand paris </h3>
+          </template>
+
+          <template #texte__marche>
+            <p>
+              Projet monumental du renouvellement des gares
+            </p>
+          </template>
+        </CarteMarches>
+      </section>
     </section>
+
+
     <section>
       <h2> Les sur-mesure </h2>
 
-      <div class="section__exception">
-        <h3> Roquefert</h3>
-        <p> On a imprimé des feuilles sur les bancs </p>
-      </div>
+      <section class="horizontal__align">
+        <CarteMarches>
+          <template #img__marche>
+            <g-image
+              alt="mains mobilum"
+              src="../../src/assets/img/feuille-roquefer.jpg"
+              center
+              width="1000px"
+              fit="cover"
+            />
+          </template>
 
-      <div class="section__exception">
-        <h3> Le Trocadéro </h3>
-        <p> Des jaridinières </p>
-      </div>
-      <div class="section__exception">
-        <h3> Le Crous de Nantes </h3>
-        <p> Du mobilier d'intérieur pour étudiants </p>
-      </div>
+          <template #titre__marche>
+            <h3> Roquefert</h3>
+          </template>
+
+          <template #texte__marche>
+            <p>
+              On a imprimé des feuilles sur les bancs
+            </p>
+          </template>
+        </CarteMarches>
+
+
+        <CarteMarches>
+          <template #img__marche>
+            <g-image
+              alt="mains mobilum"
+              src="../../src/assets/img/eiffela.jpg"
+              center
+              width="1000px"
+              fit="cover"
+            />
+          </template>
+
+          <template #titre__marche>
+            <h3> Le trocadéro </h3>
+          </template>
+
+          <template #texte__marche>
+            <p>
+              Les jardinières du Trocadéro
+            </p>
+          </template>
+        </CarteMarches>
+
+
+        <CarteMarches>
+          <template #img__marche>
+            <g-image
+              alt="mains mobilum"
+              src="../../src/assets/img/crous-nantes.png"
+              center
+              width="1000px"
+              fit="cover"
+            />
+          </template>
+
+          <template #titre__marche>
+            <h3> Le Crous </h3>
+          </template>
+
+          <template #texte__marche>
+            <p>
+              Mobilier intérieur pour les étudiants
+            </p>
+          </template>
+        </CarteMarches>
+      </section>
     </section>
+
     <section>
       <h2> Les démesurés </h2>
-      <div class="section__exception">
-        <h3> Vertable </h3>
-        <p> Une table infinie </p>
-      </div>
 
-      <div class="section__exception">
-        <h3> Carnon </h3>
-        <p> Des transats infinis </p>
-      </div>
+      <section class="horizontal__align">
+        <CarteMarches>
+          <template #img__marche>
+            <g-image
+              alt="mains mobilum"
+              src="../../src/assets/img/vertable-vertou.jpg"
+              center
+              width="1000px"
+              fit="cover"
+            />
+          </template>
+
+          <template #titre__marche>
+            <h3> Vertable</h3>
+          </template>
+
+          <template #texte__marche>
+            <p>
+              Une table infinie
+            </p>
+          </template>
+        </CarteMarches>
+
+
+        <CarteMarches>
+          <template #img__marche>
+            <g-image
+              alt="mains mobilum"
+              src="../../src/assets/img/carnon-transats-mila.jpg"
+              center
+              width="1000px"
+              fit="cover"
+            />
+          </template>
+
+          <template #titre__marche>
+            <h3> Carnon </h3>
+          </template>
+
+          <template #texte__marche>
+            <p>
+              Des transats infinis
+            </p>
+          </template>
+        </CarteMarches>
+      </section>
     </section>
   </Layout>
 </template>
 
 <script>
 import Layout from "@/layouts/LayoutAccueil.vue";
+import CarteMarches from "@/components/CarteMarches.vue";
 
 export default {
   components: {
-    Layout
+    Layout,
+    CarteMarches,
   },
 
   metaInfo: {
@@ -88,6 +243,11 @@ h2 {
   color : grey;
 }
 
+.horizontal__align {
+  display : flex;
+  flex-direction : row;
+  gap : 1rem;
+}
 .section__exception {
 }
 </style>

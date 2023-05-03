@@ -18,6 +18,29 @@
       Photos à modifier <br />
     </p>
 
+    <CarteMarches>
+      <template #img__marche>
+        <g-image
+          alt="mains mobilum"
+          src="../../src/assets/img/savoir-faire.jpg"
+          center
+          width="1000px"
+          fit="cover"
+        />
+      </template>
+
+      <template #titre__marche>
+        <h2>Test titre        </h2>
+      </template>
+
+      <template #texte__marche>
+        <p>
+          Texte ici
+          blablabla
+        </p>
+      </template>
+    </CarteMarches>
+
     <g-link to="/Test/">
       Page test caroussel
     </g-link>
@@ -25,11 +48,15 @@
 </template>
 
 <script>
+import CarteMarches from "@/components/CarteMarches.vue";
+
 export default {
-  metaInfo: {
-    title: "Contact"
-  }
+  components: {
+CarteMarches
+  },
 };
+
+
 </script>
 
 <style scoped></style>

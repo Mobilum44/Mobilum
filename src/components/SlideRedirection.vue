@@ -21,7 +21,7 @@
       to="/Materiau/"
     > -->
     <div class="box">
-      <g-image src="@/assets/img/bfup-coulage-mobilum.jpg" />
+      <g-image src="@/assets/img/BFUP-seau.jpg" />
       <p>Du BFUP</p>
     </div>
     <!-- </g-link> -->
@@ -56,7 +56,7 @@
 .box > img {
   width: 200%;
   height: calc(100%);
-  filter :grayscale(100) contrast(1.2);
+  filter :grayscale(0.8) contrast(1.2);
   object-fit: cover;
   transition: 0.5s;
   
@@ -70,7 +70,7 @@
   opacity : 1;
   
   font-family : "Bebas Neue";
-  font-size : 1.5rem;
+  font-size : 1.8rem;
   color : white;
 }
 
