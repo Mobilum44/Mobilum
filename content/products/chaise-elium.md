@@ -9,7 +9,6 @@ gamme: ELIUM
 finitions: 
 cover_image: "../../images/cover_image/chaise-elium.jpg"
 caroussel: 
-- "../../images/banquette-elium-parc.jpg"
 - "../../images/attente-showroom.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
