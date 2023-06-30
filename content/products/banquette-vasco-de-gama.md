@@ -10,6 +10,7 @@ finitions:
 cover_image: "../../images/cover_image/banquette-vasco-de-gamma.jpg"
 caroussel: 
 - "../../images/banquette-vasco-de-gama-ens-paris-saclay.jpg"
+- "../../images/banquette-vasco-de-gama-angers.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/filaires/filaire-chaise-longue-obrac.png"

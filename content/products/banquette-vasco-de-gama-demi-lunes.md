@@ -10,6 +10,7 @@ finitions: demi-lunes
 cover_image: "../../images/cover_image/banquette-vasco-de-gama-demi-lunes.jpg"
 caroussel: 
 - "../../images/banc-vasco-de-gama-a-angers.jpg"
+- "../../images/vasco-de-gama-demi-lunes-bleus.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/filaires/filaire-chaise-longue-obrac.png"

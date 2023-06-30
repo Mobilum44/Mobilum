@@ -31,7 +31,7 @@
           <Filaire :img="$page.product.filaire" />
         </p>
         <p>
-          <em>Materiau :</em> : {{ $page.product.materiau }}<br> 
+          <em>Matériau :</em> : {{ $page.product.materiau }}<br> 
           <em>Poids</em> : {{ $page.product.poids }}kg<br> 
           <em>Dimensions</em> : {{ $page.product.dimensions }}mm <br>
           <em>Format :</em> {{ $page.product.format }}
