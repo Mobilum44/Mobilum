@@ -28,6 +28,27 @@
           </template>
         </CarteMarches>
 
+        <CarteMarches>
+          <template #img__marche>
+            <g-image
+              alt="mains mobilum"
+              src="../../src/assets/img/eiffela.jpg"
+              center
+              width="1000px"
+              fit="cover"
+            />
+          </template>
+
+          <template #titre__marche>
+            <h3> Le grand paris </h3>
+          </template>
+
+          <template #texte__marche>
+            <p>
+              Projet monumental du renouvellement des gares
+            </p>
+          </template>
+        </CarteMarches>
 
         <CarteMarches>
           <template #img__marche>
@@ -51,28 +72,6 @@
           </template>
         </CarteMarches>
 
-
-        <CarteMarches>
-          <template #img__marche>
-            <g-image
-              alt="mains mobilum"
-              src="../../src/assets/img/eiffela.jpg"
-              center
-              width="1000px"
-              fit="cover"
-            />
-          </template>
-
-          <template #titre__marche>
-            <h3> Le grand paris </h3>
-          </template>
-
-          <template #texte__marche>
-            <p>
-              Projet monumental du renouvellement des gares
-            </p>
-          </template>
-        </CarteMarches>
       </section>
     </section>
 
@@ -103,7 +102,7 @@
           </template>
         </CarteMarches>
 
-
+<!------------------ Trocadero ---------------------------------------
         <CarteMarches>
           <template #img__marche>
             <g-image
@@ -125,7 +124,7 @@
             </p>
           </template>
         </CarteMarches>
-
+      ----------------------------------------------------------------->
 
         <CarteMarches>
           <template #img__marche>
@@ -158,8 +157,8 @@
         <CarteMarches>
           <template #img__marche>
             <g-image
-              alt="mains mobilum"
-              src="../../src/assets/img/vertable-vertou.jpg"
+              alt="table infinie vertou"
+              src="../../src/assets/img/projet-vertable-tables-vertou.jpg"
               center
               width="1000px"
               fit="cover"
@@ -167,7 +166,7 @@
           </template>
 
           <template #titre__marche>
-            <h3> Vertable</h3>
+            <h3> Parc de la Sèvre, Vertou</h3>
           </template>
 
           <template #texte__marche>
@@ -182,7 +181,7 @@
           <template #img__marche>
             <g-image
               alt="mains mobilum"
-              src="../../src/assets/img/carnon-transats-mila.jpg"
+              src="../../src/assets/img/carnon-transats-mila2.jpg"
               center
               width="1000px"
               fit="cover"
@@ -190,7 +189,7 @@
           </template>
 
           <template #titre__marche>
-            <h3> Carnon </h3>
+            <h3> Port de plaisance, Carnon </h3>
           </template>
 
           <template #texte__marche>

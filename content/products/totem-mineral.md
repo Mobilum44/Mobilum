@@ -9,7 +9,7 @@ gamme: MINERAL
 finitions: 
 cover_image: "../../images/cover_image/totem-mineral-plein.jpg"
 caroussel: 
-- "../../images/banquette-elium-parc.jpg"
+- "../../images/totem-ulis.jpg"
 - "../../images/attente-showroom.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"

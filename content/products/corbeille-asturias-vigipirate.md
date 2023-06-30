@@ -9,7 +9,7 @@ gamme: ASTURIAS
 finitions: VIGIPIRATE
 cover_image: "../../images/cover_image/corbeille-asturias-vigipirate.jpg"
 caroussel: 
-- "../../images/banquette-elium-parc.jpg"
+- "../../images/corbeille-asturias-vigipirate-joncherolles.jpg"
 - "../../images/attente-showroom.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"

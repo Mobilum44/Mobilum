@@ -9,8 +9,7 @@ gamme: CAMAH
 finitions: 
 cover_image: "../../images/cover_image/transat-camah.jpg"
 caroussel: 
-- "../../images/attente-showroom.jpg"
-- "../../images/attente-showroom.jpg"
+- "../../images/transat-camah-cucq.JPG"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/filaires/filaire-chaise-longue-obrac.png"

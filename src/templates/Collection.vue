@@ -73,15 +73,15 @@ export default {
 .title {
   display : flex;
   flex-direction : row;
-  justify-content: space-between;
-  align-items : flex-end;
+  justify-content: center;
+  align-items : center;
   margin-bottom : 3rem;
   padding-bottom: 1rem;
   border-bottom : black solid 1px;
 }
 
  h1 {
-  text-align: left;
+  text-align: center;
   font-weight: 200;
   text-transform: none;
   border: none;

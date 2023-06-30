@@ -2,7 +2,7 @@
   <Layout>
     <Button
       theme="bordered"
-      onclick="history.back()"
+      onclick="/Offre/"
     >
       Retour à la collection
     </Button>
@@ -41,7 +41,7 @@
     </div>
 
     <div class="color__section">
-      <h3> Nos coloris </h3>
+      <h3> Nos finitions </h3>
       <div class="colors">
         <g-image
           class="color_square"

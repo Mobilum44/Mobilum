@@ -9,7 +9,7 @@ gamme: ASTURIAS
 finitions: lisse
 cover_image: "../../images/cover_image/corbeille-asturias-lisse.jpg"
 caroussel: 
-- "../../images/attente-showroom.jpg"
+- "../../images/corbeille-asturias-lisse-chemille-en-anjou.jpg"
 - "../../images/corbeille-asturias-lisse-raismes.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"

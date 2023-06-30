@@ -9,8 +9,8 @@ gamme: TRACK
 finitions: 
 cover_image: "../../images/cover_image/appui-velo-track.jpg"
 caroussel: 
-- "../../images/banquette-elium-parc.jpg"
-- "../../images/attente-showroom.jpg"
+- "../../images/appuis-velo-track-st-cyr.jpg"
+- "../../images/focus-appui-velo-track-saint-cyr.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/filaires/filaire-chaise-longue-obrac.png"

@@ -9,7 +9,7 @@ gamme: LOELLA
 finitions: 
 cover_image: "../../images/cover_image/borne-loella.jpg"
 caroussel: 
-- "../../images/banquette-elium-parc.jpg"
+- "../../images/borne-loella-st-nazaire.jpg"
 - "../../images/attente-showroom.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"

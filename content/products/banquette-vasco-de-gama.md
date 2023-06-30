@@ -9,8 +9,7 @@ gamme: VASCO DE GAMA
 finitions: 
 cover_image: "../../images/cover_image/banquette-vasco-de-gamma.jpg"
 caroussel: 
-- "../../images/banquette-elium-parc.jpg"
-- "../../images/attente-showroom.jpg"
+- "../../images/banquette-vasco-de-gama-ens-paris-saclay.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/filaires/filaire-chaise-longue-obrac.png"

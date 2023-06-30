@@ -9,8 +9,7 @@ gamme: YOON
 finitions: 
 cover_image: "../../images/cover_image/appui-velo-yoon.jpg"
 caroussel: 
-- "../../images/banquette-elium-parc.jpg"
-- "../../images/attente-showroom.jpg"
+- "../../images/appuis-velo-yoon.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/filaires/filaire-chaise-longue-obrac.png"

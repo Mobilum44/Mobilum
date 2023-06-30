@@ -9,8 +9,8 @@ gamme: GOYA
 finitions: 
 cover_image: "../../images/cover_image/cendrier-goya.jpg"
 caroussel: 
-- "../../images/banquette-elium-parc.jpg"
-- "../../images/attente-showroom.jpg"
+- "../../images/cendrier-goya-hotel-la-rochelle.jpg"
+- "../../images/goya-focus-cendrier-ulis.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/filaires/filaire-chaise-longue-obrac.png"

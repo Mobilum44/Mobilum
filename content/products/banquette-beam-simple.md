@@ -9,8 +9,7 @@ gamme: BEAM
 finitions: simple
 cover_image: "../../images/cover_image/banquette-beam.jpg"
 caroussel: 
-- "../../images/banquette-elium-parc.jpg"
-- "../../images/attente-showroom.jpg"
+- "../../images/banquette-beam-plage.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/filaires/filaire-chaise-longue-obrac.png"

@@ -9,8 +9,8 @@ gamme: LOELLA
 finitions: 1140
 cover_image: "../../images/cover_image/fontaine-loella.jpg"
 caroussel: 
-- "../../images/banquette-elium-parc.jpg"
-- "../../images/attente-showroom.jpg"
+- "../../images/fontaine-loella-1100.jpg"
+- "../../images/focus-loella.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/filaires/filaire-chaise-longue-obrac.png"
