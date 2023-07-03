@@ -26,14 +26,14 @@
               Les coordonnées de nos différents services :
             </p>
             <!-- Mettre les informations en colonne -->
-            <div class="service">
+            <div class="service shadow">
               <!-- Mettre les informations en colonne-->
               <h3> Commerce </h3>
               <p> contact@mobilum-france.com <br> +33(0)2 51 72 90 22 </p>
             </div>
           
             
-            <div class="service">
+            <div class="service shadow">
               <h3> Facturation </h3>
               <p> fournisseurs@mobilum-france.com <br> +33(0)2 52 59 58 77 </p>
             </div>
@@ -104,7 +104,6 @@ export default {
 }
 
 .service {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   border-radius : 8px;
   background-color :#F5EBE0;
   width : 18rem;

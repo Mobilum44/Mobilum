@@ -31,7 +31,7 @@
         Le design selon Mobilum
       </h2>
       <div class="section__content">
-        <div class="section__side illustration croquis">
+        <div class="section__side illustration croquis shadow">
           <g-image
             alt="Table cantine réelle"
             src="../../src/assets/img/croquis-sovann-kim-pour-mobilum.jpg"
@@ -85,18 +85,23 @@
       <div class="section__content">
         <div class="section__side text">
           <div class="section__text engagement">
-            <article>
-              100% français + le BFUP : couleur, finition, ... + formation + BE
-              <br>
-              <br>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
-              doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur
-              rerum illum odit fugit assumenda rem dolores inventore iste
-              reprehenderit maxime! Iusto.
-            </article>
+            <p>
+              Chez Mobilum, notre savoir-faire est ancré dans un artisanat 100% français et local. Nous sommes fiers
+              de produire des mobiliers urbains de haute qualité, fabriqués avec soin par nos artisans qualifiés.
+              Chaque pièce est réalisée avec une attention méticuleuse aux détails, reflétant notre engagement envers
+              l'excellence et la fierté du travail bien fait.
+              <br /><br />
+              Nous accordons une importance particulière à la formation en interne de nos nouveaux employés. Nous croyons fermement
+              à la transmission des savoirs et des compétences, garantissant ainsi la pérennité de notre artisanat.
+              <br /><br />
+              La synergie entre notre savoir-faire artisanal, notre engagement envers la formation en interne et notre bureau
+              d'études performant nous permet de repousser les limites de la conception et de la fabrication de mobilier urbain
+              en BFUP. Nous sommes constamment à la recherche de nouvelles idées, de techniques innovantes et de matériaux de qualité
+              pour offrir à nos clients des produits uniques, durables et esthétiquement exceptionnels.
+            </p>
           </div>
         </div>
-        <div class="section__side savoir-faire">
+        <div class="section__side savoir-faire shadow">
           <g-image
             alt="mains mobilum"
             src="../../src/assets/img/savoir-faire.jpg"
@@ -124,7 +129,7 @@
     <div>
       <h2> Nos engagements </h2>
       <div class="section__content">
-        <div class="section__side illustration">
+        <div class="section__side illustration shadow">
           <g-image
             alt="Angers tram"
             src="../assets/img/angers_tram.jpg"
@@ -224,19 +229,22 @@ article {
   display : flex;
   flex-direction : column;
   justify-content: flex-end;
+  border-radius: 5px;
 }
 
 .illustration img {
+  border-radius: 5px;
   object-fit: cover;
     width : 35vw;
     height : 80vh;
 }
 
 .croquis {
+  border-radius: 5px;
   border : solid black 1px;
 }
-
 .savoir-faire img {
+  border-radius: 5px;
   object-fit: cover;
     width : 45vw;
     height : 80vh;

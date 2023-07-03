@@ -1,5 +1,6 @@
 <template>
   <Layout>
+    <!--
     <Button
       theme="bordered"
       onclick="/Offre/"
@@ -7,6 +8,7 @@
       Retour à la collection
     </Button>
 
+    -->
     <section class="page_top">
       <div class="title">
         <h1 class="h1_title">

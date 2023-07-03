@@ -1,6 +1,6 @@
 <template>
   <div class="card-container">
-    <div class="card">
+    <div class="card shadow">
       <figure class="card__thumb">
         <img
           src="@/assets/img/Galets.jpg"
@@ -20,7 +20,7 @@
       </figure>
     </div>
 
-    <div class="card">
+    <div class="card shadow">
       <figure class="card__thumb">
         <img
           src="@/assets/img/olivier.jpg"
@@ -40,7 +40,7 @@
       </figure>
     </div>
 
-    <div class="card">
+    <div class="card shadow">
       <figure class="card__thumb">
         <img
           src="@/assets/img/obrac-la-rochelle-port-neuf.png"
@@ -60,7 +60,7 @@
       </figure>
     </div>
 
-    <div class="card">
+    <div class="card shadow">
       <figure class="card__thumb">
         <img
           src="@/assets/img/gare-est-paris-mobilum.jpg"
@@ -80,7 +80,7 @@
       </figure>
     </div>
 
-    <div class="card">
+    <div class="card shadow">
       <figure class="card__thumb">
         <img
           src="@/assets/img/tram-angers-banc-mobilum.jpg"
@@ -100,7 +100,7 @@
       </figure>
     </div>
 
-    <div class="card">
+    <div class="card shadow">
       <figure class="card__thumb">
         <!-- Parcs, Bords de mer, Gare, Lycée, ...-->
         <img
@@ -121,7 +121,7 @@
       </figure>
     </div>
 
-    <div class="card">
+    <div class="card shadow">
       <figure class="card__thumb">
         <img
           src="@/assets/img/lycée-nord-sur-erdre-mobilum.jpg"
@@ -142,7 +142,7 @@
     </div>
 
 
-    <div class="card">
+    <div class="card shadow">
       <figure class="card__thumb">
         <img
           src="@/assets/img/totem-tertiaire-mobilum.jpg"
@@ -164,7 +164,7 @@
       </figure>
     </div>
 
-    <div class="card">
+    <div class="card shadow">
       <figure class="card__thumb">
         <!-- Parcs, Bords de mer, Gare, Lycée, ...-->
         <img
@@ -185,28 +185,14 @@
       </figure>
     </div>
 
-    <div class="card">
+    <div class="card shadow">
       <figure class="card__thumb">
-        <img
-          src="@/assets/img/carte-france.jpg"
-          alt="Lotissement coffret technique hook mobilum"
-          class="card__image"
-          fit="cover"
-          height="220px"
-        >
-        <figcaption class="card__caption">
-          <h2 class="card__title">
-            National
-          </h2>
-          <p class="card__text">
-            Un rayonnement sur tout le territoire français.
-          </p>
-        </figcaption>
+        <p>
+          test <br />
+          Mettre des noms de ville ici
+        </p>
       </figure>
     </div>
-
-
-
   </div>
 </template>
 
@@ -233,8 +219,8 @@
   width: 200px;
   height : 200px;
   margin: 10px;
+  border-radius : 3%;
   background-color: white;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
   filter : grayscale(0%);
 }
 
@@ -259,10 +245,11 @@
 
 
 .card__thumb {
-    margin : 0;
+  margin : 0;
   position: relative;
   overflow: hidden;
   height : 200px;
+  border-radius : 3%;
 }
 @media (min-width: 1024px) {
   .card__thumb {

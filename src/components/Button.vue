@@ -109,7 +109,7 @@ export default {
   height : 2rem;
   border: 1px solid black;
   color : black;
-    box-shadow:rgb(0,0,0) 5px 5px 0px -3px
+  box-shadow:rgb(0,0,0) 5px 5px 0px -3px
   /*padding: 1rem 3rem 1rem 3rem;*/
 }
 

@@ -12,7 +12,7 @@
     <div class="body_offer">
       <div class="collection">
         <g-link
-          class="items_styling"
+          class="items_styling shadow"
           :to="edge.node.path"
           v-for="edge in $page.allCollection.edges"
           :key="edge.node.id"
@@ -29,7 +29,7 @@
         </g-link>
 
         <g-link
-          class="items_styling"
+          class="items_styling shadow"
           to="/Exceptionnels/"
         >
           <g-image
@@ -45,9 +45,11 @@
       </div>
     </div>
 
-    <p> Découvrez notre nouvelle collection de mobilier urbain en BFUP, alliant esthétisme et durabilité.
+    <p>
+      Découvrez notre nouvelle collection de mobilier urbain en BFUP, alliant esthétisme et durabilité.
       Des bancs, tables et jardinières conçus en BFUP pour embellir et aménager
-      vos espaces publics de manière moderne et résistante. </p>
+      vos espaces publics de manière moderne et résistante.
+    </p>
     <!--
     <Defilant />
 --->
@@ -102,8 +104,6 @@ export default {
   height: 300px;
   width: 100%;
   background-color: rgba(250, 250, 250, 0.25);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .items_styling > .items__img {

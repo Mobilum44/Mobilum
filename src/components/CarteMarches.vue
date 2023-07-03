@@ -1,5 +1,5 @@
 <template>
-  <div class="CarteMarches">
+  <div class="CarteMarches shadow">
     <slot name="img__marche">
       </slot>
     <div class="CarteMarches-content">
@@ -31,7 +31,6 @@
   position: relative;
   color: white;
   background-color : black;
-  /*box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2); */
 }
 .CarteMarches img {
   position: absolute;
