@@ -15,8 +15,12 @@
      
         <div class="content_box">
           <!-- Mettre les informations en colonne --> 
-          <p> Nous ne travaillons pas avec les particuliers </p>      
           <div class="services_box">
+            <p>
+              Nous vous prions de bien vouloir noter que notre service de contact est spécifiquement dédié aux demandes
+              professionnelles et institutionnelles. Nous regrettons de ne pas être en mesure de répondre aux demandes des
+              particuliers.
+            </p>      
             <p>
               Nos services sont joignables du lundi au vendredi, <br /> de 9h à 12h30 et de 14h à 18h. <br /><br /><br />
               Les coordonnées de nos différents services :
@@ -31,7 +35,7 @@
             
             <div class="service">
               <h3> Facturation </h3>
-              <p> fournisseurs@mobilum-france.com <br> Téléphone </p>
+              <p> fournisseurs@mobilum-france.com <br> +33(0)2 52 59 58 77 </p>
             </div>
           </div>
         </div>
@@ -86,6 +90,7 @@ export default {
 .content_box {
   display : flex;
   flex-direction : column;
+  align-items : center;
   margin : 2rem;
 }
 
@@ -95,6 +100,7 @@ export default {
   justify-content :center;
   align-items : center;
   height : 100%;
+  width : 80%;
 }
 
 .service {
