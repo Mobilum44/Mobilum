@@ -1,13 +1,13 @@
 <template>
   <Layout>
     <div class="sub__section">
-    <Button
-      theme="bordered"
-      to="/Offre/"  
-    >
-      <!--Bouton tout pété ----> 
-      Retour à l'offre
-    </Button>
+      <Button
+        theme="bordered"
+        to="/Offre/"  
+      >
+        <!--Bouton tout pété ----> 
+        Retour à l'offre
+      </Button>
 
 
       <h1>

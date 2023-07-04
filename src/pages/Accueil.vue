@@ -68,7 +68,6 @@ Partie en attente de développement complet du site
     
     <template #slot_contact>
     </template>
-    </div>
   </LayoutAccueil>
 </template>
 

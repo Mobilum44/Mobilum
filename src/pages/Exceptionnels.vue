@@ -1,13 +1,12 @@
 <template>
   <Layout>
-
     <div class="sub__section">
-    <Button
-      theme="bordered"
-      to="/Offre/"  
-    >
-      Retour à l'offre
-    </Button>
+      <Button
+        theme="bordered"
+        to="/Offre/"  
+      >
+        Retour à l'offre
+      </Button>
 
 
       <h1> Nos dossiers d'exception </h1>
