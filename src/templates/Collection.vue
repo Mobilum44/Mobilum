@@ -1,5 +1,6 @@
 <template>
   <Layout>
+    <div class="sub__section">
     <Button
       theme="bordered"
       to="/Offre/"  
@@ -8,7 +9,7 @@
       Retour à l'offre
     </Button>
 
-    <div class="title">
+
       <h1>
         {{ $page.collection.title }}
       </h1>
@@ -69,26 +70,6 @@ export default {
 
 
 <style scoped>
-
-.title {
-  display : flex;
-  flex-direction : row;
-  justify-content: center;
-  align-items : center;
-  margin-bottom : 3rem;
-  padding-bottom: 1rem;
-  border-bottom : black solid 1px;
-}
-
- h1 {
-  text-align: center;
-  font-weight: 200;
-  text-transform: none;
-  border: none;
-  color : black;
-  padding : 0;
-  margin : 0;
-}
 /*---------------------------------------------------------
     Paramètres de la galerie - généralités
   ---------------------------------------------------------*/

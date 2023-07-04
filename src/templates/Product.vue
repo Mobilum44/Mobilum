@@ -23,11 +23,11 @@
       <Caroussel :img="$page.product.caroussel" />
     </div>
 
-    <div class="product_description">
-      <h3>Caractéristiques</h3>
+    
+    <section class="sub__section">
+      <h2>Caractéristiques</h2>
 
-
-      <div class="items">
+      <div class="sub__section__content">
         <p>
           Trouver pourquoi filaire marche pas
           <Filaire :img="$page.product.filaire" />
@@ -40,61 +40,92 @@
         </p>
       </div>
       <p>{{ $page.product.description }}</p>
-    </div>
+    </section>
 
-    <div class="color__section">
-      <h3> Nos finitions </h3>
-      <div class="colors">
-        <g-image
-          class="color_square"
-          alt="Angers tram"
-          src="../assets/img/color-1.png"
-          center
-          width="200vw"
-          fit="cover"
-        />
+    <section class="sub__section">
+      <h2> Nos finitions </h2>
+      <div class="sub__section__content">
+        <div class="sub__finitions">
+          <p> Couleurs naturelles </p>
+          <div class="type">
+            <div class="type__finition">
+              <g-image
+                class="color_square"
+                alt="couleur du BFUP Mobilum"
+                src="../assets/img/color-2.png"
+                center
+                width="200vw"
+                fit="cover"
+              />
+              <p>Gris foncé<br />(BCV Brut)</p>
+            </div>
+            <div class="type__finition">
+              <g-image
+                class="color_square"
+                alt="couleur du BFUP Mobilum"
+                src="../assets/img/color-2.png"
+                center
+                width="200vw"
+                fit="cover"
+              />
+              <p>Blanc</p>
+            </div>
+          </div>
+        </div>
 
-        <g-image
-          class="color_square"
-          alt="Angers tram"
-          src="../assets/img/color-2.png"
-          center
-          width="200vw"
-          fit="cover"
-        />
-        <g-image
-          class="color_square"
-          alt="Angers tram"
-          src="../assets/img/color-3.png"
-          center
-          width="200vw"
-          fit="cover"
-        />
+        <div class="sub__finitions">
+          <p> Teinté dans la masse </p>
+          <div class="type">
+            <div class="type__finition">
+              <g-image
+                class="color_square"
+                alt="couleur du BFUP Mobilum"
+                src="../assets/img/color-2.png"
+                center
+                width="200vw"
+                fit="cover"
+              />
+              <p>Taupe</p>
+            </div>
+            <div class="type__finition">
+              <g-image
+                class="color_square"
+                alt="couleur du BFUP Mobilum"
+                src="../assets/img/color-2.png"
+                center
+                width="200vw"
+                fit="cover"
+              />
+              <p>Rose pastel</p>
+            </div>
+            <div class="type__finition">
+              <g-image
+                class="color_square"
+                alt="couleur du BFUP Mobilum"
+                src="../assets/img/color-2.png"
+                center
+                width="200vw"
+                fit="cover"
+              />
+              <p>Bleu pastel</p>
+            </div>
+          </div>
+        </div>
+        
 
-        <g-image
-          class="color_square"
-          alt="Angers tram"
-          src="../assets/img/color-4.png"
-          center
-          width="200vw"
-          fit="cover"
-        />
+        <div class="sub__finitions">
+          <p> Peinture polyuréthane </p>
+          <div class="type">
+            Tous les RAL sont possibles. Consultez-nous pour discuter de votre projet.
+          </div>
+        </div>
       </div>
+    </section>
 
-      <p> Autres coloris possibles sur demande </p>
-      <br />
-      <p>
-        Couleurs à valider <br />
-        Mettre RAL ?
-      </p>
-    </div>
-
-
-
-    <div class="other_products">
+    <section class="sub__section">
+      <h2> Dans la même gamme... </h2>
       <p>Mettre les autres produits de la gamme ici</p>
-    </div>
-    </div>
+    </section>
   </Layout>
 </template>
 
@@ -134,7 +165,7 @@ export default {
 <style scoped>
 /*-----------------------------------------------------------------
       Bouton retour
-  ---------------------------------------------------------------*/
+
 .return {
 	color: black;
 	text-decoration: none;
@@ -142,17 +173,21 @@ export default {
 .return:hover {
 	text-decoration: underline;
 }
+  ---------------------------------------------------------------*/
+
 
 /*-----------------------------------------------------------------
       Zone titre
   ---------------------------------------------------------------*/
 .page_top {
+  width: 100%;
   display : flex;
   flex-direction : row;
+  justify-content: center;
 }
 
 .title {
-	width: 100%;
+  width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -188,57 +223,52 @@ h1 {
 }
 
 /*-----------------------------------------------------------------
-      Zone description
+      Sections générales
   ---------------------------------------------------------------*/
-.product_description {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-  justify-content : center;
-  gap : 2rem;
 
+  .sub__section {
+  width : 80%;
 }
 
-.items {
-	width: 60%;
+.sub__section__content {
+	width: 100%;
 	display: flex;
 	flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.sub__finitions{
+  margin-top : 0;
+  display : flex;
+  flex-direction : column;
+  align-items: center;
+  width : 33%;
+}
+
+.type {
+  width : 100%;
+  padding : 1rem;
+  display : flex;
+  flex-direction: row;
+  justify-content : center;
+  gap : 1rem;
+  align-items: flex-start;
+}
+
+.type__finition {
+  display : flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 em {
 	color: #1a949d;
 }
 
-/*-----------------------------------------------------------------
-      Zone couleurs
-  ---------------------------------------------------------------*/
-.color__section {
-  margin-top : 2rem;
-  margin-bottom : 2rem;
-  display : flex;
-  flex-direction :column;
-  align-items: center;
-}
-.colors {
-  margin-top : 2rem;
-  margin-bottom : 2rem;
-  width : 100%;
-  display : flex;
-  justify-content: center;
-  gap : 2rem;
-}
-
 .color_square{
   height : 10vh;
   width : 10vh
 }
-
-  /*-----------------------------------------------------------------
-      Zone autres produits
-  ---------------------------------------------------------------*/
-
-
 /* ------------------------------------------------------------------------------------------
 
             RESPONSIVE TELEPHONES
@@ -248,13 +278,13 @@ em {
 
 @media only screen and (max-width: 600px) {
 
-.items {
+.sub__section__content {
   display : flex;
   flex-direction : column;
   align-items : center;
 }
 
-.items p {
+.sub__section__content p {
   padding-top : 2rem;
 }
 

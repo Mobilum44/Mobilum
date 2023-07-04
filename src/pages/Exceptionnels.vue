@@ -1,8 +1,21 @@
 <template>
   <Layout>
-    <h1> Nos dossiers d'exception </h1>
 
-    <section>
+    <div class="sub__section">
+    <Button
+      theme="bordered"
+      to="/Offre/"  
+    >
+      Retour à l'offre
+    </Button>
+
+
+      <h1> Nos dossiers d'exception </h1>
+    </div>
+
+
+
+    <section class="sub__section">
       <h2> Les grands comptes </h2>
 
       <section class="horizontal__align">
@@ -32,7 +45,7 @@
           <template #img__marche>
             <g-image
               alt="mains mobilum"
-              src="../../src/assets/img/eiffela.jpg"
+              src="../../src/assets/img/assises-societe-du-grand-paris.png"
               center
               width="1000px"
               fit="cover"
@@ -75,7 +88,7 @@
     </section>
 
 
-    <section>
+    <section class="sub__section">
       <h2> Les sur-mesure </h2>
 
       <section class="horizontal__align">
@@ -149,7 +162,7 @@
       </section>
     </section>
 
-    <section>
+    <section class="sub__section">
       <h2> Les démesurés </h2>
 
       <section class="horizontal__align">
@@ -217,11 +230,14 @@ réalisations exceptionnelles qui inspirent et marquent les esprits. <br /><br /
 
 <script>
 import Layout from "@/layouts/LayoutAccueil.vue";
+import Button from "@/components/Button.vue";
 import CarteMarches from "@/components/CarteMarches.vue";
+
 
 export default {
   components: {
     Layout,
+    Button,
     CarteMarches,
   },
 
@@ -232,37 +248,9 @@ export default {
 </script>
 
 <style scoped>
-
-section {
-  margin-top : 2rem;
-}
-.contenu {
-  gap : 0;
-}
-h1 {
-  padding-top : 0rem;
-  margin : 0;
-  color : black;
-  border : none;
-  border-bottom: black solid 1px;
-  width : 100%;
-}
-
-h2 {
-  margin-top : 2rem;
-  margin-left : 3rem;
-  color : grey;
-}
-
 .horizontal__align {
   display : flex;
   flex-direction : row;
   gap : 1rem;
-}
-
-.referencement {
-  padding-left : 3rem;
-  padding-top : 2rem;
-  width : 80%;
 }
 </style>

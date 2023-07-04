@@ -26,11 +26,11 @@
     La griffe Mobilum
   -------------------------------------------------------------------->
 
-    <div>
+    <div class="sub__section">
       <h2>
         Le design selon Mobilum
       </h2>
-      <div class="section__content">
+      <div class="sub__section__content">
         <div class="section__side illustration croquis shadow">
           <g-image
             alt="Table cantine réelle"
@@ -70,6 +70,13 @@
                 width="200px"
                 fit="cover"
               />
+              <g-image
+                alt="Logo Janus de la cité 2016"
+                src="@/assets/img/janus-de-la-cite-logo.png"
+                center
+                width="70px"
+                fit="cover"
+              />
             </div>
           </div>
         </div>
@@ -80,11 +87,11 @@
     <!-------------------------------------------------------------------
     Notre savoir-faire
   -------------------------------------------------------------------->
-    <div>
+    <div class="sub__section">
       <h2> Notre savoir-faire</h2>
-      <div class="section__content">
+      <div class="sub__section__content">
         <div class="section__side text">
-          <div class="section__text engagement">
+          <div class="section__text">
             <p>
               Chez Mobilum, notre savoir-faire est ancré dans un artisanat 100% français et local. Nous sommes fiers
               de produire des mobiliers urbains de haute qualité, fabriqués avec soin par nos artisans qualifiés.
@@ -94,9 +101,9 @@
               Nous accordons une importance particulière à la formation en interne de nos nouveaux employés. Nous croyons fermement
               à la transmission des savoirs et des compétences, garantissant ainsi la pérennité de notre artisanat.
               <br /><br />
-              La synergie entre notre savoir-faire artisanal, notre engagement envers la formation en interne et notre bureau
+              <!-- La synergie entre notre savoir-faire artisanal, notre engagement envers la formation en interne et notre bureau
               d'études performant nous permet de repousser les limites de la conception et de la fabrication de mobilier urbain
-              en BFUP. Nous sommes constamment à la recherche de nouvelles idées, de techniques innovantes et de matériaux de qualité
+              en BFUP. --> Nous sommes constamment à la recherche de nouvelles idées, de techniques innovantes et de matériaux de qualité
               pour offrir à nos clients des produits uniques, durables et esthétiquement exceptionnels.
             </p>
           </div>
@@ -116,19 +123,20 @@
       Nos activités
   --------------------------------------------------->
 
-    
-    <div class="section__side center">
-      <h2> Bla bla bla </h2>
-      <Card />
-    </div>   
+    <div class="sub__section">
+      <div class="section__side center">
+        <h2> Bla bla bla </h2>
+        <Card />
+      </div> 
+    </div>  
       
     <!---------------------------------------------------
       Nos engagements
   --------------------------------------------------->
 
-    <div>
+    <div class="sub__section">
       <h2> Nos engagements </h2>
-      <div class="section__content">
+      <div class="sub__section__content">
         <div class="section__side illustration shadow">
           <g-image
             alt="Angers tram"
@@ -139,7 +147,7 @@
           />
         </div>
         <div class="section__side text">
-          <div class="section__text engagement">
+          <div class="section__text">
             <article>
               Fournisseurs 100% français : vicat, transport, tous en général
               <br />
@@ -217,14 +225,6 @@ article {
     Page content 
   -----------------------------------------------------------------------*/
 
-.section__content {
-  display : flex;
-  flex-direction : row;
-  align-items : flex-end;
-  justify-content: space-between;
-  margin :  2rem 0 2rem 0;
-}
-
 .section__side {
   display : flex;
   flex-direction : column;
@@ -255,7 +255,7 @@ article {
   margin-top : 3rem;
   display : flex;
   flex-direction : row;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 /*--------------------------------------------
@@ -288,7 +288,7 @@ article {
   width : 100%;
 }
 
-  .section__content {
+  .sub__section__content {
     display : flex;
     flex-direction : column;
     align-items: center;

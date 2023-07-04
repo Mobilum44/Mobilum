@@ -4,7 +4,7 @@
   <Layout>
     <template #slot_image>
       <section class="slot_image">
-        <h1>Notre offre</h1>
+        <h1>Nos collections</h1>
       </section>
     </template>
     
@@ -45,7 +45,7 @@
       </div>
     </div>
 
-    <p>
+    <p class="referencement">
       Découvrez notre nouvelle collection de mobilier urbain en BFUP, alliant esthétisme et durabilité.
       Des bancs, tables et jardinières conçus en BFUP pour embellir et aménager
       vos espaces publics de manière moderne et résistante.
@@ -90,11 +90,10 @@ export default {
 
 .collection {
   margin-top : 2rem;
-  width: 80%;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-gap: 2rem;
 }
 
 .items_styling {
@@ -102,7 +101,7 @@ export default {
   justify-self: center;
   position: relative;
   height: 300px;
-  width: 100%;
+  width: 300px;
   background-color: rgba(250, 250, 250, 0.25);
 }
 

@@ -73,6 +73,51 @@ p {
   background: #1a949d;
 }
 
+
+/* ------------------------------------------------------------------------------------------
+
+            Styles de sous-sections
+
+--------------------------------------------------------------------------------------------*/
+.sub__section {
+  border : solid pink;
+  width : 100%;
+  margin-bottom : 3rem;
+}
+
+.sub__section h1 {
+  padding-top : 0rem;
+  margin : 0;
+  color : black;
+  border : none;
+  border-bottom: black solid 1px;
+  width : 100%;
+}
+
+
+.sub__section h2 {
+  text-align : left;
+  padding-bottom : 1rem;
+  padding-left : 4rem;
+  margin : 1rem;
+  margin-top : 2rem;
+  border-bottom: solid 1px;
+}
+
+.sub__section__content {
+  border : solid blue;
+  display : flex;
+  flex-direction : row;
+}
+
+/* Pour les textes de référencement */
+.referencement {
+  padding-left : 3rem;
+  width : 80%;
+  color : #1A949D;
+  font-style: italic;
+}
+
 /* ------------------------------------------------------------------------------------------
 
             RESPONSIVE TELEPHONES

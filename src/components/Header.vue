@@ -32,7 +32,7 @@
           class="nav__link"
           to="/Offre/"
         >
-          La collection
+          Nos collections
         </g-link>
       </li>
       <li>
