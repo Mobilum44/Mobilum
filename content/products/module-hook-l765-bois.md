@@ -10,7 +10,7 @@ finitions: L765 bois
 cover_image: "../../images/cover_image/hook-765-bois.jpg"
 caroussel: 
 - "../../images/hook-765-muret-bourgbarre.jpg"
-- "../../images/hook-765-bois.jpg"
+- "../../images/hook-765-simple.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/filaires/filaire-chaise-longue-obrac.png"

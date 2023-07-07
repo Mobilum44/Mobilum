@@ -9,8 +9,8 @@ gamme: HOOK
 finitions: L1125 bois
 cover_image: "../../images/cover_image/hook-1125-double-alu-compo.jpg"
 caroussel: 
-- "../../images/banquette-elium-parc.jpg"
-- "../../images/attente-showroom.jpg"
+- "../../images/hook-1125-sans-bal-bouaye.jpg"
+- "../../images/hook-carquefou-barriere-bois.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/filaires/filaire-chaise-longue-obrac.png"
