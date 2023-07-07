@@ -1,5 +1,5 @@
 <template>
-  <div class="Form shadow">
+  <div class="Form">
     <form action="/action_page.php">
       <label for="fname">Nom & prénom</label>
       <input
@@ -44,6 +44,7 @@
 <style scoped>
 .Form {
   border-radius: 8px;
+  border: 1px solid #ccc;
   background-color: #f5ebe0;
   box-sizing: border-box;
   padding: 1rem;

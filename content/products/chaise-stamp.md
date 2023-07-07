@@ -20,5 +20,5 @@ dimensions: L550 x P550 x H830
 format: Monobloc
 traitement: ""
 tags: 
-description: ""
+description: "Motif Window possible"
 ---

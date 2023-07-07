@@ -1,5 +1,5 @@
 ---
-title: Banc ELIUM 3 dossiers 
+title: Banc ELIUM
 published: TRUE
 designer: Sovann Kim
 collection: Mobilier urbain
@@ -20,5 +20,5 @@ dimensions: L1800 x P544 x H944
 format: Multibloc
 traitement: ""
 tags: 
-description: ""
+description: " Existe avec 2 ou 3 dossiers"
 ---

@@ -8,16 +8,18 @@
         Retour à l'offre
       </Button>
 
-
       <h1> Nos dossiers d'exception </h1>
     </div>
-
-
+    <section class="sub__section">
+      <div class="chapeau">
+        <p>Nos projets sont trop exceptionnels !</p>
+      </div>
+    </section>
 
     <section class="sub__section">
       <h2> Les grands comptes </h2>
 
-      <section class="horizontal__align">
+      <section class="sub__section__content">
         <CarteMarches>
           <template #img__marche>
             <g-image
@@ -37,6 +39,12 @@
             <p>
               On refait l'intérieur des gares
             </p>
+            <Button
+              theme="transparent"
+              to="/SNCF/"
+            >
+              Découvrir
+            </Button>
           </template>
         </CarteMarches>
 
@@ -61,28 +69,6 @@
             </p>
           </template>
         </CarteMarches>
-
-        <CarteMarches>
-          <template #img__marche>
-            <g-image
-              alt="mains mobilum"
-              src="../../src/assets/img/paris-saclay-tolerie-foreizienne-exceptionnel.jpg"
-              center
-              width="1000px"
-              fit="cover"
-            />
-          </template>
-
-          <template #titre__marche>
-            <h3> Paris Saclay </h3>
-          </template>
-
-          <template #texte__marche>
-            <p>
-              Projet tolerie forezienne
-            </p>
-          </template>
-        </CarteMarches>
       </section>
     </section>
 
@@ -90,7 +76,7 @@
     <section class="sub__section">
       <h2> Les sur-mesure </h2>
 
-      <section class="horizontal__align">
+      <section class="sub__section__content">
         <CarteMarches>
           <template #img__marche>
             <g-image
@@ -164,7 +150,7 @@
     <section class="sub__section">
       <h2> Les démesurés </h2>
 
-      <section class="horizontal__align">
+      <section class="sub__section__content">
         <CarteMarches>
           <template #img__marche>
             <g-image
@@ -209,6 +195,28 @@
             </p>
           </template>
         </CarteMarches>
+
+        <CarteMarches>
+          <template #img__marche>
+            <g-image
+              alt="mains mobilum"
+              src="../../src/assets/img/paris-saclay-tolerie-foreizienne-exceptionnel.jpg"
+              center
+              width="1000px"
+              fit="cover"
+            />
+          </template>
+
+          <template #titre__marche>
+            <h3> Paris Saclay </h3>
+          </template>
+
+          <template #texte__marche>
+            <p>
+              Projet tolerie forezienne
+            </p>
+          </template>
+        </CarteMarches>
       </section>
     </section>
     <p class="referencement">
@@ -247,9 +255,14 @@ export default {
 </script>
 
 <style scoped>
-.horizontal__align {
-  display : flex;
-  flex-direction : row;
+h2 {
+  border : 0;
+}
+
+.chapeau {
+  width : 70%;
+}
+.sub__section__content {
   gap : 1rem;
 }
 </style>

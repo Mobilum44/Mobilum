@@ -13,7 +13,7 @@ export default {
     theme: {
       type: String,
       default: "accueil",
-      validator: val => ["blue", "slide", "bordered"].indexOf(val) !== -1
+      validator: val => ["blue", "slide", "bordered", "transparent"].indexOf(val) !== -1
     },
 
     to: {
@@ -118,5 +118,30 @@ export default {
   color : white;
   box-shadow:#1a949d00 5px 5px 0px -3px
   }
+
+
+/* ---------------------------------------------------------------
+    Style du bouton transparent
+  --------------------------------------------------------------*/
+  .transparent {
+  z-index : 1;
+  width : 10rem;
+  height : 2rem;
+  display : flex;
+  align-items : center;
+  justify-content: center;
+  font-family: "Bebas Neue";
+  text-decoration : none;
+  height : 2rem;
+  border: 1px solid black;
+  color : black;
+  /*padding: 1rem 3rem 1rem 3rem;*/
+}
+
+.transparent:hover {
+  background-color : black;
+  color : white;
+  }
+
 
 </style>

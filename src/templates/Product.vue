@@ -19,9 +19,11 @@
     </section>
 
 
-    <div class="gallery">
-      <Caroussel :img="$page.product.caroussel" />
-    </div>
+    <section class="sub__section">
+      <div class="gallery">
+        <Caroussel :img="$page.product.caroussel" />
+      </div>
+    </section>
 
     
     <section class="sub__section">
@@ -39,14 +41,18 @@
           <em>Format :</em> {{ $page.product.format }}
         </p>
       </div>
-      <p>{{ $page.product.description }}</p>
+      <div class="sub__section__content">
+        <p class="description">{{ $page.product.description }}</p>
+      </div>
     </section>
 
     <section class="sub__section">
       <h2> Nos finitions </h2>
       <div class="sub__section__content">
         <div class="sub__finitions">
-          <p> Couleurs naturelles </p>
+          <p class="strong">
+            Couleurs naturelles
+          </p>
           <div class="type">
             <div class="type__finition">
               <g-image
@@ -74,7 +80,9 @@
         </div>
 
         <div class="sub__finitions">
-          <p> Teinté dans la masse </p>
+          <p class="strong">
+            Teinté dans la masse
+          </p>
           <div class="type">
             <div class="type__finition">
               <g-image
@@ -114,7 +122,9 @@
         
 
         <div class="sub__finitions">
-          <p> Peinture polyuréthane </p>
+          <p class="strong">
+            Peinture polyuréthane
+          </p>
           <div class="type">
             Tous les RAL sont possibles. Consultez-nous pour discuter de votre projet.
           </div>
@@ -225,16 +235,22 @@ h1 {
 /*-----------------------------------------------------------------
       Sections générales
   ---------------------------------------------------------------*/
-
-  .sub__section {
+.sub__section {
   width : 80%;
 }
 
+.strong {
+  font-family : montserrat;
+}
 .sub__section__content {
 	width: 100%;
 	display: flex;
 	flex-direction: row;
   justify-content: space-around;
+}
+
+.description {
+  margin-top : 2rem;
 }
 
 .sub__finitions{
@@ -244,7 +260,6 @@ h1 {
   align-items: center;
   width : 33%;
 }
-
 .type {
   width : 100%;
   padding : 1rem;
@@ -264,7 +279,6 @@ h1 {
 em {
 	color: #1a949d;
 }
-
 .color_square{
   height : 10vh;
   width : 10vh

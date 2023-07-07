@@ -1,5 +1,5 @@
 ---
-title: Canapé STAMP lisse 
+title: Canapé STAMP 
 published: TRUE
 designer: Sovann Kim
 collection: Mobilier urbain
@@ -21,5 +21,5 @@ dimensions: L1800 x P550 x H830
 format: Multibloc
 traitement: ""
 tags: 
-description: ""
+description: "Motif Window possible"
 ---

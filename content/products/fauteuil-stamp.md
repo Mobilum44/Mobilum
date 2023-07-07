@@ -9,8 +9,7 @@ gamme: STAMP
 finitions: window
 cover_image: "../../images/cover_image/fauteuil-stamp-window.jpg"
 caroussel: 
-- "../../images/banquette-elium-parc.jpg"
-- "../../images/attente-showroom.jpg"
+- "../../images/fauteuils-stamp-lisse-vire.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/filaires/filaire-chaise-longue-obrac.png"
@@ -21,5 +20,5 @@ dimensions: L550 x P550 x H830
 format: Monobloc
 traitement: ""
 tags: 
-description: ""
+description: "Motif Window possible"
 ---

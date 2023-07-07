@@ -10,7 +10,6 @@ finitions:
 cover_image: "../../images/cover_image/chaise-longue-obrac.jpg"
 caroussel: 
 - "../../images/chaises-longues-obrac-chemille-en-anjou.jpg"
-- "../../images/attente-showroom.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/filaires/filaire-chaise-longue-obrac.png"

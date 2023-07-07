@@ -7,7 +7,7 @@
     </template>
 
     
-    <div class="base">
+    <div class="sub__section base">
       <div class="content">
         <div class="content_box">
           <Form />
@@ -26,14 +26,14 @@
               Les coordonnées de nos différents services :
             </p>
             <!-- Mettre les informations en colonne -->
-            <div class="service shadow">
+            <div class="service">
               <!-- Mettre les informations en colonne-->
               <h3> Commerce </h3>
               <p> contact@mobilum-france.com <br> +33(0)2 51 72 90 22 </p>
             </div>
           
             
-            <div class="service shadow">
+            <div class="service">
               <h3> Facturation </h3>
               <p> fournisseurs@mobilum-france.com <br> +33(0)2 52 59 58 77 </p>
             </div>
@@ -41,7 +41,7 @@
         </div>
       </div>
     </div>
-    <div class="content_box">
+    <div class="sub__section">
       <Itinary />
     </div>
   </Layout>
@@ -128,6 +128,9 @@ export default {
   color : black;
 }
 
+.sub__section {
+  height : 100%;
+}
 
 /* ------------------------------------------------------------------------------------------
 

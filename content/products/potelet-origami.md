@@ -10,7 +10,6 @@ finitions:
 cover_image: "../../images/cover_image/potelet-fixe-origami.jpg"
 caroussel: 
 - "../../images/passage-pieton-poteau-origami.jpeg"
-- "../../images/attente-showroom.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/filaires/filaire-chaise-longue-obrac.png"

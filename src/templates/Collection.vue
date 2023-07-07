@@ -15,23 +15,25 @@
       </h1>
     </div>
 
-    <div class="collection_order">
-      <g-link
-        v-for="edge in $page.collection.belongsTo.edges"
-        :key="edge.node.id"
-        :to="edge.node.path"
-      >
-        <div class="image_cover">
-          <g-image
-            v-if="edge.node.cover_image"
-            alt="photo mobilier urbain"
-            :src="edge.node.cover_image"
-          />
-          <p>
-            {{ edge.node.title }}
-          </p>
-        </div>
-      </g-link>
+    <div class="sub__section">
+      <div class="collection_order">
+        <g-link
+          v-for="edge in $page.collection.belongsTo.edges"
+          :key="edge.node.id"
+          :to="edge.node.path"
+        >
+          <div class="image_cover">
+            <g-image
+              v-if="edge.node.cover_image"
+              alt="photo mobilier urbain"
+              :src="edge.node.cover_image"
+            />
+            <p>
+              {{ edge.node.title }}
+            </p>
+          </div>
+        </g-link>
+      </div>
     </div>
   </Layout>
 </template>
@@ -73,11 +75,10 @@ export default {
 /*---------------------------------------------------------
     Paramètres de la galerie - généralités
   ---------------------------------------------------------*/
-
 .collection_order {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 1rem;
 }

@@ -10,9 +10,9 @@
           height="220px"
         >
         <figcaption class="card__caption">
-          <h2 class="card__title">
+          <h4 class="card__title">
             Centre ville
-          </h2>
+          </h4>
           <p class="card__text">
             Design urbain unique.
           </p>
@@ -30,9 +30,9 @@
           height="350px"
         >
         <figcaption class="card__caption">
-          <h2 class="card__title">
+          <h4 class="card__title">
             Parc
-          </h2>
+          </h4>
           <p class="card__text">
             Développement durable assumé.
           </p>
@@ -50,9 +50,9 @@
           height="220px"
         >
         <figcaption class="card__caption">
-          <h2 class="card__title">
+          <h4 class="card__title">
             Bord de mer
-          </h2>
+          </h4>
           <p class="card__text">
             Embruns, climats ne sont plus des contraintes.
           </p>
@@ -70,9 +70,9 @@
           height="300px"
         >
         <figcaption class="card__caption">
-          <h2 class="card__title">
+          <h4 class="card__title">
             Gare
-          </h2>
+          </h4>
           <p class="card__text">
             Nous participons aux grands projets.
           </p>
@@ -90,9 +90,9 @@
           height="220px"
         >
         <figcaption class="card__caption">
-          <h2 class="card__title">
+          <h4 class="card__title">
             Tram
-          </h2>
+          </h4>
           <p class="card__text">
             Usage assumé pour un fort traffic.
           </p>
@@ -111,9 +111,9 @@
           height="220px"
         >
         <figcaption class="card__caption">
-          <h2 class="card__title">
+          <h4 class="card__title">
             Zone commerciale
-          </h2>
+          </h4>
           <p class="card__text">
             Nos gammes sont cohérentes et séduisantes.
           </p>
@@ -131,9 +131,9 @@
           height="300px"
         >
         <figcaption class="card__caption">
-          <h2 class="card__title">
+          <h4 class="card__title">
             Ecole
-          </h2>
+          </h4>
           <p class="card__text">
             Nous accompagnons les générations novatrices.
           </p>
@@ -152,9 +152,9 @@
           height="300px"
         >
         <figcaption class="card__caption">
-          <h2 class="card__title">
+          <h4 class="card__title">
             Tertiaire
-          </h2>
+          </h4>
           <p class="card__text">
             Image de marque remarquable et personnalisable.
 
@@ -175,9 +175,9 @@
           height="220px"
         >
         <figcaption class="card__caption">
-          <h2 class="card__title">
+          <h4 class="card__title">
             Lotissement
-          </h2>
+          </h4>
           <p class="card__text">
             De l'efficacité dans la simplicité.
           </p>
@@ -197,9 +197,11 @@
 </template>
 
 
-
 <style scoped>
 
+h4 {
+  text-decoration: none;
+}
 .card-container {
   display: flex;
   flex-wrap: wrap;
@@ -207,14 +209,12 @@
   height : 100%;
   margin-bottom : 3rem;
 }
-
 @media only screen and (max-width: 600px) {
 .card-container {
   display: flex;
   justify-content: center;
 }
 }
-
 .card {
   width: 200px;
   height : 200px;
@@ -223,12 +223,9 @@
   background-color: white;
   filter : grayscale(0%);
 }
-
 .card:hover{
   filter : grayscale(0);
 }
-
-
 .card:hover .card__caption {
   top: 50%;
   transform: translateY(-50%);
@@ -242,8 +239,6 @@
 .card:hover .card__text {
   margin: 20px 0;
 }
-
-
 .card__thumb {
   margin : 0;
   position: relative;
@@ -275,8 +270,6 @@
   transition: 0.5s ease-in-out;
   object-fit: cover;
 }
-
-
 .card__caption {
   position: absolute;
   top: 50%;
@@ -306,7 +299,6 @@
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
-
 .card__text {
   display: -webkit-box;
   margin: 2vw 0;

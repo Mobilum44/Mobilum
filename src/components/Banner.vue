@@ -10,7 +10,7 @@
       </Button>
       <img
         class="banner__image"
-        src="@/assets/img/nouvelle-frise-v2.png"
+        src="@/assets/img/frise-pleine.png"
         alt="Mobiliers Mobilum filaires"
       >
     </div>

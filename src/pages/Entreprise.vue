@@ -12,13 +12,13 @@
     </section>
 
     <div class="section_top">
-      <article>
+      <p class="chapeau">
         En quelques années, Mobilum  est devenue une référence en matière de conception et fabrication de mobiliers urbains en BFUP. <br />
         Cette aventure industrielle et commerciale, partie d'une page blanche nous a imposé un investissement conséquent en recherche et développement, associé à l'acquisition de l'équipement nécessaire à la bonne maitrise du
-        Béton Fibré à Ultra-hautes Performances. <br />
+        Béton Fibré à Ultra-hautes Performances. <br /><br />
         Nous avons aussi la chance et le devoir chez Mobilum, de former nos futurs talents à ce nouveau concept artisanal, et ce dans l'esprit d'une collaboration constante entre nos différentes générations. <br />
         Nous espérons que notre travail puisse vous donner envie de faire apparaître nos mobiliers dans vos futurs aménagements.
-      </article>
+      </p>
     </div>
          
 
@@ -26,27 +26,31 @@
     La griffe Mobilum
   -------------------------------------------------------------------->
 
-    <div class="sub__section">
-      <h2>
-        Le design selon Mobilum
-      </h2>
+    <div class="sub__section wide">
       <div class="sub__section__content">
-        <div class="section__side illustration croquis shadow">
+        <div class="section__side illustration croquis">
+          <!--
           <g-image
             alt="Table cantine réelle"
-            src="../../src/assets/img/croquis-sovann-kim-pour-mobilum.jpg"
+            src="../../src/assets/img/croquis-sovann-kim-pour-mobilum.png"
             center
             width="600"
             fit="cover"
           />
+                  -->
         </div>
 
-        <div class="section__side text">
-          <div class="section__text design">
-            <article>
+        <div class="section__side text design">
+          <h2>
+            Le design selon Mobilum
+          </h2>
+          <div class="section__text ">
+            <p>
               <!--
             La marque et le design : designers et distinctions
           ---->
+              <strong>"Le design, c'est trop génial."</strong>
+              <br /><br />
               Nous avons fait le choix de travailler avec des designers aguérris et rompus aux exigences de
               l'espace public depuis de nombreuses années, qui pensent avant tout à l'usage dans leurs créations
               et dans la réinterprétaiton de classiques du mobilier urbain. Leurs dessins expriment la vision qu'ils
@@ -54,7 +58,7 @@
               unique et une volonté commune de "rendre service aux usagers en proposant des mobiliers discrets, que
               j'espère le plus élégant possible sans ostentation, et durable dans le temps aussi bien par son dessin que
               par la qualité de son usage." Sovann KIM.
-            </article>
+            </p>
             <div class="real__model">
               <g-image
                 alt="Table cantine réelle"
@@ -87,14 +91,17 @@
     <!-------------------------------------------------------------------
     Notre savoir-faire
   -------------------------------------------------------------------->
-    <div class="sub__section">
-      <h2> Notre savoir-faire</h2>
+    <div class="sub__section wide dark">
       <div class="sub__section__content">
         <div class="section__side text">
+          <h2 class="title__savoir_faire">
+            Notre savoir-faire
+          </h2>
           <div class="section__text">
             <p>
-              Chez Mobilum, notre savoir-faire est ancré dans un artisanat 100% français et local. Nous sommes fiers
-              de produire des mobiliers urbains de haute qualité, fabriqués avec soin par nos artisans qualifiés.
+              <strong>"Chez Mobilum, notre savoir-faire est ancré dans un artisanat 100% français et local."</strong>
+              <br /><br />
+              Nous sommes fiers de produire des mobiliers urbains de haute qualité, fabriqués avec soin par nos artisans qualifiés.
               Chaque pièce est réalisée avec une attention méticuleuse aux détails, reflétant notre engagement envers
               l'excellence et la fierté du travail bien fait.
               <br /><br />
@@ -108,7 +115,8 @@
             </p>
           </div>
         </div>
-        <div class="section__side savoir-faire shadow">
+        <div class="section__side illustration savoir-faire">
+          <!--
           <g-image
             alt="mains mobilum"
             src="../../src/assets/img/savoir-faire.jpg"
@@ -116,6 +124,7 @@
             width="1000px"
             fit="cover"
           />
+          -->
         </div>
       </div>
     </div>
@@ -123,21 +132,19 @@
       Nos activités
   --------------------------------------------------->
 
-    <div class="sub__section">
-      <div class="section__side center">
-        <h2> Bla bla bla </h2>
-        <Card />
-      </div> 
+    <div class="sub__section center">
+      <h2> Bla bla bla </h2>
+      <Card />
     </div>  
       
     <!---------------------------------------------------
       Nos engagements
   --------------------------------------------------->
 
-    <div class="sub__section">
-      <h2> Nos engagements </h2>
+    <div class="sub__section wide dark">
       <div class="sub__section__content">
-        <div class="section__side illustration shadow">
+        <div class="section__side illustration RSE">
+          <!--
           <g-image
             alt="Angers tram"
             src="../assets/img/angers_tram.jpg"
@@ -145,19 +152,20 @@
             width="1000px"
             fit="cover"
           />
+          -->
         </div>
         <div class="section__side text">
+          <h2> Nos engagements </h2>
           <div class="section__text">
-            <article>
-              Fournisseurs 100% français : vicat, transport, tous en général
-              <br />
-              <br />
-              Nous produisons de manière raisonnée en limitant au maximum notre impact sur l'environnement. Depuis notre créations, cette préoccupation est intégrée dans notre travail, du développement produit jusqu"à la production.
+            <p>
+              <strong>"Nous produisons de manière raisonnée en limitant au maximum notre impact sur l'environnement."</strong>
+              <br /><br />
+              Depuis notre créations, cette préoccupation est intégrée dans notre travail, du développement produit jusqu"à la production.
               <br />
               L'intégralité des produits présentés est fabriquée sur notre site de production implanté au Loroux-Bottereau en Loire-Atlantique. <br />
               <br />
               La volonté de réduire l'impact de notre fabricatication nous a naturellement amené à investir dans des outils performants et modernes. Le choix d'une centrale spécifique nous permet de diminuer très fortement les temps de cycle et de consommer moins d'énergie, notamment en électricité et en eau. Une station de recyclage filtre l'eau utilisée pour notre production.
-            </article>
+            </p>
           </div>
         </div>
       </div>
@@ -186,7 +194,7 @@ export default {
     General
   -----------------------------------------------------------------------*/
 .slot_image {
-    background : url("../assets/img/fond_entreprise.jpg") center center no-repeat;
+    background : url("../assets/img/fond-entreprise-st-cyr.png") center center no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -205,11 +213,12 @@ h2 {
 
 .section_top {
   width : 70%;
-  margin-left : 3rem;
-  margin-bottom : 2rem;
+  margin-bottom : 3rem;
+  margin-top : 3rem;
   display : flex;
   flex-direction : row;
   text-align : justify;
+  align-items : center;
 }
 
 article {
@@ -224,7 +233,12 @@ article {
 /*-------------------------------------------------------------------------
     Page content 
   -----------------------------------------------------------------------*/
-
+.sub__section {
+  display : flex;
+  flex-direction: column;
+  justify-content : center;
+  margin : 0;
+}
 .section__side {
   display : flex;
   flex-direction : column;
@@ -232,24 +246,13 @@ article {
   border-radius: 5px;
 }
 
-.illustration img {
-  border-radius: 5px;
-  object-fit: cover;
-    width : 35vw;
-    height : 80vh;
+.wide {
+  margin-top : 2rem;
 }
 
-.croquis {
-  border-radius: 5px;
-  border : solid black 1px;
+.design {
+  margin : 0;
 }
-.savoir-faire img {
-  border-radius: 5px;
-  object-fit: cover;
-    width : 45vw;
-    height : 80vh;
-}
-
 
 .real__model {
   margin-top : 3rem;
@@ -261,11 +264,52 @@ article {
 /*--------------------------------------------
     Gestion des textes
 --------------------------------------------*/
+
+.text {
+  padding : 1rem;
+}
+
 .section__text {
   z-index : 1;
   padding : 2rem;
   text-align : justify;
+  padding-top : 0;
 }
+
+
+/* ------------------------------------------------------------------------------------------
+            Gestion des images
+--------------------------------------------------------------------------------------------*/
+.illustration {
+  width : 200vw;
+object-fit: contain;
+background-position-y: center;
+}
+
+.croquis {
+  width : 400vw;
+  background-image:
+  linear-gradient(to right, rgba(255,0,0,0), #fefcf3),
+    url("../../src/assets/img/croquis-sovann-kim-pour-mobilum.png");
+  /* border-radius: 5px;
+   border : solid black 1px; */
+}
+
+.savoir-faire{
+  background-image:
+  linear-gradient(to left, rgba(255,0,0,0), #1A949D),
+    url("../../src/assets/img/savoir-faire.jpg");
+    background-size: cover;
+  
+}
+.RSE {
+  background-image:
+  linear-gradient(to right, rgba(255,0,0,0), #1A949D),
+    url("../assets/img/mobilum-valeurs-rse-avenirv2.png");
+    background-size: cover;
+}
+
+
 
 /* ------------------------------------------------------------------------------------------
 
@@ -273,12 +317,17 @@ article {
 
 --------------------------------------------------------------------------------------------*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 950px) {
 
   h2 {
+  padding-left : 1rem;
   padding-bottom : 1rem;
   margin : 0rem;
   border-bottom: solid 1px;
+}
+
+.title__savoir_faire{
+  margin-top : 2rem;
 }
 
   article {
@@ -287,23 +336,64 @@ article {
   column-count:1;
   width : 100%;
 }
+.section_top {
+  margin : 0rem;
+}
 
-  .sub__section__content {
+.sub__section {
+  height : 100%;
+}.sub__section__content {
     display : flex;
     flex-direction : column;
     align-items: center;
-  }
+    justify-content: center;
+}
 
 .illustration img {
   object-fit: cover;
     width : 95vw;
-    height : 70vh;
+    height : 50vh;
+    background-position-y: bottom;
 }
 
-.savoir-faire img {
-  object-fit: cover;
-    width : 95vw;
-    height : 70vh;
+.dark{
+  background-color : #fefcf3;
+  color : black;
+}
+
+.dark p {
+  color : black;
+}
+
+.croquis{
+  width : 95vw;
+    height : 50vh;
+  background-image:
+  linear-gradient(to left, rgba(255,0,0,0),rgba(255,0,0,0)),
+    url("../../src/assets/img/croquis-sovann-kim-pour-mobilum.png");
+    background-size: cover;
+    box-shadow: rgba(50, 50, 93, 0.8) 0px 2px 5px -1px, rgba(0, 0, 0, 0.8) 0px 1px 3px -1px;
+}
+
+.savoir-faire{
+  width : 95vw;
+    height : 50vh;
+  background-image:
+  linear-gradient(to left, rgba(255,0,0,0),rgba(255,0,0,0)),
+    url("../../src/assets/img/savoir-faire.jpg");
+    background-size: cover;
+    box-shadow: rgba(50, 50, 93, 0.8) 0px 2px 5px -1px, rgba(0, 0, 0, 0.8) 0px 1px 3px -1px;
+}
+
+.RSE{
+  width : 95vw;
+    height : 50vh;
+    margin-bottom : 2rem;
+  background-image:
+  linear-gradient(to left, rgba(255,0,0,0),rgba(255,0,0,0)),
+  url("../assets/img/angers_tram.jpg");
+    background-size: cover;
+    box-shadow: rgba(50, 50, 93, 0.8) 0px 2px 5px -1px, rgba(0, 0, 0, 0.8) 0px 1px 3px -1px;
 }
 
   .real__model {

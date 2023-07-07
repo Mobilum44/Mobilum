@@ -29,7 +29,7 @@
       class="box"
       to="/Offre/"
     >
-      <g-image src="@/assets/img/obrac-la-rochelle-port-neuf.png" />
+      <g-image src="@/assets/img/fond_entreprise.jpg" />
       <p>Une collection</p>
     </g-link>
   </div>

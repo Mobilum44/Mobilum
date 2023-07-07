@@ -10,7 +10,6 @@ finitions:
 cover_image: "../../images/cover_image/banquette-origami.jpg"
 caroussel: 
 - "../../images/banquette-origami.jpg"
-- "../../images/attente-showroom.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/filaires/filaire-chaise-longue-obrac.png"

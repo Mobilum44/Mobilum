@@ -1,7 +1,7 @@
 <template>
   <div class="CarteMarches shadow">
     <slot name="img__marche">
-      </slot>
+    </slot>
     <div class="CarteMarches-content">
       <slot name="titre__marche">
       </slot>

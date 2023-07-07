@@ -9,7 +9,7 @@
     </template>
     
 
-    <div class="body_offer">
+    <div class="sub__section">
       <div class="collection">
         <g-link
           class="items_styling shadow"
@@ -82,10 +82,11 @@ export default {
     background-attachment: fixed;
 }
 
-.body_offer {
+.sub__section {
   display: flex;
   align-items : flex-start;
   justify-content: center;
+  margin-top : 3rem;
 }
 
 .collection {

@@ -1,5 +1,5 @@
 ---
-title: Banc STAMP lisse 
+title: Banc STAMP 
 published: TRUE
 designer: Sovann Kim
 collection: Mobilier urbain
@@ -21,5 +21,5 @@ dimensions: L1800 x P550 x H830
 format: Monobloc
 traitement: ""
 tags: 
-description: ""
+description: "Motif Window possible"
 ---

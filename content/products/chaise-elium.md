@@ -9,7 +9,9 @@ gamme: ELIUM
 finitions: 
 cover_image: "../../images/cover_image/chaise-elium.jpg"
 caroussel: 
-- "../../images/attente-showroom.jpg"
+- "../../images/chaise-elium-trio-bretteville.jpg"
+- "../../images/chaise-elium-banc-elium.jpg"
+- "../../images/chaise-elium-trio.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/filaires/filaire-chaise-longue-obrac.png"

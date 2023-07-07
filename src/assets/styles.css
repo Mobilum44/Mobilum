@@ -12,10 +12,8 @@ body {
 }
 
 .contenu {
-  padding-top: 1rem;
-  padding-left: 10rem;
-  padding-right: 10rem;
-  padding-bottom: 0;
+padding : 0;
+margin : 0;
 }
 
 .layout {
@@ -67,12 +65,27 @@ p {
   /*box-shadow:rgb(0,0,0) 5px 5px 0px -3px*/
 }
 
-
 ::selection {
   color: #fefcf3;
   background: #1a949d;
 }
 
+a {
+  cursor : pointer;
+}
+
+.chapeau {
+  color : black;
+  font-family: "Montserrat";
+  font-weight: 400;
+  margin-left : 3rem;
+}
+
+strong {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1.5rem;
+}
 
 /* ------------------------------------------------------------------------------------------
 
@@ -80,9 +93,20 @@ p {
 
 --------------------------------------------------------------------------------------------*/
 .sub__section {
-  border : solid pink;
-  width : 100%;
+  width : 80%;
   margin-bottom : 3rem;
+}
+
+.wide {
+  width : 100%;
+}
+
+.dark {
+  color : white;
+  background-color: #1A949D;
+}
+.dark p {
+  color : white;
 }
 
 .sub__section h1 {
@@ -94,7 +118,6 @@ p {
   width : 100%;
 }
 
-
 .sub__section h2 {
   text-align : left;
   padding-bottom : 1rem;
@@ -105,7 +128,6 @@ p {
 }
 
 .sub__section__content {
-  border : solid blue;
   display : flex;
   flex-direction : row;
 }

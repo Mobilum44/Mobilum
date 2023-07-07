@@ -10,7 +10,6 @@ finitions:
 cover_image: "../../images/cover_image/appui-velo-origami.jpg"
 caroussel: 
 - "../../images/rangee-appui-velo-origami.jpg"
-- "../../images/attente-showroom.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/filaires/filaire-chaise-longue-obrac.png"
