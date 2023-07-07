@@ -4,9 +4,9 @@ published: TRUE
 designer: Spritz
 collection: HOOK
 category: Module
-sub_category: Module
+sub_category: 04 Module
 gamme: HOOK
-finitions: L1125 bois
+finitions: L1305 bois
 cover_image: "../../images/cover_image/hook-1125-double-alu-compo.jpg"
 caroussel: 
 - "../../images/banquette-elium-parc.jpg"

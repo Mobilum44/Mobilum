@@ -4,9 +4,9 @@ published: TRUE
 designer: Spritz
 collection: HOOK
 category: Assise
-sub_category: Module
+sub_category: 01 Module
 gamme: HOOK
-finitions: L765 bois
+finitions: L535 bois
 cover_image: "../../images/cover_image/hook-765-bois.jpg"
 caroussel: 
 - "../../images/banquette-elium-parc.jpg"
