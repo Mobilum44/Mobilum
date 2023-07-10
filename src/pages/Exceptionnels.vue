@@ -74,37 +74,14 @@
 
 
     <section class="sub__section">
-      <h2> Les sur-mesure </h2>
+      <h2> Les remarquables </h2>
 
       <section class="sub__section__content">
         <CarteMarches>
           <template #img__marche>
             <g-image
               alt="mains mobilum"
-              src="../../src/assets/img/feuille-roquefer.jpg"
-              center
-              width="1000px"
-              fit="cover"
-            />
-          </template>
-
-          <template #titre__marche>
-            <h3> Roquefert</h3>
-          </template>
-
-          <template #texte__marche>
-            <p>
-              On a imprimé des feuilles sur les bancs
-            </p>
-          </template>
-        </CarteMarches>
-
-        <!------------------ Trocadero ---------------------------------------
-        <CarteMarches>
-          <template #img__marche>
-            <g-image
-              alt="mains mobilum"
-              src="../../src/assets/img/eiffela.jpg"
+              src="../../src/assets/img/jardinieres-trocadero-paris.jpg"
               center
               width="1000px"
               fit="cover"
@@ -121,7 +98,6 @@
             </p>
           </template>
         </CarteMarches>
-      ----------------------------------------------------------------->
 
         <CarteMarches>
           <template #img__marche>
@@ -135,7 +111,7 @@
           </template>
 
           <template #titre__marche>
-            <h3> Le Crous </h3>
+            <h3> Chanel </h3>
           </template>
 
           <template #texte__marche>
@@ -144,13 +120,57 @@
             </p>
           </template>
         </CarteMarches>
+
+        <CarteMarches>
+          <template #img__marche>
+            <g-image
+              alt="mains mobilum"
+              src="../../src/assets/img/mobilum-piano-rezzo-ecole-normale-superieure-ens.jpg"
+              center
+              width="1000px"
+              fit="cover"
+            />
+          </template>
+
+          <template #titre__marche>
+            <h3> Piano Rezzo </h3>
+          </template>
+
+          <template #texte__marche>
+            <p>
+              Mobilier extérieur pour les étudiants dans un cadre prestigieux
+            </p>
+          </template>
+        </CarteMarches>
       </section>
     </section>
 
     <section class="sub__section">
-      <h2> Les démesurés </h2>
+      <h2> Les conceptuels </h2>
 
       <section class="sub__section__content">
+        <CarteMarches>
+          <template #img__marche>
+            <g-image
+              alt="mains mobilum"
+              src="../../src/assets/img/sorbonne-universite-amphi-stoop-cube.jpg"
+              center
+              width="1000px"
+              fit="cover"
+            />
+          </template>
+
+          <template #titre__marche>
+            <h3> Université de la Sorbonne </h3>
+          </template>
+
+          <template #texte__marche>
+            <p>
+              Des transats infinis
+            </p>
+          </template>
+        </CarteMarches>
+
         <CarteMarches>
           <template #img__marche>
             <g-image
@@ -195,7 +215,8 @@
             </p>
           </template>
         </CarteMarches>
-
+      </section>
+      <section class="sub__section__content">
         <CarteMarches>
           <template #img__marche>
             <g-image
@@ -214,6 +235,28 @@
           <template #texte__marche>
             <p>
               Projet tolerie forezienne
+            </p>
+          </template>
+        </CarteMarches>
+
+        <CarteMarches>
+          <template #img__marche>
+            <g-image
+              alt="mains mobilum"
+              src="../../src/assets/img/feuille-roquefer.jpg"
+              center
+              width="1000px"
+              fit="cover"
+            />
+          </template>
+
+          <template #titre__marche>
+            <h3> Roquefert</h3>
+          </template>
+
+          <template #texte__marche>
+            <p>
+              On a imprimé des feuilles sur les bancs
             </p>
           </template>
         </CarteMarches>
@@ -264,5 +307,6 @@ h2 {
 }
 .sub__section__content {
   gap : 1rem;
+  margin-bottom : 1rem;
 }
 </style>
