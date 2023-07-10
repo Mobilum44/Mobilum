@@ -16,6 +16,12 @@
       </div>
     </section>
 
+    <div class="sub__section">
+      <g-link to="/Project/">Test page projet</g-link>
+
+
+    </div>
+
     <p class="referencement">
       Plongez dans notre portfolio de projets en BFUP d'exception, en termes de taille, de
       prestige et d'exigence technique.<br /><br />
@@ -36,11 +42,12 @@ réalisations exceptionnelles qui inspirent et marquent les esprits. <br /><br /
 
 <script>
 import Layout from "@/layouts/LayoutAccueil.vue";
-
+import Button from "@/components/Button.vue";
 
 export default {
   components: {
     Layout,
+    Button,
   },
 
   metaInfo: {

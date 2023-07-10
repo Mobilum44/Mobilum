@@ -30,8 +30,8 @@ body {
 }
 
 .EmptyPage {
-  background-image: url("https://images.pexels.com/photos/262713/pexels-photo-262713.jpeg"),
-    url("https://images.pexels.com/photos/286763/pexels-photo-286763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  /*background-image: url("https://images.pexels.com/photos/262713/pexels-photo-262713.jpeg"),
+    url("https://images.pexels.com/photos/286763/pexels-photo-286763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");*/
   background-size: cover;
   background-repeat: no-repeat;
 }

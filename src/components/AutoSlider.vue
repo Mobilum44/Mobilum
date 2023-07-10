@@ -1,5 +1,5 @@
 <template>
-  <Section class="img-slider">
+  <Section class="AutoSlider">
     <div class="slider-container">
       <div class="slide">
         <img src="http://res.cloudinary.com/hurricane10/image/upload/v1499778218/img-26_aw9alb.jpg">
@@ -24,12 +24,16 @@
   box-sizing: border-box;
 }
 
-.img-slider {
+.AutoSlider {
   position: relative;
+  width: 60vw;
+  height: 60vh;
+
+  /*
   width: 100vw;
-  height: 400px;
+  height: 400px; */
 }
-.img-slider .slider-container {
+.AutoSlider .slider-container {
   position: absolute;
   width: 300%;
   top: 0;
@@ -37,14 +41,14 @@
   overflow: hidden;
   animation: slider 26s infinite;
 }
-.img-slider .slider-container .slide {
+.AutoSlider .slider-container .slide {
   position: relative;
   width: 33.33333333%;
   height: 100%;
   float: left;
   overflow: hidden;
 }
-.img-slider .slider-container .slide img {
+.AutoSlider .slider-container .slide img {
   display: block;
   width: 100%;
   height: 100%;
