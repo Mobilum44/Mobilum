@@ -81,7 +81,7 @@ h1 {
     width : 50vw;
     height : 100%;
     background-image: url("../assets/img/angers_tram.jpg");
-    object-fit: fill;
+    object-fit: fit;
 }
 </style>
   
