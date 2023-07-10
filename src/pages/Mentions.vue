@@ -11,12 +11,9 @@
         Ce site internet est le site officiel de la société MOBILUM.
         <br />
 
-        <g-link
-          class="nav__link"
-          to="/#/"
-        >
+        <a href="https:/www.mobilum-france.com">
           www.mobilum-france.com
-        </g-link>
+        </a>
       </p>
       <h3>
         Editeur du site
