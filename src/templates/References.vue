@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h1> {{ $page.references.title }} </h1>
+    <h1> \ {{ $page.references.title }} </h1>
     <div class="sub__section wide">
       <div class="sub__section__content">
         <p>Partie texte + infos</p>

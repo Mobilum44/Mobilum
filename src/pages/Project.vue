@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h1> titre </h1>
+    <h1> \ titre </h1>
     <div class="sub__section wide">
       <div class="sub__section__content text">
         <div class="chapeau">

@@ -9,8 +9,9 @@ gamme: CANTINE
 finitions: 02
 cover_image: "../../images/cover_image/table-urbaine-cantine-02.jpg"
 caroussel: 
-- "../../images/banquette-elium-parc.jpg"
-- "../../images/attente-showroom.jpg"
+#- "../../images/table-cantine-02-le-trait.jpg"
+- "../../images/table-cantine-02-le-trait-v2.jpg"
+- "../../images/table-cantine-02-vernon.jpg"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/filaires/filaire-chaise-longue-obrac.png"

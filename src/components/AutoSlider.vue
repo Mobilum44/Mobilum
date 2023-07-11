@@ -38,7 +38,7 @@
   width: 300%;
   top: 0;
   left: 0;
-  overflow: hidden;
+  overflow: clip;
   animation: slider 26s infinite;
 }
 .AutoSlider .slider-container .slide {

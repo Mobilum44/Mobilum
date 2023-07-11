@@ -81,6 +81,15 @@ a {
   margin-left : 3rem;
 }
 
+/* Pour les textes de référencement */
+.referencement {
+  margin-left : 3rem;
+  width : 80%;
+  color : #1A949D;
+  font-style: italic;
+}
+
+
 strong {
   font-family: "Montserrat";
   font-weight: 400;
@@ -102,11 +111,11 @@ strong {
 }
 
 .dark {
-  color : white;
-  background-color: #1A949D;
+  color : black;
+  background-color: #f5ebe0;
 }
 .dark p {
-  color : white;
+  color : black;
 }
 
 .sub__section h1 {
@@ -131,15 +140,6 @@ strong {
   display : flex;
   flex-direction : row;
 }
-
-/* Pour les textes de référencement */
-.referencement {
-  padding-left : 3rem;
-  width : 80%;
-  color : #1A949D;
-  font-style: italic;
-}
-
 /* ------------------------------------------------------------------------------------------
 
             RESPONSIVE TELEPHONES
@@ -147,7 +147,7 @@ strong {
 --------------------------------------------------------------------------------------------*/
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 950px) {
   h1 {
     font-size : 1.5rem;
     padding : 2rem 2rem 1rem 2rem;
@@ -161,4 +161,11 @@ strong {
     flex-direction : column;
     gap : 2rem;
   }
+}
+
+.chapeau, .referencement {
+  margin-left : 1rem;
+}
+.sub__section h1 {
+  margin-top : 2.5rem;
 }

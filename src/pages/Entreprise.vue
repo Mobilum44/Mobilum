@@ -42,7 +42,7 @@
 
         <div class="section__side text design">
           <h2>
-            Le design selon Mobilum
+            \ Le design selon Mobilum
           </h2>
           <div class="section__text ">
             <p>
@@ -94,8 +94,8 @@
     <div class="sub__section wide dark">
       <div class="sub__section__content">
         <div class="section__side text">
-          <h2 class="title__savoir_faire">
-            Notre savoir-faire
+          <h2>
+            \ Notre savoir-faire
           </h2>
           <div class="section__text">
             <p>
@@ -133,8 +133,10 @@
   --------------------------------------------------->
 
     <div class="sub__section center">
-      <h2> Bla bla bla </h2>
+      <p> Réussir à les faire défiler </p>
+      <!-- <h2> Bla bla bla </h2> -->
       <Card />
+      <Villes />
     </div>  
       
     <!---------------------------------------------------
@@ -155,7 +157,7 @@
           -->
         </div>
         <div class="section__side text">
-          <h2> Nos engagements </h2>
+          <h2> \ Nos engagements </h2>
           <div class="section__text">
             <p>
               <strong>"Nous produisons de manière raisonnée en limitant au maximum notre impact sur l'environnement."</strong>
@@ -176,10 +178,13 @@
 <script>
 
 import Card from "@/components/Card.vue";
+import Villes from "@/components/Villes.vue";
+
 export default {
   
     components: {
-      Card
+      Card,
+      Villes,
   },
   
   metaInfo: {
@@ -240,10 +245,11 @@ article {
   margin : 0;
 }
 .section__side {
+  height : 90vh;
   display : flex;
   flex-direction : column;
   justify-content: flex-end;
-  border-radius: 5px;
+  /* border-radius: 5px; */
 }
 
 .wide {
@@ -264,11 +270,9 @@ article {
 /*--------------------------------------------
     Gestion des textes
 --------------------------------------------*/
-
 .text {
   padding : 1rem;
 }
-
 .section__text {
   z-index : 1;
   padding : 2rem;
@@ -294,21 +298,19 @@ background-position-y: center;
   /* border-radius: 5px;
    border : solid black 1px; */
 }
-
 .savoir-faire{
   background-image:
-  linear-gradient(to left, rgba(255,0,0,0), #1A949D),
+  linear-gradient(to left, rgba(255,0,0,0), #f5ebe0),
     url("../../src/assets/img/savoir-faire.jpg");
     background-size: cover;
   
 }
 .RSE {
   background-image:
-  linear-gradient(to right, rgba(255,0,0,0), #1A949D),
+  linear-gradient(to right, rgba(255,0,0,0), #f5ebe0),
     url("../assets/img/mobilum-valeurs-rse-avenirv2.png");
     background-size: cover;
 }
-
 
 
 /* ------------------------------------------------------------------------------------------
@@ -324,10 +326,6 @@ background-position-y: center;
   padding-bottom : 1rem;
   margin : 0rem;
   border-bottom: solid 1px;
-}
-
-.title__savoir_faire{
-  margin-top : 2rem;
 }
 
   article {
@@ -348,7 +346,17 @@ background-position-y: center;
     align-items: center;
     justify-content: center;
 }
+.section__side {
+  height : 100%;
+  display : flex;
+  flex-direction : column;
+  justify-content: flex-end;
+  /* border-radius: 5px; */
+}
 
+.section__text {
+  padding-bottom : 0;
+}
 .illustration img {
   object-fit: cover;
     width : 95vw;
@@ -360,7 +368,6 @@ background-position-y: center;
   background-color : #fefcf3;
   color : black;
 }
-
 .dark p {
   color : black;
 }
