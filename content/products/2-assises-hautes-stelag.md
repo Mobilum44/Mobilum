@@ -9,8 +9,7 @@ gamme: STELAG
 finitions: 
 cover_image: "../../images/cover_image/galet-2-assises-L.jpg"
 caroussel: 
-- "../../images/banquette-elium-parc.jpg"
-- "../../images/attente-showroom.jpg"
+- "../../images/galet-stelag-haut-deux-assises-rouen.JPG"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/filaires/filaire-chaise-longue-obrac.png"

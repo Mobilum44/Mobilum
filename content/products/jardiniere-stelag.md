@@ -9,8 +9,8 @@ gamme: STELAG
 finitions: 
 cover_image: "../../images/cover_image/jardiniere-stelag.jpg"
 caroussel: 
-- "../../images/banquette-elium-parc.jpg"
-- "../../images/attente-showroom.jpg"
+- "../../images/galet-jardiniere-stelag-assise.JPG"
+- "../../images/galet-jardiniere-stelag-fecamp.JPG"
 filaire: 
  - "../../images/filaires/filaire-cantine-04.png"
  - "../../images/filaires/filaire-chaise-longue-obrac.png"
