@@ -13,7 +13,7 @@ export default {
     theme: {
       type: String,
       default: "accueil",
-      validator: val => ["blue", "slide", "bordered", "transparent"].indexOf(val) !== -1
+      validator: val => ["blue", "slide", "bordered", "transparent", "arrow"].indexOf(val) !== -1
     },
 
     to: {
@@ -142,6 +142,27 @@ export default {
   background-color : black;
   color : white;
   }
+
+
+  /* ---------------------------------------------------------------
+    Style du bouton arrow
+  --------------------------------------------------------------*/
+.arrow {
+  color : black;
+  text-decoration: none;
+  font-size : 3rem;
+  position : absolute;
+  margin-top : -1rem;
+}
+
+.arrow:hover {
+  color : #1a949d;
+  text-decoration: none;
+  font-size : 3rem;
+  position : absolute;
+  margin-top : -1rem;
+}
+
 
 
 </style>

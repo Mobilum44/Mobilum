@@ -2,15 +2,12 @@
   <Section class="AutoSlider">
     <div class="slider-container">
       <div class="slide">
-        <img src="../../images/references/caroussel/page-entree.jpg">
-      </div>
-
-      <div class="slide">
-        <img src="../../images/references/caroussel/page-entree.jpg">
-      </div>
-
-      <div class="slide">
-        <img src="../../images/references/caroussel/page-entree.jpg">
+        <g-image
+          fit="cover"
+          height="80vh"
+          :src="path"
+          :id="`slide-${i}`"
+        />
       </div>
     </div>
   </Section>
@@ -25,7 +22,6 @@
 }
 
 .AutoSlider {
-  border : solid black;
   position: relative;
   width : 50vw;
   height : 100%;

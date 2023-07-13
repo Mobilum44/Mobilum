@@ -1,6 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@200;400&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
 
+*::-webkit-scrollbar {
+width : 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background : #fefcf3;
+  }
+
+*::-webkit-scrollbar-thumb {
+    background-color : #1A949D;
+    border-radius: 10px;
+    border : 3px solid #fefcf3;
+    }
+
+
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;

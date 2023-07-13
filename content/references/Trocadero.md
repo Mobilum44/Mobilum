@@ -10,6 +10,8 @@ cover_text: "Les jardinières du Troca"
 
 caroussel: 
 - "../../images/references/caroussel/page-entree.jpg"
+- "../../images/references/caroussel/page-entree.jpg"
+
 
 localisation : "Place du Trocadero, Paris"
 moe : "?"

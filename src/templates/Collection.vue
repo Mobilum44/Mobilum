@@ -2,11 +2,10 @@
   <Layout>
     <div class="sub__section">
       <Button
-        theme="bordered"
+        theme="arrow"
         to="/Offre/"  
       >
-        <!--Bouton tout pété ----> 
-        Retour à l'offre
+      ⇦
       </Button>
 
 

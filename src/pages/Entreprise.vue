@@ -132,8 +132,8 @@
       Nos activités
   --------------------------------------------------->
 
-    <div class="sub__section center">
-      <p> Réussir à les faire défiler </p>
+    <div class="sub__section center wide">
+      <p> Corriger les descriptions + essayer de faire en sorte que ca soit infini pour de vrai</p>
       <!-- <h2> Bla bla bla </h2> -->
       <Card />
       <Villes />

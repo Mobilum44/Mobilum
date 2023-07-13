@@ -2,21 +2,35 @@
   <Layout>
     <div class="sub__section wide">
       <div class="sub__section__content text">
-        <div class="floating_title">
-          <h1> \ {{ $page.reference.title }} </h1>
-        </div>
+        <Button
+          theme="arrow"
+          to="/Exceptionnels/"  
+        >
+          ⇦
+        </Button>
+        <h1> \ {{ $page.reference.title }} </h1>
         <div class="chapeau">
-          <em>Localisation</em> : {{ $page.reference.localisation }} <br />
-          <em>MOE</em> : {{ $page.reference.moe }} <br />
-          <em>MOA</em> : {{ $page.reference.moa }} <br />
-          <em>Fabricant</em> : {{ $page.reference.fabricant }} <br />
-          <em>Date de réalisation</em> : {{ $page.reference.date_realisation }} <br />
+          <p>
+            <em>Localisation</em> : {{ $page.reference.localisation }} <br />
+          </p>
+          <div class="chapeau__column">
+            <div>
+              <p> <em>MOE</em> : {{ $page.reference.moe }} <br /></p>
+              <p> <em>MOA</em> : {{ $page.reference.moa }} <br /></p>
+            </div>
+            <div>
+              <p><em>Fabricant</em> : {{ $page.reference.fabricant }} <br /></p>
+              <p> <em>Date de réalisation</em> : {{ $page.reference.date_realisation }} <br /></p>
+            </div>
+          </div>
         </div>
-        <p>{{ $page.reference.description }}</p>
+        <p class="description__projet">
+          {{ $page.reference.description }}
+        </p>
       </div>
       <div class="sub__section__content">
         <div class="slider">
-          <AutoSlider />
+          <AutoSlider :img="$page.reference.caroussel" />
         </div>
       </div>
     </div>
@@ -32,6 +46,7 @@
       moa
       fabricant
       date_realisation
+      caroussel
       description
     }
   }
@@ -41,11 +56,13 @@
 <script>
   import Layout from "@/layouts/LayoutNoMargin.vue";
   import AutoSlider from "@/components/AutoSlider.vue";
+  import Button from "@/components/Button.vue"
   
   export default {
       components: {
           Layout,
           AutoSlider,
+          Button,
       },
   };
   </script>
@@ -66,8 +83,9 @@
 h1 {
   color : black;
     border : none;
-    text-align: left;
+    text-align: center;
     font-size: 200%;
+    margin-top : 0;
 }
 
 .sub__section {
@@ -81,21 +99,54 @@ h1 {
     flex-direction : column;
 }
 .text{
-    margin-top : 2vh;
     padding : 2rem;
+    height : 100%;
+    padding-bottom : 0;
 }
 .chapeau {
+  display : flex;
+  flex-direction: column;
+  align-items: center;
   border : solid black 1px;
   margin : 0;
-  margin-bottom : 2rem;
+  margin-bottom : 1rem;
   padding : 1rem;
 }
+.chapeau div {
+  width : 80%;
+}
+.chapeau p {
+  margin-top : 0;
+}
+
+.chapeau__column {
+  display : flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.chapeau__column div {
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chapeau__column p {
+margin : 0;
+
+}
+
 .slider {
-    border : pink solid;
     width : 50vw;
     height : 100%;
     background-image: url("../assets/img/angers_tram.jpg");
     object-fit: fit;
+}
+
+.description__projet {
+  background-attachment: scroll;
+    overflow : scroll;
+    overflow-x : hidden;
+
 }
 </style>
   

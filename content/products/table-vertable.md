@@ -9,7 +9,6 @@ gamme: VERTABLE
 finitions: 
 cover_image: "../../images/produits/cover_image/table-vertable.jpg"
 caroussel: 
-- "../../images/produits/banquette-elium-parc.jpg"
 - "../../images/produits/attente-showroom.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"

@@ -2,10 +2,10 @@
   <Layout>
     <div class="sub__section">
       <Button
-        theme="bordered"
+        theme="arrow"
         to="/Offre/"  
       >
-        Retour à l'offre
+      ⇦
       </Button>
 
       <h1> Nos dossiers d'exception </h1>
@@ -13,13 +13,6 @@
     <section class="sub__section">
       <div class="chapeau">
         <p>Nos projets sont trop exceptionnels !</p>
-
-        <Button
-          theme="bordered"
-          to="/Exceptionnels-v1/"  
-        >
-          Page modèle
-        </Button>
       </div>
     </section>
 
@@ -56,6 +49,13 @@
         </li>
       </ul>
     </div>
+
+    <Button
+      theme="bordered"
+      to="/Exceptionnels-v1/"  
+    >
+      Page modèle
+    </Button>
 
     <p class="referencement">
       Plongez dans notre portfolio de projets en BFUP d'exception, en termes de taille, de
@@ -116,6 +116,8 @@ h2 {
   width : 70%;
 }
 
+
+/*
 .sub__section__market {
   width : 100%;
   border : solid pink;
@@ -124,9 +126,15 @@ h2 {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(1, 1fr);
   grid-gap: 2rem;
-}
-.card {
-  border : solid blue;
+} */
+
+ul {
+  width : 80vw;
+  display : grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-gap: 2rem;
+  list-style-type: none;
 }
 .sub__section__content {
   gap : 1rem;

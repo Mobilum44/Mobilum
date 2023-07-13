@@ -12,10 +12,10 @@
               height="220px"
             >
             <figcaption class="card__caption">
-              <h4 class="card__title">
+              <h4>
                 Centre ville
               </h4>
-              <p class="card__text">
+              <p>
                 Design urbain unique.
               </p>
             </figcaption>
@@ -32,10 +32,10 @@
               height="350px"
             >
             <figcaption class="card__caption">
-              <h4 class="card__title">
+              <h4>
                 Parc
               </h4>
-              <p class="card__text">
+              <p>
                 Développement durable assumé.
               </p>
             </figcaption>
@@ -52,10 +52,10 @@
               height="220px"
             >
             <figcaption class="card__caption">
-              <h4 class="card__title">
+              <h4>
                 Bord de mer
               </h4>
-              <p class="card__text">
+              <p>
                 Embruns, climats ne sont plus des contraintes.
               </p>
             </figcaption>
@@ -72,10 +72,10 @@
               height="300px"
             >
             <figcaption class="card__caption">
-              <h4 class="card__title">
+              <h4>
                 Gare
               </h4>
-              <p class="card__text">
+              <p>
                 Nous participons aux grands projets.
               </p>
             </figcaption>
@@ -92,10 +92,10 @@
               height="220px"
             >
             <figcaption class="card__caption">
-              <h4 class="card__title">
+              <h4>
                 Tram
               </h4>
-              <p class="card__text">
+              <p>
                 Usage assumé pour un fort traffic.
               </p>
             </figcaption>
@@ -113,10 +113,10 @@
               height="220px"
             >
             <figcaption class="card__caption">
-              <h4 class="card__title">
+              <h4>
                 Zone commerciale
               </h4>
-              <p class="card__text">
+              <p>
                 Nos gammes sont cohérentes et séduisantes.
               </p>
             </figcaption>
@@ -133,10 +133,10 @@
               height="300px"
             >
             <figcaption class="card__caption">
-              <h4 class="card__title">
+              <h4>
                 Ecole
               </h4>
-              <p class="card__text">
+              <p>
                 Nous accompagnons les générations novatrices.
               </p>
             </figcaption>
@@ -154,10 +154,10 @@
               height="300px"
             >
             <figcaption class="card__caption">
-              <h4 class="card__title">
+              <h4>
                 Tertiaire
               </h4>
-              <p class="card__text">
+              <p>
                 Image de marque remarquable et personnalisable.
 
                 PHOTO DE PIANO REZZO
@@ -177,15 +177,396 @@
               height="220px"
             >
             <figcaption class="card__caption">
-              <h4 class="card__title">
+              <h4>
                 Lotissement
               </h4>
-              <p class="card__text">
+              <p>
                 De l'efficacité dans la simplicité.
               </p>
             </figcaption>
           </figure>
         </div>
+
+        <!------------------------------------------------------------------------------------------------------------>
+
+        <div class="card shadow">
+          <figure class="card__thumb">
+            <img
+              src="@/assets/img/Galets.jpg"
+              alt="Galets rouen bfup Mobilum"
+              class="card__image"
+              fit="cover"
+              height="220px"
+            >
+            <figcaption class="card__caption">
+              <h4>
+                Centre ville
+              </h4>
+              <p>
+                Design urbain unique.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="card shadow">
+          <figure class="card__thumb">
+            <img
+              src="@/assets/img/olivier.jpg"
+              alt="photo parc du loroux-botereau mobilum"
+              class="card__image"
+              fit="cover"
+              height="350px"
+            >
+            <figcaption class="card__caption">
+              <h4>
+                Parc
+              </h4>
+              <p>
+                Développement durable assumé.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="card shadow">
+          <figure class="card__thumb">
+            <img
+              src="@/assets/img/obrac-la-rochelle-port-neuf.png"
+              alt="Bord de mer à cucq transat Camah de Mobilum"
+              class="card__image"
+              fit="cover"
+              height="220px"
+            >
+            <figcaption class="card__caption">
+              <h4>
+                Bord de mer
+              </h4>
+              <p>
+                Embruns, climats ne sont plus des contraintes.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="card shadow">
+          <figure class="card__thumb">
+            <img
+              src="@/assets/img/gare-est-paris-mobilum.jpg"
+              alt="Photo gare paris mobilum"
+              class="card__image"
+              fit="cover"
+              height="300px"
+            >
+            <figcaption class="card__caption">
+              <h4>
+                Gare
+              </h4>
+              <p>
+                Nous participons aux grands projets.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="card shadow">
+          <figure class="card__thumb">
+            <img
+              src="@/assets/img/tram-angers-banc-mobilum.jpg"
+              alt="Banc Vasco de Gamma Angers Mobilum"
+              class="card__image"
+              fit="cover"
+              height="220px"
+            >
+            <figcaption class="card__caption">
+              <h4>
+                Tram
+              </h4>
+              <p>
+                Usage assumé pour un fort traffic.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="card shadow">
+          <figure class="card__thumb">
+            <!-- Parcs, Bords de mer, Gare, Lycée, ...-->
+            <img
+              src="@/assets/img/zone-commerciale-puilboreau-mobilum-origami.jpeg"
+              alt="Banc et totem origami par mobilum zone commerciale la rochelle"
+              class="card__image"
+              fit="cover"
+              height="220px"
+            >
+            <figcaption class="card__caption">
+              <h4>
+                Zone commerciale
+              </h4>
+              <p>
+                Nos gammes sont cohérentes et séduisantes.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="card shadow">
+          <figure class="card__thumb">
+            <img
+              src="@/assets/img/lycée-nord-sur-erdre-mobilum.jpg"
+              alt="Vue du ciel Lycée Nord sur Erdre à Nantes Mobilum"
+              class="card__image"
+              fit="cover"
+              height="300px"
+            >
+            <figcaption class="card__caption">
+              <h4>
+                Ecole
+              </h4>
+              <p>
+                Nous accompagnons les générations novatrices.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+
+        <div class="card shadow">
+          <figure class="card__thumb">
+            <img
+              src="@/assets/img/totem-tertiaire-mobilum.jpg"
+              alt="totem en BFUP pour l'entreprise Luneau Papin par Mobilum"
+              class="card__image"
+              fit="cover"
+              height="300px"
+            >
+            <figcaption class="card__caption">
+              <h4>
+                Tertiaire
+              </h4>
+              <p>
+                Image de marque remarquable et personnalisable.
+
+                PHOTO DE PIANO REZZO
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="card shadow">
+          <figure class="card__thumb">
+            <!-- Parcs, Bords de mer, Gare, Lycée, ...-->
+            <img
+              src="@/assets/img/lotissement-hook-mobilum.png"
+              alt="Lotissement coffret technique hook mobilum"
+              class="card__image"
+              fit="cover"
+              height="220px"
+            >
+            <figcaption class="card__caption">
+              <h4>
+                Lotissement
+              </h4>
+              <p>
+                De l'efficacité dans la simplicité.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <!--------------------------------------------------------------------------------------------------------------->
+
+        <!------------------------------------------------------------------------------------------------------------>
+
+        <div class="card shadow">
+          <figure class="card__thumb">
+            <img
+              src="@/assets/img/Galets.jpg"
+              alt="Galets rouen bfup Mobilum"
+              class="card__image"
+              fit="cover"
+              height="220px"
+            >
+            <figcaption class="card__caption">
+              <h4>
+                Centre ville
+              </h4>
+              <p>
+                Design urbain unique.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="card shadow">
+          <figure class="card__thumb">
+            <img
+              src="@/assets/img/olivier.jpg"
+              alt="photo parc du loroux-botereau mobilum"
+              class="card__image"
+              fit="cover"
+              height="350px"
+            >
+            <figcaption class="card__caption">
+              <h4>
+                Parc
+              </h4>
+              <p>
+                Développement durable assumé.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="card shadow">
+          <figure class="card__thumb">
+            <img
+              src="@/assets/img/obrac-la-rochelle-port-neuf.png"
+              alt="Bord de mer à cucq transat Camah de Mobilum"
+              class="card__image"
+              fit="cover"
+              height="220px"
+            >
+            <figcaption class="card__caption">
+              <h4>
+                Bord de mer
+              </h4>
+              <p>
+                Embruns, climats ne sont plus des contraintes.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="card shadow">
+          <figure class="card__thumb">
+            <img
+              src="@/assets/img/gare-est-paris-mobilum.jpg"
+              alt="Photo gare paris mobilum"
+              class="card__image"
+              fit="cover"
+              height="300px"
+            >
+            <figcaption class="card__caption">
+              <h4>
+                Gare
+              </h4>
+              <p>
+                Nous participons aux grands projets.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="card shadow">
+          <figure class="card__thumb">
+            <img
+              src="@/assets/img/tram-angers-banc-mobilum.jpg"
+              alt="Banc Vasco de Gamma Angers Mobilum"
+              class="card__image"
+              fit="cover"
+              height="220px"
+            >
+            <figcaption class="card__caption">
+              <h4>
+                Tram
+              </h4>
+              <p>
+                Usage assumé pour un fort traffic.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="card shadow">
+          <figure class="card__thumb">
+            <!-- Parcs, Bords de mer, Gare, Lycée, ...-->
+            <img
+              src="@/assets/img/zone-commerciale-puilboreau-mobilum-origami.jpeg"
+              alt="Banc et totem origami par mobilum zone commerciale la rochelle"
+              class="card__image"
+              fit="cover"
+              height="220px"
+            >
+            <figcaption class="card__caption">
+              <h4>
+                Zone commerciale
+              </h4>
+              <p>
+                Nos gammes sont cohérentes et séduisantes.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="card shadow">
+          <figure class="card__thumb">
+            <img
+              src="@/assets/img/lycée-nord-sur-erdre-mobilum.jpg"
+              alt="Vue du ciel Lycée Nord sur Erdre à Nantes Mobilum"
+              class="card__image"
+              fit="cover"
+              height="300px"
+            >
+            <figcaption class="card__caption">
+              <h4>
+                Ecole
+              </h4>
+              <p>
+                Nous accompagnons les générations novatrices.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+
+        <div class="card shadow">
+          <figure class="card__thumb">
+            <img
+              src="@/assets/img/totem-tertiaire-mobilum.jpg"
+              alt="totem en BFUP pour l'entreprise Luneau Papin par Mobilum"
+              class="card__image"
+              fit="cover"
+              height="300px"
+            >
+            <figcaption class="card__caption">
+              <h4>
+                Tertiaire
+              </h4>
+              <p>
+                Image de marque remarquable et personnalisable.
+
+                PHOTO DE PIANO REZZO
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="card shadow">
+          <figure class="card__thumb">
+            <!-- Parcs, Bords de mer, Gare, Lycée, ...-->
+            <img
+              src="@/assets/img/lotissement-hook-mobilum.png"
+              alt="Lotissement coffret technique hook mobilum"
+              class="card__image"
+              fit="cover"
+              height="220px"
+            >
+            <figcaption class="card__caption">
+              <h4>
+                Lotissement
+              </h4>
+              <p>
+                De l'efficacité dans la simplicité.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <!--------------------------------------------------------------------------------------------------------------->
+
+
+
       </span>
     </div>
     <!-----
@@ -207,23 +588,18 @@
 
 <style scoped>
 /* ---------------------------------------------------------------------------------------
-               Defilement
+               Animation defilement
   ---------------------------------------------------------------------------------------*/
 .cartes_defilantes {
-  border : solid blue;
   display: flex;
   flex-wrap: wrap;
-  /* margin: 40px auto;*/
+  /*margin: 40px auto;*/
   padding: 0;
   overflow: hidden;
   position: relative;
   width: 100%;
   height: 225px;
   font-family: "Bebas Neue";
-}
-
-.cartes_defilantes div {
-  position: absolute;
 }
 
 .cartes_defilantes div,
@@ -234,9 +610,9 @@
   top: 0;
 }
 
-.cartes_defilantes div {
+.cartes_defilantes div span{
   animation: defilement infinite linear;
-  animation-duration :70s;
+  animation-duration :120s;
   animation-delay: 1s;
 }
 
@@ -246,7 +622,7 @@
   left: 0;
   content: attr(data-text);
   animation: defilement2 infinite linear;
-  animation-duration : 70s;
+  animation-duration : 120s;
   animation-delay: 1s;
   background: #edc;
 }
@@ -269,44 +645,19 @@
   }
 }
 
-/* --------------------------------------------------------------------------------------*/
-
-h4 {
-  text-decoration: none;
-}
-
-/*
-.defilement {
-position : relative;
-overflow: hidden;
-display : block;
-width : 100%;
-height : 200px;
-}
-
-.defilement div {
-position : absolute;
-min-width : 100%;
-}
-*/
-
+/* --------------------------------------------------------------------------------------
+            Animation des cartes
+  ---------------------------------------------------------------------------------------*/
 .card-container {
   display: flex;
   justify-content: left;
   margin-bottom : 0rem;
-  width : 1900px;
 }
-
 .card {
   width: 200px;
   height : 200px;
   margin: 10px;
   border-radius : 3%;
-  background-color: white;
-  filter : grayscale(0%);
-}
-.card:hover{
-  filter : grayscale(0);
 }
 .card:hover .card__caption {
   top: 50%;
@@ -318,14 +669,12 @@ min-width : 100%;
 .card:hover .card__thumb::after {
   top: 0;
 }
-.card:hover .card__text {
-  margin: 20px 0;
-}
 .card__thumb {
   margin : 0;
   position: relative;
   overflow: hidden;
   height : 200px;
+  width : 200px;
   border-radius : 3%;
 }
 .card__thumb::after {
@@ -346,42 +695,33 @@ min-width : 100%;
 }
 .card__caption {
   position: absolute;
+  width : 200px;
+  height : 200px;
   top: 50%;
   z-index: 1;
-  padding: 0 20px;
+  padding: 0 1vw;
   color: white;
   transform: translateY(-50%);
-  text-align: center;
   transition: 0.3s;
   top: calc(100% - 110px);
-    transform: unset;
+  transform: unset;
 }
 
-.card__title {
+.card__caption h4{
   margin-top : 8vh;
-  display: -webkit-box;
   max-height: 85px;
   overflow: hidden;
   font-family: "Bebas Neue";
   font-size: 1.5rem;
   line-height: 28px;
   text-shadow: 0px 1px 5px black;
-  text-overflow: ellipsis;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
 }
-.card__text {
-  display: -webkit-box;
-  margin: 2vw 0;
-  overflow: hidden;
+.card__caption p {
+  height : 200px;
+  border : solid blue;
   font-family: "Roboto", sans-serif;
   color : white;
-  font-size: 1rem;
-  line-height: 1rem;
-  text-overflow: ellipsis;
   transition: 0.5s ease-in-out;
-  -webkit-line-clamp: 5;
-  -webkit-box-orient: vertical;
 }
 
 </style>

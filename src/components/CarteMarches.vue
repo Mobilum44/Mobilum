@@ -25,8 +25,8 @@
 
 .CarteMarches {
   width: 100%;
-  height: 65vh;
-  border-radius: 10px;
+  height: 60vh;
+  /* border-radius: 10px; */
   overflow: hidden;
   position: relative;
   color: white;

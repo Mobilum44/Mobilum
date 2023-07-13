@@ -244,7 +244,7 @@
           <template #img__marche>
             <g-image
               alt="mains mobilum"
-              src="../../images/references/cover_image/feuille-roquefer.jpg"
+              src="../../images/references/cover_image/feuille-roquefere.jpg"
               center
               width="1000px"
               fit="cover"
