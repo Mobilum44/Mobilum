@@ -38,7 +38,7 @@
   top: 0;
   left: 0;
   animation: slider 15s infinite;
-  object-fit : contain;
+  object-fit :cover;
 }
 .AutoSlider .slider-container .slide {
   position: relative;

@@ -7,13 +7,13 @@ category: Assise
 sub_category: 04 Banc perron
 gamme: STOOP
 finitions: 
-cover_image: "../../images/cover_image/banc-perron-stoop.jpg"
+cover_image: "../../images/produits/cover_image/banc-perron-stoop.jpg"
 caroussel: 
-- "../../images/banc-perron-stoop-ecouflant.jpg"
+- "../../images/produits/banc-perron-stoop-ecouflant.jpg"
 - "../../images/stoop-sorbonne.jpg"
 filaire: 
- - "../../images/filaires/filaire-cantine-04.png"
- - "../../images/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: BPSTOOP0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 192

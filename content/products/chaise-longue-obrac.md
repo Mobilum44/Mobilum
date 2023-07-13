@@ -7,12 +7,12 @@ category: Assise
 sub_category: 08 Chaise Longue
 gamme: OBRAC 
 finitions: 
-cover_image: "../../images/cover_image/chaise-longue-obrac.jpg"
+cover_image: "../../images/produits/cover_image/chaise-longue-obrac.jpg"
 caroussel: 
-- "../../images/chaises-longues-obrac-chemille-en-anjou.jpg"
+- "../../images/produits/chaises-longues-obrac-chemille-en-anjou.jpg"
 filaire: 
- - "../../images/filaires/filaire-cantine-04.png"
- - "../../images/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: CLOBRAC0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 161

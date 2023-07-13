@@ -7,13 +7,13 @@ category: Cendrier
 sub_category: 13 Cendrier
 gamme: GOYA 
 finitions: 
-cover_image: "../../images/cover_image/cendrier-goya.jpg"
+cover_image: "../../images/produits/cover_image/cendrier-goya.jpg"
 caroussel: 
-- "../../images/cendrier-goya-hotel-la-rochelle.jpg"
+- "../../images/produits/cendrier-goya-hotel-la-rochelle.jpg"
 - "../../images/goya-focus-cendrier-ulis.jpg"
 filaire: 
- - "../../images/filaires/filaire-cantine-04.png"
- - "../../images/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: CEGOYA_0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 30

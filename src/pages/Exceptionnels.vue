@@ -13,6 +13,13 @@
     <section class="sub__section">
       <div class="chapeau">
         <p>Nos projets sont trop exceptionnels !</p>
+
+        <Button
+          theme="bordered"
+          to="/Exceptionnels-v1/"  
+        >
+          Page modèle
+        </Button>
       </div>
     </section>
 

@@ -7,12 +7,12 @@ category: Table
 sub_category: 12 Mange debout
 gamme: CANTINE
 finitions: 02
-cover_image: "../../images/cover_image/mange-debout.jpg"
+cover_image: "../../images/produits/cover_image/mange-debout.jpg"
 caroussel: 
-- "../../images/mange-debout-carnon.jpg"
+- "../../images/produits/mange-debout-carnon.jpg"
 filaire: 
- - "../../images/filaires/filaire-cantine-04.png"
- - "../../images/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: TACANTI0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 491

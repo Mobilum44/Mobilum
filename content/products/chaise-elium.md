@@ -7,14 +7,14 @@ category: Assise
 sub_category: 02 Chaise
 gamme: ELIUM
 finitions: 
-cover_image: "../../images/cover_image/chaise-elium.jpg"
+cover_image: "../../images/produits/cover_image/chaise-elium.jpg"
 caroussel: 
-- "../../images/chaise-elium-trio-bretteville.jpg"
+- "../../images/produits/chaise-elium-trio-bretteville.jpg"
 - "../../images/chaise-elium-banc-elium.jpg"
 - "../../images/chaise-elium-trio.jpg"
 filaire: 
- - "../../images/filaires/filaire-cantine-04.png"
- - "../../images/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: CHELIUM0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 109

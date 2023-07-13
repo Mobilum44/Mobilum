@@ -7,13 +7,13 @@ category: Appui-vélos
 sub_category: 18 Appui-vélos
 gamme: KARO
 finitions: 
-cover_image: "../../images/cover_image/appuis-velo-karo.jpg"
+cover_image: "../../images/produits/cover_image/appuis-velo-karo.jpg"
 caroussel: 
-- "../../images/appui-velo-karo-vicat.jpg"
+- "../../images/produits/appui-velo-karo-vicat.jpg"
 - "../../images/appui-velo-karo-le-trait.jpg"
 filaire: 
- - "../../images/filaires/filaire-cantine-04.png"
- - "../../images/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: AVKARO_0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 33

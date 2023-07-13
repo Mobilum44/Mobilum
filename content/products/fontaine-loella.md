@@ -7,13 +7,13 @@ category: Fontaine
 sub_category: 16 Fontaine
 gamme: LOELLA
 finitions: 1140
-cover_image: "../../images/cover_image/fontaine-loella.jpg"
+cover_image: "../../images/produits/cover_image/fontaine-loella.jpg"
 caroussel: 
-- "../../images/fontaine-loella-1100.jpg"
+- "../../images/produits/fontaine-loella-1100.jpg"
 - "../../images/focus-loella.jpg"
 filaire: 
- - "../../images/filaires/filaire-cantine-04.png"
- - "../../images/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: FOLOELL0105
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 95

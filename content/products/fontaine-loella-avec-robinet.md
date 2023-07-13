@@ -7,13 +7,13 @@ category: Fontaine
 sub_category: 16 Fontaine
 gamme: LOELLA
 finitions: 
-cover_image: "../../images/cover_image/fontaine-loella-avec-robinet.jpg"
+cover_image: "../../images/produits/cover_image/fontaine-loella-avec-robinet.jpg"
 caroussel: 
-- "../../images/banquette-elium-parc.jpg"
+- "../../images/produits/banquette-elium-parc.jpg"
 - "../../images/attente-showroom.jpg"
 filaire: 
- - "../../images/filaires/filaire-cantine-04.png"
- - "../../images/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: FOLOELL0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 98

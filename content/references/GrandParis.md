@@ -1,11 +1,11 @@
 ---
 type : Les grands comptes
-title: SNCF
+title: Le Grand Paris
 published: TRUE
 
-gamme: YOON 
+gamme: ? 
 
-cover_image: "../../images/produits/references/cover_image/gare-sncf-grenoble.jpg"
+cover_image: "../../images/produits/references/cover_image/assises-societe-du-grand-paris.png"
 cover_text: "On a refait l'intérieur des gares"
 
 caroussel: 

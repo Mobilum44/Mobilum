@@ -7,12 +7,12 @@ category: Autre
 sub_category: 90 Décoration
 gamme: STELAG
 finitions: 
-cover_image: "../../images/cover_image/galet-stelag.jpg"
+cover_image: "../../images/produits/cover_image/galet-stelag.jpg"
 caroussel: 
-- "../../images/galet-simple-stelag-fecamp.JPG"
+- "../../images/produits/galet-simple-stelag-fecamp.JPG"
 filaire: 
- - "../../images/filaires/filaire-cantine-04.png"
- - "../../images/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: GASTELA0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 388

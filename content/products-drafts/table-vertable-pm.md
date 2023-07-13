@@ -7,13 +7,13 @@ category: Table
 sub_category: 11 Table
 gamme: VERTABLE
 finitions: PM
-cover_image: "../../images/cover_image/table-vertable-pm.jpg"
+cover_image: "../../images/produits/cover_image/table-vertable-pm.jpg"
 caroussel: 
-- "../../images/banquette-elium-parc.jpg"
+- "../../images/produits/banquette-elium-parc.jpg"
 - "../../images/attente-showroom.jpg"
 filaire: 
- - "../../images/filaires/filaire-cantine-04.png"
- - "../../images/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: ENVERTA0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 610

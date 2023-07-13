@@ -25,7 +25,7 @@
           <template #img__marche>
             <g-image
               alt="mains mobilum"
-              src="../../src/assets/img/gare-sncf-grenoble.jpg"
+              src="../../images/references/cover_image/gare-sncf-grenoble.jpg"
               center
               width="1000px"
               fit="cover"
@@ -53,7 +53,7 @@
           <template #img__marche>
             <g-image
               alt="mains mobilum"
-              src="../../src/assets/img/assises-societe-du-grand-paris.png"
+              src="../../images/references/cover_image/assises-societe-du-grand-paris.png"
               center
               width="1000px"
               fit="cover"

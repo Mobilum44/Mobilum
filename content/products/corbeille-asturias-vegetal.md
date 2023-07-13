@@ -7,13 +7,13 @@ category: Corbeille
 sub_category: 13 Corbeille
 gamme: ASTURIAS
 finitions: végétal
-cover_image: "../../images/cover_image/corbeille-asturias-vegetal.jpg"
+cover_image: "../../images/produits/cover_image/corbeille-asturias-vegetal.jpg"
 caroussel: 
-- "../../images/attente-showroom.jpg"
+- "../../images/produits/attente-showroom.jpg"
 - "../../images/attente-showroom.jpg"
 filaire: 
- - "../../images/filaires/filaire-cantine-04.png"
- - "../../images/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: COASTUR0402
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 98

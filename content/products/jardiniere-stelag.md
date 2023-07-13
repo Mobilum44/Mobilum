@@ -7,13 +7,13 @@ category: Jardinière
 sub_category: 93 Jardinière
 gamme: STELAG
 finitions: 
-cover_image: "../../images/cover_image/jardiniere-stelag.jpg"
+cover_image: "../../images/produits/cover_image/jardiniere-stelag.jpg"
 caroussel: 
-- "../../images/galet-jardiniere-stelag-assise.JPG"
+- "../../images/produits/galet-jardiniere-stelag-assise.JPG"
 - "../../images/galet-jardiniere-stelag-fecamp.JPG"
 filaire: 
- - "../../images/filaires/filaire-cantine-04.png"
- - "../../images/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: JASTELA0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 577

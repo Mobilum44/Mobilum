@@ -7,12 +7,12 @@ category: Assise
 sub_category: 05 Banquette
 gamme: BEAM 
 finitions: simple
-cover_image: "../../images/cover_image/banquette-beam.jpg"
+cover_image: "../../images/produits/cover_image/banquette-beam.jpg"
 caroussel: 
-- "../../images/banquette-beam-plage.jpg"
+- "../../images/produits/banquette-beam-plage.jpg"
 filaire: 
- - "../../images/filaires/filaire-cantine-04.png"
- - "../../images/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: BABEAM_0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 260

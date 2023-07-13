@@ -7,12 +7,12 @@ category: Appui-vélos
 sub_category: 18 Appui-vélos
 gamme: YOON 
 finitions: 
-cover_image: "../../images/cover_image/appui-velo-yoon.jpg"
+cover_image: "../../images/produits/cover_image/appui-velo-yoon.jpg"
 caroussel: 
-- "../../images/appuis-velo-yoon.jpg"
+- "../../images/produits/appuis-velo-yoon.jpg"
 filaire: 
- - "../../images/filaires/filaire-cantine-04.png"
- - "../../images/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: AVYOON_0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 28

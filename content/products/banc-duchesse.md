@@ -7,13 +7,13 @@ category: Assise
 sub_category: 06 Banc
 gamme: DUCHESSE 
 finitions: 
-cover_image: "../../images/cover_image/banc-duchesse.jpg"
+cover_image: "../../images/produits/cover_image/banc-duchesse.jpg"
 caroussel: 
-- "../../images/banc-duchesse-bruz.JPG"
+- "../../images/produits/banc-duchesse-bruz.JPG"
 - "../../images/focus-banc-duchesse-bruz.jpg"
 filaire: 
- - "../../images/filaires/filaire-cantine-04.png"
- - "../../images/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: BSDUCHE0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 232

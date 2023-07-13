@@ -7,14 +7,14 @@ category: Assise
 sub_category: 02 Chaise
 gamme: OBRAC 
 finitions: 
-cover_image: "../../images/cover_image/chaise-obrac.jpg"
+cover_image: "../../images/produits/cover_image/chaise-obrac.jpg"
 caroussel: 
-- "../../images/chaises-obrac-la-rochelle.jpg"
+- "../../images/produits/chaises-obrac-la-rochelle.jpg"
 - "../../images/obrac-chaises-la-rochelle-velo.jpg"
 - "../../images/chaises-obrac-place-urbaine.jpg"
 filaire: 
- - "../../images/filaires/filaire-cantine-04.png"
- - "../../images/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: CHOBRAC0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 134

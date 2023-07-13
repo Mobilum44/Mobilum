@@ -7,13 +7,13 @@ category: Borne
 sub_category: 15 Borne
 gamme: LOELLA
 finitions: 
-cover_image: "../../images/cover_image/borne-loella.jpg"
+cover_image: "../../images/produits/cover_image/borne-loella.jpg"
 caroussel: 
-- "../../images/borne-loella-st-nazaire.jpg"
+- "../../images/produits/borne-loella-st-nazaire.jpg"
 - "../../images/borne-fontaine-loella-rouen.jpg"
 filaire: 
- - "../../images/filaires/filaire-cantine-04.png"
- - "../../images/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: FOLOELL0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 117

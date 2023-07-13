@@ -7,12 +7,12 @@ category: Assise
 sub_category: 91 Assise
 gamme: STELAG
 finitions: 
-cover_image: "../../images/cover_image/galet-2-assises.jpg"
+cover_image: "../../images/produits/cover_image/galet-2-assises.jpg"
 caroussel: 
-- "../../images/galet-double-assises-fecamp.JPG"
+- "../../images/produits/galet-double-assises-fecamp.JPG"
 filaire: 
- - "../../images/filaires/filaire-cantine-04.png"
- - "../../images/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: AGSTELA0202
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 411

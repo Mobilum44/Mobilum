@@ -7,12 +7,12 @@ category: Assise
 sub_category: 05 Banquette
 gamme: ORIGAMI
 finitions: 
-cover_image: "../../images/cover_image/banquette-origami.jpg"
+cover_image: "../../images/produits/cover_image/banquette-origami.jpg"
 caroussel: 
-- "../../images/banquette-origami.jpg"
+- "../../images/produits/banquette-origami.jpg"
 filaire: 
- - "../../images/filaires/filaire-cantine-04.png"
- - "../../images/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: BAORIGA0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 163

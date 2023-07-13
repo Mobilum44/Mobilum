@@ -7,12 +7,12 @@ category: Assise
 sub_category: 06 Banc
 gamme: ELIUM
 finitions: 3 dossiers
-cover_image: "../../images/cover_image/banc-elium-3-dossiers.jpg"
+cover_image: "../../images/produits/cover_image/banc-elium-3-dossiers.jpg"
 caroussel: 
-- "../../images/banc-elium-3-dossiers-bretteville.jpg"
+- "../../images/produits/banc-elium-3-dossiers-bretteville.jpg"
 filaire: 
- - "../../images/filaires/filaire-cantine-04.png"
- - "../../images/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: BSELIUM0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 291

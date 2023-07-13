@@ -7,13 +7,13 @@ category: Assise
 sub_category: 06 Banc
 gamme: CARLITA
 finitions: 
-cover_image: "../../images/cover_image/banc-carlita.jpg"
+cover_image: "../../images/produits/cover_image/banc-carlita.jpg"
 caroussel: 
-- "../../images/banquette-elium-parc.jpg"
+- "../../images/produits/banquette-elium-parc.jpg"
 - "../../images/attente-showroom.jpg"
 filaire: 
- - "../../images/filaires/filaire-cantine-04.png"
- - "../../images/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: BSCARLI0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 317

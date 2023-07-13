@@ -7,12 +7,12 @@ category: Corbeille
 sub_category: 13 Corbeille
 gamme: ORIGAMI
 finitions: 
-cover_image: "../../images/cover_image/corbeille-origami.jpg"
+cover_image: "../../images/produits/cover_image/corbeille-origami.jpg"
 caroussel: 
-- "../../images/corbeille-origami-chemin.jpeg"
+- "../../images/produits/corbeille-origami-chemin.jpeg"
 filaire: 
- - "../../images/filaires/filaire-cantine-04.png"
- - "../../images/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: COORIGA0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 111

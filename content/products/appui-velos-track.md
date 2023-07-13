@@ -7,13 +7,13 @@ category: Appui-vélos
 sub_category: 18 Appui-vélos
 gamme: TRACK 
 finitions: 
-cover_image: "../../images/cover_image/appui-velo-track.jpg"
+cover_image: "../../images/produits/cover_image/appui-velo-track.jpg"
 caroussel: 
-- "../../images/appuis-velo-track-st-cyr.jpg"
+- "../../images/produits/appuis-velo-track-st-cyr.jpg"
 - "../../images/focus-appui-velo-track-saint-cyr.jpg"
 filaire: 
- - "../../images/filaires/filaire-cantine-04.png"
- - "../../images/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: AVTRACK0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 28

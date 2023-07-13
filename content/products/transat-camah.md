@@ -7,13 +7,13 @@ category: Transat
 sub_category: 09 Transat
 gamme: CAMAH 
 finitions: 
-cover_image: "../../images/cover_image/transat-camah.jpg"
+cover_image: "../../images/produits/cover_image/transat-camah.jpg"
 caroussel: 
-- "../../images/transat-camah-cucq.JPG"
+- "../../images/produits/transat-camah-cucq.JPG"
 - "../../images/transat-camah-le-trait.jpg"
 filaire: 
- - "../../images/filaires/filaire-cantine-04.png"
- - "../../images/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: TRCAMAH0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 181

@@ -7,12 +7,12 @@ category: Assise
 sub_category: 01 Tabouret
 gamme: ELIUM
 finitions: 
-cover_image: "../../images/cover_image/tabouret-elium.jpg"
+cover_image: "../../images/produits/cover_image/tabouret-elium.jpg"
 caroussel: 
-- "../../images/tabouret-et-banquette-elium.jpg"
+- "../../images/produits/tabouret-et-banquette-elium.jpg"
 filaire: 
- - "../../images/filaires/filaire-cantine-04.png"
- - "../../images/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: TAELIUM0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 94

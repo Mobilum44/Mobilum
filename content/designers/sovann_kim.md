@@ -2,7 +2,7 @@
 name: Sovann Kim
 published: true
 
-cover_image: "../../images/cover_image/banc-obrac.jpg" ./images/banc_stamp_lisse.jpg
+cover_image: "../../images/produits/cover_image/banc-obrac.jpg" ./images/banc_stamp_lisse.jpg
 
 tags: ['Markdown', 'Cover Image']
 series: false

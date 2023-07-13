@@ -7,12 +7,12 @@ category: Assise
 sub_category: 02 Chaise
 gamme: STAMP
 finitions: lisse
-cover_image: "../../images/cover_image/chaise-stamp-lisse.jpg"
+cover_image: "../../images/produits/cover_image/chaise-stamp-lisse.jpg"
 caroussel: 
-- "../../images/banquette-elium-parc.jpg"
+- "../../images/produits/banquette-elium-parc.jpg"
 filaire: 
- - "../../images/filaires/filaire-cantine-04.png"
- - "../../images/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: CHSTAMP0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 132

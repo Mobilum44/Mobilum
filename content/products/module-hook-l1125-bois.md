@@ -7,13 +7,13 @@ category: Module
 sub_category: 03 Module
 gamme: HOOK
 finitions: L1125 bois
-cover_image: "../../images/cover_image/hook-1125-double-alu-compo.jpg"
+cover_image: "../../images/produits/cover_image/hook-1125-double-alu-compo.jpg"
 caroussel: 
-- "../../images/hook-1125-sans-bal-bouaye.jpg"
+- "../../images/produits/hook-1125-sans-bal-bouaye.jpg"
 - "../../images/hook-carquefou-barriere-bois.jpg"
 filaire: 
- - "../../images/filaires/filaire-cantine-04.png"
- - "../../images/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: 
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et bois
 poids: 101

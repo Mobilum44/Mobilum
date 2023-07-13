@@ -7,12 +7,12 @@ category: Appui-vélos
 sub_category: 18 Appui-vélos
 gamme: ORIGAMI
 finitions: 
-cover_image: "../../images/cover_image/appui-velo-origami.jpg"
+cover_image: "../../images/produits/cover_image/appui-velo-origami.jpg"
 caroussel: 
-- "../../images/rangee-appui-velo-origami.jpg"
+- "../../images/produits/rangee-appui-velo-origami.jpg"
 filaire: 
- - "../../images/filaires/filaire-cantine-04.png"
- - "../../images/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: AVORIGA0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 39

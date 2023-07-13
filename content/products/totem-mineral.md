@@ -7,13 +7,13 @@ category: Totem
 sub_category: Totem
 gamme: MINERAL
 finitions: 
-cover_image: "../../images/cover_image/totem-mineral-plein.jpg"
+cover_image: "../../images/produits/cover_image/totem-mineral-plein.jpg"
 caroussel: 
-- "../../images/totem-ulis.jpg"
+- "../../images/produits/totem-ulis.jpg"
 - "../../images/attente-showroom.jpg"
 filaire: 
- - "../../images/filaires/filaire-cantine-04.png"
- - "../../images/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: TOMINER0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 206

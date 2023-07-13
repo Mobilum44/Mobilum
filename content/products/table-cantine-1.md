@@ -7,13 +7,13 @@ category: Table
 sub_category: 11 1 Table
 gamme: CANTINE
 finitions: 01
-cover_image: "../../images/cover_image/table-urbaine-cantine-01.jpg"
+cover_image: "../../images/produits/cover_image/table-urbaine-cantine-01.jpg"
 caroussel: 
-- "../../images/table-cantine-01-neuville-de-poitou.jpg"
+- "../../images/produits/table-cantine-01-neuville-de-poitou.jpg"
 - "../../images/table-cantine-01-parc.jpg"
 filaire: 
- - "../../images/filaires/filaire-cantine-04.png"
- - "../../images/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: TUCANTI0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 423

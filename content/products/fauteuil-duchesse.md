@@ -7,12 +7,12 @@ category: Assise
 sub_category: 03 Fauteuil
 gamme: DUCHESSE 
 finitions: 
-cover_image: "../../images/cover_image/fauteuil-duchesse.jpg"
+cover_image: "../../images/produits/cover_image/fauteuil-duchesse.jpg"
 caroussel: 
-- "../../images/focus-chaise-duchesse.jpg"
+- "../../images/produits/focus-chaise-duchesse.jpg"
 filaire: 
- - "../../images/filaires/filaire-cantine-04.png"
- - "../../images/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: FADUCHE0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 108

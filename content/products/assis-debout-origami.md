@@ -7,12 +7,12 @@ category: Assise
 sub_category: 10 Assis debout
 gamme: ORIGAMI
 finitions: 
-cover_image: "../../images/cover_image/assis-debout-origami.jpg"
+cover_image: "../../images/produits/cover_image/assis-debout-origami.jpg"
 caroussel: 
-- "../../images/rangee-assis-debout-origami.jpg"
+- "../../images/produits/rangee-assis-debout-origami.jpg"
 filaire: 
- - "../../images/filaires/filaire-cantine-04.png"
- - "../../images/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: ADORIGA0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 75

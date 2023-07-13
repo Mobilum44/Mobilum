@@ -77,7 +77,7 @@ export default {
 
 <style scoped>
 .slot_image {
-    background : url("../../images/vasco-de-gama-paris-saclay.jpg") center center no-repeat;
+    background : url("../../images/produits/vasco-de-gama-paris-saclay.jpg") center center no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }

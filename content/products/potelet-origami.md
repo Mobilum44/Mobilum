@@ -7,12 +7,12 @@ category: Potelet
 sub_category: 17 Potelet
 gamme: ORIGAMI
 finitions: 
-cover_image: "../../images/cover_image/potelet-fixe-origami.jpg"
+cover_image: "../../images/produits/cover_image/potelet-fixe-origami.jpg"
 caroussel: 
-- "../../images/passage-pieton-poteau-origami.jpeg"
+- "../../images/produits/passage-pieton-poteau-origami.jpeg"
 filaire: 
- - "../../images/filaires/filaire-cantine-04.png"
- - "../../images/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: POORIGA0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 14
