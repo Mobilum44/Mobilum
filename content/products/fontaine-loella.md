@@ -10,7 +10,7 @@ finitions: 1140
 cover_image: "../../images/produits/cover_image/fontaine-loella.jpg"
 caroussel: 
 - "../../images/produits/fontaine-loella-1100.jpg"
-- "../../images/focus-loella.jpg"
+- "../../images/produits/focus-loella.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
  - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"

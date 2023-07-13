@@ -10,7 +10,7 @@ finitions: PM
 cover_image: "../../images/produits/cover_image/table-vertable-pm.jpg"
 caroussel: 
 - "../../images/produits/banquette-elium-parc.jpg"
-- "../../images/attente-showroom.jpg"
+- "../../images/produits/attente-showroom.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
  - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"

@@ -10,7 +10,7 @@ finitions:
 cover_image: "../../images/produits/cover_image/transat-camah.jpg"
 caroussel: 
 - "../../images/produits/transat-camah-cucq.JPG"
-- "../../images/transat-camah-le-trait.jpg"
+- "../../images/produits/transat-camah-le-trait.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
  - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"

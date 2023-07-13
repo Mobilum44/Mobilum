@@ -2,15 +2,15 @@
   <Section class="AutoSlider">
     <div class="slider-container">
       <div class="slide">
-        <img src="../../src/assets/img/jardinieres-trocadero-paris.jpg">
+        <img src="../../images/references/caroussel/page-entree.jpg">
       </div>
 
       <div class="slide">
-        <img src="../../src/assets/img/jardinieres-trocadero-paris.jpg">
+        <img src="../../images/references/caroussel/page-entree.jpg">
       </div>
 
       <div class="slide">
-        <img src="../../src/assets/img/jardinieres-trocadero-paris.jpg">
+        <img src="../../images/references/caroussel/page-entree.jpg">
       </div>
     </div>
   </Section>

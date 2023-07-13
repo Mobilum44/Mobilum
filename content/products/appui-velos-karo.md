@@ -10,7 +10,7 @@ finitions:
 cover_image: "../../images/produits/cover_image/appuis-velo-karo.jpg"
 caroussel: 
 - "../../images/produits/appui-velo-karo-vicat.jpg"
-- "../../images/appui-velo-karo-le-trait.jpg"
+- "../../images/produits/appui-velo-karo-le-trait.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
  - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"

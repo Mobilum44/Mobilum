@@ -10,7 +10,7 @@ finitions:
 cover_image: "../../images/produits/cover_image/banc-perron-stoop.jpg"
 caroussel: 
 - "../../images/produits/banc-perron-stoop-ecouflant.jpg"
-- "../../images/stoop-sorbonne.jpg"
+- "../../images/produits/stoop-sorbonne.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
  - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"

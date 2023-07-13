@@ -10,7 +10,7 @@ finitions: lisse
 cover_image: "../../images/produits/cover_image/jardiniere-asturias-carree-lisse.jpg"
 caroussel: 
 - "../../images/produits/jardiniere-asturias-carree-vegetale.png"
-- "../../images/jardiniere-asturias-carree-vegetale-gros-plan.jpg"
+- "../../images/produits/jardiniere-asturias-carree-vegetale-gros-plan.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
  - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"

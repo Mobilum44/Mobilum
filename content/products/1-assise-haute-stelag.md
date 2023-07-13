@@ -10,7 +10,7 @@ finitions:
 cover_image: "../../images/produits/cover_image/galet-1-assise-L.jpg"
 caroussel: 
 - "../../images/produits/galet-haut-une-assise-stelag-rouen.JPG"
-- "../../images/galet-haut-stelag-une-assise.JPG"
+- "../../images/produits/galet-haut-stelag-une-assise.JPG"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
  - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"

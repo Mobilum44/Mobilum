@@ -10,7 +10,7 @@ finitions: 01
 cover_image: "../../images/produits/cover_image/table-urbaine-cantine-01.jpg"
 caroussel: 
 - "../../images/produits/table-cantine-01-neuville-de-poitou.jpg"
-- "../../images/table-cantine-01-parc.jpg"
+- "../../images/produits/table-cantine-01-parc.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
  - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"

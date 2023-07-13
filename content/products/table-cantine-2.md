@@ -9,9 +9,9 @@ gamme: CANTINE
 finitions: 02
 cover_image: "../../images/produits/cover_image/table-urbaine-cantine-02.jpg"
 caroussel: 
-#- "../../images/table-cantine-02-le-trait.jpg"
-- "../../images/table-cantine-02-le-trait-v2.jpg"
-- "../../images/table-cantine-02-vernon.jpg"
+#- "../../images/produits/table-cantine-02-le-trait.jpg"
+- "../../images/produits/table-cantine-02-le-trait-v2.jpg"
+- "../../images/produits/table-cantine-02-vernon.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
  - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"

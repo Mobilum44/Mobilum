@@ -10,7 +10,7 @@ finitions:
 cover_image: "../../images/produits/cover_image/jardiniere-stelag.jpg"
 caroussel: 
 - "../../images/produits/galet-jardiniere-stelag-assise.JPG"
-- "../../images/galet-jardiniere-stelag-fecamp.JPG"
+- "../../images/produits/galet-jardiniere-stelag-fecamp.JPG"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
  - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"

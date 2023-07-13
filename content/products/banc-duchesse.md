@@ -10,7 +10,7 @@ finitions:
 cover_image: "../../images/produits/cover_image/banc-duchesse.jpg"
 caroussel: 
 - "../../images/produits/banc-duchesse-bruz.JPG"
-- "../../images/focus-banc-duchesse-bruz.jpg"
+- "../../images/produits/focus-banc-duchesse-bruz.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
  - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"

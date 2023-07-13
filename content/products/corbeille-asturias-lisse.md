@@ -10,7 +10,7 @@ finitions: lisse
 cover_image: "../../images/produits/cover_image/corbeille-asturias-lisse.jpg"
 caroussel: 
 - "../../images/produits/corbeille-asturias-lisse-chemille-en-anjou.jpg"
-- "../../images/corbeille-asturias-lisse-raismes.jpg"
+- "../../images/produits/corbeille-asturias-lisse-raismes.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
  - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"

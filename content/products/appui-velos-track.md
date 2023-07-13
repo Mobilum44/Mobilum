@@ -10,7 +10,7 @@ finitions:
 cover_image: "../../images/produits/cover_image/appui-velo-track.jpg"
 caroussel: 
 - "../../images/produits/appuis-velo-track-st-cyr.jpg"
-- "../../images/focus-appui-velo-track-saint-cyr.jpg"
+- "../../images/produits/focus-appui-velo-track-saint-cyr.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
  - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"

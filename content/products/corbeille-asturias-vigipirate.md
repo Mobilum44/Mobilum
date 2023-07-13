@@ -10,7 +10,7 @@ finitions: VIGIPIRATE
 cover_image: "../../images/produits/cover_image/corbeille-asturias-vigipirate.jpg"
 caroussel: 
 - "../../images/produits/corbeille-asturias-vigipirate-joncherolles.jpg"
-- "../../images/attente-showroom.jpg"
+- "../../images/produits/attente-showroom.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
  - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"

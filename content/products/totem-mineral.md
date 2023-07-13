@@ -10,7 +10,7 @@ finitions:
 cover_image: "../../images/produits/cover_image/totem-mineral-plein.jpg"
 caroussel: 
 - "../../images/produits/totem-ulis.jpg"
-- "../../images/attente-showroom.jpg"
+- "../../images/produits/attente-showroom.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
  - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"

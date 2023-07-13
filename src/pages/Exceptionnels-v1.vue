@@ -82,7 +82,7 @@
           <template #img__marche>
             <g-image
               alt="mains mobilum"
-              src="../../src/assets/img/jardinieres-trocadero-paris.jpg"
+              src="../../images/references/cover_image/jardinieres-trocadero-paris.jpg"
               center
               width="1000px"
               fit="cover"
@@ -104,7 +104,7 @@
           <template #img__marche>
             <g-image
               alt="mains mobilum"
-              src="../../src/assets/img/crous-nantes.png"
+              src="../../images/references/cover_image/crous-nantes.png"
               center
               width="1000px"
               fit="cover"
@@ -126,7 +126,7 @@
           <template #img__marche>
             <g-image
               alt="mains mobilum"
-              src="../../src/assets/img/mobilum-piano-rezzo-ecole-normale-superieure-ens.jpg"
+              src="../../images/references/cover_image/mobilum-piano-rezzo-ecole-normale-superieure-ens.jpg"
               center
               width="1000px"
               fit="cover"
@@ -154,7 +154,7 @@
           <template #img__marche>
             <g-image
               alt="mains mobilum"
-              src="../../src/assets/img/sorbonne-universite-amphi-stoop-cube.jpg"
+              src="../../images/references/cover_image/sorbonne-universite-amphi-stoop-cube.jpg"
               center
               width="1000px"
               fit="cover"
@@ -176,7 +176,7 @@
           <template #img__marche>
             <g-image
               alt="table infinie vertou"
-              src="../../src/assets/img/projet-vertable-tables-vertou.jpg"
+              src="../../images/references/cover_image/projet-vertable-tables-vertou.jpg"
               center
               width="1000px"
               fit="cover"
@@ -199,7 +199,7 @@
           <template #img__marche>
             <g-image
               alt="mains mobilum"
-              src="../../src/assets/img/carnon-transats-mila2.jpg"
+              src="../../images/references/cover_image/carnon-transats-mila2.jpg"
               center
               width="1000px"
               fit="cover"
@@ -222,7 +222,7 @@
           <template #img__marche>
             <g-image
               alt="mains mobilum"
-              src="../../src/assets/img/paris-saclay-tolerie-foreizienne-exceptionnel.jpg"
+              src="../../images/references/cover_image/paris-saclay-tolerie-foreizienne-exceptionnel.jpg"
               center
               width="1000px"
               fit="cover"
@@ -244,7 +244,7 @@
           <template #img__marche>
             <g-image
               alt="mains mobilum"
-              src="../../src/assets/img/feuille-roquefer.jpg"
+              src="../../images/references/cover_image/feuille-roquefer.jpg"
               center
               width="1000px"
               fit="cover"

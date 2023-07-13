@@ -10,8 +10,8 @@ finitions:
 cover_image: "../../images/produits/cover_image/chaise-elium.jpg"
 caroussel: 
 - "../../images/produits/chaise-elium-trio-bretteville.jpg"
-- "../../images/chaise-elium-banc-elium.jpg"
-- "../../images/chaise-elium-trio.jpg"
+- "../../images/produits/chaise-elium-banc-elium.jpg"
+- "../../images/produits/chaise-elium-trio.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
  - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"

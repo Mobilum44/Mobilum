@@ -10,7 +10,7 @@ finitions: végétal
 cover_image: "../../images/produits/cover_image/jardiniere-asturias-ronde-vegetal.jpg"
 caroussel: 
 - "../../images/produits/jardiniere-ronde-lisse-asturias-grandville.jpg"
-- "../../images/jardiniere-asturias-ronde-vegetale.jpg"
+- "../../images/produits/jardiniere-asturias-ronde-vegetale.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
  - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"

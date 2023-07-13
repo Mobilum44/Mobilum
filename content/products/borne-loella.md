@@ -10,7 +10,7 @@ finitions:
 cover_image: "../../images/produits/cover_image/borne-loella.jpg"
 caroussel: 
 - "../../images/produits/borne-loella-st-nazaire.jpg"
-- "../../images/borne-fontaine-loella-rouen.jpg"
+- "../../images/produits/borne-fontaine-loella-rouen.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
  - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"

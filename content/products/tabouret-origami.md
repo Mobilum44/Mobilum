@@ -10,7 +10,7 @@ finitions:
 cover_image: "../../images/produits/cover_image/tabouret-origami.jpg"
 caroussel: 
 - "../../images/produits/chemin-tabouret-origami.jpeg"
-- "../../images/tabourets-origami-proville.jpg"
+- "../../images/produits/tabourets-origami-proville.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
  - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"

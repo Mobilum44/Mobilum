@@ -10,7 +10,7 @@ finitions: L1125 bois
 cover_image: "../../images/produits/cover_image/hook-1125-double-alu-compo.jpg"
 caroussel: 
 - "../../images/produits/hook-1125-sans-bal-bouaye.jpg"
-- "../../images/hook-carquefou-barriere-bois.jpg"
+- "../../images/produits/hook-carquefou-barriere-bois.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
  - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"

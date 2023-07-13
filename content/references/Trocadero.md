@@ -5,11 +5,11 @@ published: TRUE
 
 gamme: YOON 
 
-cover_image: "../../src/assets/img/jardinieres-trocadero-paris.jpg"
+cover_image: "../../images/references/cover_image/jardinieres-trocadero-paris.jpg"
 cover_text: "Les jardinières du Troca"
 
 caroussel: 
-- "../../src/assets/img/jardinieres-trocadero-paris.jpg"
+- "../../images/references/caroussel/page-entree.jpg"
 
 localisation : "Place du Trocadero, Paris"
 moe : "?"
