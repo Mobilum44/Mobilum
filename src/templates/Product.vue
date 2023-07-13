@@ -275,10 +275,6 @@ h1 {
   flex-direction: column;
   align-items: center;
 }
-
-em {
-	color: #1a949d;
-}
 .color_square{
   height : 10vh;
   width : 10vh

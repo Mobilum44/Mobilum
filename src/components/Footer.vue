@@ -91,7 +91,7 @@
     <div class="legal">
       <p class="coordonnées">
         &copy; Mobilum 2022. Tous droits réservés. Fait avec
-        <em>♥</em> par Elise Hallet et Leo Olivier.
+        <em class="heart">♥</em> par Elise Hallet et Leo Olivier.
       </p>
     </div>
   </footer>
@@ -117,7 +117,7 @@ export default {
   box-sizing: border-box;
 }
 
-em {
+.heart {
   font-style: normal;
   color: #f56d91;
 }

@@ -8,7 +8,8 @@ module.exports = {
   siteName: "Gridsome",
   templates: {
     Product: "/produit/:title",
-    Collection: "/collection/:id"
+    Collection: "/collection/:id",
+    Reference: "/reference/:title"
   },
 
   plugins: [
@@ -25,6 +26,14 @@ module.exports = {
             create: true
           }
         }
+      }
+    },
+    {
+      // Create posts from markdown files
+      use: "@gridsome/source-filesystem",
+      options: {
+        typeName: "Reference",
+        path: "content/references/*.md",
       }
     }
   ]

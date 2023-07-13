@@ -2,15 +2,15 @@
   <Section class="AutoSlider">
     <div class="slider-container">
       <div class="slide">
-        <img src="http://res.cloudinary.com/hurricane10/image/upload/v1499778218/img-26_aw9alb.jpg">
+        <img src="../../src/assets/img/jardinieres-trocadero-paris.jpg">
       </div>
 
       <div class="slide">
-        <img src="http://res.cloudinary.com/hurricane10/image/upload/v1499778117/img-23_pumtse.jpg">
+        <img src="../../src/assets/img/jardinieres-trocadero-paris.jpg">
       </div>
 
       <div class="slide">
-        <img src="http://res.cloudinary.com/hurricane10/image/upload/v1499778109/img-20_ljchnk.jpg">
+        <img src="../../src/assets/img/jardinieres-trocadero-paris.jpg">
       </div>
     </div>
   </Section>
@@ -25,21 +25,20 @@
 }
 
 .AutoSlider {
+  border : solid black;
   position: relative;
-  width: 60vw;
-  height: 60vh;
-
-  /*
-  width: 100vw;
-  height: 400px; */
+  width : 50vw;
+  height : 100%;
+  overflow : hidden;
 }
 .AutoSlider .slider-container {
   position: absolute;
+  height : 100%;
   width: 300%;
   top: 0;
   left: 0;
-  overflow: clip;
-  animation: slider 26s infinite;
+  animation: slider 15s infinite;
+  object-fit : contain;
 }
 .AutoSlider .slider-container .slide {
   position: relative;

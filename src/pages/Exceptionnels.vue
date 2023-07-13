@@ -16,10 +16,38 @@
       </div>
     </section>
 
-    <div class="sub__section">
-      <g-link to="/Project/">
-        Test page projet
-      </g-link>
+    <div class="sub__section__market">
+      <ul>
+        <li
+          v-for="edge in $page.references.edges"
+          :key="edge.node.id"
+          class="card"
+        >
+          <g-link :to="edge.node.path">
+            <CarteMarches>
+              <template #img__marche>
+                <g-image :src="edge.node.cover_image" />
+              </template>
+
+              <template #titre__marche>
+                <h3> {{ edge.node.title }}</h3>
+              </template>
+
+              <template #texte__marche>
+                <p>
+                  {{ edge.node.cover_text }}
+                </p>
+                <!-- <Button
+                    theme="transparent"
+                    to="/Project/"
+                  >
+                    Découvrir
+                  </Button>-->
+              </template>
+            </CarteMarches>
+          </g-link>
+        </li>
+      </ul>
     </div>
 
     <p class="referencement">
@@ -38,15 +66,31 @@ réalisations exceptionnelles qui inspirent et marquent les esprits. <br /><br /
   </Layout>
 </template>
 
-
+<page-query>
+query {
+  references: allReference {
+    edges {
+      node {
+        id
+        title
+        cover_image
+        cover_text
+        path
+      }
+    }
+  }
+}
+</page-query>
 
 <script>
 import Layout from "@/layouts/LayoutAccueil.vue";
+import CarteMarches from "@/components/CarteMarches.vue";
 import Button from "@/components/Button.vue";
 
 export default {
   components: {
     Layout,
+    CarteMarches,
     Button,
   },
 
@@ -63,6 +107,19 @@ h2 {
 
 .chapeau {
   width : 70%;
+}
+
+.sub__section__market {
+  width : 100%;
+  border : solid pink;
+  margin-top : 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-gap: 2rem;
+}
+.card {
+  border : solid blue;
 }
 .sub__section__content {
   gap : 1rem;
