@@ -7,10 +7,9 @@ category: Totem
 sub_category: Totem rue
 gamme: ORIGAMI
 finitions: 
-cover_image: "../../images/produits/cover_image/banc-obrac.jpg"
+cover_image: "../../images/produits/cover_image/totem-origami-rue.jpg"
 caroussel: 
-- "../../images/produits/banquette-elium-parc.jpg"
-- "../../images/produits/attente-showroom.jpg"
+- "../../images/produits/totem-rue-origami.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
  - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"

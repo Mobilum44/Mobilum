@@ -718,7 +718,6 @@
 }
 .card__caption p {
   height : 200px;
-  border : solid blue;
   font-family: "Roboto", sans-serif;
   color : white;
   transition: 0.5s ease-in-out;

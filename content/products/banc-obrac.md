@@ -10,6 +10,8 @@ finitions:
 cover_image: "../../images/produits/cover_image/banc-obrac.jpg"
 caroussel: 
 - "../../images/produits/banc-obrac-la-rochelle.jpg"
+- "../../images/produits/banc-obrac-la-roche-sur-yon.jpg"
+- "../../images/produits/deux-banc-obrac-la-roche-sur-yon.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
  - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"

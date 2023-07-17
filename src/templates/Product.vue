@@ -30,10 +30,18 @@
       <h2>Caractéristiques</h2>
 
       <div class="sub__section__content">
-        <p>
+        <div>
           Trouver pourquoi filaire marche pas
+          <!--
+          <g-image
+            class="filaire"
+            alt="photo mobilier urbain"
+            :src="$page.product.filaire"
+          />
           <Filaire :img="$page.product.filaire" />
-        </p>
+
+          -->
+        </div>
         <p>
           <em>Matériau :</em> : {{ $page.product.materiau }}<br> 
           <em>Poids</em> : {{ $page.product.poids }}kg<br> 
@@ -42,7 +50,9 @@
         </p>
       </div>
       <div class="sub__section__content">
-        <p class="description">{{ $page.product.description }}</p>
+        <p class="description">
+          {{ $page.product.description }}
+        </p>
       </div>
     </section>
 
@@ -58,7 +68,7 @@
               <g-image
                 class="color_square"
                 alt="couleur du BFUP Mobilum"
-                src="../assets/img/color-2.png"
+                src="../assets/img/couleur-bfup-gris-fonce.jpg"
                 center
                 width="200vw"
                 fit="cover"
@@ -69,7 +79,7 @@
               <g-image
                 class="color_square"
                 alt="couleur du BFUP Mobilum"
-                src="../assets/img/color-2.png"
+                src="../assets/img/couleur-bfup-blanc.jpg"
                 center
                 width="200vw"
                 fit="cover"
@@ -88,7 +98,7 @@
               <g-image
                 class="color_square"
                 alt="couleur du BFUP Mobilum"
-                src="../assets/img/color-2.png"
+                src="../assets/img/couleur-bfup-taupe.jpg"
                 center
                 width="200vw"
                 fit="cover"
@@ -99,7 +109,7 @@
               <g-image
                 class="color_square"
                 alt="couleur du BFUP Mobilum"
-                src="../assets/img/color-2.png"
+                src="../assets/img/couleur-bfup-rose.jpg"
                 center
                 width="200vw"
                 fit="cover"
@@ -110,7 +120,7 @@
               <g-image
                 class="color_square"
                 alt="couleur du BFUP Mobilum"
-                src="../assets/img/color-2.png"
+                src="../assets/img/couleur-bfup-bleu.jpg"
                 center
                 width="200vw"
                 fit="cover"
@@ -145,6 +155,7 @@ query Product ($id: ID!) {
     title
     gamme
     designer
+    filaire
     caroussel
     materiau
     poids
@@ -223,6 +234,13 @@ h1 {
   margin-top : 1rem;
 	padding-bottom: 1rem;
 	margin-bottom: 1rem;
+}
+
+/*-----------------------------------------------------------------
+      Zone filaire
+  ---------------------------------------------------------------*/
+.filaire {
+  border : solid black
 }
 
 /*-----------------------------------------------------------------

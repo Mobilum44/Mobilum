@@ -1,11 +1,13 @@
 <template>
   <div class="Filaire">
     <div class="filaire__container">
+      <!--
       <g-image
         v-if="edge.node.filaire"
         alt="photo mobilier urbain"
         :src="edge.node.filaire"
       />
+      -->
     </div>
   </div>
 </template>
@@ -31,6 +33,7 @@ query Collection ($id: ID!) {
  
 <style scoped>
 .filaire__container {
+  border : solid blue;
   margin : 0;
   position: relative;
   overflow: hidden;

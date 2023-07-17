@@ -9,8 +9,8 @@ gamme: CARLITA
 finitions: 
 cover_image: "../../images/produits/cover_image/banc-carlita.jpg"
 caroussel: 
-- "../../images/produits/banquette-elium-parc.jpg"
-- "../../images/produits/attente-showroom.jpg"
+- "../../images/produits/banquette-carlita-place.jpg"
+- "../../images/produits/banquette-carlita-face.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
  - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"

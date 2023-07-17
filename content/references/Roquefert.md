@@ -14,10 +14,10 @@ caroussel:
 
 
 localisation : "Chemin Roquefere"
-moe : "?"
-moa : "?"
+moe : "nom/société"
+moa : "nom/société"
 fabricant : "Mobilum"
 date_realisation : "?"
 
-description: "Coucou "
+description: "Ici, un texte de description. A voir ce qui va être raconté : beaucoup de détails ? Histoire succinte ? "
 ---

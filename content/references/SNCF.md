@@ -19,5 +19,5 @@ moa : "Synthèse"
 fabricant : "Mobilum"
 date_realisation : "Depuis 2019"
 
-description: "Coucou "
+description: "Ici, un texte de description. A voir ce qui va être raconté : beaucoup de détails ? Histoire succinte ? "
 ---

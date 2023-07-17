@@ -2,13 +2,28 @@
   <Section class="AutoSlider">
     <div class="slider-container">
       <div class="slide">
+        <!-- 
         <g-image
           fit="cover"
           height="80vh"
           :src="path"
           :id="`slide-${i}`"
         />
+        -->
+        <g-image
+          src="../../images/references/caroussel/page-entree.jpg"
+        />
       </div>
+
+      <div class="slide">
+        <g-image src="@/assets/img/design-mobilum.jpg" />
+      </div>
+
+      <div class="slide">
+        <g-image src="@/assets/img/banc-feuille-roquefert-mobilum.png" />
+      </div>
+
+
     </div>
   </Section>
 </template>

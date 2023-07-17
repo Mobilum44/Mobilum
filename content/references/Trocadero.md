@@ -14,8 +14,8 @@ caroussel:
 
 
 localisation : "Place du Trocadero, Paris"
-moe : "?"
-moa : "?"
+moe : "nom/société"
+moa : "nom/société"
 fabricant : "Mobilum"
 date_realisation : "2022"
 

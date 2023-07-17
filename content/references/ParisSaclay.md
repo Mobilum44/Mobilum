@@ -12,10 +12,10 @@ caroussel:
 - "../../images/references/caroussel/page-entree.jpg"
 
 localisation : "Campus Malesherbes, Sorbonne Université"
-moe : "?"
-moa : "?"
+moe : "nom/société"
+moa : "nom/société"
 fabricant : "Mobilum"
 date_realisation : "?"
 
-description: "Coucou "
+description: "Ici, un texte de description. A voir ce qui va être raconté : beaucoup de détails ? Histoire succinte ? "
 ---

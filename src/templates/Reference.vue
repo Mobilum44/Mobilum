@@ -2,13 +2,15 @@
   <Layout>
     <div class="sub__section wide">
       <div class="sub__section__content text">
-        <Button
-          theme="arrow"
-          to="/Exceptionnels/"  
-        >
-          ⇦
-        </Button>
-        <h1> \ {{ $page.reference.title }} </h1>
+        <div>
+          <Button
+            theme="arrow"
+            to="/Exceptionnels/"  
+          >
+            ⇦
+          </Button>
+          <h1> \ <br /> {{ $page.reference.title }} </h1>
+        </div>
         <div class="chapeau">
           <p>
             <em>Localisation</em> : {{ $page.reference.localisation }} <br />
@@ -24,15 +26,18 @@
             </div>
           </div>
         </div>
-        <p class="description__projet">
-          {{ $page.reference.description }}
-        </p>
       </div>
       <div class="sub__section__content">
         <div class="slider">
           <AutoSlider :img="$page.reference.caroussel" />
         </div>
       </div>
+    </div>
+
+    <div class="projet">
+      <p class="description__projet">
+        {{ $page.reference.description }}
+      </p>
     </div>
   </Layout>
 </template>
@@ -80,12 +85,18 @@
     width : 50%;
 }*/
 
+.arrow {
+  position  : absolute;
+  top : 20vh;
+  left : 3vw;
+}
 h1 {
-  color : black;
+    color : black;
     border : none;
     text-align: center;
-    font-size: 200%;
-    margin-top : 0;
+    font-size: 300%;
+    margin : 0;
+
 }
 
 .sub__section {
@@ -97,6 +108,8 @@ h1 {
 .sub__section__content {
     width : 50vw;
     flex-direction : column;
+    align-items: center;
+    justify-content: center;
 }
 .text{
     padding : 2rem;
@@ -104,6 +117,7 @@ h1 {
     padding-bottom : 0;
 }
 .chapeau {
+  width : 80%;
   display : flex;
   flex-direction: column;
   align-items: center;
@@ -113,7 +127,7 @@ h1 {
   padding : 1rem;
 }
 .chapeau div {
-  width : 80%;
+  width : 100%;
 }
 .chapeau p {
   margin-top : 0;
@@ -142,7 +156,17 @@ margin : 0;
     object-fit: fit;
 }
 
+.projet {
+  width : 100%;
+  height : 40vh;
+  margin : 0;
+  display : flex;
+  flex-direction : column;
+  justify-content: center;
+  align-items : center;
+}
 .description__projet {
+  width : 80%;
   background-attachment: scroll;
     overflow : scroll;
     overflow-x : hidden;

@@ -21,5 +21,5 @@ dimensions:
 format: Multibloc
 traitement: ""
 tags: 
-description: ""
+description: "Options possibles : Profondeur simple ou double. Choix des portes : Bois / Alu composite. Avec ou sans boite aux lettres."
 ---
