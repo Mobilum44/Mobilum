@@ -142,7 +142,7 @@ Zone haute du footer
 
 .content_top {
   border-top: #fefcf3 solid 1px;
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-left: 7rem;
   padding-right: 7rem;
   display: flex;
@@ -169,7 +169,6 @@ Colonne de gauche
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  align-items: flex-end;
   gap: 10px;
 }
 
@@ -336,7 +335,7 @@ Zone basse du footer
 
 .legal {
   border-top: #fefcf3 solid 1px;
-  margin-top: 2rem;
+  margin-top: 1rem;
   padding: 1rem;
   display: flex;
   justify-content: center;

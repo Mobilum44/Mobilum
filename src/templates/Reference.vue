@@ -1,14 +1,14 @@
 <template>
   <Layout>
     <div class="sub__section wide">
+      <Button
+        theme="arrow"
+        to="/Exceptionnels/"  
+      >
+        ⇦
+      </Button>
       <div class="sub__section__content text">
         <div>
-          <Button
-            theme="arrow"
-            to="/Exceptionnels/"  
-          >
-            ⇦
-          </Button>
           <h1> \ <br /> {{ $page.reference.title }} </h1>
         </div>
         <div class="chapeau">
@@ -23,6 +23,7 @@
             <div>
               <p><em>Fabricant</em> : {{ $page.reference.fabricant }} <br /></p>
               <p> <em>Date de réalisation</em> : {{ $page.reference.date_realisation }} <br /></p>
+              <b><br />Les images sont distordues</b>
             </div>
           </div>
         </div>
@@ -90,6 +91,7 @@
   top : 20vh;
   left : 3vw;
 }
+
 h1 {
     color : black;
     border : none;
@@ -100,13 +102,13 @@ h1 {
 }
 
 .sub__section {
-    height : 90vh;
+    height : 100vh;
     margin-top : 15vh;
     display : flex;
     flex-direction : row;
 }
 .sub__section__content {
-    width : 50vw;
+    width : 100%;
     flex-direction : column;
     align-items: center;
     justify-content: center;
@@ -115,6 +117,7 @@ h1 {
     padding : 2rem;
     height : 100%;
     padding-bottom : 0;
+    background-color: #f5ebe0;
 }
 .chapeau {
   width : 80%;
@@ -150,10 +153,9 @@ margin : 0;
 }
 
 .slider {
-    width : 50vw;
-    height : 100%;
-    background-image: url("../assets/img/angers_tram.jpg");
-    object-fit: fit;
+  width : 100%;
+  height : 100%;
+  background-image: url("../assets/img/angers_tram.jpg") cover;
 }
 
 .projet {

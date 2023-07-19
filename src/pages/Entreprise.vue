@@ -133,7 +133,7 @@
   --------------------------------------------------->
 
     <div class="sub__section center wide">
-      <p> Corriger les descriptions + essayer de faire en sorte que ca soit infini pour de vrai</p>
+      <b> Corriger les descriptions + essayer de faire en sorte que ca soit infini pour de vrai</b>
       <!-- <h2> Bla bla bla </h2> -->
       <Card />
       <Villes />
@@ -245,7 +245,7 @@ article {
   margin : 0;
 }
 .section__side {
-  height : 90vh;
+  height : 100vh;
   display : flex;
   flex-direction : column;
   justify-content: flex-end;

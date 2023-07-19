@@ -48,6 +48,15 @@ margin : 0;
 
 }
 
+
+a {
+  cursor : pointer;
+}
+
+b{
+  color : red;
+}
+
 h1 {
   width : 60%;
   padding : 4rem 4rem 1rem 4rem;
@@ -76,6 +85,15 @@ p {
   color: black;
 }
 
+strong {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+em {
+	color: #1a949d;
+}
 
 .shadow {
   box-shadow: rgba(50, 50, 93, 0.8) 0px 2px 5px -1px, rgba(0, 0, 0, 0.8) 0px 1px 3px -1px;
@@ -86,10 +104,6 @@ p {
 ::selection {
   color: #fefcf3;
   background: #1a949d;
-}
-
-a {
-  cursor : pointer;
 }
 
 .chapeau {
@@ -108,15 +122,7 @@ a {
 }
 
 
-strong {
-  font-family: "Montserrat";
-  font-weight: 400;
-  font-size: 1.5rem;
-}
 
-em {
-	color: #1a949d;
-}
 /* ------------------------------------------------------------------------------------------
 
             Styles de sous-sections

@@ -22,8 +22,6 @@
       <div class="slide">
         <g-image src="@/assets/img/banc-feuille-roquefert-mobilum.png" />
       </div>
-
-
     </div>
   </Section>
 </template>
@@ -37,9 +35,9 @@
 }
 
 .AutoSlider {
-  position: relative;
-  width : 50vw;
+  width : 100%;
   height : 100%;
+  position: relative;
   overflow : hidden;
 }
 .AutoSlider .slider-container {
@@ -49,7 +47,6 @@
   top: 0;
   left: 0;
   animation: slider 15s infinite;
-  object-fit :cover;
 }
 .AutoSlider .slider-container .slide {
   position: relative;

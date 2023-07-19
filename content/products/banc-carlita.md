@@ -9,6 +9,7 @@ gamme: CARLITA
 finitions: 
 cover_image: "../../images/produits/cover_image/banc-carlita.jpg"
 caroussel: 
+- "../../images/produits/assemblage-carlita.png"
 - "../../images/produits/banquette-carlita-place.jpg"
 - "../../images/produits/banquette-carlita-face.jpg"
 filaire: 

@@ -37,7 +37,7 @@ img {
 }
 
 .Empty {
-  background : url("../assets/img/camah-gros-plan.jpg") center center no-repeat;
+  background : url("../assets/img/fond-accueil.jpg") center center no-repeat;
   background-size: cover;
   height: 100vh;
   display: flex;

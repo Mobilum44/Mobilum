@@ -84,7 +84,7 @@ export default {
 Header {
   top :0;
   width : 100%;
-  background-color : #fefcf3;
+  background-color: rgb(254,252,243,0.7);
   position : fixed;
   margin-top: 0rem;
   /*background-color: rgb(26, 148, 157, 0.6);
@@ -93,7 +93,7 @@ Header {
 }
 
 .header_content {
-    background-color : #fefcf3;
+  background-color: rgb(254,252,243,0.7);
   top : 0;
   padding-top : 3rem;
   padding-right: 3rem;
@@ -167,7 +167,6 @@ Header {
 .header .menu-icon {
   cursor: pointer;
   display: inline-block;
-  float: right;
   padding: 28px 20px;
   position: relative;
   user-select: none;

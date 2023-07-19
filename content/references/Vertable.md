@@ -19,5 +19,5 @@ moa : "nom/société"
 fabricant : "Mobilum"
 date_realisation : "?"
 
-description: "Ici, un texte de description. A voir ce qui va être raconté : beaucoup de détails ? Histoire succinte ? "
+description: "Coucou "
 ---

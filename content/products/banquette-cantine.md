@@ -9,8 +9,8 @@ gamme: CANTINE
 finitions: 
 cover_image: "../../images/produits/cover_image/banquette-cantine.jpg"
 caroussel: 
-- "../../images/produits/banquette-elium-parc.jpg"
-- "../../images/produits/attente-showroom.jpg"
+- "../../images/produits/banquette-cantine-parc-focus.jpg"
+- "../../images/produits/banquette-cantine-vert.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
  - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"

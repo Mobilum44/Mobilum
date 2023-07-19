@@ -10,6 +10,7 @@ finitions:
 cover_image: "../../images/produits/cover_image/totem-origami-rue.jpg"
 caroussel: 
 - "../../images/produits/totem-rue-origami.jpg"
+- "../../images/produits/totem-rue-origami-passage-pieton-flou.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
  - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"

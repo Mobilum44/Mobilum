@@ -5,8 +5,9 @@ Partie en attente de développement complet du site
 -------------------------------------------------->
 
     <template #slot_image>
-      <section class="bandeau">
+      <section class="bandeau wide">
         <div class="bandeau_content">
+          <!---
           <g-image
             class="logo"
             alt="Logo mobilum"
@@ -14,47 +15,50 @@ Partie en attente de développement complet du site
             width="200"
             center
           />
-        
-          <h1> Notre site internet fait peau neuve ! </h1>
+        -->
+
+          <!--------------------------------
+    Citation - Supprimée pour le moment.
+--------------------------------->
+          <div class="section">
+            <p class="quote">
+              <span>Pourquoi&thinsp;</span>
+              <span>pas&thinsp;</span>
+              <span>commencer&thinsp;</span>
+              <span>avec&thinsp; </span>
+              <span>une&thinsp; </span>
+              <span>citation &thinsp;</span>
+              <span>inspirante&thinsp; </span>
+              <span>ou &thinsp; </span>
+              <span>originale&thinsp; </span>
+              <span>?&thinsp; </span>
+              <!---     <span>soit&thinsp; </span>
+        <span>plus&thinsp; </span>
+        <span>longue &thinsp;</span>
+        <span>!&thinsp; </span>
+        <span>!&thinsp; </span>
+        <span>!&thinsp; </span>-->
+            </p>
+          </div>
         </div>
-        <p>
-          Nous avons le plaisir de vous présenter nos réalisations et notre histoire sous un nouveau format. <br>
-          Le site est en cours de finalisation mais vous pouvez déjà accéder à l’ensemble de notre offre et nous contacter. <br>
-          Nous avons hâte de vous le présenter terminé et espérons qu’en attendant vous prendrez plaisir à découvrir ou redécouvrir notre collection !
-        </p>
       </section>
     </template>
-    
+
+
+    <template>
+      <h1> Notre site internet fait peau neuve ! </h1>
+      <p>
+        Nous avons le plaisir de vous présenter nos réalisations et notre histoire sous un nouveau format. <br>
+        Le site est en cours de finalisation mais vous pouvez déjà accéder à l’ensemble de notre offre et nous contacter. <br>
+        Nous avons hâte de vous le présenter terminé et espérons qu’en attendant vous prendrez plaisir à découvrir ou redécouvrir notre collection !
+      </p>
+    </template>
     <!--------------------------------
   PARTIE A DEVELOPPER PLUS TARD
   Mise en page : Cartes RS avec texte en dessous, 3 directement affichés
 --------------------------------->
 
-    <!--------------------------------
-    Citation - Supprimée pour le moment.
---------------------------------->
-    <!--
-        <div class="section">
-      <p class="quote">
-        <span>Une&thinsp;</span>
-        <span>jolie&thinsp;</span>
-        <span>citation&thinsp;</span>
-        <span>inspirante&thinsp; </span>
-        <span>avec&thinsp; </span>
-        <span>des &thinsp;</span>
-        <span>mots&thinsp; </span>
-        <span>ajoutés&thinsp; </span>
-        <span>pour&thinsp; </span>
-        <span>qu'elle&thinsp; </span>
-        <span>soit&thinsp; </span>
-        <span>plus&thinsp; </span>
-        <span>longue &thinsp;</span>
-        <span>!&thinsp; </span>
-        <span>!&thinsp; </span>
-        <span>!&thinsp; </span>
-      </p>
-    </div>
-      --> 
+    
     <!--------------------------------
     Explorer
 --------------------------------->    
@@ -115,25 +119,28 @@ p {
 
 /* Section 1 : Logo /Image */
 .bandeau {
-  /*background: url("../../src/assets/img/fond_transparent.png")
-    center center no-repeat;*/
+  background-image :
+    linear-gradient(to bottom, rgba(255,0,0,0), black),
+    url("../../src/assets/img/accueil-test-fond2.jpg");
   background-size: cover;
-  width: 100%;
+  height : 100vh;
+  padding-bottom : 15vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content : center;
-  padding-bottom : 3rem;
+  justify-content : flex-end;
 }
 
 .bandeau_content {
-  padding-bottom : 4vh;
     display: flex;
   flex-direction: column;
   align-items: center;
   justify-content : center;
 }
 
+.bandeau_content p {
+  color : white;
+}
 /* Section 2 : latest posts + content */
 .section {
 display : flex;
@@ -149,16 +156,15 @@ justify-content : center;
   
 .quote {
   padding : 4vh;
-  
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
   font-size: 2rem;
-  color: #1A949D;
+  color: white;
   
   max-width: 100vh;
   
   transform: scale(0.94);
-  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+  animation: scale 6s forwards cubic-bezier(0.5, 1, 0.89, 1);
 }
 @keyframes scale {
   100% {
@@ -173,119 +179,119 @@ span {
 }
 
 span:nth-child(1) {
-  animation: fade-in 1.5s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 2s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(2) {
-  animation: fade-in 1.5s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 3s 1.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(3) {
-  animation: fade-in 1.5s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 3s 2.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(4) {
-  animation: fade-in 1.5s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 3s 3.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(5) {
-  animation: fade-in 1.5s 1.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 3s 4.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(6) {
-  animation: fade-in 1.5s 1.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 3s 5.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(7) {
-  animation: fade-in 1.5s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 3s 6.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(8) {
-  animation: fade-in 1.5s 1.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 3s 7.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(9) {
-  animation: fade-in 1.5s 1.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 3s 8.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(10) {
-  animation: fade-in 1.5s 2.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 3s 9.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(11) {
-  animation: fade-in 1.5s 2.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 3s 2.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(12) {
-  animation: fade-in 1.5s 2.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 3s 2.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(13) {
-  animation: fade-in 1.5s 2.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 3s 2.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(14) {
-  animation: fade-in 1.5s 2.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 3s 2.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(15) {
-  animation: fade-in 1.5s 3.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 3s 3.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(16) {
-  animation: fade-in 1.5s 3.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 3s 3.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(17) {
-  animation: fade-in 1.5s 3.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 3s 3.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(18) {
-  animation: fade-in 1.5s 3.7 forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 3s 3.7 forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(19) {
-  animation: fade-in 1.5s 3.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 3s 3.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(20) {
-  animation: fade-in 1.5s 4.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 3s 4.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(21) {
-  animation: fade-in 1.5s 4.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 3s 4.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(22) {
-  animation: fade-in 1.5s 4.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 3s 4.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(23) {
-  animation: fade-in 1.5s 4.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 3s 4.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(24) {
-  animation: fade-in 1.5s 4.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 3s 4.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(25) {
-  animation: fade-in 1.5s 5.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 3s 5.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(26) {
-  animation: fade-in 1.5s 5.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 3s 5.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(27) {
-  animation: fade-in 1.5s 5.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 3s 5.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(28) {
-  animation: fade-in 1.5s 5.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 3s 5.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(29) {
-  animation: fade-in 1.5s 5.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 3s 5.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 @keyframes fade-in {

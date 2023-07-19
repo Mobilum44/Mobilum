@@ -4,10 +4,12 @@
     <slot
       name="slot_image"
       class="slot_image"
-    ></slot>
+    >
     </slot>
 
-    <section class="contenu">
+    <section
+      class="contenu"
+    >
       <slot />
     </section>
 

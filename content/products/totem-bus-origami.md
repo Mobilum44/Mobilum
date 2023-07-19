@@ -9,7 +9,7 @@ gamme: ORIGAMI
 finitions: 
 cover_image: "../../images/produits/cover_image/totem-origami-bus.jpg"
 caroussel: 
-- "../../images/produits/totem-bus-origami.jpg"
+- "../../images/produits/totem-bus-origami.png"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
  - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"

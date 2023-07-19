@@ -31,7 +31,7 @@
 
       <div class="sub__section__content">
         <div>
-          Trouver pourquoi filaire marche pas
+          <b>Trouver pourquoi filaire marche pas</b>
           <!--
           <g-image
             class="filaire"
@@ -144,7 +144,7 @@
 
     <section class="sub__section">
       <h2> Dans la même gamme... </h2>
-      <p>Mettre les autres produits de la gamme ici</p>
+      <b>Mettre les autres produits de la gamme ici</b>
     </section>
   </Layout>
 </template>

@@ -10,15 +10,18 @@
       <p class="chapeau">
         Ce site internet est le site officiel de la société MOBILUM.
         <br />
-
-        <a href="https:/www.mobilum-france.com">
+      </p>
+      <p>
+        Nom du site : Mobilum <br />
+        
+        Adresse du site web : <a href="https:/www.mobilum-france.com">
           www.mobilum-france.com
         </a>
       </p>
+      
       <h3>
-        Editeur du site
+        Propriétaire du site
       </h3>
-
       <p>
         MOBILUM<br />
         104, rue de l’industrie (siège social)<br />
@@ -28,28 +31,22 @@
         contact@mobilum-france.com<br />
       </p>
       <p>
-        Raison sociale : Société à responsabilité limitée (Société à associé unique) au capital de 1 000 050 €
-
-        Numéro d’immatriculation au RCS : 803 116 243 R.C.S Nantes
-
-        N° TVA Intracommunautaire : FR7980311624300012
+        Forme juridique : Société à responsabilité limitée (SARL) au capital de 1 000 050 €<br />
+        Numéro RCS : Nantes B 803 116 243<br />
+        N° TVA Intracommunautaire : FR79 803 116 243<br />
       </p>
 
+      <h3>
+        Contenu et crédits
+      </h3>
       <p>
-        Directrice de la publication : Mobilum
-
-        Réalisation & Hébergeur
-        Francecom Web agency
-        2 Boulevard Jean Moulin
-        44100 Nantes
-        FRANCE
-        Tél : 02 51 80 88 88
-      </p>
-      <p>
-        Crédits photos
-        Christophe Canadell, Sovann Kim, Raphaёl Prézelin
+        Directeur de la publication : Mobilum <br />
+        Développement : Elise Hallet, Léo Olivier <br />
+        Photographies : Elise Hallet, Pascal Guiraud, Nautilus 
       </p>
 
+      <h3>Hébergeur</h3>
+      <p> <b> Mettre le nom et l'adresse de l'Hébergeur</b></p>
       <h3>
         Propriété intellectuelle
       </h3>
@@ -60,20 +57,31 @@
         Liens hypertexte
       </h3>
       <p>
-        MOBILUM autorise tout site Internet ou tout autre support à le citer ou à mettre en place un lien hypertexte pointant vers son contenu, sous réserve que la page atteinte ne soit pas imbriquée à l’intérieur d’autres pages, en particulier par voie de cadre (ou « frames ») c’est-à-dire que les pages du site www.mobilum-france.com ne soient pas imbriquées à l’intérieur des pages d’un autre site, mais accessibles par l’ouverture d’une fenêtre, de mentionner la source (site internet du la société MOBILUM) pour chaque lien, en particulier lorsqu’il s’agit d’un lien direct sur un contenu, que l’accès aux pages contenant ces liens vers le site www.mobilum-france.com  soit gratuit.
-        MOBILUM se réserve le droit de demander la suppression d’un lien qu’elle estime non conforme à sa ligne éditoriale.
-        Ce site peut, à son insu, avoir été relié à d’autres sites par le biais de liens hypertextes.
+        MOBILUM autorise tout site Internet ou tout autre support à le citer ou à mettre en place un lien hypertexte
+        pointant vers son contenu, sous réserve que la page atteinte ne soit pas imbriquée à l’intérieur d’autres
+        pages, en particulier par voie de cadre (ou « frames ») c’est-à-dire que les pages du site www.mobilum-france.com
+        ne soient pas imbriquées à l’intérieur des pages d’un autre site, mais accessibles par l’ouverture d’une fenêtre,
+        de mentionner la source (site internet du la société MOBILUM) pour chaque lien, en particulier lorsqu’il s’agit
+        d’un lien direct sur un contenu, que l’accès aux pages contenant ces liens vers le site www.mobilum-france.com
+        soit gratuit. <br /> <br />
+        MOBILUM se réserve le droit de demander la suppression d’un lien qu’elle estime non conforme à sa ligne
+        éditoriale. <br /> <br />
+        Ce site peut, à son insu, avoir été relié à d’autres sites par le biais de liens hypertextes. <br />
 
-        L’éditeur, ainsi que la Société FranceCom déclinent toute responsabilité pour les informations présentées sur ces autres sites. L’internaute reconnaît que l’utilisation du présent site est régie par le droit français.
+        L’éditeur décline toute responsabilité pour les informations présentées sur ces autres sites. L’internaute
+        reconnaît que l’utilisation du présent site est régie par le droit français.
       </p>
 
 
       <h3>CNIL</h3>
       <p>
-        Conformément à la loi n° 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, nous vous informons que les données recueillies par l’intermédiaire d’un formulaire ou autre ne sauraient en aucun cas être transmises, à titre gratuit ou onéreux, à des tiers personnes physiques ou morales.
-
-        Vous pouvez à tout moment accéder aux informations personnelles vous concernant et détenues, demander leur modification ou leur suppression par l’envoi d’un mail à contact@mobilum-france.com
-        Ces informations nous permettent notamment de mieux vous connaître, de répondre à vos besoins et de vous dispenser un service de qualité.
+        Conformément à la loi n° 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, nous
+        vous informons que les données recueillies par l’intermédiaire d’un formulaire ou autre ne sauraient en aucun
+        cas être transmises, à titre gratuit ou onéreux, à des tiers personnes physiques ou morales. <br /><br />
+        Vous pouvez à tout moment accéder aux informations personnelles vous concernant et détenues, demander leur
+        modification ou leur suppression par l’envoi d’un mail à contact@mobilum-france.com <br /><br />
+        Ces informations nous permettent notamment de mieux vous connaître, de répondre à vos besoins et de vous
+        dispenser un service de qualité.
       </p>
     </div>
   </Layout>
@@ -95,8 +103,12 @@ export default {
     background-attachment: fixed;
 }
 
+.chapeau {
+  margin-top: 3rem;
+}
+
 h3 {
   color : #1A949D;
-  margin-top : 2vh;
+  margin-top : 2rem;
 }
 </style>
