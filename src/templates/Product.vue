@@ -32,15 +32,15 @@
       <div class="sub__section__content">
         <div>
           <b>Trouver pourquoi filaire marche pas</b>
-        
+        <!--
           <g-image
             class="filaire"
             alt="filaires produits Mobilum BFUP"
             width="200px"
             :img="$page.product.filaire"
-          />
-          <!--
-         <Filaire :img="$page.product.filaire" />-->
+          />-->
+          
+         <Filaire :img="$page.product.filaire" />
         </div>
         <p>
           <em>Matériau :</em> : {{ $page.product.materiau }}<br> 

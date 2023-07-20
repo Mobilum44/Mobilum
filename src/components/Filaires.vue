@@ -1,19 +1,19 @@
 <template>
   <div class="Filaire">
     <div class="filaire__container">
+      <!--
       <g-image
         class="filaire"
         alt="photo mobilier urbain"
         fit="cover"
         :src="path"
-      />
-      <!--
+      />-->
+      
       <g-image
         v-if="edge.node.filaire"
         alt="photo mobilier urbain"
         :src="edge.node.filaire"
       />
-      -->
     </div>
   </div>
 </template>
