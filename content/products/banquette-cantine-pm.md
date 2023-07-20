@@ -12,7 +12,7 @@ caroussel:
 - "../../images/produits/banquette-elium-parc.jpg"
 - "../../images/produits/attente-showroom.jpg"
 filaire: 
- - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "../../images/produits/filaires/filaire-banquette-cantine-pm.png"
 reference: BACANTI0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 156
