@@ -12,7 +12,6 @@ caroussel:
 - "../../images/produits/fauteuils-stamp-lisse-vire.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
- - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: FASTAMP0201
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 137

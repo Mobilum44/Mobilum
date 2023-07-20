@@ -13,7 +13,6 @@ caroussel:
 - "../../images/produits/rangee-banc-origami.jpeg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
- - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: BSORIGA0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 223

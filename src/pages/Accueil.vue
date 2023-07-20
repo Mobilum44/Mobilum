@@ -23,6 +23,7 @@ Partie en attente de développement complet du site
           <div class="section">
             <p class="quote">
               <span>Pourquoi&thinsp;</span>
+              <span>ne&thinsp; </span>
               <span>pas&thinsp;</span>
               <span>commencer&thinsp;</span>
               <span>avec&thinsp; </span>
@@ -219,7 +220,7 @@ span:nth-child(10) {
 }
 
 span:nth-child(11) {
-  animation: fade-in 3s 2.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 3s 10.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(12) {

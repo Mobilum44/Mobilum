@@ -1,6 +1,12 @@
 <template>
   <div class="Filaire">
     <div class="filaire__container">
+      <g-image
+        class="filaire"
+        alt="photo mobilier urbain"
+        fit="cover"
+        :src="path"
+      />
       <!--
       <g-image
         v-if="edge.node.filaire"
@@ -12,8 +18,9 @@
   </div>
 </template>
 
-
+  <!--
  <page-query>
+
 query Collection ($id: ID!) {
   collection (id: $id) {
     title
@@ -29,7 +36,7 @@ query Collection ($id: ID!) {
   }
 }
 </page-query>
-
+-->
  
 <style scoped>
 .filaire__container {

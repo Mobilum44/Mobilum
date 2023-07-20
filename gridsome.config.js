@@ -35,6 +35,14 @@ module.exports = {
         typeName: "Reference",
         path: "content/references/*.md",
       }
-    }
+    },
+    {
+      // Create posts from markdown files
+      use: "@gridsome/source-filesystem",
+      options: {
+        typeName: "Filaire",
+        path: "content/products/*.md",
+      }
+    },
   ]
 };

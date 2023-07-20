@@ -14,7 +14,6 @@ caroussel:
 - "../../images/produits/chaises-obrac-place-urbaine.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
- - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: CHOBRAC0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 134

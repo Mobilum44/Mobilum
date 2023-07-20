@@ -11,7 +11,6 @@ cover_image: "../../images/produits/cover_image/chaise-longue-obrac.jpg"
 caroussel: 
 - "../../images/produits/chaises-longues-obrac-chemille-en-anjou.jpg"
 filaire: 
- - "../../images/produits/filaires/filaire-cantine-04.png"
  - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: CLOBRAC0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)

@@ -13,7 +13,6 @@ caroussel:
 - "../../images/produits/tabourets-origami-proville.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
- - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: TBORIGA0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 73

@@ -13,7 +13,6 @@ caroussel:
 - "../../images/produits/focus-banc-duchesse-bruz.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
- - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: BSDUCHE0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 232

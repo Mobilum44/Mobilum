@@ -12,7 +12,6 @@ caroussel:
 - "../../images/produits/corbeille-origami-chemin.jpeg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
- - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: COORIGA0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 111

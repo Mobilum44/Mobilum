@@ -13,7 +13,6 @@ caroussel:
 - "../../images/produits/borne-fontaine-loella-rouen.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
- - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: FOLOELL0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 117

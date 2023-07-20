@@ -13,7 +13,6 @@ caroussel:
 - "../../images/produits/totem-rue-origami-passage-pieton-flou.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
- - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: TOORIGA0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 96

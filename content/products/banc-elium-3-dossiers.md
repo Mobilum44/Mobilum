@@ -12,7 +12,6 @@ caroussel:
 - "../../images/produits/banc-elium-3-dossiers-bretteville.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
- - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: BSELIUM0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 291

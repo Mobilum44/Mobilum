@@ -12,8 +12,7 @@ caroussel:
 - "../../images/produits/appui-velo-karo-vicat.jpg"
 - "../../images/produits/appui-velo-karo-le-trait.jpg"
 filaire: 
- - "../../images/produits/filaires/filaire-cantine-04.png"
- - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
+ - "../../images/produits/filaires/filaire-appui-velo-karo.png"
 reference: AVKARO_0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 33

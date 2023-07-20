@@ -12,7 +12,6 @@ caroussel:
 - "../../images/produits/banquette-beam-plage.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
- - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: BABEAM_0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 260

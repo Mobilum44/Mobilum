@@ -14,7 +14,6 @@ caroussel:
 - "../../images/produits/deux-banc-obrac-la-roche-sur-yon.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
- - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: BSOBRAC0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 441

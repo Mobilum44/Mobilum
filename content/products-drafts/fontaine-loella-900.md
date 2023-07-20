@@ -14,7 +14,6 @@ caroussel:
 - "../../images/canape-stamp-lisse.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
- - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: FOLOELL0106
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 82

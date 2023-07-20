@@ -13,7 +13,6 @@ caroussel:
 - "../../images/produits/vasco-de-gama-demi-lunes-bleus.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
- - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: BAVASCO0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 183

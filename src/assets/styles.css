@@ -49,9 +49,11 @@ margin : 0;
 }
 
 
-a {
-  cursor : pointer;
+a:visited {
+  color : #1A949D;
+  font-weight: bold;
 }
+
 
 b{
   color : red;
@@ -93,6 +95,10 @@ strong {
 
 em {
 	color: #1a949d;
+}
+
+sup {
+  color : #1A949D;
 }
 
 .shadow {

@@ -22,12 +22,12 @@
 
       <div class="column__right">
         <div class="menu_footer">
-          <g-link
+       <!---   <g-link
             class="footer__nav"
             to="/Politiques/"
           >
             Politiques de confidentialité
-          </g-link>
+          </g-link> -->
           <g-link
             class="footer__nav"
             to="/Mentions/"

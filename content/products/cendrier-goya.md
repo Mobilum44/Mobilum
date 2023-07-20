@@ -13,7 +13,6 @@ caroussel:
 - "../../images/produits/goya-focus-cendrier-ulis.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
- - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: CEGOYA_0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 30

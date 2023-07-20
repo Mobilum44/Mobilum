@@ -12,7 +12,6 @@ caroussel:
 - "../../images/produits/totem-bus-origami.png"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
- - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: TOORIGA0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 393

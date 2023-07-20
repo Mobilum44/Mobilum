@@ -12,7 +12,6 @@ caroussel:
 - "../../images/produits/banquette-origami.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
- - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: BAORIGA0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 163
