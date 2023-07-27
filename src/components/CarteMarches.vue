@@ -24,7 +24,8 @@
 } */
 
 .CarteMarches {
-  width: 100%;
+  margin : 1rem;
+  width: 20vw;
   height: 60vh;
   /* border-radius: 10px; */
   overflow: hidden;
@@ -80,5 +81,27 @@
    transition: all 0.5s ease;
    opacity : 80%;
 }
+
+
+
+@media only screen and (max-width: 950px) {
+
+  ul {
+    display : flex;
+    justify-content : center;
+  }
+  .CarteMarches {
+  margin : 1rem;
+  width: 90%;
+  height: 60vh;
+  /* border-radius: 10px; */
+  overflow: hidden;
+  position: relative;
+  color: white;
+  }
+
+}
+
+
 
 </style>

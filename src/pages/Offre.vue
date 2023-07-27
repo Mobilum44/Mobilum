@@ -14,13 +14,28 @@
         <g-link
           class="items_styling shadow"
           :to="edge.node.path"
-          v-for="edge in $page.allCollection.edges"
+          v-for="(edge, i) in $page.allCollection.edges"
           :key="edge.node.id"
         >
           <g-image
             class="items__img"
+            alt="Sablage pour signalétique MOBILUM"
+            src="@/assets/img/gaetan-sablage.jpg"
+            v-if="i === 0"
+            center
+          />
+          <g-image
+            class="items__img"
             alt="SNCF Gare Auxerre"
+            src="@/assets/img/hook-cover-image.JPG"
+            v-else-if="i === 1"
+            center
+          />
+          <g-image
+            class="items__img"
+            alt="banc Mobilum sur le tram d'Angers"
             src="@/assets/img/angers_tram.jpg"
+            v-else
             center
           />
           <p>
@@ -145,7 +160,7 @@ export default {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 950px) {
   .collection {
     display : flex;
     flex-direction : column;

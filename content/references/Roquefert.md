@@ -10,7 +10,7 @@ cover_text: "Un amphi extérieur dans une université française historique"
 
 caroussel: 
 - "../../images/references/caroussel/page-entree.jpg"
-- "../../images/references/caroussel/page-entree.jpg"
+- "../../images/references/caroussel/banc-feuille-roquefert-mobilum.png"
 
 
 localisation : "Chemin Roquefere"

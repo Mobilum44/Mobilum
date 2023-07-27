@@ -5,7 +5,7 @@
         theme="arrow"
         to="/Offre/"  
       >
-      ⇦
+        ⇦
       </Button>
 
       <h1> Nos dossiers d'exception </h1>
@@ -16,39 +16,41 @@
       </div>
     </section>
 
-    <div class="sub__section__market">
+    <section class="wide">
       <ul>
         <li
-          v-for="edge in $page.references.edges"
-          :key="edge.node.id"
-          class="card"
+          v-for="typ in ['Les grands comptes', 'Les remarquables', 'Les conceptuels']"
+          :key="typ"
         >
-          <g-link :to="edge.node.path">
-            <CarteMarches>
-              <template #img__marche>
-                <g-image :src="edge.node.cover_image" />
-              </template>
+          <ul>
+            <h2>{{ typ }}</h2>
+            <li
+              v-for="project in sortedReferences[typ]"
+              :key="project.id"
+            >
+              <div class="cards__order">
+                <g-link :to="project.path">
+                  <CarteMarches>
+                    <template #img__marche>
+                      <g-image :src="project.cover_image" />
+                    </template>
 
-              <template #titre__marche>
-                <h3> {{ edge.node.title }}</h3>
-              </template>
-
-              <template #texte__marche>
-                <p>
-                  {{ edge.node.cover_text }}
-                </p>
-                <!-- <Button
-                    theme="transparent"
-                    to="/Project/"
-                  >
-                    Découvrir
-                  </Button>-->
-              </template>
-            </CarteMarches>
-          </g-link>
+                    <template #titre__marche>
+                      <h3>{{ project.title }} </h3>
+                    </template>
+                    <template #texte__marche>
+                      <p>
+                        {{ project.cover_text }}
+                      </p>
+                    </template>
+                  </CarteMarches>
+                </g-link>
+              </div>
+            </li>
+          </ul>
         </li>
       </ul>
-    </div>
+    </section>
 
     <Button
       theme="bordered"
@@ -83,6 +85,7 @@ query {
         cover_image
         cover_text
         path
+        type
       }
     }
   }
@@ -103,13 +106,49 @@ export default {
 
   metaInfo: {
     title: "Grands comptes et sur-mesure"
-  }
+  },
+
+  data: () => {
+    return {};
+  },
+
+  computed: {
+    sortedReferences() {
+      /**
+      * @type {Object.<string, Array<{ cover_image: Object, cover_text: string, id: string, path: string, title: string, type: string }>>}
+      */
+      const sortedReferences = {};
+      /**
+       * @type {Array<{ node: { cover_image: Object, cover_text: string, id: string, path: string, title: string, type: string } }>}
+       */
+      const references = this.$page.references.edges;
+      /**
+       * @type {Array<{ type: string, content: Array<{ cover_image: Object, cover_text: string, id: string, path: string, title: string, type: string }> }>}
+       */
+      references.forEach((ref) => {
+        if (sortedReferences[ref.node.type]) {
+          sortedReferences[ref.node.type].push(ref.node);
+        } else {
+          sortedReferences[ref.node.type] = [];
+          sortedReferences[ref.node.type].push(ref.node);
+        }
+      });
+      return sortedReferences;
+    }
+  },
 };
 </script>
 
 <style scoped>
+
+.wide {
+  width : 80%;
+  display : flex;
+  align-items : left;
+}
 h2 {
   border : 0;
+  padding-left : 2rem;
 }
 
 .chapeau {
@@ -118,17 +157,12 @@ h2 {
 
 
 /*
-.sub__section__market {
-  width : 100%;
-  border : solid pink;
-  margin-top : 2rem;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  grid-gap: 2rem;
-} */
+
+Mise en page des cartes à faire
+
 
 ul {
+  border : solid blue;
   width : 80vw;
   display : grid;
   grid-template-columns: repeat(3, 1fr);
@@ -136,8 +170,33 @@ ul {
   grid-gap: 2rem;
   list-style-type: none;
 }
-.sub__section__content {
-  gap : 1rem;
-  margin-bottom : 1rem;
+
+li {
+  border : solid pink;
+} */
+
+
+ul {
+ padding : 0;
+ width : 100%;
 }
+
+
+@media only screen and (max-width: 950px) {
+.wide {
+  width : 95%;
+}
+
+.sub__section {
+  margin-bottom : 0;
+}
+
+.sub__section p{
+  margin-bottom : 0;
+  margin-top : 2rem;
+}
+
+}
+
+
 </style>

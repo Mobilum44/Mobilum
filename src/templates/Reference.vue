@@ -23,14 +23,30 @@
             <div>
               <p><em>Fabricant</em> : {{ $page.reference.fabricant }} <br /></p>
               <p> <em>Date de réalisation</em> : {{ $page.reference.date_realisation }} <br /></p>
-              <b><br />Les images sont distordues</b>
+              <b><br />Les images sont floues</b>
             </div>
           </div>
         </div>
       </div>
       <div class="sub__section__content">
         <div class="slider">
-          <AutoSlider :img="$page.reference.caroussel" />
+          <carousel
+            :autoplay="true"
+            :per-page="1"
+            :navigation-enabled="false"
+            :pagination-enabled="false"
+            :autoplay-hover-pause="true"
+          >
+            <slide
+              v-for="img in $page.reference.caroussel"
+              :key="img.src"
+            >
+              <g-image
+                class="slide-img"
+                :src="img"
+              />
+            </slide>
+          </carousel>
         </div>
       </div>
     </div>
@@ -52,7 +68,7 @@
       moa
       fabricant
       date_realisation
-      caroussel
+      caroussel (width: 768, quality: 100)
       description
     }
   }
@@ -61,13 +77,14 @@
 
 <script>
   import Layout from "@/layouts/LayoutNoMargin.vue";
-  import AutoSlider from "@/components/AutoSlider.vue";
+  import { Carousel, Slide } from 'vue-carousel';
   import Button from "@/components/Button.vue"
   
   export default {
       components: {
           Layout,
-          AutoSlider,
+          Carousel,
+          Slide,
           Button,
       },
   };
@@ -152,10 +169,14 @@ margin : 0;
 
 }
 
+.slide-img {
+  object-fit: cover;
+  height: 100vh;
+}
+
 .slider {
-  width : 100%;
-  height : 100%;
-  background-image: url("../assets/img/angers_tram.jpg") cover;
+  max-width: 50vw;
+  height: 100%;
 }
 
 .projet {
@@ -172,9 +193,14 @@ margin : 0;
   background-attachment: scroll;
     overflow : scroll;
     overflow-x : hidden;
+}
+
+
+@media only screen and (max-width: 950px) {
+
 
 }
+
+
+
 </style>
-  
-  
-  

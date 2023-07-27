@@ -9,8 +9,8 @@ cover_image: "../../images/references/cover_image/mobilum-piano-rezzo-ecole-norm
 cover_text: "Mobilier extérieur pour les étudiants dans un cadre prestigieux"
 
 caroussel: 
-- "../../images/references/caroussel/page-entree.jpg"
-- "../../images/references/caroussel/page-entree.jpg"
+- "../../images/references/caroussel/Piano-Rezzo-ENS-Saclay.jpg"
+- "../../images/references/caroussel/Piano-Rezzo-Paris-Saclay.jpg"
 
 localisation : "ENS, Paris Saclay"
 moe : "nom/société"

@@ -56,7 +56,7 @@ export default {
 /* ----------------------------------------------------
      Responsive qui marche bien
      ---------------------------------------------------- */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 950px) {
 
 .banner__button {
     z-index : 999;

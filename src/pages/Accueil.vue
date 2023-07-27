@@ -308,7 +308,10 @@ span:nth-child(29) {
   margin-left : 20rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 950px) {
+.quote {
+  gap : 0;
+}
 .bandeau {
   padding-bottom : 0;
 }
@@ -318,7 +321,6 @@ span:nth-child(29) {
   padding : 0.5rem;
   display : flex;
   flex-direction : column;
-  gap : 2rem;
 }
 
 .redirection {

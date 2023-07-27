@@ -54,6 +54,10 @@ a:visited {
   font-weight: bold;
 }
 
+.VueCarousel-dot {
+  margin-top: 0 !important;
+}
+
 b{
   color : red;
 }

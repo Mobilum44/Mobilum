@@ -9,8 +9,7 @@ cover_image: "../../images/references/cover_image/projet-vertable-tables-vertou.
 cover_text: "Une table infinie"
 
 caroussel: 
-- "../../images/references/caroussel/page-entree.jpg"
-- "../../images/references/caroussel/page-entree.jpg"
+- "../../images/references/caroussel/vertou-vertable.jpg"
 
 
 localisation : "Parc de la Sèvre, Vertou"

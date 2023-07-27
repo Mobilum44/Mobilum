@@ -103,7 +103,7 @@ input[type="submit"]:hover {
   box-shadow: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 950px) {
 .Form {
   margin : 0;
   width : 100%;

@@ -1,33 +1,31 @@
 <template>
   <Section class="AutoSlider">
     <div class="slider-container">
-      <div class="slide">
-        <!-- 
+      <div
+        class="slide"
+        v-for="img in caroussel"
+        :key="img.src"
+      >
         <g-image
-          fit="cover"
-          height="80vh"
-          :src="path"
-          :id="`slide-${i}`"
+          :src="img"
         />
-        -->
-        <g-image
-          src="../../images/references/caroussel/page-entree.jpg"
-        />
-      </div>
-
-      <div class="slide">
-        <g-image src="@/assets/img/design-mobilum.jpg" />
-      </div>
-
-      <div class="slide">
-        <g-image src="@/assets/img/banc-feuille-roquefert-mobilum.png" />
       </div>
     </div>
   </Section>
 </template>
 
-<style scoped>
+<script>
+export default {
+  props: {
+    caroussel: {
+      type: Array,
+      default: () => [],
+    }
+  }
+};
+</script>
 
+<style scoped>
 * {
   margin: 0;
   padding: 0;
@@ -47,18 +45,20 @@
   top: 0;
   left: 0;
   animation: slider 15s infinite;
+  display: flex;
+  justify-content: center;
 }
 .AutoSlider .slider-container .slide {
   position: relative;
-  width: 33.33333333%;
+  width: 50vw;
   height: 100%;
-  float: left;
   overflow: hidden;
 }
 .AutoSlider .slider-container .slide img {
   display: block;
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 @keyframes slider {
   0%,

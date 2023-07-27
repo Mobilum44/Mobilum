@@ -22,7 +22,7 @@
 
       <div class="column__right">
         <div class="menu_footer">
-       <!---   <g-link
+          <!---   <g-link
             class="footer__nav"
             to="/Politiques/"
           >
@@ -316,11 +316,18 @@ Menu secondaire
   color: #fefcf3;
 }
 
+.footer__nav:visited {
+  color: #fefcf3;
+}
+
 .footer__nav:hover,
 .footer__nav:focus {
   color: black;
   text-decoration: none;
 }
+
+
+
 
 .footer__nav.active {
   color: black;
@@ -348,7 +355,7 @@ Zone basse du footer
 
 --------------------------------------------------------------------------------------------*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 950px) {
 .content_top {
   padding : 1rem;
   display: flex;

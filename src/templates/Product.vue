@@ -1,14 +1,13 @@
 <template>
   <Layout>
-    <!--
     <Button
+    class="return"
       theme="bordered"
       onclick="/Offre/"
     >
       Retour à la collection
     </Button>
 
-    -->
     <section class="page_top">
       <div class="title">
         <h1 class="h1_title">
@@ -37,10 +36,10 @@
             class="filaire"
             alt="filaires produits Mobilum BFUP"
             width="200px"
-            :img="$page.product.filaire"
-          />-->
+            :src="$page.product.filaire"
+          />
           
-         <Filaire :img="$page.product.filaire" />
+         <Filaire :img="$page.product.filaire" />-->
         </div>
         <p>
           <em>Matériau :</em> : {{ $page.product.materiau }}<br> 
@@ -174,6 +173,15 @@ import Caroussel from "@/components/Caroussel.vue";
 import Filaire from "@/components/Filaires.vue";
 
 export default {
+/*
+  props: {
+    filaire: {
+      type: Array,
+      default: () => [],
+    }
+  },*/
+
+  
 	components: {
 		Button,
 		Layout,
@@ -196,6 +204,11 @@ export default {
 }
   ---------------------------------------------------------------*/
 
+  .return {
+    height : 0;
+    overflow : hidden;
+    border : none;
+  }
 
 /*-----------------------------------------------------------------
       Zone titre
@@ -304,7 +317,16 @@ h1 {
 --------------------------------------------------------------------------------------------*/
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 950px) {
+  .return {
+    height : 2rem;
+    overflow : hidden;
+    border : solid black 1px;
+  }
+
+  .gallery {
+  margin : 0;
+}
 
 .sub__section__content {
   display : flex;

@@ -9,7 +9,9 @@ cover_image: "../../images/references/cover_image/paris-saclay-tolerie-foreizien
 cover_text: "Un amphi extérieur dans une université française historique"
 
 caroussel: 
-- "../../images/references/caroussel/page-entree.jpg"
+- "../../images/references/caroussel/villa-gallo-romaine-long.jpg"
+- "../../images/references/caroussel/villa-gallo-romaine.jpg"
+- "../../images/references/caroussel/villa-gallo-romaine-nuit.jpg"
 
 localisation : "Campus Malesherbes, Sorbonne Université"
 moe : "nom/société"

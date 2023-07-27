@@ -60,9 +60,9 @@
 <script>
 export default {
   props: {
-        img: {
+    img: {
       type: Array,
-      default: [],
+      default: () => [],
     },
   },
   methods: {
@@ -86,16 +86,14 @@ ul {
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
   position: relative;
-
 }
- 
+
 ul li {
   scroll-snap-align: start;
   flex: 0 0 fit-content;
   position: relative;
 }
 
- 
 ul li button {
   cursor: pointer;
   opacity: 0;
@@ -109,15 +107,15 @@ ul li button {
   z-index: 1;
   transition: all 0.2s ease-in-out;
 }
- 
+
 ul li button:first-child {
   left: 1rem;
 }
- 
+
 ul li button:last-child {
   right: 1rem;
 }
- 
+
 ul li:hover button {
   opacity: 1;
   transition: all 0.2s ease-in-out;
@@ -127,7 +125,6 @@ ul::-webkit-scrollbar {
   width: 12px;               /* width of the entire scrollbar */
 }
 
-
 .carousel__container {
   margin : 0;
   position: relative;
@@ -135,7 +132,6 @@ ul::-webkit-scrollbar {
   height : 100%;
   width : 100%;
 }
-
 
 .carousel__photo {
   position: relative;
@@ -145,4 +141,34 @@ ul::-webkit-scrollbar {
   background-color: #f99;
   counter-increment: item; */
 }
+
+@media only screen and (max-width: 950px) {
+/*------------------------------------------------------------
+          Faire un bouton retour pour les téléphones
+--------------------------------------------------------------*/ 
+  .carousel__container {
+  margin : 0;
+  position: relative;
+  overflow: hidden;
+  height : 50vh;
+  width : 100%;
+}
+
+.carousel__photo {
+  position: relative;
+  height : 100%;
+  object-fit : cover;
+  /* 
+  background-color: #f99;
+  counter-increment: item; */
+}
+
+
+
+}
+
+
+
+
+
 </style>

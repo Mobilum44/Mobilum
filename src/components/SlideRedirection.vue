@@ -85,7 +85,7 @@
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 950px) {
 .SlideRedirection {
   z-index : 20;
   display: flex;

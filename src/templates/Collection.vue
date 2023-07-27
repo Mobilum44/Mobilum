@@ -153,7 +153,7 @@ export default {
 --------------------------------------------------------------------------------------------*/
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 950px) {
 .collection_order {
   display: flex;
   flex-direction: column;
