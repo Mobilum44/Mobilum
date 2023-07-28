@@ -3,7 +3,7 @@
   "scripts": {
     "develop": "SET NODE_OPTIONS=--openssl-legacy-provider && gridsome develop",
     "explore": "gridsome explore",
-    "build": "gridsome build"
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && gridsome build"
   },
   "dependencies": {
     "@gridsome/source-filesystem": "^0.6.2",

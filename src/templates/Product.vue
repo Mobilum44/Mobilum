@@ -31,15 +31,6 @@
       <div class="sub__section__content">
         <div>
           <b>Trouver pourquoi filaire marche pas</b>
-        <!--
-          <g-image
-            class="filaire"
-            alt="filaires produits Mobilum BFUP"
-            width="200px"
-            :src="$page.product.filaire"
-          />
-          
-         <Filaire :img="$page.product.filaire" />-->
         </div>
         <p>
           <em>Matériau :</em> : {{ $page.product.materiau }}<br> 
@@ -155,7 +146,7 @@ query Product ($id: ID!) {
     gamme
     designer
     filaire
-    caroussel
+    caroussel (width: 768, quality: 100)
     materiau
     poids
     dimensions
@@ -170,7 +161,6 @@ query Product ($id: ID!) {
 import Layout from "@/layouts/LayoutAccueil.vue";
 import Button from "@/components/Button.vue";
 import Caroussel from "@/components/Caroussel.vue";
-import Filaire from "@/components/Filaires.vue";
 
 export default {
 /*
@@ -186,7 +176,6 @@ export default {
 		Button,
 		Layout,
 		Caroussel,
-    Filaire,
 	},
 };
 </script>
