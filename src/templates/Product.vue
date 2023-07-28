@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <!-- <Button
+    <Button
       class="return"
       theme="bordered"
       onclick="/Offre/"
@@ -20,7 +20,7 @@
 
     <section class="sub__section">
       <div class="gallery">
-        <Caroussel :img="$page.product.caroussel" />
+        <!-- <Caroussel :img="$page.product.caroussel" /> -->
       </div>
     </section>
 
@@ -135,7 +135,7 @@
     <section class="sub__section">
       <h2> Dans la même gamme... </h2>
       <b>Mettre les autres produits de la gamme ici</b>
-    </section> -->
+    </section>
   </Layout>
 </template>
 
