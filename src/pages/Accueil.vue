@@ -22,16 +22,17 @@ Partie en attente de développement complet du site
 --------------------------------->
           <div class="section">
             <p class="quote">
-              <span>Pourquoi&thinsp;</span>
-              <span>ne&thinsp; </span>
-              <span>pas&thinsp;</span>
-              <span>commencer&thinsp;</span>
-              <span>avec&thinsp; </span>
-              <span>une&thinsp; </span>
-              <span>citation &thinsp;</span>
-              <span>inspirante&thinsp; </span>
-              <span>ou &thinsp; </span>
-              <span>originale&thinsp; </span>
+              Mots clefs :
+              <span>L'artisanat français est grand&thinsp;</span>
+              <span>durabilité&thinsp; </span>
+              <span>design&thinsp;</span>
+              <span>Le concept/patte/artisanat/... MOBILUM&thinsp;</span>
+              <span>Mobilum est sans limite/s'inscrit dans tous les paysages&thinsp; </span>
+              <span>Avec/ mobilum soyez/voit grand&thinsp; </span>
+              <span>Mobilum et ses défis &thinsp;</span>
+              <span>inspirant&thinsp; </span>
+              <span>ambitieux &thinsp; </span>
+              <span>intégrez MOBILUM dans votre/au quotidien&thinsp; </span>
               <span>?&thinsp; </span>
               <!---     <span>soit&thinsp; </span>
         <span>plus&thinsp; </span>

@@ -118,7 +118,9 @@ export default {
   position: relative;
   height: 300px;
   width: 300px;
-  background-color: rgba(250, 250, 250, 0.25);
+  /*
+  background-color: rgba(250, 250, 250, 0.25); */
+  background-color : #1A949D;
 }
 
 .items_styling > .items__img {

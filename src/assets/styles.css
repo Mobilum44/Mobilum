@@ -43,9 +43,8 @@ margin : 0;
   height : 80vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content : flex-end;
-
+  align-items: left;
+  justify-content : flex-start;
 }
 
 
@@ -64,7 +63,9 @@ b{
 
 h1 {
   width : 60%;
-  padding : 4rem 4rem 1rem 4rem;
+  /*padding : 2rem 2rem 0.5rem 1rem;*/
+  padding : 0rem;
+  padding-left : 2rem;
   margin-bottom : 4rem;
   color : white;
   font-family: "Montserrat";
@@ -73,7 +74,7 @@ h1 {
   text-align: center;
   letter-spacing: -0.25px;
   text-transform: uppercase;
-  border: white double 4px;
+  /*border: white double 4px;*/
 }
 
 h2,

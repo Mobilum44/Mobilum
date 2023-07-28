@@ -138,7 +138,7 @@ export default {
 
 --------------------------------------------------------------------------------------------*/
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 600px) {
   .content {
     display : flex;
     flex-direction: column;

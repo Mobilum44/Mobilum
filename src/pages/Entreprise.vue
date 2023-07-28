@@ -2,7 +2,7 @@
   <Layout>
     <template #slot_image>
       <section class="slot_image">
-        <h1>Notre entreprise</h1>
+        <h1>Mobilum</h1>
       </section>
     </template>
     
@@ -11,6 +11,7 @@
       </div>
     </section>
 
+    <p> INSPIRATION HEADER :  https://codepen.io/BrandonMathura/pen/xwMRGQ </p>
     <div class="section_top">
       <p class="chapeau">
         En quelques années, Mobilum  est devenue une référence en matière de conception et fabrication de mobiliers urbains en BFUP. <br />

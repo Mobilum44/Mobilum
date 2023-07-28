@@ -9,7 +9,8 @@ gamme: VERTABLE
 finitions: 
 cover_image: "../../images/produits/cover_image/table-vertable.jpg"
 caroussel: 
-- "../../images/produits/attente-showroom.jpg"
+- "../../images/produits/table-vertable-loroux-jaune.jpg"
+- "../../images/produits/table-vertable-loroux-orange.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
 reference: ENVERTA0101

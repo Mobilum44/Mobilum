@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <Button
-    class="return"
+      class="return"
       theme="bordered"
       onclick="/Offre/"
     >
@@ -234,12 +234,14 @@ p {
 
 .h1_title {
   border-bottom: solid black 1px;
+  text-align: center;
 }
 
 
 h1 {
   font-weight: 200;
   text-transform: none;
+  text-align: center;
   border: none;
   color : black;
   padding : 0;

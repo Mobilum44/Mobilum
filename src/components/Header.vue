@@ -24,7 +24,7 @@
           class="nav__link"
           to="/Entreprise/"
         >
-          L'entreprise
+          Mobilum
         </g-link>
       </li>
       <li>
@@ -227,7 +227,6 @@ Header {
   top: 0;
 }
 
-/* 48em = 768px */
 
 @media (min-width: 48em) {
   .header li {

@@ -40,7 +40,7 @@
       <p>
         Directeur de la publication : MOBILUM <br />
         Développement : Elise Hallet, Léo Olivier <br />
-        Photographies : Elise Hallet, Pascal Guiraud, Nautilus 
+        Photographies : Mobilum, Pascal Guiraud, Elise Hallet, Nautilus, .................
       </p>
 
       <h3>Hébergeur</h3>
