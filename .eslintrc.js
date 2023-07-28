@@ -8,5 +8,6 @@ module.exports = {
 	rules: {
 		"vue/multi-word-component-names": "off",
 		"vue/html-self-closing": "off",
+		"vue/no-reserved-component-names": "off",
 	},
 };

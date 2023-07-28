@@ -30,7 +30,7 @@
       </div>
       <div class="sub__section__content">
         <div class="slider">
-          <carousel
+          <!-- <carousel
             :autoplay="true"
             :per-page="1"
             :navigation-enabled="false"
@@ -46,7 +46,7 @@
                 :src="img"
               />
             </slide>
-          </carousel>
+          </carousel> -->
         </div>
       </div>
     </div>
@@ -77,14 +77,11 @@
 
 <script>
   import Layout from "@/layouts/LayoutNoMargin.vue";
-  import { Carousel, Slide } from 'vue-carousel';
   import Button from "@/components/Button.vue"
   
   export default {
       components: {
-          Layout,
-          Carousel,
-          Slide,
+          Layout, 
           Button,
       },
   };
