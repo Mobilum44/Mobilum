@@ -4,7 +4,7 @@
       <Button
         class="banner__button"
         theme="bordered"
-        to="/Contact/"
+        to="/contact"
       >
         Nous contacter
       </Button>

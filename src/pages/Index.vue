@@ -7,7 +7,7 @@
       />
       <Button
         theme="slide"
-        to="/Accueil/"
+        to="/accueil"
       >
         Entrer
       </Button>

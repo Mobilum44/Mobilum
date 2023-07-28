@@ -45,7 +45,7 @@
 
         <g-link
           class="items_styling shadow"
-          to="/Exceptionnels/"
+          to="/exceptionnels"
         >
           <g-image
             class="items__img"

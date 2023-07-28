@@ -2,7 +2,7 @@
   <TeamPage>
     <g-link
       class="Retour"
-      to="/Entreprise/"
+      to="/entreprise"
     >
       Retour
     </g-link>

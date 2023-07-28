@@ -14,7 +14,7 @@
       <li>
         <g-link
           class="nav__link"
-          to="/Accueil/"
+          to="/accueil"
         >
           Accueil
         </g-link>
@@ -22,7 +22,7 @@
       <li>
         <g-link
           class="nav__link"
-          to="/Entreprise/"
+          to="/entreprise"
         >
           Mobilum
         </g-link>
@@ -30,7 +30,7 @@
       <li>
         <g-link
           class="nav__link"
-          to="/Offre/"
+          to="/offre"
         >
           Nos collections
         </g-link>
@@ -38,7 +38,7 @@
       <li>
         <g-link
           class="nav__link"
-          to="/Contact/"
+          to="/contact"
         >
           Contact
         </g-link>
@@ -46,7 +46,7 @@
       <li>
         <g-link
           class="nav__link"
-          to="/Taches/"
+          to="/taches"
         >
           🔎
         </g-link>

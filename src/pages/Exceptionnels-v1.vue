@@ -3,7 +3,7 @@
     <div class="sub__section">
       <Button
         theme="bordered"
-        to="/Offre/"  
+        to="/offre"  
       >
         Retour à l'offre
       </Button>
@@ -42,7 +42,7 @@
             </p>
             <Button
               theme="transparent"
-              to="/Project/"
+              to="/project"
             >
               Découvrir
             </Button>

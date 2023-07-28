@@ -3,7 +3,7 @@
     <div class="sub__section wide">
       <Button
         theme="arrow"
-        to="/Exceptionnels/"  
+        to="/exceptionnels"  
       >
         ⇦
       </Button>

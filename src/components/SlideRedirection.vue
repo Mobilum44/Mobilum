@@ -2,12 +2,12 @@
   <div class="SlideRedirection">
     <g-link
       class="box"
-      to="/Entreprise/"
+      to="/entreprise"
     >
       <g-image
         src="@/assets/img/plaques-hook-coulage-usine.jpg"
       />
-      <p to="/Entreprise/">
+      <p to="/entreprise">
         Un atelier
       </p>
     </g-link>
@@ -18,7 +18,7 @@
     <!--
     <g-link
       class="box"
-      to="/Materiau/"
+      to="/materiau"
     > -->
     <div class="box">
       <g-image src="@/assets/img/BFUP-seau.jpg" />
@@ -27,7 +27,7 @@
     <!-- </g-link> -->
     <g-link
       class="box"
-      to="/Offre/"
+      to="/offre"
     >
       <g-image src="@/assets/img/fond_entreprise.jpg" />
       <p>Une collection</p>

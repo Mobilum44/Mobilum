@@ -3,7 +3,7 @@
     <div class="sub__section">
       <Button
         theme="arrow"
-        to="/Offre/"  
+        to="/offre"  
       >
         ⇦
       </Button>
@@ -54,7 +54,7 @@
 
     <Button
       theme="bordered"
-      to="/Exceptionnels-v1/"  
+      to="/exceptionnels-v1"  
     >
       Page modèle
     </Button>

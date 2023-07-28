@@ -24,26 +24,26 @@
         <div class="menu_footer">
           <!---   <g-link
             class="footer__nav"
-            to="/Politiques/"
+            to="/politiques"
           >
             Politiques de confidentialité
           </g-link> -->
           <g-link
             class="footer__nav"
-            to="/Mentions/"
+            to="/mentions"
           >
             Mentions légales
           </g-link>
           <g-link
             class="footer__nav"
-            to="/Plan/"
+            to="/plan"
           >
             Plan du site
           </g-link>
         </div>
 
         <ul class="content__RS">
-          <g-link to="/Contact/">
+          <g-link to="/contact">
             <li class="icon mail">
               <span class="tooltip">Mail</span>
               <g-image

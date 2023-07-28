@@ -41,7 +41,7 @@
       </template>
     </CarteMarches>
 
-    <g-link to="/Test/">
+    <g-link to="/test">
       Page test caroussel
     </g-link>
   </Layout>
