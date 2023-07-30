@@ -20,6 +20,9 @@
 
     <section class="sub__section">
       <div class="gallery">
+        <div v-for="(img, i) in $page.product.caroussel" :key="i">
+          <g-image :src="img" />
+        </div>
         <!-- <Caroussel :img="$page.product.caroussel" /> -->
       </div>
     </section>
@@ -146,7 +149,7 @@ query Product ($id: ID!) {
     gamme
     designer
     filaire
-    caroussel (width: 768, quality: 100)
+    caroussel (width: 600, quality: 100)
     materiau
     poids
     dimensions
@@ -160,7 +163,7 @@ query Product ($id: ID!) {
 <script>
 import Layout from "@/layouts/LayoutAccueil.vue";
 import Button from "@/components/Button.vue";
-import Caroussel from "@/components/Caroussel.vue";
+// import Caroussel from "@/components/Caroussel.vue";
 
 export default {
 /*
@@ -175,7 +178,7 @@ export default {
 	components: {
 		Button,
 		Layout,
-		Caroussel,
+		// Caroussel,
 	},
 };
 </script>
@@ -252,6 +255,11 @@ h1 {
   ---------------------------------------------------------------*/
 .gallery {
   margin : 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 0.5rem;
 }
 
 /*-----------------------------------------------------------------

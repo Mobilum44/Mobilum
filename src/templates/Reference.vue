@@ -30,7 +30,7 @@
       </div>
       <div class="sub__section__content">
         <div class="slider">
-          <!-- <carousel
+          <!---  <carousel
             :autoplay="true"
             :per-page="1"
             :navigation-enabled="false"
@@ -46,7 +46,7 @@
                 :src="img"
               />
             </slide>
-          </carousel> -->
+          </carousel> --->
         </div>
       </div>
     </div>
