@@ -9,7 +9,6 @@ gamme: VASCO DE GAMA
 finitions: 
 cover_image: "../../images/produits/cover_image/banquette-vasco-de-gamma.jpg"
 caroussel: 
-- "../../images/produits/banquette-vasco-de-gama-ens-paris-saclay.jpg"
 - "../../images/produits/banquette-vasco-de-gama-angers.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"

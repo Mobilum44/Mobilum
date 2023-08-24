@@ -10,7 +10,6 @@ finitions:
 cover_image: "../../images/produits/cover_image/cendrier-goya.jpg"
 caroussel: 
 - "../../images/produits/cendrier-goya-hotel-la-rochelle.jpg"
-- "../../images/produits/goya-focus-cendrier-ulis.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
 reference: CEGOYA_0101

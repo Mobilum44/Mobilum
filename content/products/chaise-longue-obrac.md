@@ -8,8 +8,8 @@ sub_category: 08 Chaise Longue
 gamme: OBRAC 
 finitions: 
 cover_image: "../../images/produits/cover_image/chaise-longue-obrac.jpg"
-caroussel: 
-- "../../images/produits/chaises-longues-obrac-chemille-en-anjou.jpg"
+caroussel:
+- "../../images/produits/attente-showroom.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: CLOBRAC0101

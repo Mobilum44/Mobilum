@@ -13,13 +13,6 @@
 
     <p> INSPIRATION HEADER :  https://codepen.io/BrandonMathura/pen/xwMRGQ </p>
     <div class="section_top">
-      <p class="chapeau">
-        En quelques années, Mobilum  est devenue une référence en matière de conception et fabrication de mobiliers urbains en BFUP. <br />
-        Cette aventure industrielle et commerciale, partie d'une page blanche nous a imposé un investissement conséquent en recherche et développement, associé à l'acquisition de l'équipement nécessaire à la bonne maitrise du
-        Béton Fibré à Ultra-hautes Performances. <br /><br />
-        Nous avons aussi la chance et le devoir chez Mobilum, de former nos futurs talents à ce nouveau concept artisanal, et ce dans l'esprit d'une collaboration constante entre nos différentes générations. <br />
-        Nous espérons que notre travail puisse vous donner envie de faire apparaître nos mobiliers dans vos futurs aménagements.
-      </p>
     </div>
          
 
@@ -50,15 +43,18 @@
               <!--
             La marque et le design : designers et distinctions
           ---->
-              <strong>"Le design, c'est trop génial."</strong>
+              <strong>"Le design, notre essence."</strong>
               <br /><br />
-              Nous avons fait le choix de travailler avec des designers aguérris et rompus aux exigences de
-              l'espace public depuis de nombreuses années, qui pensent avant tout à l'usage dans leurs créations
-              et dans la réinterprétaiton de classiques du mobilier urbain. Leurs dessins expriment la vision qu'ils
-              ont de la ville et des espaces publics. Il en ressort des lignes de produits avec chacune une personnalité
-              unique et une volonté commune de "rendre service aux usagers en proposant des mobiliers discrets, que
-              j'espère le plus élégant possible sans ostentation, et durable dans le temps aussi bien par son dessin que
-              par la qualité de son usage." Sovann KIM.
+              Mobilum se définit par sa compétence en BFUP et son design, véritable ADN de
+              l’entreprise. Notre ambition est de concevoir des mobiliers urbains modernes
+              et élégants qui s’intègrent harmonieusement dans l’espace public. <br /><br />
+              Pour cela nous avons fait le choix de nous
+              associer à des designers aguerris qui pensent aussi avant tout à l’usage de
+              leurs créations et à la réinterprétation de mobiliers urbains classiques. De
+              cette collaboration émerge une ligne de produits avec chacune une
+              personnalité unique et une volonté commune de rendre service aux usagers tout
+              en proposant des mobiliers discrets, élégants sans
+              ostentation et durables dans le temps.
             </p>
             <div class="real__model">
               <g-image
@@ -102,17 +98,18 @@
             <p>
               <strong>"Chez Mobilum, notre savoir-faire est ancré dans un artisanat 100% français et local."</strong>
               <br /><br />
-              Nous sommes fiers de produire des mobiliers urbains de haute qualité, fabriqués avec soin par nos artisans qualifiés.
-              Chaque pièce est réalisée avec une attention méticuleuse aux détails, reflétant notre engagement envers
-              l'excellence et la fierté du travail bien fait.
-              <br /><br />
-              Nous accordons une importance particulière à la formation en interne de nos nouveaux employés. Nous croyons fermement
-              à la transmission des savoirs et des compétences, garantissant ainsi la pérennité de notre artisanat.
-              <br /><br />
-              <!-- La synergie entre notre savoir-faire artisanal, notre engagement envers la formation en interne et notre bureau
-              d'études performant nous permet de repousser les limites de la conception et de la fabrication de mobilier urbain
-              en BFUP. --> Nous sommes constamment à la recherche de nouvelles idées, de techniques innovantes et de matériaux de qualité
-              pour offrir à nos clients des produits uniques, durables et esthétiquement exceptionnels.
+              Notre volonté est de produire un travail artisanal de qualité 100% français en
+              privilégiant le talent des partenaires locaux. Chaque mobilier a été étudié, conçu et
+              réalisé dans notre usine
+              avec une attention méticuleuse aux détails, reflétant notre engagement envers
+              l’excellence et la fierté du travail bien fait. <br /><br />
+              Les techniques développées après des années de recherches sont uniques et
+              exclusives pour parvenir à la finesse et les formes de nos mobiliers.<br /><br />
+              Désireux de partager notre expérience et notre savoir-faire, nous avons mis en
+              place une formation en interne permettant de certifier l’acquisition de
+              compétences propres à l’industriel BFUP en partenariat avec l’OPCO2i. Nous
+              croyons fermement à la transmission des savoirs qui garantit la pérennité de
+              notre activité.
             </p>
           </div>
         </div>
@@ -134,7 +131,7 @@
   --------------------------------------------------->
 
     <div class="sub__section center wide">
-      <b> Corriger les descriptions + essayer de faire en sorte que ca soit infini pour de vrai</b>
+      <b> Remettre en fixe</b>
       <!-- <h2> Bla bla bla </h2> -->
       <Card />
       <Villes />
@@ -163,11 +160,13 @@
             <p>
               <strong>"Nous produisons de manière raisonnée en limitant au maximum notre impact sur l'environnement."</strong>
               <br /><br />
-              Depuis notre créations, cette préoccupation est intégrée dans notre travail, du développement produit jusqu"à la production.
-              <br />
-              L'intégralité des produits présentés est fabriquée sur notre site de production implanté au Loroux-Bottereau en Loire-Atlantique. <br />
-              <br />
-              La volonté de réduire l'impact de notre fabricatication nous a naturellement amené à investir dans des outils performants et modernes. Le choix d'une centrale spécifique nous permet de diminuer très fortement les temps de cycle et de consommer moins d'énergie, notamment en électricité et en eau. Une station de recyclage filtre l'eau utilisée pour notre production.
+              Repenser le mobilier urbain nécessite d’intégrer le développement durable dans nos recherches,
+              nos créations et notre croissance. <br /><br />
+              Nous nous efforçons de produire de manière raisonnée pour limiter autant que possible notre impact sur
+              l’environnement. L’intégralité des produits présentés est fabriquée sur notre
+              site au Loroux-Bottereau en Loire Atlantique. <br /><br />
+              Mobilum souhaite structurer une démarche RSE globale qui commnence par la réalisation de son bilan carbone,
+              indispensable à la définitions d'objectifs justes et précis.
             </p>
           </div>
         </div>
@@ -204,7 +203,6 @@ export default {
     background-size: cover;
     background-attachment: fixed;
 }
-
 
 h2 {
   padding-bottom : 1rem;
@@ -259,6 +257,7 @@ article {
 
 .design {
   margin : 0;
+  margin-right : 3rem;
 }
 
 .real__model {
@@ -286,13 +285,12 @@ article {
             Gestion des images
 --------------------------------------------------------------------------------------------*/
 .illustration {
-  width : 200vw;
-object-fit: contain;
-background-position-y: center;
+  width : 180vw;
+  object-fit: contain;
+  background-position-y: center;
 }
 
 .croquis {
-  width : 400vw;
   background-image:
   linear-gradient(to right, rgba(255,0,0,0), #fefcf3),
     url("../../src/assets/img/croquis-sovann-kim-pour-mobilum.png");

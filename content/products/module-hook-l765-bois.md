@@ -9,8 +9,7 @@ gamme: HOOK
 finitions: L765 bois
 cover_image: "../../images/produits/cover_image/hook-765-bois.jpg"
 caroussel: 
-- "../../images/produits/hook-765-muret-bourgbarre.jpg"
-- "../../images/produits/hook-765-simple.jpg"
+- "../../images/produits/attente-showroom.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
 reference: 

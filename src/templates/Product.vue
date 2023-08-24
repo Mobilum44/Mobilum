@@ -20,7 +20,10 @@
 
     <section class="sub__section">
       <div class="gallery">
-        <div v-for="(img, i) in $page.product.caroussel" :key="i">
+        <div
+          v-for="(img, i) in $page.product.caroussel"
+          :key="i"
+        >
           <g-image :src="img" />
         </div>
         <!-- <Caroussel :img="$page.product.caroussel" /> -->

@@ -22,8 +22,13 @@ Partie en attente de développement complet du site
 --------------------------------->
           <div class="section">
             <p class="quote">
+              "Un mobilier urbain durable et au design novateur qui
+              s’intègre dans tous les paysages urbains, telle est l’ambition de Mobilum."
+
+              <!--
               Mots clefs :
               <span>L'artisanat français est grand&thinsp;</span>
+              <span>« Nos méthodes artisanales sont grandes »&thinsp;</span>
               <span>durabilité&thinsp; </span>
               <span>design&thinsp;</span>
               <span>Le concept/patte/artisanat/... MOBILUM&thinsp;</span>
@@ -34,6 +39,11 @@ Partie en attente de développement complet du site
               <span>ambitieux &thinsp; </span>
               <span>intégrez MOBILUM dans votre/au quotidien&thinsp; </span>
               <span>?&thinsp; </span>
+
+              --> 
+
+
+
               <!---     <span>soit&thinsp; </span>
         <span>plus&thinsp; </span>
         <span>longue &thinsp;</span>
@@ -41,6 +51,17 @@ Partie en attente de développement complet du site
         <span>!&thinsp; </span>
         <span>!&thinsp; </span>-->
             </p>
+
+      <p class="accueil_text">
+        Après dix ans de recherches et de développements, Mobilum possède un
+        savoir-faire unique dans la création et la fabrication de mobiliers urbains
+        en Béton Fibré à Ultra-haute Performance.
+        Entreprise artisanale
+        nantaise, Mobilum répond aux plus grandes exigences en matière de
+        design au service des environnements urbains.
+      </p>
+
+
           </div>
         </div>
       </section>
@@ -48,12 +69,7 @@ Partie en attente de développement complet du site
 
 
     <template>
-      <h1> Notre site internet fait peau neuve ! </h1>
-      <p>
-        Nous avons le plaisir de vous présenter nos réalisations et notre histoire sous un nouveau format. <br>
-        Le site est en cours de finalisation mais vous pouvez déjà accéder à l’ensemble de notre offre et nous contacter. <br>
-        Nous avons hâte de vous le présenter terminé et espérons qu’en attendant vous prendrez plaisir à découvrir ou redécouvrir notre collection !
-      </p>
+
     </template>
     <!--------------------------------
   PARTIE A DEVELOPPER PLUS TARD
@@ -119,11 +135,26 @@ p {
   text-align : center;
 }
 
+
+.accueil_text {
+  text-align: center;
+  color : white;
+    text-shadow: #000000 1px 0 10px;
+
+
+  margin-top : 5rem;
+  margin-bottom : 5rem;
+  margin-left : 20rem;
+  margin-right : 20rem;
+}
+
+
 /* Section 1 : Logo /Image */
 .bandeau {
   background-image :
-    linear-gradient(to bottom, rgba(255,0,0,0), black),
+    linear-gradient(to bottom, rgba(255,0,0,0) 65%, #fefcf3),
     url("../../src/assets/img/accueil-test-fond2.jpg");
+  opacity : 90%;
   background-size: cover;
   height : 100vh;
   padding-bottom : 15vh;
@@ -140,7 +171,7 @@ p {
   justify-content : center;
 }
 
-.bandeau_content p {
+.quote {
   color : white;
 }
 /* Section 2 : latest posts + content */
@@ -162,8 +193,8 @@ justify-content : center;
   font-style: italic;
   font-size: 2rem;
   color: white;
-  
-  max-width: 100vh;
+        text-shadow: black 1px 0 20px;
+  max-width: 150vh;
   
   transform: scale(0.94);
   animation: scale 6s forwards cubic-bezier(0.5, 1, 0.89, 1);
@@ -178,6 +209,7 @@ span {
   display: inline-block;
   opacity: 0;
   filter: blur(4px);
+
 }
 
 span:nth-child(1) {

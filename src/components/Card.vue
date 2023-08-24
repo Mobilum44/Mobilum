@@ -587,13 +587,37 @@
 
 
 <style scoped>
+.cartes_defilantes {
+  border : solid blue;
+  width : 80vw;
+
+  display : grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+
+  
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 225px;
+  font-family: "Bebas Neue";
+}
+
+.cartes_defilantes div,
+.cartes_defilantes div:after {
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  top: 0;
+}
+
 /* ---------------------------------------------------------------------------------------
                Animation defilement
-  ---------------------------------------------------------------------------------------*/
+  ---------------------------------------------------------------------------------------
 .cartes_defilantes {
   display: flex;
   flex-wrap: wrap;
-  /*margin: 40px auto;*/
   padding: 0;
   overflow: hidden;
   position: relative;
@@ -643,7 +667,7 @@
   100% {
     margin-left: 0%;
   }
-}
+}*/
 
 /* --------------------------------------------------------------------------------------
             Animation des cartes
@@ -659,6 +683,7 @@
   margin: 10px;
   border-radius : 3%;
 }
+
 .card:hover .card__caption {
   top: 50%;
   transform: translateY(-50%);

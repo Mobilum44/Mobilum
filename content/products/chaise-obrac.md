@@ -11,7 +11,6 @@ cover_image: "../../images/produits/cover_image/chaise-obrac.jpg"
 caroussel: 
 - "../../images/produits/chaises-obrac-la-rochelle.jpg"
 - "../../images/produits/obrac-chaises-la-rochelle-velo.jpg"
-- "../../images/produits/chaises-obrac-place-urbaine.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-chaise-obrac.png"
 reference: CHOBRAC0101

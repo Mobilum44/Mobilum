@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@200;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
 
 *::-webkit-scrollbar {
@@ -40,7 +41,9 @@ margin : 0;
 
 .slot_image {
   width: 100%;
+  /*height : 80vh;*/
   height : 80vh;
+  background-color: #1A949D;
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -119,8 +122,10 @@ sup {
 .chapeau {
   color : black;
   font-family: "Montserrat";
-  font-weight: 400;
+  font-weight: 600;
+  line-height: 2rem;
   margin-left : 3rem;
+  margin-bottom : 2rem;
 }
 
 /* Pour les textes de référencement */

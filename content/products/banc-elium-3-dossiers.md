@@ -9,7 +9,7 @@ gamme: ELIUM
 finitions: 3 dossiers
 cover_image: "../../images/produits/cover_image/banc-elium-3-dossiers.jpg"
 caroussel: 
-- "../../images/produits/banc-elium-3-dossiers-bretteville.jpg"
+- "../../images/produits/attente-showroom.jpg"
 filaire: 
  - "../../images/produits/filaires/filaire-cantine-04.png"
 reference: BSELIUM0102
