@@ -30,8 +30,10 @@
       to="/collection"
     >
       <g-image src="@/assets/img/fond_entreprise.jpg" />
-      <p>\ Une collection <br />
-        \ Du sur-mesure</p>
+      <p>
+        \ Une collection <br />
+        \ Du sur-mesure
+      </p>
     </g-link>
   </div>
 </template>

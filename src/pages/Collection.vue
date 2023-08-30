@@ -7,14 +7,9 @@
         <h1>Nos collections</h1>
       </section>
     </template>
-    <p> Changer l'ordre : MU / sur mesure / signalétique / hook </p>
 
-    <b> Le border pour rendre tout ca responsive </b>
-    <p>
-      Pour le hook : phrase d'intro <br />
-      QUalité \ esthétisme \personnalisation font du hook u nproduit phre sur le marché des habillages des coffrets techniques<br />
-      Rajouter : 1485 et 1675
-    </p>
+    <b> Le bordel pour rendre tout ca responsive </b>
+
 
     <p>
       Pour la signalt"ique <br />
@@ -22,55 +17,77 @@
       Dé"tails en plus sur chaque page de totem
     </p>
 
+    <div class="old__collection">
+      <g-link
+        class="items_styling shadow"
+        :to="edge.node.path"
+        v-for="(edge, i) in $page.allCollection.edges"
+        :key="edge.node.id"
+      >
+        <g-image
+          class="items__img"
+          alt="Sablage pour signalétique MOBILUM"
+          src="@/assets/img/gaetan-sablage.jpg"
+          v-if="i === 0"
+          center
+        />
+        <g-image
+          class="items__img"
+          alt="SNCF Gare Auxerre"
+          src="@/assets/img/hook-cover-image.JPG"
+          v-else-if="i === 1"
+          center
+        />
+        <g-image
+          class="items__img"
+          alt="banc Mobilum sur le tram d'Angers"
+          src="@/assets/img/angers_tram.jpg"
+          v-else
+          center
+        />
+        <p>
+          {{ edge.node.title }}
+        </p>
+      </g-link>
+
+      <g-link
+        class="items_styling shadow"
+        to="/exceptionnels"
+      >
+        <g-image
+          class="items__img"
+          alt="SNCF Gare Auxerre"
+          src="@/assets/img/SNCF_auxerre.png"
+          center
+        />
+        <p>
+          Dossiers d'exception
+        </p>
+      </g-link>
+    </div>
+
+
+
     <div class="sub__section">
       <div class="collection">
-        <g-link
-          class="items_styling shadow"
-          :to="edge.node.path"
-          v-for="(edge, i) in $page.allCollection.edges"
-          :key="edge.node.id"
-        >
-          <g-image
-            class="items__img"
-            alt="Sablage pour signalétique MOBILUM"
-            src="@/assets/img/gaetan-sablage.jpg"
-            v-if="i === 0"
-            center
-          />
-          <g-image
-            class="items__img"
-            alt="SNCF Gare Auxerre"
-            src="@/assets/img/hook-cover-image.JPG"
-            v-else-if="i === 1"
-            center
-          />
-          <g-image
-            class="items__img"
-            alt="banc Mobilum sur le tram d'Angers"
-            src="@/assets/img/angers_tram.jpg"
-            v-else
-            center
-          />
-          <p>
-            {{ edge.node.title }}
-          </p>
+        <g-link to="/MU">
+          Mobilier urbain
+        </g-link>
+        
+        <g-link to="/exceptionnels">
+          Les sur-mesures
+        </g-link>
+        
+        <g-link to="/signaletique">
+          Signalétique
         </g-link>
 
-        <g-link
-          class="items_styling shadow"
-          to="/exceptionnels"
-        >
-          <g-image
-            class="items__img"
-            alt="SNCF Gare Auxerre"
-            src="@/assets/img/SNCF_auxerre.png"
-            center
-          />
-          <p>
-            Dossiers d'exception
-          </p>
+        <g-link to="/Hook">
+          HOOK
         </g-link>
       </div>
+
+
 
       <div class="collection__descriptions">
         <p> Une gamme complète de MU à votre disposition </p>
@@ -123,6 +140,12 @@ export default {
   justify-content: center;
   gap : 4rem;
   margin-top : 3rem;
+}
+
+.old__collection {
+  display : flex;
+  flex-direction : row;
+  gap : 2rem;
 }
 
 /*------------------------------------------------------------------------------------------
@@ -187,7 +210,7 @@ export default {
         Description des collections
 -------------------------------------------------------------------------------------------*/
 .collection__descriptions {
-  height : 1300px;
+  height : 100%;
   display : flex;
   flex-direction : column;
   justify-content: space-around;

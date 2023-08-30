@@ -11,9 +11,6 @@
       </div>
     </section>
 
-    <p>
-      INSPIRATION HEADER :  https://codepen.io/BrandonMathura/pen/xwMRGQ
-    </p>
     <div class="section_top">
     </div>
          
