@@ -11,7 +11,9 @@
       </div>
     </section>
 
-    <p> INSPIRATION HEADER :  https://codepen.io/BrandonMathura/pen/xwMRGQ </p>
+    <p>
+      INSPIRATION HEADER :  https://codepen.io/BrandonMathura/pen/xwMRGQ
+    </p>
     <div class="section_top">
     </div>
          
@@ -126,22 +128,12 @@
         </div>
       </div>
     </div>
-    <!---------------------------------------------------
-      Nos activités
-  --------------------------------------------------->
-
-    <div class="sub__section center wide">
-      <b> Remettre en fixe</b>
-      <!-- <h2> Bla bla bla </h2> -->
-      <Card />
-      <Villes />
-    </div>  
       
     <!---------------------------------------------------
       Nos engagements
   --------------------------------------------------->
 
-    <div class="sub__section wide dark">
+    <div class="sub__section wide">
       <div class="sub__section__content">
         <div class="section__side illustration RSE">
           <!--
@@ -172,6 +164,27 @@
         </div>
       </div>
     </div>
+
+    <!---------------------------------------------------
+      Nos activités
+  --------------------------------------------------->
+    <div class="sub__section wide dark cards">
+      <div class="left">
+        <h3> Mobilum, une présence remarquée</h3>
+      </div>
+      <div class="sub__section">
+        <Card />
+
+        <div class="sub__section wide">
+          <div class="left">
+            <h3>
+              Notre réseau commercial nous permet d'être présents
+            </h3>
+          </div>
+          <Villes />
+        </div>
+      </div>
+    </div>
   </Layout>
 </template>
 
@@ -199,7 +212,7 @@ export default {
     General
   -----------------------------------------------------------------------*/
 .slot_image {
-    background : url("../assets/img/fond-entreprise-st-cyr.png") center center no-repeat;
+    background : url("../assets/img/fond-entreprise-eglise-resized.jpg") center center no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -207,9 +220,20 @@ export default {
 h2 {
   padding-bottom : 1rem;
   margin : 1rem;
-  margin-top : 2rem;
+  padding-top : 2rem;
   border-bottom: solid 1px;
 }
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size : 1rem;
+  padding-bottom : 1rem;
+  margin : 1rem;
+  padding-top : 2rem;
+  border-bottom: solid 1px;
+}
+
 
 /*-------------------------------------------------------------------------
     Page top 
@@ -244,29 +268,34 @@ article {
   margin : 0;
 }
 .section__side {
-  height : 100vh;
   display : flex;
   flex-direction : column;
-  justify-content: flex-end;
+  justify-content: center;
   /* border-radius: 5px; */
 }
-
-.wide {
-  margin-top : 2rem;
-}
-
 .design {
   margin : 0;
   margin-right : 3rem;
 }
 
 .real__model {
-  margin-top : 3rem;
+  padding-top : 3rem;
   display : flex;
   flex-direction : row;
   justify-content: space-between;
 }
 
+.cards {
+  display : flex;
+  align-items: center;
+  padding-bottom : 2rem;
+}
+
+.left {
+  width : 80%;
+  display : flex;
+  align-items: left;
+}
 /*--------------------------------------------
     Gestion des textes
 --------------------------------------------*/
@@ -280,12 +309,11 @@ article {
   padding-top : 0;
 }
 
-
 /* ------------------------------------------------------------------------------------------
             Gestion des images
 --------------------------------------------------------------------------------------------*/
 .illustration {
-  width : 180vw;
+  width : 170vw;
   object-fit: contain;
   background-position-y: center;
 }
@@ -302,11 +330,10 @@ article {
   linear-gradient(to left, rgba(255,0,0,0), #f5ebe0),
     url("../../src/assets/img/savoir-faire.jpg");
     background-size: cover;
-  
 }
 .RSE {
   background-image:
-  linear-gradient(to right, rgba(255,0,0,0), #f5ebe0),
+  linear-gradient(to right, rgba(255,0,0,0), #fefcf3),
     url("../assets/img/mobilum-valeurs-rse-avenirv2.png");
     background-size: cover;
 }
@@ -394,7 +421,7 @@ article {
 .RSE{
   width : 95vw;
     height : 50vh;
-    margin-bottom : 2rem;
+    padding-bottom : 2rem;
   background-image:
   linear-gradient(to left, rgba(255,0,0,0),rgba(255,0,0,0)),
   url("../assets/img/angers_tram.jpg");
@@ -406,7 +433,7 @@ article {
   display : flex;
   flex-direction : column;
   margin : 0;
-  margin-top : 2rem;
+  padding-top : 2rem;
   align-items: center;
   justify-content: center;
 }

@@ -7,8 +7,19 @@
         <h1>Nos collections</h1>
       </section>
     </template>
-    
+    <p> Changer l'ordre : MU / sur mesure / signalétique / hook </p>
 
+    <p>
+      Pour le hook : phrase d'intro <br />
+      QUalité \ esthétisme \personnalisation font du hook u nproduit phre sur le marché des habillages des coffrets techniques<br />
+      Rajouter : 1485 et 1675
+    </p>
+
+    <p>
+      Pour la signalt"ique <br />
+      \diSTINQU2 \résisistant \ ultra personalisable font de nos totems des pièces uniques dans ce domaine <br />
+      Dé"tails en plus sur chaque page de totem
+    </p>
     <div class="sub__section">
       <div class="collection">
         <g-link
@@ -92,7 +103,7 @@ export default {
 
 <style scoped>
 .slot_image {
-    background : url("../../images/produits/vasco-de-gama-paris-saclay.jpg") center center no-repeat;
+    background : url("../assets/img/fond-plage-collection.jpg") center center no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }

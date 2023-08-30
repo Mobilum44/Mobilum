@@ -8,12 +8,12 @@
         src="@/assets/img/plaques-hook-coulage-usine.jpg"
       />
       <p to="/entreprise">
-        Un atelier
+        Un atelier responsable
       </p>
     </g-link>
     <div class="box">
       <g-image src="@/assets/img/design-mobilum.jpg" />
-      <p>Du design</p>
+      <p>Du design à la Française</p>
     </div>
     <!--
     <g-link
@@ -22,7 +22,7 @@
     > -->
     <div class="box">
       <g-image src="@/assets/img/BFUP-seau.jpg" />
-      <p>Du BFUP</p>
+      <p>Un matériau : Le Béton Fibré Ultra Performant </p>
     </div>
     <!-- </g-link> -->
     <g-link
@@ -30,7 +30,8 @@
       to="/offre"
     >
       <g-image src="@/assets/img/fond_entreprise.jpg" />
-      <p>Une collection</p>
+      <p>\ Une collection <br />
+        \ Du sur-mesure</p>
     </g-link>
   </div>
 </template>

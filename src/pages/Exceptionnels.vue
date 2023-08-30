@@ -12,8 +12,13 @@
     </div>
     <section class="sub__section">
       <div class="chapeau">
-        <p>Nos projets sont trop exceptionnels !</p>
+        <p>Pour l'obtention de ces marchés, ce qui a fait la différence chez mobilum résulte
+          dans la qualité de son organisation industrielle, associées à un très fort savoir-faire technique.</p>
       </div>
+      <p> Faire différentce entre sgp mu et sgp signalétique</p>
+      <p> Remarquables : galets, (tramway) angers, puilboreau </p>
+      <p> Niuvelle catégorie : les récompensés <br/>
+      St cyr / Les ulis / Bienale </p>
     </section>
 
     <section class="wide">

@@ -22,46 +22,35 @@ Partie en attente de développement complet du site
 --------------------------------->
           <div class="section">
             <p class="quote">
-              "Un mobilier urbain durable et au design novateur qui
-              s’intègre dans tous les paysages urbains, telle est l’ambition de Mobilum."
-
+              <!--"Un mobilier urbain durable et au design novateur qui
+              s’intègre dans tous les paysages urbains, telle est l’ambition de Mobilum."-->
+              <span>"&thinsp;</span>
+              <span>Mobilum&thinsp;</span>
+              <span>façonne&thinsp;</span>
+              <span>le&thinsp;</span>
+              <span>Béton&thinsp;</span>
+              <span>Fibré&thinsp;</span>
+              <span>à&thinsp;</span>
+              <span>la&thinsp;</span>
+              <span>Française&thinsp;</span>
+              <span>"&thinsp;</span>
               <!--
               Mots clefs :
-              <span>L'artisanat français est grand&thinsp;</span>
-              <span>« Nos méthodes artisanales sont grandes »&thinsp;</span>
-              <span>durabilité&thinsp; </span>
-              <span>design&thinsp;</span>
-              <span>Le concept/patte/artisanat/... MOBILUM&thinsp;</span>
-              <span>Mobilum est sans limite/s'inscrit dans tous les paysages&thinsp; </span>
-              <span>Avec/ mobilum soyez/voit grand&thinsp; </span>
-              <span>Mobilum et ses défis &thinsp;</span>
-              <span>inspirant&thinsp; </span>
-              <span>ambitieux &thinsp; </span>
-              <span>intégrez MOBILUM dans votre/au quotidien&thinsp; </span>
-              <span>?&thinsp; </span>
+              L'artisanat français est grand
+              « Nos méthodes artisanales sont grandes »
+              durabilité
+              design
+              Le concept/patte/artisanat/... MOBILUM
+              Mobilum est sans limite/s'inscrit dans tous les paysages
+              Avec/ mobilum soyez/voit grand
+              Mobilum et ses défis 
+              inspirant
+              ambitieux 
+              intégrez MOBILUM dans votre/au quotidien
+              ?
 
               --> 
-
-
-
-              <!---     <span>soit&thinsp; </span>
-        <span>plus&thinsp; </span>
-        <span>longue &thinsp;</span>
-        <span>!&thinsp; </span>
-        <span>!&thinsp; </span>
-        <span>!&thinsp; </span>-->
             </p>
-
-      <p class="accueil_text">
-        Après dix ans de recherches et de développements, Mobilum possède un
-        savoir-faire unique dans la création et la fabrication de mobiliers urbains
-        en Béton Fibré à Ultra-haute Performance.
-        Entreprise artisanale
-        nantaise, Mobilum répond aux plus grandes exigences en matière de
-        design au service des environnements urbains.
-      </p>
-
-
           </div>
         </div>
       </section>
@@ -69,13 +58,19 @@ Partie en attente de développement complet du site
 
 
     <template>
-
     </template>
     <!--------------------------------
   PARTIE A DEVELOPPER PLUS TARD
   Mise en page : Cartes RS avec texte en dessous, 3 directement affichés
 --------------------------------->
-
+    <p class="accueil_text">
+      Après dix ans de recherches et de développements, Mobilum possède un
+      savoir-faire unique dans la création et la fabrication de mobiliers urbains
+      en Béton Fibré à Ultra-haute Performance. <br />
+      Entreprise artisanale
+      nantaise, Mobilum répond aux plus grandes exigences en matière de
+      design au service des environnements urbains.
+    </p>
     
     <!--------------------------------
     Explorer
@@ -137,15 +132,21 @@ p {
 
 
 .accueil_text {
+
+  border-top : solid #1A949D 1px;
+  border-bottom : solid #1A949D 1px;
   text-align: center;
+  color : black;
+  /*
   color : white;
-    text-shadow: #000000 1px 0 10px;
-
-
+  text-shadow: #000000 1px 0 10px;
+  */
   margin-top : 5rem;
   margin-bottom : 5rem;
   margin-left : 20rem;
   margin-right : 20rem;
+  padding-top : 2rem;
+  padding-bottom : 2rem;
 }
 
 
@@ -161,19 +162,9 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content : flex-end;
-}
-
-.bandeau_content {
-    display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content : center;
 }
 
-.quote {
-  color : white;
-}
 /* Section 2 : latest posts + content */
 .section {
 display : flex;
@@ -213,51 +204,51 @@ span {
 }
 
 span:nth-child(1) {
-  animation: fade-in 2s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 1s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(2) {
-  animation: fade-in 3s 1.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 1s 0.6s forwards cubic-bezier(0.11, 0, 0.8, 0);
 }
 
 span:nth-child(3) {
-  animation: fade-in 3s 2.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 1s 0.9s forwards cubic-bezier(0.11, 0, 0.11, 0);
 }
 
 span:nth-child(4) {
-  animation: fade-in 3s 3.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 1s 1.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(5) {
-  animation: fade-in 3s 4.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 1s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(6) {
-  animation: fade-in 3s 5.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 1s 1.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(7) {
-  animation: fade-in 3s 6.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 1s 2.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(8) {
-  animation: fade-in 3s 7.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 1s 2.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(9) {
-  animation: fade-in 3s 8.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 1s 2.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(10) {
-  animation: fade-in 3s 9.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 1s 2.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(11) {
-  animation: fade-in 3s 10.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 3s 3.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(12) {
-  animation: fade-in 3s 2.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 3s 3.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 span:nth-child(13) {
