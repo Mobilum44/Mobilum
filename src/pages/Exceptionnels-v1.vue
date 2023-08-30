@@ -3,7 +3,7 @@
     <div class="sub__section">
       <Button
         theme="bordered"
-        to="/offre"  
+        to="/collection"  
       >
         Retour à l'offre
       </Button>

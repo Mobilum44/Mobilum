@@ -3,7 +3,7 @@
     <div class="sub__section">
       <Button
         theme="arrow"
-        to="/offre"  
+        to="/collection"  
       >
         ⇦
       </Button>

@@ -30,7 +30,7 @@
       <li>
         <g-link
           class="nav__link"
-          to="/offre"
+          to="/collection"
         >
           Nos collections
         </g-link>

@@ -3,7 +3,7 @@
     <Button
       class="return"
       theme="bordered"
-      onclick="/Offre/"
+      onclick="/collection/"
     >
       Retour à la collection
     </Button>

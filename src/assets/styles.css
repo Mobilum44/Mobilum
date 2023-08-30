@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@200;400&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');  /* (?) */
 
 *::-webkit-scrollbar {
 width : 10px;
@@ -69,13 +70,17 @@ h1 {
   /*padding : 2rem 2rem 0.5rem 1rem;*/
   color : white;
   font-family: "Montserrat";
-  font-weight: 500;
+  font-weight: 300;
   font-size: 3rem;
   text-align: center;
   letter-spacing: -0.25px;
   text-transform: uppercase;
-  text-shadow: BLACK 1px 0 10px;
   /*border: white double 4px;*/
+}
+
+.slot_image h1 {
+  font-weight: 500;
+  text-shadow: BLACK 1px 0 10px;
 }
 
 h2,

@@ -8,12 +8,12 @@
         src="@/assets/img/plaques-hook-coulage-usine.jpg"
       />
       <p to="/entreprise">
-        Un atelier responsable
+        Un atelier <em>responsable</em>
       </p>
     </g-link>
     <div class="box">
       <g-image src="@/assets/img/design-mobilum.jpg" />
-      <p>Du design à la Française</p>
+      <p>Du design <em>à la Française</em></p>
     </div>
     <!--
     <g-link
@@ -22,12 +22,12 @@
     > -->
     <div class="box">
       <g-image src="@/assets/img/BFUP-seau.jpg" />
-      <p>Un matériau : Le Béton Fibré Ultra Performant </p>
+      <p><em>Un matériau :</em> Le Béton Fibré Ultra Performant </p>
     </div>
     <!-- </g-link> -->
     <g-link
       class="box"
-      to="/offre"
+      to="/collection"
     >
       <g-image src="@/assets/img/fond_entreprise.jpg" />
       <p>\ Une collection <br />
@@ -37,6 +37,13 @@
 </template>
 
 <style scoped>
+
+em {
+  color : white;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+
+}
 .SlideRedirection {
   z-index : 20;
   display: flex;
@@ -69,10 +76,10 @@
   left: 50%;
   transform: translate(-50%, -50%);
   opacity : 1;
-  
   font-family : "Bebas Neue";
   font-size : 1.8rem;
   color : white;
+      text-shadow: BLACK 1px 0 10px;
 }
 
 .box:hover {

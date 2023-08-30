@@ -3,9 +3,9 @@
     <div class="sub__section">
       <Button
         theme="arrow"
-        to="/offre"  
+        to="/collection"  
       >
-      ⇦
+        ⇦
       </Button>
 
 
@@ -71,6 +71,7 @@ export default {
 
 
 <style scoped>
+
 /*---------------------------------------------------------
     Paramètres de la galerie - généralités
   ---------------------------------------------------------*/
